@@ -69,6 +69,8 @@ Objectives are further developed down of this document
 2. Registar productos para analizar daots sobre el uso del almacen
 3. Automatizar trámites (puede que con RPA)
 
+## Design and implementation
+
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
 
 Using Saleor + Cloud: www.breadfree.es
@@ -82,12 +84,13 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 - Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) 
 
 - cehaper ecommerce with serverless, and more usable
+
+Using Odoo do a basic webpage. With the ecommerce plugin
+
 - manage invetory
 - other features rpa
 
 Sprint 3:
-
-## Design and implementation
 
 ## Conclusion
 
