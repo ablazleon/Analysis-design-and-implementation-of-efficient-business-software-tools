@@ -81,11 +81,15 @@ Using Saleor + Cloud: www.breadfree.es
 
 https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-saleor-google-cloud-run-dns-31e7c94f4c9a
 
-- Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) 
+- Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)
 
 - cehaper ecommerce with serverless, and more usable
 
-Using Odoo do a basic webpage. With the ecommerce plugin
+1. First for free in odoo.com => something left
+2. Then, impelment a service with serverless containers
+3. Then implement oddo in serverless
+
+Using Odoo do a basic webpage. With the ecommerce plugin 
 
 - manage invetory
 - other features rpa
