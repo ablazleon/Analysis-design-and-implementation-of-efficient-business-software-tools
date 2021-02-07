@@ -83,13 +83,26 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 - Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)
 
-- cehaper ecommerce with serverless, and more usable
+- cheaper ecommerce with serverless, and more usable
+- manage invetory
+- other features rpa
 
 1. First for free in odoo.com => something left
 2. Then, impelment a service with serverless containers
 3. Then implement oddo in serverless
 
+1. First for free in odoo.com => something left
+
 Using Odoo do a basic webpage. With the ecommerce plugin 
+
+https://www.youtube.com/watch?v=dErAZbzEkh0
+
+a. THen it is set an spreadsheet a source of truth for the ecommerce
+b. Remain teh same the changes to the website
+
+- manage invetory
+- other features rpa
+
 
 - manage invetory
 - other features rpa
