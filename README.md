@@ -108,6 +108,19 @@ It is created an odoo erp and play with it.
 
 A way to acces it transactgfull
 
+How to know logs
+
+over thsi transactions
+
+I cannot do this netiehr form the ecomemrce neutehr from  invenotry
+https://www.cybrosys.com/odoo/odoo-books/odoo-book-v14/
+
+QUIero añadir cantidad y sueprmercado desaedo, y dont knwo if i can modify the data model
+
+BUsiness intellegnece a coste de pcoa felxibildiad en lso objetos
+
+Ordenaqrlo por la cantidad que falta comrpar
+
 - other features rpa
 
 
