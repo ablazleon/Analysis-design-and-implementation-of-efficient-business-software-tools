@@ -119,7 +119,7 @@ QUIero añadir cantidad y sueprmercado desaedo, y dont knwo if i can modify the 
 
 BUsiness intellegnece a coste de pcoa felxibildiad en lso objetos
 
-Ordenaqrlo por la cantidad que falta comrpar
+Ordenaqrlo por la cantidad que falta comrpar => avoid this step of having to do this each time
 
 - other features rpa
 
