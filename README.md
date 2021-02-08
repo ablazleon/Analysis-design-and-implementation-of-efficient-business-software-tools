@@ -100,12 +100,16 @@ https://www.youtube.com/watch?v=dErAZbzEkh0
 a. THen it is set an spreadsheet a source of truth for the ecommerce
 b. Remain teh same the changes to the website
 
-- manage invetory
-- other features rpa
+- manage invetory:
+
+To handle the stock of shop or every warehouse, it helps a software that tracks the wares. It can be used an spreadsheet, the problem is that the log of itneraction is lost.
+
+It is created an odoo erp and play with it.
 
 
-- manage invetory
+
 - other features rpa
+
 
 Sprint 3:
 
