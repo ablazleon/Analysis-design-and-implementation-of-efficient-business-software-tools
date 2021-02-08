@@ -106,7 +106,7 @@ To handle the stock of shop or every warehouse, it helps a software that tracks 
 
 It is created an odoo erp and play with it.
 
-
+A way to acces it transactgfull
 
 - other features rpa
 
