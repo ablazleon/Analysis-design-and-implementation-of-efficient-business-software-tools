@@ -29,9 +29,15 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
 
 Objectives are further developed down of this document
 
-- Sprint 1: cheap ecommerce
+- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
 
-- Sprint 2: efficient software
+- Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)- Sprint 2: efficient software
+
+March => do an eshop
+
+- cheaper ecommerce with serverless, and more usable
+- manage invetory
+- other features rpa
 
 ## Organización y planificación previstas
 
