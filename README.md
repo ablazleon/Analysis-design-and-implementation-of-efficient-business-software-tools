@@ -27,6 +27,8 @@ un despliegue en una máquina virtual de odoo community versión +
 depsleigue de este odoo en serverless
 d- Evaluar performane de esta solución
 
+Realizar un servicio web (plagio de odoo.com/wix/shopify) para orquestrar la creación de servicios
+
 2. Registar productos para analizar daots sobre el uso del almacen
 
 3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2 para que sean grátis en vez de pagar a una pasarela
