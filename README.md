@@ -2,9 +2,34 @@
 
 En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
+# 0- Propuesta de requisitos para este sprint
+
 # 1- Anteproyecto
 
 # 2- Memoria (índice)
+
+-----------
+
+# 0- Propuesta de requisitos para este sprint ( de entre el esquema general de objetivos)
+
+Sprint 2: 10 de Feb al 1 de Marzo
+
+1- Servicio de catálogo de productos para empresas barato y parametrizable (+ posibilidad de venta online)
+
+Odoo parece parametrizable => 
+
+a - Desplegar un eccomerce de odoo de prueba: https://piedadleon.odoo.com/
+b- Evaluar qué funcionalidades no permite esta versión gratuita de odoo que sí permita un despliegue propio => a priori la gestión de almacen y el panel de información sobre ventas
+c- Serverless paraece barato => 
+realizar un depsleigue sencillo de serverless + 
+despliegue con ci/cd +
+un despliegue en una máquina virtual de odoo community versión +
+depsleigue de este odoo en serverless
+d- Evaluar performane de esta solución
+
+2. Registar productos para analizar daots sobre el uso del almacen
+
+# 1- Anteproyecto
 
 ## Autor
 
@@ -21,7 +46,7 @@ Towards making available useful software
 
 1. Catálogo de productos para empresas barato (+ posibilidad de venta online)
 2. Registar productos para analizar daots sobre el uso del almacen
-3. Automatizar trámites (puede que con RPA)
+3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad
 
 Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
 
