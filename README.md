@@ -12,7 +12,7 @@ En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sb
 
 # 0- Propuesta de requisitos para este sprint ( de entre el esquema general de objetivos)
 
-Sprint 2: 10 de Feb al 1 de Marzo
+Sprint 2: 10 de Feb al 10 de Marzo
 
 1- Servicio de catálogo de productos para empresas barato y parametrizable (+ posibilidad de venta online)
 
