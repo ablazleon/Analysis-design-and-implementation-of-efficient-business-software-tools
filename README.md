@@ -29,6 +29,8 @@ d- Evaluar performane de esta solución
 
 2. Registar productos para analizar daots sobre el uso del almacen
 
+3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2 para que sean grátis en vez de pagar a una pasarela
+
 # 1- Anteproyecto
 
 ## Autor
@@ -46,7 +48,7 @@ Towards making available useful software
 
 1. Catálogo de productos para empresas barato (+ posibilidad de venta online)
 2. Registar productos para analizar daots sobre el uso del almacen
-3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad
+3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2
 
 Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
 
@@ -98,7 +100,7 @@ March => do an eshop
 
 1. Catálogo de productos para empresas barato (+ posibilidad de venta online)
 2. Registar productos para analizar daots sobre el uso del almacen
-3. Automatizar trámites (puede que con RPA)
+3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2 para que sean grátis en vez de pagar a una pasarela
 
 ## Design and implementation
 
