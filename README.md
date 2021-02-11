@@ -134,6 +134,8 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 2. Then, impelment a service with serverless containers
 3. Then implement oddo in serverless
 
+https://www.serverless.com/blog/container-support-for-lambda
+
 1. First for free in odoo.com => something left
 
 Using Odoo do a basic webpage. With the ecommerce plugin 
