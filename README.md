@@ -18,14 +18,14 @@ Sprint 2: 10 de Feb al 10 de Marzo
 
 Odoo parece parametrizable => 
 
-a - Desplegar un eccomerce de odoo de prueba: https://piedadleon.odoo.com/
-b- Evaluar qué funcionalidades no permite esta versión gratuita de odoo que sí permita un despliegue propio => a priori la gestión de almacen y el panel de información sobre ventas
-c- Serverless paraece barato => 
+- a - Desplegar un eccomerce de odoo de prueba: https://piedadleon.odoo.com/
+- b- Evaluar qué funcionalidades no permite esta versión gratuita de odoo que sí permita un despliegue propio => a priori la gestión de almacen y el panel de información sobre ventas
+- c- Serverless paraece barato => 
 realizar un depsleigue sencillo de serverless + 
 despliegue con ci/cd +
 un despliegue en una máquina virtual de odoo community versión +
 depsleigue de este odoo en serverless
-d- Evaluar performane de esta solución
+- d- Evaluar performane de esta solución
 
 Realizar un servicio web (plagio de odoo.com/wix/shopify) para orquestrar la creación de servicios
 
@@ -43,20 +43,26 @@ Raúl Adrián Blázquez León
 
 ## Introducción
 
-El software permite autoamtizar tareas. Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar treas repetitivas.
+El software permite automatizar tareas. Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar treas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estateales de inversión como AcelraPyme). Se ha identificado demanda de tres fucnionaldiades:
 
-## Resumen de objetivos
-Towards making available useful software
-
-1. Catálogo de productos para empresas barato (+ posibilidad de venta online)
-2. Registar productos para analizar daots sobre el uso del almacen
+1. Catálogo de productos para empresas baratos (+ posibilidad de venta online) => aumento de la demanda de venta online
+2. Registar productos para analizar datos sobre el uso del almacen
 3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2
 
-Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
+Existen soluciones que permitan estan fucnionalidades desde Wix/Shopify/Odoo.com o Salesforce o SAP a software a medida (Woocomerce. . .) . En el caso de una pequeña empresa o un autónomo, bsucaría solcuiones baratas, por ejemplo, el primer bloque de soluciones Wix/Shopify/Oddo.com como mínimo cuesta al mes de 15 a 30€ o solciones de ecommerce a medidas hosteadas en MrDomain 3€/mes de hosting (pero que sólo ofrecen la funcionalidad de catálogo ecommerce). En este estudio se plantea cómo poder desplegar un servicio que ofrezca estas fucnionaldiad de fomra más barata, usando serverless.
 
-https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
+## Resumen de objetivos
 
-Objectives are further developed down of this document
+En este estudio se propone:
+
+1. Hacer un estudio del estado del arte de estas 3 funcionalidades
+2. Realizar un análsis (identificar y probar) soluciones
+3. Diseñar un solución más barata
+4. Implementarlo y probarla
+
+## Organización y planificación previstas
+
+
 
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
 
@@ -67,8 +73,6 @@ March => do an eshop
 - cheaper ecommerce with serverless, and more usable
 - manage invetory
 - other features rpa
-
-## Organización y planificación previstas
 
 # 2- Memoria
 
@@ -107,6 +111,10 @@ March => do an eshop
 ## Design and implementation
 
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
+
+Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
+
+https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
 
 Using Saleor + Cloud: www.breadfree.es
 
