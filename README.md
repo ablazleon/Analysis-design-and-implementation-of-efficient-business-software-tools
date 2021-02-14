@@ -169,6 +169,10 @@ Ordenaqrlo por la cantidad que falta comrpar => avoid this step of having to do 
 - other features rpa
 
 
+Serverless hybrid architecture:
+
+https://stackoverflow.com/questions/63417602/how-to-connect-an-on-premises-application-to-aws-aurora-serverless
+
 Sprint 3:
 
 ## Conclusion
