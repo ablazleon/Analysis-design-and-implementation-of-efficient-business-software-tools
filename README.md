@@ -136,6 +136,7 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 https://www.serverless.com/blog/container-support-for-lambda
 
+
 1. First for free in odoo.com => something left
 
 Using Odoo do a basic webpage. With the ecommerce plugin 
@@ -172,6 +173,22 @@ Ordenaqrlo por la cantidad que falta comrpar => avoid this step of having to do 
 Serverless hybrid architecture:
 
 https://stackoverflow.com/questions/63417602/how-to-connect-an-on-premises-application-to-aws-aurora-serverless
+https://neilpatel.com/blog/loading-time/
+
+=> what would happen if aurora servelress
+
+3.6€
+vpn => se puede  bajar a 3.6€ + more delay
+
+https://cloud.google.com/solutions/automated-network-deployment-multicloud
+more cost need of an ec2
+https://www.odoo.com/es_ES/forum/ayuda-1/visual-database-design-schema-for-odoo-168392
+
+https://www.bbva.com/en/economics-of-serverless/
+https://dzone.com/articles/caas-services-through-aws-azure-and-google-cloud
+https://www.reddit.com/r/docker/comments/c2swqc/comparison_between_container_orchestration/
+https://aws.amazon.com/fargate/pricing/
+https://arv14.medium.com/a-solution-to-serverless-adoption-cloud-run-aws-fargate-3c2942cc85b5
 
 Sprint 3:
 
