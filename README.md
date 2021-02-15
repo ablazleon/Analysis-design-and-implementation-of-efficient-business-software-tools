@@ -16,6 +16,17 @@ Sprint 2: 10 de Feb al 10 de Marzo
 
 1- Servicio de catálogo de productos para empresas barato y parametrizable (+ posibilidad de venta online)
 
+- Crear dos trellos, uno privbado si quieres: uso ese que ya teníamos, para poenr un poco esto, loq ue hago en cada sprint: se puede poner así mono, uno público
+
+- Un ecommerce + una página de contacto (primero contacto + ecommerce (más barato))
+
+a- hacerlo en odoo enterprise verison (grátis) (per no sé de qué manera nos loquea) => más rápido (enseñar la prueba)
+b- odoo community version
+c- saleor => coste en perosnalización
+
+- Cómo abaratar el ecommerce
+
+
 Odoo parece parametrizable => 
 
 - a - Desplegar un eccomerce de odoo de prueba: https://piedadleon.odoo.com/
@@ -25,6 +36,7 @@ realizar un depsleigue sencillo de serverless +
 despliegue con ci/cd +
 un despliegue en una máquina virtual de odoo community versión +
 depsleigue de este odoo en serverless
+=> en serverless habría que reescribir todo para que fucnionase en lambda
 - d- Evaluar performane de esta solución
 
 Realizar un servicio web (plagio de odoo.com/wix/shopify) para orquestrar la creación de servicios
