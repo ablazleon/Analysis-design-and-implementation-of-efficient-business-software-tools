@@ -1,5 +1,9 @@
 # Analysis-design-and-implementation-of-efficient-business-software-tools
 
+Análisis, diseño e implementación de un servicio de comercio electrónico en la nube
+
+Desarrollo de un servicio de software para empresa competitivo
+
 En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
 # 0- Propuesta de requisitos para este sprint
@@ -68,9 +72,10 @@ Existen soluciones que permitan estan fucnionalidades desde Wix/Shopify/Odoo.com
 En este estudio se propone:
 
 1. Hacer un estudio del estado del arte de estas 3 funcionalidades
-2. Realizar un análsis (identificar y probar) soluciones
-3. Diseñar un solución más barata
-4. Implementarlo y probarla
+2. Identificación de un caso de estudio
+3. Realizar un análsis (identificar y probar) soluciones
+4. Diseñar un solución más barata
+5. Implementarlo y probarla
 
 ## Organización y planificación previstas
 
@@ -85,6 +90,11 @@ March => do an eshop
 - cheaper ecommerce with serverless, and more usable
 - manage invetory
 - other features rpa
+
+1- anteproyecto por correo
+2- explicar 
+
+
 
 # 2- Memoria
 
