@@ -7,8 +7,10 @@ Servicio + plataforma + coste total
 - A
 
 - 1- construir sitios web + catálogo + venta online	
--.1. 	Construir sitios web (cms)
+- 1. 	Construir sitios web (cms)
 - 1.2.	Catálogo de productos para vetna online
+- 1.3. Single source of truth de html
+- 1.4. Single source of truth de inventario
 - 2- automatización de marketing	
 - 2.1. 	Correos con el propio dominio
 - 3- optimizar operaciones	
