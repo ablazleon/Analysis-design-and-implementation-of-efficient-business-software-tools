@@ -30,7 +30,6 @@ c- saleor => coste en perosnalización
 
 - Cómo abaratar el ecommerce
 
-
 Odoo parece parametrizable => 
 
 - a - Desplegar un eccomerce de odoo de prueba: https://piedadleon.odoo.com/
@@ -154,7 +153,10 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 1. First for free in odoo.com => something left
 2. Then, impelment a service with serverless containers
-3. Then implement oddo in serverless
+
+Impelment odoo in vbox
+
+4. Then implement oddo in serverless
 
 https://www.serverless.com/blog/container-support-for-lambda
 
