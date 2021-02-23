@@ -172,6 +172,8 @@ b. Remain teh same the changes to the website
 
 Create from my user an add to other users
 
+https://www.odoo.com/forum/help-1/openerp-online-how-to-create-a-new-user-or-allow-an-existing-one-to-connect-827
+
 
 - manage invetory:
 
