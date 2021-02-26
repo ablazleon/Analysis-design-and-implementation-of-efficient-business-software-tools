@@ -84,6 +84,9 @@ En este estudio se propone:
 
 - Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)- Sprint 2: efficient software
 
+- + 4 horas pregutnadno precios
+- +2 horas PReguntando sobre el producto
+
 March => do an eshop
 
 - cheaper ecommerce with serverless, and more usable
