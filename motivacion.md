@@ -13,6 +13,12 @@ Servicio + plataforma + coste total
 - 1.4. Single source of truth de inventario
 - 2- automatización de marketing	
 - 2.1. 	Correos con el propio dominio
+- 2.2. Social marketing
+
+=> parece que no tiene para insta. Klaviyo no sé si tiene
+https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541
+https://www.salesforce.com/editions-pricing/small-business/
+
 - 3- optimizar operaciones	
 - 4- gestión de finanzas	
 - 5- automatización de ventas	
