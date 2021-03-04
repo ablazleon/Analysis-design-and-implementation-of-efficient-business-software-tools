@@ -25,6 +25,7 @@ proyecto
 
 trello
 jira
+ maybe more specific, but it's epxensive using all teh products
 
 -manage versions
 
