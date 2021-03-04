@@ -20,6 +20,16 @@ https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-t
 https://www.salesforce.com/editions-pricing/small-business/
 
 - 3- optimizar operaciones	
+
+proyecto
+
+trello
+jira
+
+-manage versions
+
+odoo
+
 - 4- gestión de finanzas	
 - 5- automatización de ventas	
 
