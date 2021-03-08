@@ -178,6 +178,13 @@ Create from my user an add to other users
 https://www.odoo.com/forum/help-1/openerp-online-how-to-create-a-new-user-or-allow-an-existing-one-to-connect-827
 
 
+Enterpise vs community
+
+- csv intergation for mass iamges
+- stabel for users creation
+- create bills
+- - stock inventory
+
 - manage invetory:
 
 To handle the stock of shop or every warehouse, it helps a software that tracks the wares. It can be used an spreadsheet, the problem is that the log of itneraction is lost.
