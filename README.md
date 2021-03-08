@@ -183,7 +183,8 @@ Enterpise vs community
 - csv intergation for mass iamges
 - stabel for users creation
 - create bills
-- - stock inventory
+- stock inventory
+- - autoamtitation vs investment
 
 - manage invetory:
 
