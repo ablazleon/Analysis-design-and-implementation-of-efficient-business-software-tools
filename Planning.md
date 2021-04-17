@@ -12,7 +12,10 @@ Abril 1,2,3,4,5
   - https://www.quora.com/How-does-Amazon-compare-to-Alibaba-Cloud-Service => maybe its chaeaper, 
   - ibm has contianer as a service, but not database serverless
   - https://www.alibabacloud.com/help/doc-detail/194524.htm?spm=a2c63.p38356.b99.136.10f62388NoQio6#section-p74-zs8-s6z, it seems to be billed by hour
-  - 
+  - difficult to find isntances with pay as you go https://www.parkmycloud.com/blog/aws-vs-alibaba-cloud-pricing/
+  - https://www.alibabacloud.com/blog/alibaba-cloud-free-trial-how-to-sign-up-and-get-started_595840?spm=a3c0i.8276372.5363776690.1.56b26ed6l1U9db
+  - https://www.alibabacloud.com/blog/getting-started-with-container-service_595870?spm=a3c0i.8276372.5363776690.213.56b26ed6l1U9db
+  - https://www.alibabacloud.com/blog/devsecops-best-practices-on-alibaba-cloud-%E2%80%93-building-an-e-commerce-application_593846?spm=a3c0i.8276372.5363776690.225.56b26ed6l1U9db
 - [ ] desplegar en vbox odoo
 - [ ] desplegar en gcloud 
 - [x] para evaluar necisto saber cómo usarlo: más que en concreto en abstracto: pedir aputnes del itirnerario de gestión o hay n profe que oferta un tfm, oye estoy intentando impelemantr uno, como que no tengo la parte de invenstairos, más adleante le improta hablar. COIT mentorizado
