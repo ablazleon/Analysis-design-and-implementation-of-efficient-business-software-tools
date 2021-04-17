@@ -18,6 +18,7 @@ Abril 1,2,3,4,5
   - https://www.alibabacloud.com/blog/devsecops-best-practices-on-alibaba-cloud-%E2%80%93-building-an-e-commerce-application_593846?spm=a3c0i.8276372.5363776690.225.56b26ed6l1U9db
   - db: only 60 days free => it's not worth it, what it is worth it is ine year of use
   - how to deploy odoo: stateless + state
+  - => can give me advice:  based on tehir experince what is cheaper: teh 5 of them
 - [ ] 7 desplegar en vbox odoo
 - [ ] 8 desplegar en gcloud 
 - [x] 9 para evaluar necisto saber cómo usarlo: más que en concreto en abstracto: pedir aputnes del itirnerario de gestión o hay n profe que oferta un tfm, oye estoy intentando impelemantr uno, como que no tengo la parte de invenstairos, más adleante le improta hablar. COIT mentorizado
