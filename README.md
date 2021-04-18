@@ -9,6 +9,8 @@ Análisis, diseño e implementación de un servicio de comercio electrónico en 
 4. Diseñar un solución más barata
 5. Implementarlo y probarla
 
+------------
+
 1. Hacer un estudio del estado del arte de estas 3 funcionalidades 
 => se definen los procesos de negocio/funcionalidades, se proponen algunos y se agrupan
 2. Identificación de un caso de estudio
@@ -35,7 +37,7 @@ El software permite automatizar tareas. Automatizar tareas regala tiempo a las p
 
 1. Catálogo de productos para empresas baratos (+ posibilidad de venta online) => aumento de la demanda de venta online
 2. Registar productos para analizar datos sobre el uso del almacen
-3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2/email marketing
+3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2/email marketing/clone the odoo saas
 
 Existen soluciones que permitan estan fucnionalidades desde Wix/Shopify/Odoo.com o Salesforce o SAP a software a medida (Woocomerce. . .) . En el caso de una pequeña empresa o un autónomo, bsucaría solcuiones baratas, por ejemplo, el primer bloque de soluciones Wix/Shopify/Oddo.com como mínimo cuesta al mes de 15 a 30€ o solciones de ecommerce a medidas hosteadas en MrDomain 3€/mes de hosting (pero que sólo ofrecen la funcionalidad de catálogo ecommerce). En este estudio se plantea cómo poder desplegar un servicio que ofrezca estas fucnionalidades de forma más eficiente económicamente: valorando esquemas pay as you go en la nube de un desplieuge de odoo. Si odoo con estas tres funcionalidades costaría entorno a los 90-120€/mes, se trata de buscar una solución en torno a los 60€/mes comparando caldiades de servicio frente a odoo saas.
 
