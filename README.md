@@ -3,6 +3,12 @@
 Análisis, diseño e implementación de un servicio de comercio electrónico en la nube/Desarrollo de un servicio de software para empresa competitivo/En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
 
+1. Hacer un estudio del estado del arte de estas 3 funcionalidades
+2. Identificación de un caso de estudio
+3. Realizar un análsis (identificar y probar) soluciones
+4. Diseñar un solución más barata
+5. Implementarlo y probarla
+
 # 1- Anteproyecto
 # 2- Memoria (índice)
 
@@ -18,13 +24,15 @@ Raúl Adrián Blázquez León
 
 ## Introducción
 
-El software permite automatizar tareas. Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar treas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estateales de inversión como AcelraPyme). Se ha identificado demanda de tres fucnionaldiades:
+El software permite automatizar tareas. Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar treas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estateales de inversión como AceleraPyme). Se ha identificado demanda de tres fucnionaldiades que los negocios demandan:
 
 1. Catálogo de productos para empresas baratos (+ posibilidad de venta online) => aumento de la demanda de venta online
 2. Registar productos para analizar datos sobre el uso del almacen
-3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2
+3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2/email marketing
 
-Existen soluciones que permitan estan fucnionalidades desde Wix/Shopify/Odoo.com o Salesforce o SAP a software a medida (Woocomerce. . .) . En el caso de una pequeña empresa o un autónomo, bsucaría solcuiones baratas, por ejemplo, el primer bloque de soluciones Wix/Shopify/Oddo.com como mínimo cuesta al mes de 15 a 30€ o solciones de ecommerce a medidas hosteadas en MrDomain 3€/mes de hosting (pero que sólo ofrecen la funcionalidad de catálogo ecommerce). En este estudio se plantea cómo poder desplegar un servicio que ofrezca estas fucnionaldiad de fomra más barata, usando serverless.
+Existen soluciones que permitan estan fucnionalidades desde Wix/Shopify/Odoo.com o Salesforce o SAP a software a medida (Woocomerce. . .) . En el caso de una pequeña empresa o un autónomo, bsucaría solcuiones baratas, por ejemplo, el primer bloque de soluciones Wix/Shopify/Oddo.com como mínimo cuesta al mes de 15 a 30€ o solciones de ecommerce a medidas hosteadas en MrDomain 3€/mes de hosting (pero que sólo ofrecen la funcionalidad de catálogo ecommerce). En este estudio se plantea cómo poder desplegar un servicio que ofrezca estas fucnionalidades de forma más eficiente económicamente: valorando esquemas pay as you go en la nube de un desplieuge de odoo. Si odoo con estas tres funcionalidades costaría entorno a los 90-120€/mes, se trata de buscar una solución en torno a los 60€/mes comparando caldiades de servicio frente a odoo saas.
+
+https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=3&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_mass_mailing=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=2&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=monthly
 
 ## Resumen de objetivos
 
@@ -38,14 +46,9 @@ En este estudio se propone:
 
 ## Organización y planificación previstas
 
-
-
-- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
+- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week) [200 h]
 
 - Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)- Sprint 2: efficient software
-
-- + 4 horas pregutnadno precios
-- +2 horas PReguntando sobre el producto
 
 - Sprint 3: odoo
 
@@ -100,86 +103,10 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 - Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)
 
-- cheaper ecommerce with serverless, and more usable
+- cheaper ecommerce with serverless, and more usable => so difficult to rewrite everythign in serverless
 - manage invetory
 - other features rpa
 
-1. First for free in odoo.com => something left
-2. Then, impelment a service with serverless containers
-
-Impelment odoo in vbox
-
-4. Then implement oddo in serverless
-
-https://www.serverless.com/blog/container-support-for-lambda
-
-1. First for free in odoo.com => something left
-
-Using Odoo do a basic webpage. With the ecommerce plugin 
-
-https://www.youtube.com/watch?v=dErAZbzEkh0
-
-a. THen it is set an spreadsheet a source of truth for the ecommerce
-b. Remain teh same the changes to the website
-
-Create from my user an add to other users
-
-https://www.odoo.com/forum/help-1/openerp-online-how-to-create-a-new-user-or-allow-an-existing-one-to-connect-827
-
-Enterpise vs community
-
-- csv intergation for mass iamges
-- stabel for users creation
-- create bills
-- stock inventory
-- - autoamtitation vs investment
-
-- manage invetory:
-
-To handle the stock of shop or every warehouse, it helps a software that tracks the wares. It can be used an spreadsheet, the problem is that the log of itneraction is lost.
-
-It is created an odoo erp and play with it.
-
-A way to acces it transactgfull
-
-How to know logs
-
-over thsi transactions
-
-I cannot do this netiehr form the ecomemrce neutehr from  invenotry
-https://www.cybrosys.com/odoo/odoo-books/odoo-book-v14/
-
-QUIero añadir cantidad y sueprmercado desaedo, y dont knwo if i can modify the data model
-
-BUsiness intellegnece a coste de pcoa felxibildiad en lso objetos
-
-Ordenaqrlo por la cantidad que falta comrpar => avoid this step of having to do this each time
-
-- other features rpa
-
-Serverless hybrid architecture:
-
-https://stackoverflow.com/questions/63417602/how-to-connect-an-on-premises-application-to-aws-aurora-serverless
-https://neilpatel.com/blog/loading-time/
-
-=> what would happen if aurora servelress
-
-3.6€
-vpn => se puede  bajar a 3.6€ + more delay
-
-https://cloud.google.com/solutions/automated-network-deployment-multicloud
-more cost need of an ec2
-https://www.odoo.com/es_ES/forum/ayuda-1/visual-database-design-schema-for-odoo-168392
-
-https://www.bbva.com/en/economics-of-serverless/
-https://dzone.com/articles/caas-services-through-aws-azure-and-google-cloud
-https://www.reddit.com/r/docker/comments/c2swqc/comparison_between_container_orchestration/
-https://aws.amazon.com/fargate/pricing/
-https://arv14.medium.com/a-solution-to-serverless-adoption-cloud-run-aws-fargate-3c2942cc85b5
-
-
-
-Sprint 3:
 
 ## Conclusion
 
