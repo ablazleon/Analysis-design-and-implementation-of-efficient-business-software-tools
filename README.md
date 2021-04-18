@@ -135,6 +135,9 @@ Why I want it to be public? => beacuse i Want people to share their experiences.
 -  ¿Cómo web apra comparar algo apra ver cuál es el mejor?
 -  No, tiene que ser en plan orgnaización: en cualuqier momento se puede hacer un fork, los que ocntribuyen. Awsoeme
 - Overleaf, pq word está bien, vetnajas pero el ivnocnenivente de para mantener esa lsita online es difícil
+- cómo es la coalboración en latex? Se me va de las manos con overleaf. En word voy aescribiendo eso y se lo voy mandando
+- lo bueno ahora de owrd, es que en rela time pod´ria verlo
+- en latex también: con comentarios, versión de una cosas versión de otra
 
 2- Sql vs Nosql for eccomerce with Saleor
 
