@@ -126,8 +126,15 @@ https://www.freecodecamp.org/news/taking-off-the-successful-launch-of-an-open-so
 https://leanpub.medium.com/why-dont-i-use-leanpub-4ad2a77f5744
 https://geocompr.github.io/user_19/presentation/#18
 blog (like medium) => easier to be found difficult to update citations
-latex (with overleaf) =>
+latex (with overleaf) => general thing I have to present. HO w to facilitate reviews => althoug github and markwond is cool
 PS: not with meister mind beacuse colalboartion is only allowed in paid plan
+
+Why I want it to be public? => beacuse i Want people to share their experiences. I share some state based on effort, and otehr people can:
+- mantain the state so is easier to justify the decision: let's take some more effort and deploy it yourself. In which way? In the way that it is useful?
+- => I submitted it, but this rasteator idea of how to support teh digital transofmraotin of a business, I dont want to be fixed it can continue
+-  ¿Cómo web apra comparar algo apra ver cuál es el mejor?
+-  No, tiene que ser en plan orgnaización: en cualuqier momento se puede hacer un fork, los que ocntribuyen. Awsoeme
+- Overleaf, pq word está bien, vetnajas pero el ivnocnenivente de para mantener esa lsita online es difícil
 
 2- Sql vs Nosql for eccomerce with Saleor
 
