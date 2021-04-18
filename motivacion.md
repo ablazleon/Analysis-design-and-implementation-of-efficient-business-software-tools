@@ -1,6 +1,10 @@
 
 Solúción para sistemas de ifnoramción:
 
+GEnerate a list of requirments, an din base of it compare it (in excel it easy and cool but difficult to accept chagnes) But how to do in a jupyter a radr diagram
+
+THe purpose of this notebook is to justify the cost decison taking by an SME. Set the points that are worth it and draw a landscape of the different possibilites so in each point , is easier to see the the cost decision taking is worth it. 
+
 Comparaciones:
 Servicio + plataforma + coste total
 
