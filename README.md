@@ -1,52 +1,12 @@
 # Analysis-design-and-implementation-of-efficient-business-software-tools
 
-Análisis, diseño e implementación de un servicio de comercio electrónico en la nube
+Análisis, diseño e implementación de un servicio de comercio electrónico en la nube/Desarrollo de un servicio de software para empresa competitivo/En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
-Desarrollo de un servicio de software para empresa competitivo
-
-En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
-
-# 0- Propuesta de requisitos para este sprint
 
 # 1- Anteproyecto
-
 # 2- Memoria (índice)
 
 -----------
-
-# 0- Propuesta de requisitos para este sprint ( de entre el esquema general de objetivos)
-
-Sprint 2: 10 de Feb al 10 de Marzo
-
-1- Servicio de catálogo de productos para empresas barato y parametrizable (+ posibilidad de venta online)
-
-- Crear dos trellos, uno privbado si quieres: uso ese que ya teníamos, para poenr un poco esto, loq ue hago en cada sprint: se puede poner así mono, uno público
-
-- Un ecommerce + una página de contacto (primero contacto + ecommerce (más barato))
-
-a- hacerlo en odoo enterprise verison (grátis) (per no sé de qué manera nos loquea) => más rápido (enseñar la prueba)
-b- odoo community version
-c- saleor => coste en perosnalización
-
-- Cómo abaratar el ecommerce
-
-Odoo parece parametrizable => 
-
-- a - Desplegar un eccomerce de odoo de prueba: https://piedadleon.odoo.com/
-- b- Evaluar qué funcionalidades no permite esta versión gratuita de odoo que sí permita un despliegue propio => a priori la gestión de almacen y el panel de información sobre ventas
-- c- Serverless paraece barato => 
-realizar un depsleigue sencillo de serverless + 
-despliegue con ci/cd +
-un despliegue en una máquina virtual de odoo community versión +
-depsleigue de este odoo en serverless
-=> en serverless habría que reescribir todo para que fucnionase en lambda
-- d- Evaluar performane de esta solución
-
-Realizar un servicio web (plagio de odoo.com/wix/shopify) para orquestrar la creación de servicios
-
-2. Registar productos para analizar daots sobre el uso del almacen
-
-3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2 para que sean grátis en vez de pagar a una pasarela
 
 # 1- Anteproyecto
 
@@ -87,16 +47,7 @@ En este estudio se propone:
 - + 4 horas pregutnadno precios
 - +2 horas PReguntando sobre el producto
 
-March => do an eshop
-
-- cheaper ecommerce with serverless, and more usable
-- manage invetory
-- other features rpa
-
-1- anteproyecto por correo
-2- explicar 
-
-
+- Sprint 3: odoo
 
 # 2- Memoria
 
@@ -135,7 +86,6 @@ March => do an eshop
 ## Design and implementation
 
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
-
 Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
 
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
@@ -163,7 +113,6 @@ Impelment odoo in vbox
 
 https://www.serverless.com/blog/container-support-for-lambda
 
-
 1. First for free in odoo.com => something left
 
 Using Odoo do a basic webpage. With the ecommerce plugin 
@@ -176,7 +125,6 @@ b. Remain teh same the changes to the website
 Create from my user an add to other users
 
 https://www.odoo.com/forum/help-1/openerp-online-how-to-create-a-new-user-or-allow-an-existing-one-to-connect-827
-
 
 Enterpise vs community
 
@@ -209,7 +157,6 @@ Ordenaqrlo por la cantidad que falta comrpar => avoid this step of having to do 
 
 - other features rpa
 
-
 Serverless hybrid architecture:
 
 https://stackoverflow.com/questions/63417602/how-to-connect-an-on-premises-application-to-aws-aurora-serverless
@@ -229,6 +176,8 @@ https://dzone.com/articles/caas-services-through-aws-azure-and-google-cloud
 https://www.reddit.com/r/docker/comments/c2swqc/comparison_between_container_orchestration/
 https://aws.amazon.com/fargate/pricing/
 https://arv14.medium.com/a-solution-to-serverless-adoption-cloud-run-aws-fargate-3c2942cc85b5
+
+
 
 Sprint 3:
 
