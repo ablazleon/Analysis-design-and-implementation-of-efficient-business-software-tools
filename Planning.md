@@ -126,6 +126,7 @@ Abril 1,2,3,4,5
 - [ ] 7 desplegar en vbox odoo
 - [ ] 8 desplegar en gcloud 
 - [x] 9 para evaluar necisto saber cómo usarlo: más que en concreto en abstracto: pedir aputnes del itirnerario de gestión o hay n profe que oferta un tfm, oye estoy intentando impelemantr uno, como que no tengo la parte de invenstairos, más adleante le improta hablar. COIT mentorizado
+- [ ] 10. Cómo formatear el texto: ppt + un texto explicativo + un jupyer con text abierto por si se quiere en plan awesome list y traducirla (inglés) 
 
 1,2,3,4
 => auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue
