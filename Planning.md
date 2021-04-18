@@ -106,7 +106,7 @@ Abril 1,2,3,4,5
 
 - [x] 1 quitar de gcloud la versión de saleor
 - [ ] 2 revisar los videos sobre ecommerce e inventario: hasta qué aputno añade valor isntalar la versión community:
-  -  integrar la subscripción a la newslettter en la web => ¿cómo añadir una newsletter en odoo?
+  -  integrar la subscripción a la newslettter en la web => ¿cómo añadir una newsletter en odoo? https://www.youtube.com/watch?v=LmG-yxxFmPc
   -  cambiar de una el nombre de los productos
 - [x] 3 estudiar lo de meter en un excel las urls de lso productos apra tenr una especie de backup de los productos https://www.youtube.com/watch?v=ThRUxHCndDs => use community
 - [ ] 4 estudiar lo de productos con distintos tamaños
