@@ -26,7 +26,82 @@ March => do an eshop
 - cheaper ecommerce with serverless, and more usable
 - manage invetory
 - other features rpa
-- 
+
+1. First for free in odoo.com => something left
+2. Then, impelment a service with serverless containers
+
+Impelment odoo in vbox
+
+4. Then implement oddo in serverless
+
+https://www.serverless.com/blog/container-support-for-lambda
+
+1. First for free in odoo.com => something left
+
+Using Odoo do a basic webpage. With the ecommerce plugin 
+
+https://www.youtube.com/watch?v=dErAZbzEkh0
+
+a. THen it is set an spreadsheet a source of truth for the ecommerce
+b. Remain teh same the changes to the website
+
+Create from my user an add to other users
+
+https://www.odoo.com/forum/help-1/openerp-online-how-to-create-a-new-user-or-allow-an-existing-one-to-connect-827
+
+Enterpise vs community
+
+- csv intergation for mass iamges
+- stabel for users creation
+- create bills
+- stock inventory
+- - autoamtitation vs investment
+
+- manage invetory:
+
+To handle the stock of shop or every warehouse, it helps a software that tracks the wares. It can be used an spreadsheet, the problem is that the log of itneraction is lost.
+
+It is created an odoo erp and play with it.
+
+A way to acces it transactgfull
+
+How to know logs
+
+over thsi transactions
+
+I cannot do this netiehr form the ecomemrce neutehr from  invenotry
+https://www.cybrosys.com/odoo/odoo-books/odoo-book-v14/
+
+QUIero añadir cantidad y sueprmercado desaedo, y dont knwo if i can modify the data model
+
+BUsiness intellegnece a coste de pcoa felxibildiad en lso objetos
+
+Ordenaqrlo por la cantidad que falta comrpar => avoid this step of having to do this each time
+
+- other features rpa
+
+Serverless hybrid architecture:
+
+https://stackoverflow.com/questions/63417602/how-to-connect-an-on-premises-application-to-aws-aurora-serverless
+https://neilpatel.com/blog/loading-time/
+
+=> what would happen if aurora servelress
+
+3.6€
+vpn => se puede  bajar a 3.6€ + more delay
+
+https://cloud.google.com/solutions/automated-network-deployment-multicloud
+more cost need of an ec2
+https://www.odoo.com/es_ES/forum/ayuda-1/visual-database-design-schema-for-odoo-168392
+
+https://www.bbva.com/en/economics-of-serverless/
+https://dzone.com/articles/caas-services-through-aws-azure-and-google-cloud
+https://www.reddit.com/r/docker/comments/c2swqc/comparison_between_container_orchestration/
+https://aws.amazon.com/fargate/pricing/
+https://arv14.medium.com/a-solution-to-serverless-adoption-cloud-run-aws-fargate-3c2942cc85b5
+
+Sprint 3:
+
 Abril 1,2,3,4,5
 
 - [x] 1 quitar de gcloud la versión de saleor
