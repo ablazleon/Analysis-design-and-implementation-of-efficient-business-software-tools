@@ -3,7 +3,14 @@
 Análisis, diseño e implementación de un servicio de comercio electrónico en la nube/Desarrollo de un servicio de software para empresa competitivo/En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
 
-1. Hacer un estudio del estado del arte de estas 3 funcionalidades
+1. Hacer un estudio del estado del arte de estas 3 funcionalidades 
+2. Identificación de un caso de estudio
+3. Realizar un análsis (identificar y probar) soluciones
+4. Diseñar un solución más barata
+5. Implementarlo y probarla
+
+1. Hacer un estudio del estado del arte de estas 3 funcionalidades 
+=> se definen los procesos de negocio/funcionalidades, se proponen algunos y se agrupan
 2. Identificación de un caso de estudio
 3. Realizar un análsis (identificar y probar) soluciones
 4. Diseñar un solución más barata
@@ -138,8 +145,11 @@ Why I want it to be public? => beacuse i Want people to share their experiences.
 - cómo es la coalboración en latex? Se me va de las manos con overleaf. En word voy aescribiendo eso y se lo voy mandando
 - lo bueno ahora de owrd, es que en rela time pod´ria verlo
 - en latex también: con comentarios, versión de una cosas versión de otra
+- con word autoría, tiempo real y concocimiento previo vs mejor formato
 
 2- Sql vs Nosql for eccomerce with Saleor
 
 https://medium.com/@ablazleon/nosql-vs-sql-para-ecommerce-con-saleor-707bc5851407
 
+3- Design thinking 
+https://www.salesforce.com/uk/blog/2017/10/design-thinking-questions-to-help-you-embrace-innovation.html
