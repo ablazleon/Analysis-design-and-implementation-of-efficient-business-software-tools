@@ -102,6 +102,17 @@ Usage of available service SaaS, cuyo coste o sericios son fijos no dpeenden de 
 - Mailchimp
 - Klaviyo	
 
+| Attempt | #1 | #2 |
+| :--- | :--- | :--- |
+| Seconds | 301 | 283 |
+
+| ProcesosNegocio vs Herramienta con link de info | 1 Shopify | Wix |  Wordpress | 
+| :---  | :--- | :--- | :--- |
+| ProcesosNegocio vs Herramienta con link de info | 1 Shopify | Wix |  Wordpress |
+
+| ProcesosNegocio vs Herramienta con link de info | 1 Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforce | Odoo Saas 1 | 2 Amazon | Glovo  | Google sheet 2 | 3 ConvertKit | MailChimp | Klaviyo | Hootsuite 3|
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---  | :--- | :--- | :--- | 
+| ProcesosNegocio vs Herramienta con link de info| 1 Shopify | Wix |  Wordpress | Magento | Gumroad | Sap | Salesforce | Odoo Saas 1 | 2 Amazon | Glovo  | Google sheet 2 | 3 ConvertKit | MailChimp | Klaviyo | Hootsuite 3 |
 
 | ProcesosNegocio vs Herramienta con link de info| 1. Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforce | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
 | :---  | :---- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |
