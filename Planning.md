@@ -152,7 +152,26 @@ Abril 1,2,3,4,5
 - [ ] (leenversefashion) el despliegue de odoo: y el conector para itnergarlo con shopify
 
 
+
+
 => estudiar cómo se va a gestioanr stock (directamente decir que en una semana puede llegar)
 => método de trasnporte (correos o portefy)
 => compartir la página
 => cómo integrar facturas
+
+
+----------------------
+
+Spitn 2.2
+
+Hola Santiago y Dani, ¿cómo va todo? Bueno pues en estos poco minutos quiero compartir con vosotros qué he hecho en estas semanas qué tengo pensado hacer en el próximo mes y qué problemas he tenido
+
+ Primero, comentar un problema, disculapd que en este sprint me haya demorado de de marzo a hoy 20 de abril, más de tres smenas. De als 40 horas smenales que queiría deidcar al proecyuto, me di ucenta que si las decaba prod´ria suspendaer alguna aisngautra, me pasó a medidoad de marzo con ciberseguridad, que el examen no le puede dedicar mcuho tiempo. Omo s epuede pver en las horas que me registro en toogl. Así que propogn un cambio de estrategia; si de las 700 horas que son un TFM lelvaba 300 horas,  quería deidcarle 20 por semana, para cada mes hacer 100 y hasta antes de verano hacer 3 horas, para tener el vernoa más libre para prácitcas, propongo, reducir a 8 horas smeanles en este mes que falta, por no suspender nignuan asignatura, admeás d eque o
+ 
+ 
+
+
+
+
+
+
