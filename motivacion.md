@@ -113,6 +113,18 @@ Usage of available service SaaS, cuyo coste o sericios son fijos no dpeenden de 
 | ProcesosNegocio vs Herramienta con link de info | 1 Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforce | Odoo Saas 1 | 2 Amazon | Glovo  | Google sheet 2 | 3 ConvertKit | MailChimp | Klaviyo | Hootsuite 3|
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---  | :--- | :--- | :--- | 
 | ProcesosNegocio vs Herramienta con link de info| 1 Shopify | Wix |  Wordpress | Magento | Gumroad | Sap | Salesforce | Odoo Saas 1 | 2 Amazon | Glovo  | Google sheet 2 | 3 ConvertKit | MailChimp | Klaviyo | Hootsuite 3 |
+| 1. Tienda online |  | |   | | |  |  |  |  |   |   | |  |  | |
+| 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago | x| x |  x | x | x | x | x | x  |  |   |  | x | x | | |
+| 1.2. Seguimiento de paquetes| x| x |  x | x | x | x | x | x  |  |   |  | x | x | | |
+| 2. Gestión de operaciones|  | |   | | |  |  |  |  |   |   | |  |  | |
+| 2.1. Integración pedido tienda/Visualización de stock||x||x||x|x|x|x|x||||||
+|  2.2. Generación de alertas para comprar a proveedores||||x||x|x|x|x|x||||||
+| 2.3. Facilidad con la que cambiar todas las descripciones de los productos de una ||||x||x|x|x|x|x||||||
+| 3. Automatización de marketing |  | |   | | |  |  |  |  |   |   | |  |  | |
+|3.1. Generación y envío de correos, como newsletter| |  |  | x | | ? | x | x |  | | |x | x | x | x|
+| 3.2. Integración con isntagram | |  |  | x | | ? | x | x |  | | |x | x | x | x|
+|  Precio del servicio| 30€/mes | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
+|  Comentario| 1. Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
 
 | ProcesosNegocio vs Herramienta con link de info| 1. Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforce | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
 | :---  | :---- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |
