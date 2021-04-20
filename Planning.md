@@ -128,12 +128,25 @@ Abril 1,2,3,4,5
 - [x] 9 para evaluar necisto saber cómo usarlo: más que en concreto en abstracto: pedir aputnes del itirnerario de gestión o hay n profe que oferta un tfm, oye estoy intentando impelemantr uno, como que no tengo la parte de invenstairos, más adleante le improta hablar. COIT mentorizado
 - [ ] 10. Cómo formatear el texto: ppt + un texto explicativo + un jupyer con text abierto por si se quiere en plan awesome list y traducirla (inglés) 
 
+=>
+
+- General
+- [ ] Tiempo, bajar a 8h entas, S, D, L
+- [ ] Hacer una slides con la idea general =>solución propeusta se basa en datos, dudo esta ahí la justifiación
+- Caso de uso de breadfree => email marketing
+- [ ] Vbox, funciona
+- [ ] Solución pay as you : google vs alibaba
+- [ ] Solución Pay as you go: preguntar => hacer un esquema de cómo va a escalar esta estrucutra de coste
+- Caso de uso de breadfree => ecommerce
+- [ ] Pasos de autoamtización del servicio: seguimietno de pagos
+- [ ] Campaña de lanzmaienot
+
 1,2,3,4
-=> auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue
-=> meter plataforma de pagos
-=> evlauar lo del portencaje que se llevan las pasarelas de pagos (preguntar a Alex que hizo su TFG de eso si la pasaerla de apgos de caixa que estudió es segura)
-=> meter lo de google analytics para saber cuántas visitas llegan
-=> (leenversefashion) el despliegue de odoo: y el conector para itnergarlo con shopify
+- [ ] auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue
+- [ ] meter plataforma de pagos
+- [ ] evlauar lo del portencaje que se llevan las pasarelas de pagos (preguntar a Alex que hizo su TFG de eso si la pasaerla de apgos de caixa que estudió es segura)
+- [ ] meter lo de google analytics para saber cuántas visitas llegan
+- [ ] (leenversefashion) el despliegue de odoo: y el conector para itnergarlo con shopify
 
 
 => estudiar cómo se va a gestioanr stock (directamente decir que en una semana puede llegar)
