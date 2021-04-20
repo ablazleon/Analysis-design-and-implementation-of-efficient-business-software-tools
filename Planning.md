@@ -135,14 +135,17 @@ Abril 1,2,3,4,5
 - [ ] Hacer una slides con la idea general =>solución propeusta se basa en datos, dudo esta ahí la justifiación
 - Caso de uso de breadfree => email marketing
 - [ ] Vbox, funciona
-- [ ] Solución pay as you : google vs alibaba
+- [ ] de la talba probar las cosas que se quiere que funcioneen ahí, y parece que no fucnioana en el toro lado
+- [ ] Solución pay as you : google vs alibaba => pay as you go vs falt rate. Horas en funcioanmeitno dle serivico
 - [ ] Solución Pay as you go: preguntar => hacer un esquema de cómo va a escalar esta estrucutra de coste
 - Caso de uso de breadfree => ecommerce
 - [ ] Pasos de autoamtización del servicio: seguimietno de pagos
 - [ ] Campaña de lanzmaienot
 
-1,2,3,4
-- [ ] auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue
+1,2,3,4 => junio 15
+-
+- [ ] hacer un curso para despelgarlo en alicloud
+- [ ] auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue => hacer un saas, payg
 - [ ] meter plataforma de pagos
 - [ ] evlauar lo del portencaje que se llevan las pasarelas de pagos (preguntar a Alex que hizo su TFG de eso si la pasaerla de apgos de caixa que estudió es segura)
 - [ ] meter lo de google analytics para saber cuántas visitas llegan
