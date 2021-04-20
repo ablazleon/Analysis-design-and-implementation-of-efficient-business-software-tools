@@ -33,6 +33,8 @@ o protefy, gráits itenda online
 - B
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
 - C
+
+
 | ProcesosNegocio vs Herramienta con link de info | 1 [Shopify](https://www.shopify.com/pricing) | [Wix](https://www.wix.com/upgrade/website) |  [Wordpress](https://wordpress.com/pricing/) | [Magento](https://magento.com/products/magento-commerce) | [Gumroad](https://gumroad.com/features/pricing) | [Sap](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)  | [Salesforce](https://www.g2.com/products/salesforce-crm/pricing) | Odoo Saas 1 | 2 Amazon | Glovo  | Google sheet 2 | 3 ConvertKit | [MailChimp](https://mailchimp.com/pricing/) | [Klaviyo](https://www.klaviyo.com/pricing) | [Hootsuite](https://www.hootsuite.com/plans) 3|
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---  | :--- | :--- | :--- | 
 | ProcesosNegocio vs Herramienta con link de info| 1 Shopify | Wix |  Wordpress | Magento | Gumroad | Sap | Salesforce | Odoo Saas 1 | 2 Amazon | Glovo  | Google sheet 2 | 3 ConvertKit | MailChimp | Klaviyo | Hootsuite 3 |
