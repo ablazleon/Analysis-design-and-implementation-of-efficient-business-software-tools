@@ -166,7 +166,48 @@ Spitn 2.2
 
 Hola Santiago y Dani, ¿cómo va todo? Bueno pues en estos poco minutos quiero compartir con vosotros qué he hecho en estas semanas qué tengo pensado hacer en el próximo mes y qué problemas he tenido
 
- Primero, comentar un problema, disculapd que en este sprint me haya demorado del 7 marzo a hoy 20 de abril, más de tres smenas. De las 40 horas smenales que quería dedicar al proyecto, me di cunta que si las dedicaba prodría suspender alguna aisgnatura, me pasó a medidados de marzo con ciberseguridad, que el examen no le puede dedicar mcuho tiempo. Como se puede er en las horas que me registro en toogl es a partir de entonces, cuando dejo un poco de lado el TFM y me dedico a las 4 prácitcas que me mandaron para semana santa. Así que propongo un cambio de estrategia; si de las 700 horas que son un TFM llevaba 300 horas,  quería deidcarle 20 por semana, para cada mes hacer 100 y hasta antes de verano hacer 300 horas, para tener el vernoa más libre para prácticas, y así convalidar esos 6 créditos que me faltan en verano. Propongo, reducir a 8 horas smeanles en este mes que falta, por no suspender nignuan asignatura, y desplzar esta carga de trabajo a junio y julio
+ Primero, comentar un problema, disculapd que en este sprint me haya demorado del 7 marzo a hoy 20 de abril, más de tres semenas. Con Dani sí que lo hablé, pero contigo todavía no Sanitago, te cuento: de las 40 horas semanales que quería dedicar al proyecto, me di cuenta que si las dedicaba prodría suspender alguna aisgnatura. Me pasó a medidados de marzo con ciberseguridad, que al examen no le puede dedicar mcuho tiempo. Como se puede ver en las horas que me registro en toogl es a partir de entonces, cuando dejo un poco de lado el TFM y me dedico a las 4 prácitcas que me mandaron para semana santa. Así que propongo un cambio de estrategia; si de las 700 horas que son un TFM llevaba 300 horas,  quería deidcarle 20 por semana, para cada mes hacer 100 y hasta antes de verano hacer 300 horas, para tener el verano más libre para prácticas, y así convalidar esos 6 créditos que me faltan en verano. Propongo, reducir a 8 horas smeanles en este mes que falta, por no suspender nignuan asignatura, y desplzar esta carga de trabajo a junio y julio, a 40 horas cada mes, compeltando como 300, a falta de ehcar 100 restantes en el primer semestre del curso 2021-2022. Con el fnd de dejar más o menos paltneado un servicio de ecommerce en producción para verano y djear horas de mantemeinto para el sigueiten semestre. Entonces, en vez de conseguir esos 6 cvréidtos a´si, he pensado que como me flata background en las limitaciones de lso servicios de gestión de la empresa, en vez de ahcer prácticas, cursar el sigueitne semestre un par de asignuas del itironrao de gestión, de 4.5 y 4.5, una sobre sistema de información para el mundo empresarial y puede que una de admisntiarción de dempresas. Y así, bueno itnetnar para septeimbre un tfm completo, para resentarlo en febrero. Y en adleante seguir con el mantenimiento del servicio por un lado y preparar la opiscion del cuerpo tic de a1 de la AGE de febrero  a febrero con el dienro ahorarado, pagando una academia. Y caudno se me acabe, significa que este sericio que he desarrollado en el tfm no me es suficiente para ser autónomo, así que itennar aplciar a un puesto relacionado con la epxerienceia que he aprendido en el TFM, algo de site relaibility engineer, consutltor de servicios de gestión y cloud, algo así
+
+BUeno depsués de esta expclaicón mía en genrral de cómo veo la jugada, comparto con vosotros qué he hecho en estas semanas qué tengo pensado hacer en el próximo mes y qué problemas he tenido
+
+qué he hehco pues lo que hablamos
+
+el obejtivo etra para mayo depslegar el servicio en gogole cloud, sobre todo para tener el servioc de newsletter, quitaé el saleor investigué, para luego a fianles de mayo pedir una auditora del depsleigeu
+
+Peor snetí que no tenía clara la jugada en cuanto a porqué elegir odoo, a largo palzo qué precio tiene que tener y que fucnoinalidades en comapració con tros servicios para que se útil? Es decir, el tiempo en depslegar un servicio con este servicio oepn soruce hasta qué punto merece la pena
+
+Enotnces lo que hice fue, tres cosas
+ primero una slide para orgnaizarme las ideas en lso spirnt, 
+luego ivnesitgar sobre cómo ocmaprtir la ifnormación (word, o latex con overlefa)
+ y leugo hace una comapración basada en procesos de negocio
+COn el fin de hacer otra compración basda en servioc open soruce y cloud, para hacer un depsliegue como muy tarde el 15 de junio
+Investigar otra opcione scomo alicloud pay as you go, de forma que se peude reoslver la pricnipal infeicenie de google cloud que era el coste de tener la bbdd encendia siempre cuando el servico eccomerce está muy centrada en la franja hraorio de unos usuarios
+
+EN cuanto a las slide, las peude comrpatir algo así con 4 pasos pbasado en deisng thinking
+
+EN cuanto a como comrpatir ifnormacion, me familiarizae con verleaf y owrd, así que en el futro puedo usar cualqueira
+
+Cómo coamprtar rpocesso de negocio y herraminetas saas
+a largo palzo qué precio tiene que tener y que fucnoinalidades en comapració con tros servicios para que se útil? 
+Tere sufncioanldiades crear el commerce, gestaonr oepracioens y marketing
+En reusmen tras la ivnesitcaión ya esta basad en datos, algo pay as you go para no pagar los primeros meses, o si es así pagar pero poco e tientar que aumetne este precio en funcion del uso
+
+Esto he ehco en estas msenas, que tengo pensado ahcer
+
+Pues lo primtedio para el anteriro, para el 15 de junio, el servioc de amrketing
+prpond´ria:
+pregunatr sobre alicloud, si hay algun gasto ocultoen stack overflow
+Hacer un comarpacion de estrucutra de coste: mejro  kuebrntes u otro servico
+Con la repsuta de alicloud o mientras depslgar en virutal box odoo communtiy ya 
+---
+iamigno que esto ya será en julio
+sabiendo que procesos de engocio comrpobar
+Hacer un tutorial de ali cloud y depslgearlo
+Entonces, depslgear la pa´gina, el email + crm+ invenatior
+y auditoria
+----------
+
+Prolbemas
  
  
 
