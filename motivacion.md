@@ -116,4 +116,4 @@ Usage of available service SaaS, cuyo coste o sericios son fijos no dpeenden de 
 |3.1. Generación y envío de correos, como newsletter| |  |  | x | | ? | x | x |  | | |x | x | x | x|
 | 3.2. Integración con isntagram | |  |  | x | | ? | x | x |  | | |x | x | x | x|
 |  Precio del servicio| 30€/mes | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
-|  Comentario| 1. ![Shopify](https://www.shopify.com/pricing)  | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
+|  Comentario| 1. Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
