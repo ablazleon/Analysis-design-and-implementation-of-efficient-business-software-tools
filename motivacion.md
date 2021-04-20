@@ -56,7 +56,37 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
 
 - C
 
-Usage of available service SaaS	
+| Procesos de negocio vs Herramienta| 1. Shopify | 1. Wix | 2. Amazon | 2. Glovo  |
+| :---        |    :----   |         : --- |
+| 1. Tienda online      | Title       | Here's this   |
+| 1.1. Constructor de sitios web (CMS) + catálogo  | Text        | And more      |
+| 1.2. Integración con plataforma de pago    | Title       | Here's this   |
+| 1.3. Seguimiento de paquetes   | Text        | And more      |
+| 2. Gestión de operaciones      | Title       | Here's this   |
+| 2.1. Visualización de stock   | Text        | And more      |
+| 2.2. Integración con el pedido de la tienda   | Text        | And more      |
+| 2.3. Generación de alertas para comprar a proveedores   | Text        | And more      |
+| 2.4. Generación de facturas   | Text        | And more      |
+| 2.5. Facilidad con la que cambiar todas las descripciones de los productos de una   | Text        | And more      |
+| 3. Automatización de marketing   | Text        | And more      |
+| 3.1. Generación y envío de correos, como newsletter   | Text        | And more      |
+| 3.2. Integración con isntagram   | Text        | And more      |
+| Precio del servicio   | Text        | And more      |
+| Comentario   | Text        | And more      |
+
+
+1. Tienda online 
+
+4. Seguridad
+4.1. Actualizacion de parches
+4.2. Varios usuarios con disitnos permisos
+4.3. Oauth para registrase desde otras cuentas
+
+Salesforce with sap, in the cloud, falt rate, like in cloud => pay as you go. Next step for odoo
+
+Usage of available service SaaS, cuyo coste o sericios son fijos no dpeenden de donde se imepelmenten
+
+
 - Amazon: 40€/mes : https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.	
 - Glovo	: 200€/mes : https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.
 - Shopify	: 29€/mes : https://www.shopify.com/pricing
@@ -67,6 +97,23 @@ Usage of available service SaaS
 - Saleor	
 - Odoo SaaS	
 - Odoo 	
-- Zoho	
+- Zoho
+- Covnertkit
+- Mailchimp
+- Klaviyo	
 
 
+| ProcesosNegocio vs Herramienta con link de info| 1. Shopify | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforce | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
+| :---  | :---- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |: --- |
+| 1. Tienda online |  | |   | | |  |  |  |  |   |   | |  |  | |
+| 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago | x| x |  x | x | x | x | x | x  |  |   |  | x | x | | |
+| 1.2. Seguimiento de paquetes| x| x |  x | x | x | x | x | x  |  |   |  | x | x | | |
+| 2. Gestión de operaciones|  | |   | | |  |  |  |  |   |   | |  |  | |
+| 2.1. Integración pedido tienda/Visualización de stock||x||x||x|x|x|x|x||||||
+|  2.2. Generación de alertas para comprar a proveedores||||x||x|x|x|x|x||||||
+| 2.3. Facilidad con la que cambiar todas las descripciones de los productos de una ||||x||x|x|x|x|x||||||
+| 3. Automatización de marketing |  | |   | | |  |  |  |  |   |   | |  |  | |
+|3.1. Generación y envío de correos, como newsletter| |  |  | x | | ? | x | x |  | | |x | x | x | x|
+| 3.2. Integración con isntagram | |  |  | x | | ? | x | x |  | | |x | x | x | x|
+|  Precio del servicio| 30€/mes | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
+|  Comentario| 1. ![Shopify](https://www.shopify.com/pricing)  | Wix |  Wordpress | Magento | Gumroad| Sap | Salesforece | Odoo Saas .1 | 2. Amazon | Glovo  | Google sheet .2|3. ConvertKit | MailChimp | Klaviyo | Hootsuite .3|
