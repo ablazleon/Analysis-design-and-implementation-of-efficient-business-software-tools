@@ -123,10 +123,10 @@ Abril 1,2,3,4,5
   - db: only 60 days free => it's not worth it, what it is worth it is ine year of use
   - how to deploy odoo: stateless + state
   - => can give me advice:  based on tehir experince what is cheaper: teh 5 of them
-- [ ] 7 desplegar en vbox odoo
+- [ ] 7 desplegar en vbox odoo: https://www.cybrosys.com/blog/how-to-install-odoo-14-on-ubuntu-20-04-lts
 - [ ] 8 desplegar en gcloud 
 - [x] 9 para evaluar necisto saber cómo usarlo: más que en concreto en abstracto: pedir aputnes del itirnerario de gestión o hay n profe que oferta un tfm, oye estoy intentando impelemantr uno, como que no tengo la parte de invenstairos, más adleante le improta hablar. COIT mentorizado
-- [ ] 10. Cómo formatear el texto: ppt + un texto explicativo + un jupyer con text abierto por si se quiere en plan awesome list y traducirla (inglés) 
+- [x] 10. Cómo formatear el texto: ppt + un texto explicativo + un jupyer con text abierto por si se quiere en plan awesome list y traducirla (inglés) 
 
 =>
 
@@ -142,9 +142,18 @@ Abril 1,2,3,4,5
 - [ ] Pasos de autoamtización del servicio: seguimietno de pagos
 - [ ] Campaña de lanzmaienot
 
+- [ ] Integrar con un dominio personalizado
+- [ ] configurar la web: (decir que se aceptan encargos + biografía)
+- [ ] Cuántos usuairos visitan la página al mes? Integrar google analytics
+- [ ] COnfigurar precios y detalles de cada producto: con un excel de una
+- [ ] odoo self hosted vs odoo saas => cuánto tiene que csotar? Hacer planes
+- [ ] preguntar en stack ovf si ven algún probelma con alicloud: qué stack mejor => hacer un curso en alicloud => depslegar alicloud
+- [ ] Plan general, pues siugiente paso, seguimeitno de pagquetes y oferta de distninos precios
+- [ ] Configurar correo con mi propio dominio: https://thedigitalnonprofit.com/use-gmail-own-domain-free/ 
+
 1,2,3,4 => junio 15
 
--
+
 - [ ] hacer un curso para despelgarlo en alicloud
 - [ ] auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue => hacer un saas, payg
 - [ ] meter plataforma de pagos
