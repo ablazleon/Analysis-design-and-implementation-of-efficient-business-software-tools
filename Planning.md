@@ -203,19 +203,17 @@ Tere sufncioanldiades crear el commerce, gestaonr oepracioens y marketing
 En reusmen tras la ivnesitcaión ya esta basad en datos, algo pay as you go para no pagar los primeros meses, o si es así pagar pero poco e tientar que aumetne este precio en funcion del uso
 
 Esto he ehco en estas msenas, que tengo pensado ahcer
-
 Pues lo primtedio para el anteriro, para el 15 de junio, el servioc de amrketing
 prpond´ria:
 pregunatr sobre alicloud, si hay algun gasto ocultoen stack overflow
 Hacer un comarpacion de estrucutra de coste: mejro  kuebrntes u otro servico
 Con la repsuta de alicloud o mientras depslgar en virutal box odoo communtiy ya 
----
+
 iamigno que esto ya será en julio
 sabiendo que procesos de engocio comrpobar
 Hacer un tutorial de ali cloud y depslgearlo
 Entonces, depslgear la pa´gina, el email + crm+ invenatior
 y auditoria
-----------
 
 Prolbemas
  
