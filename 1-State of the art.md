@@ -53,4 +53,5 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
 |  Precio del servicio| 30€/mes | 17.5€/mes |  8€/mes | 2000€/mes | 10€/mes | 16.000€ | 25€/mes | 120€/mes .1 | 2. 40€/mes | 200€/mes  | 0€/mes .2|3. 30€/mes | 15€/mes | 30€/mes | 40€/mes .3|
 |  Comentario| Difícil gestión de operaciones | Buena opción, aunque odoo da más flexibilidad |  Falta 2. | Muy alto precio | Falta 2.| Muy alto precio | Sólo aplica CRM, paquete ecommerce con precio bajo request for quote | Más felxible, pero alto precio si se paga como tarifa plana .1 | 2. Falta 1 y 2, auqnue icnluye gastos de envío | Falta 1 y 2, auqnue icnluye gastos de envío  | Falta flexibilidad .2|3. Falta 2 | Falta 2 | Falta 2 | Falta 2 .3|
 
+Seguridad propia gestión de parches y cve
 
