@@ -111,7 +111,7 @@ Abril 1,2,3,4,5
 - [x] 3 estudiar lo de meter en un excel las urls de lso productos apra tenr una especie de backup de los productos https://www.youtube.com/watch?v=ThRUxHCndDs => use community
 - [ ] 4 estudiar lo de productos con distintos tamaños
 - [ ] 5 estudiar lo de meter en un excel las urls de lso productos apra tenr una especie de backup de los productos
-- [ ] 6 preguntar a Víctor Facic mejor manera para desplgieues en lanube baratos (clodu run + cloud sql vs fargate + aurora serverless vs linode) => en youtbe: su solución es que no sabe => preguntar en stckovf como ven alicloud en cuanto a costes, ibm code engine vs cloud run: en caas => alicloudsólo preio por hora pero se apagan sólos 
+- [x] 6 preguntar a Víctor Facic mejor manera para desplgieues en lanube baratos (clodu run + cloud sql vs fargate + aurora serverless vs linode) => en youtbe: su solución es que no sabe => preguntar en stckovf como ven alicloud en cuanto a costes, ibm code engine vs cloud run: en caas => alicloudsólo preio por hora pero se apagan sólos 
   - budget comparasion
   - https://www.quora.com/How-does-Amazon-compare-to-Alibaba-Cloud-Service => maybe its chaeaper, 
   - ibm has contianer as a service, but not database serverless
@@ -131,8 +131,8 @@ Abril 1,2,3,4,5
 =>
 
 - General
-- [ ] Tiempo, bajar a 8h entas, S, D, L
-- [ ] Hacer una slides con la idea general =>solución propeusta se basa en datos, dudo esta ahí la justifiación
+- [x] Tiempo, bajar a 8h entas, S, D, L
+- [x] Hacer una slides con la idea general =>solución propeusta se basa en datos, dudo esta ahí la justifiación
 - Caso de uso de breadfree => email marketing
 - [ ] Vbox, funciona
 - [ ] de la talba probar las cosas que se quiere que funcioneen ahí, y parece que no fucnioana en el toro lado
@@ -143,6 +143,7 @@ Abril 1,2,3,4,5
 - [ ] Campaña de lanzmaienot
 
 1,2,3,4 => junio 15
+
 -
 - [ ] hacer un curso para despelgarlo en alicloud
 - [ ] auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue => hacer un saas, payg
