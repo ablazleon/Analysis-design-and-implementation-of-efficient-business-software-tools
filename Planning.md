@@ -153,6 +153,15 @@ Abril 1,2,3,4,5
 
 1,2,3,4 => junio 15
 
+- [ ] Odoo puede permitir un Shopify + gestor de stock + newsletter + estado de las imágnees en un csv => despleigue propio: cuál es el mejor mecanismo pay as you go escalable => IaaS, PaaS, SaaS
+=> SaaS no, PaaS => donDOminio  muy barato pero como Shopify. IaaS => AWS vs Azure vs GCP vs AliCloud vs IBM => alicloud barato no free tier vs GCP autopilot
+=> what is? what if? ahorro de tiempo, quiero comrparlo y hostearlo, reducir coste
+=> preguntar, oye, cuál renta más
+- [ ] deplegar odoo, para ver estas funcionalidades, primero en local y luego en cloud => definri el happy path a patir de los requisitos, tanto en compra como en gestión de inventarios, como en marketing => en la nube; 
+- [ ] documentar esto: en las slides, incluir saleor
+- [ ] quiero ver si cómo hago yo las cosas es como se hace en general: puedo cursar esas asignaturas a falta de 6 créditos
+- [ ] ya están definidos esos path, y despelgado eso en la nube => hacer planes de negocio sobre cuál es el mejor precio
+- [ ] cómo copiar un odoo saas; los script que presento son abiertos, lo que cuesta es la oepraicón de seguirdad, que esté bastante disponible. Ask Aselcis and CYbrosis what they think about that
 
 - [ ] hacer un curso para despelgarlo en alicloud
 - [ ] auditar el despleigue: Aselcis o a quién pregunto para auditar ese despliegue => hacer un saas, payg
@@ -160,8 +169,6 @@ Abril 1,2,3,4,5
 - [ ] evlauar lo del portencaje que se llevan las pasarelas de pagos (preguntar a Alex que hizo su TFG de eso si la pasaerla de apgos de caixa que estudió es segura)
 - [ ] meter lo de google analytics para saber cuántas visitas llegan
 - [ ] (leenversefashion) el despliegue de odoo: y el conector para itnergarlo con shopify
-
-
 
 
 => estudiar cómo se va a gestioanr stock (directamente decir que en una semana puede llegar)
