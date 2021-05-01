@@ -158,6 +158,10 @@ Abril 1,2,3,4,5
 => what is? what if? ahorro de tiempo, quiero comrparlo y hostearlo, reducir coste
 => preguntar, oye, cuál renta más
 - [ ] deplegar odoo, para ver estas funcionalidades, primero en local y luego en cloud => definri el happy path a patir de los requisitos, tanto en compra como en gestión de inventarios, como en marketing => en la nube; 
+=> what if? user stories (use cases) + con ciad
+=> mejor forma de despelgarlo => ver el video de clusters de k8s
+=> el cómo vs en dónde => a la larga, pq debe tener un precio u otro: esobzar un plan econcomico financiero =>bbva, a paritr de un cierto uso, uno cuesta más barato
+=> fases 1 mes de depslegarlo en los tres sitios? primera incursión => instead of a video, why not an awsome repo that anyubody can modify?
 - [ ] documentar esto: en las slides, incluir saleor
 - [ ] quiero ver si cómo hago yo las cosas es como se hace en general: puedo cursar esas asignaturas a falta de 6 créditos
 - [ ] ya están definidos esos path, y despelgado eso en la nube => hacer planes de negocio sobre cuál es el mejor precio
