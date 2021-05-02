@@ -166,13 +166,15 @@ squarespace, hay un monton y más en arte => tenog una hipótesis y es que o el 
 
 9
 - [ ] hoy o mañana => hsitorias de usairo con un what wows? quiero hacer un poc, es un shopify con el poder de odoo: qué MVP
+- [ ] preguntar esas dudas sobrwe estrucutra de coste: algo que escale a 0 ypueda ocnsturir un saas que cueste 0 para el cliente y como el cloud provider, sólo se tnega beneficios, si se vende 10% por cada compra, una cosas muy de mínimos
 - [ ] el bitname ese depsñgarlo y ver cómo funciona
 
 https://www.shopify.com/blog/211990409-how-to-sell-art-online
 
 16
 
-- [ ] qué quiero ser: auitonomos llegan con ideas, le doy un plan de negocio
+- [ ] qué es lo que quiero ser de mayor: ofrcer un saas un software como servicio, ceirtos serivicos de oddo qye ya he jsutificado, para autónomos, de que paguen 30€ cada mes, como shopify, con más funcionalidades, y un máximo de 50 en función dle uso.  quiero ser: auitonomos llegan con ideas, le doy un plan de negocio
+- [ ] lo suyo sería que pagasen 0.
 - [ ] dscutir en cuanto a estructura de costes: kubenrtes vs aplcaicineos de servicio: precio, frente a evitar  esté corriendo toda la noche => 
 - [ ] un despliegue de odoo en kuberntes gcloud +linode + alicloud
 
@@ -192,6 +194,7 @@ https://www.youtube.com/watch?v=-59KDnNrIfc
 https://techbeacon.com/enterprise-it/5-open-source-apm-tools-compared
 https://techbeacon.com/enterprise-it/top-5-open-source-rpa-frameworks-how-choose
 https://www.youtube.com/watch?v=eVeafIoZcXA&t=2s
+https://aws.amazon.com/blogs/apn/building-a-multi-tenant-saas-solution-using-amazon-eks/
 autopilot => 13€/mes: autopilot shutdown your databases if they are not used?
 => migrating to cloud spanner
 or fargate and auroraserverless
