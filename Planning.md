@@ -153,6 +153,19 @@ Abril 1,2,3,4,5
 
 1,2,3,4 => junio 15
 
+- [ ] custoemr journey: shopify has inveotory things, amazon has a logistic advantage => 
+- shopify manage inventory, but has not different form which to send => datos para el seguimeitno del pedido. Es decir, no avisa de cuántos productos pedir, ni de irle haciendo el traqueo del pedido al cleinte
+- el cusotemr jorney: publico un catálogo de productos, el cliente lo elige, cuando se relaiza la compra le llega la petición al proveedor, cuando esté el pedido, se recoge en tienda y se envía, cuál es la mejor opción de tranpsorte
+- first year, shopify for free
+
+- catalogo: all the same (with the plus of images from an url)
+- inventario: visualizar stock sí, alerat a proveedor => SIGE, estoy haciendo esto, reflexión para depslegar una web, no ´se hasta qué punto estará bien las hipótesis, pasar lo que es´tais haciendo cunaod lo termiéis, cogerme sige & preguntar cómo es el proceso, o algún libro en generla de cómo funciona esto
+- marketing basic 0> shopify y otros
+
+=> why beacuse it has more fucnitonalities, not
+it's cheaper (price of a cluster) + same func, plus some tips => freemium, bundle, same as shopify => entocnes el problema cuál es? que cunaod piden productos  quieres saber los que están hehcos y los que no, o sea que no es´ta integrado con la producción
+100 kitana essential plan, automazar producción
+
 - [ ] Odoo puede permitir un Shopify + gestor de stock + newsletter + estado de las imágnees en un csv => despleigue propio: cuál es el mejor mecanismo pay as you go escalable => IaaS, PaaS, SaaS
 => SaaS no, PaaS => donDOminio  muy barato pero como Shopify. IaaS => AWS vs Azure vs GCP vs AliCloud vs IBM => alicloud barato no free tier vs GCP autopilot
 => what is? what if? ahorro de tiempo, quiero comrparlo y hostearlo, reducir coste
