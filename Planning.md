@@ -153,7 +153,34 @@ Abril 1,2,3,4,5
 
 1,2,3,4 => junio 15
 
-- [ ] custoemr journey: shopify has inveotory things, amazon has a logistic advantage => 
+Estructura de coste: otros facotres, en relaiad son las hsitorias de usuairo, pulir algunas, no son tan ortogoanles => amazon 
+- [ ] pq estrucura de costes si no lo van a usar y en qué sentido? un plan de negocio para vender arte online. custoemr journey: shopify has inveotory things, amazon has a logistic advantage, but only allows for low product ammount https://sell.amazon.com/pricing.html?ref_=sdus_soa_begin_plans_n#selling-plans => not scale, and if scale 40€ month, dificil encontrar seo para cuadros apar decorar, cómo decorar la csas: dónde esta la necesidad, en vez de un kofi una copia de un cuadro. EL referral fee de amazon
+squarespace, hay un monton y más en arte => tenog una hipótesis y es que o el marketplace se lleva un 30%  por enviar y por gestioanr la manufactura => cómog esitoanr la manufactura, aún así hay que gestioanrlo
+- tengo una ceirta idea de que tiene pinta que de las muchas opciones que hay, marketplaces, una página personal es la que menos fees tienen para uno mismo, y odoo permite hacer bundles de uno mismo. AUnque pagas el referral fee: MVP kofi => odoo colaboración con printers, automatizar la tarea de manfuactura, ahorrar un sueldo.
+- tengo una hipótesis, y es que la ofrma en que gestioanr la oepracioens auotamtizadas, en vez de hacerlo manual puede haorra más timepo => RPA o por el propio programa => o si quiere trabajr en concjunto, lo que he investigado puede que le sirva.
+- => sólo voy a jugar a ser barato o a tener lo mismo, lo que diferencia son las ditnstas vistas parcialkes
+
+- [ ] si el pain parece que el rival aprece ser shopify, que ceuste lo mismo, pero que tenga una visión de mrp mejor en vez de costando 100€ costando lo que shopify, o shopify + katana => quiero imitar odoo.sh. quiero depslegar odoo.sh y ofrcerlo a aselcis
+
+----------
+
+2
+- [ ] hoy o mañana => hsitorias de usairo con un what wows? quiero hacer un poc, es un shopify con el poder de odoo: qué MVP
+- [ ] el bitname ese depsñgarlo y ver cómo funciona
+
+9
+
+- [ ] 
+- [ ] a
+
+16
+23
+30
+
+
+
+
+
 - shopify manage inventory, but has not different form which to send => datos para el seguimeitno del pedido. Es decir, no avisa de cuántos productos pedir, ni de irle haciendo el traqueo del pedido al cleinte
 - el cusotemr jorney: publico un catálogo de productos, el cliente lo elige, cuando se relaiza la compra le llega la petición al proveedor, cuando esté el pedido, se recoge en tienda y se envía, cuál es la mejor opción de tranpsorte
 - first year, shopify for free
@@ -192,6 +219,12 @@ it's cheaper (price of a cluster) + same func, plus some tips => freemium, bundl
 => método de trasnporte (correos o portefy)
 => compartir la página
 => cómo integrar facturas
+
+---------
+
+- [ ] estructura de coste, como otra caracteristica más a la hora de jsutifica rel producto
+- [ ] prototipar la de odoo a pelo, y luego tres más, con lighthouse
+- [ ] describir conclusiones
 
 
 ----------------------
