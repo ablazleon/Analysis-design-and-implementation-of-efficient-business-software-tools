@@ -172,8 +172,17 @@ https://www.shopify.com/blog/211990409-how-to-sell-art-online
 
 16
 
-- [ ] dscutir en cuanto a estructura de costes: kubenrtes vs aplcaicineos de servicio: precio, frente a evitar  esté corriendo toda la noche
+- [ ] qué quiero ser: auitonomos llegan con ideas, le doy un plan de negocio
+- [ ] dscutir en cuanto a estructura de costes: kubenrtes vs aplcaicineos de servicio: precio, frente a evitar  esté corriendo toda la noche => 
 - [ ] un despliegue de odoo en kuberntes gcloud +linode + alicloud
+
+deploy this in cloud run  + cloud sql => 10€
+autopilot => 0€ to 40€ => i have a question, so if i want to deploy a cluster. its gonna be alive all the time or not?
+fargate + aurora serverless => 0 to 5€
+alicloud?
+
+=> cuanto cobro a mis clientes: odoo saas 50€/mes, sólo si vendes, sino vendes te cuesto 0. En función de lo que usen tu plataforma
+
 - [ ] 
 
 https://cloud.google.com/architecture/best-practices-for-running-cost-effective-kubernetes-applications-on-gke
@@ -184,6 +193,24 @@ https://techbeacon.com/enterprise-it/5-open-source-apm-tools-compared
 https://techbeacon.com/enterprise-it/top-5-open-source-rpa-frameworks-how-choose
 https://www.youtube.com/watch?v=eVeafIoZcXA&t=2s
 autopilot => 13€/mes: autopilot shutdown your databases if they are not used?
+=> migrating to cloud spanner
+or fargate and auroraserverless
+
+=> cloud run or autopilot
+autopilot keeps alive the database
+
+kubernetes
+specific solutions
+
+kubenretes => autopilot 13€/month
+cloud run + cloud sql
+
+alibaba: pay as you go
+
+https://www.reddit.com/r/aws/comments/j84h22/why_doesnt_aws_have_a_cloud_run_equivalent/
+http://fargate-pricing-calculator.site.s3-website-us-east-1.amazonaws.com/
+https://www.reddit.com/r/aws/comments/i01whu/eks_w_fargate_pricing/
+
 23
 30
 
