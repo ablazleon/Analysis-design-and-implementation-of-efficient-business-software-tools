@@ -164,16 +164,26 @@ squarespace, hay un monton y más en arte => tenog una hipótesis y es que o el 
 
 ----------
 
-2
+9
 - [ ] hoy o mañana => hsitorias de usairo con un what wows? quiero hacer un poc, es un shopify con el poder de odoo: qué MVP
 - [ ] el bitname ese depsñgarlo y ver cómo funciona
 
-9
-
-- [ ] 
-- [ ] a
+https://www.shopify.com/blog/211990409-how-to-sell-art-online
 
 16
+
+- [ ] dscutir en cuanto a estructura de costes: kubenrtes vs aplcaicineos de servicio: precio, frente a evitar  esté corriendo toda la noche
+- [ ] un despliegue de odoo en kuberntes gcloud +linode + alicloud
+- [ ] 
+
+https://cloud.google.com/architecture/best-practices-for-running-cost-effective-kubernetes-applications-on-gke
+https://www.youtube.com/watch?v=goZFUy4uHVg
+https://www.youtube.com/watch?v=Zztufl4mFQ4
+https://www.youtube.com/watch?v=-59KDnNrIfc
+https://techbeacon.com/enterprise-it/5-open-source-apm-tools-compared
+https://techbeacon.com/enterprise-it/top-5-open-source-rpa-frameworks-how-choose
+https://www.youtube.com/watch?v=eVeafIoZcXA&t=2s
+autopilot => 13€/mes: autopilot shutdown your databases if they are not used?
 23
 30
 
