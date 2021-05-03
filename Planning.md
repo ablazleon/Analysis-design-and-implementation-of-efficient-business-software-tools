@@ -355,6 +355,8 @@ se plantean soluiones escalables como
 kubenretes => autopilot 13€/month
 cloud run + cloud sql
 alibaba: pay as you go
+fargate and aurora
+https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/
 
 de forma que se puede despelgar odoo community para ofercer shopify + katana por la mitad de dinero
 
@@ -372,4 +374,7 @@ Se crea una vm para luego pasar el despliegue y que sea fácil
 
 https://www.odoo.com/documentation/14.0/setup/install.html
 
+----------------
 
+Strategia coste autonomo
+https://ayudatpymes.com/gestron/vender-por-internet-sin-ser-autonomo/
