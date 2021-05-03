@@ -5,34 +5,11 @@ Automatizar tareas regala tiempo a las personas: facilitar el acceso a informaci
 1- Primero se discute, presentando en una gráfica, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
 2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
-Servicio + plataforma + coste total
-- A
-- 1- construir sitios web + catálogo + venta online	
-- 1. 	Construir sitios web (cms)
-- 1.2.	Catálogo de productos para vetna online
-- 1.3. Single source of truth de html
-- 1.4. Single source of truth de inventario
-- 2- automatización de marketing	
-- 2.1. 	Correos con el propio dominio
-- 2.2. Social marketing
-=> parece que no tiene para insta. Klaviyo no sé si tiene
-https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541
-https://www.salesforce.com/editions-pricing/small-business/
-- 3- optimizar operaciones	
-proyecto
-trello
-jira
- maybe more specific, but it's epxensive using all teh products
--manage versions
-odoo
-- 4- gestión de finanzas	
-- 5- automatización de ventas	
-https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528
-https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf
-o protefy, gráits itenda online
-- B
-https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
-- C
+# 1. Relación entre procesos y herramientas
+## 1.1. Herramientas
+## 1.2. Procesos
+# 2. Estructura de coste y herramientas
+
 
 1. Tienda online
 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago
@@ -61,7 +38,32 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 
 https://www.repricerexpress.com/amazon-fba-vs-shopify/
 https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/
-https://www.etsy.com/es/legal/fees/
+https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541
+https://www.salesforce.com/editions-pricing/small-business/
+https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528
+https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf
+https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
+
+1. Tienda online
+1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago: 
+- [ ] se crea un sitio web de forma fácil
+- [ ] con un catálogo con fotos desde un csv para cambiar los precios de forma automática
+- [ ] los clientes llegan a un dominio específico
+- [ ] eligen un producto de un cierto tamaño
+- [ ] elgien un producto con unas variantes específcas, con o sin marco y paspartu
+- [ ] se puede elegir entre varias plataforma de pago (paypal, stripe)
+1.2. Seguimiento de paquetes
+- [ ] a un cliente se le ofrecen distintos medios de transporte, con precios distitnos en función de días
+- [ ] el cliente puede saber cuánto le falta al paquete para llegar
+- [ ] o se puede informar en la web de cómo contactar al proveedor si hay algún problema
+- [ ] o contactar si desea comprarlo y recogerlo
+2. Gestión de operaciones
+2.1. Integración pedido tienda/Visualización de stock
+2.2. Generación de alertas para comprar a proveedores
+3. Automatización de marketing
+3.1. Generación y envío de correos, como newsletter
+3.2. Integración con isntagram 
+
 
 Seguridad propia gestión de parches y cve
 
