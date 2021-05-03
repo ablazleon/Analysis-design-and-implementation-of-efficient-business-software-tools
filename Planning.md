@@ -378,3 +378,4 @@ https://www.odoo.com/documentation/14.0/setup/install.html
 
 Strategia coste autonomo
 https://ayudatpymes.com/gestron/vender-por-internet-sin-ser-autonomo/
+https://www.lamoncloa.gob.es/presidente/actividades/Documents/2021/270121-PlanDigitalizacionPYME01Optimizado.pdf
