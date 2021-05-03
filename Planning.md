@@ -315,7 +315,17 @@ y auditoria
 Prolbemas
  
  
+ -----------------
 
+Spitn 2.3
+
+Sprint 2, tercera iteración
+
+Hola Santiago y Dani, ¿cómo va todo? Bueno pues en estos poco minutos quiero compartir con vosotros, pues lo de siempre, qué he hecho, qué tengo pensado hacer y qué problemas he tenido.
+
+Qué he hecho en este mes?
+
+Pues a parte de examenes jeje
 
 
 
