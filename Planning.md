@@ -338,7 +338,22 @@ Me dediqué a dos subtareas:
 a. recomparar las hipótesis referida a los procesos de negocio
 b. comparar  qué estructura de coste aporta más valor
 
-a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. Pero en realidad, más que imbatible, es que es más completa. Además, se estudian dos más, katana, una mrp, para visualizar y autoamtizar epdidos integraado con shopify que cuesta 100€/mes y Etsy una plataforma como Shopify. De forma que la conclusión cambia ligeramente: tanto amazon como shoppify/wix/odoo saas como doo community en la nube, son buenas opciones, quizá lo más eficiente sigue siendo un odoo en la nube porque pemrite la autoamtización de la petición de la manufactura (ese mrp), pero claro, depende del precio al que esto se consiga.
+a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. Pero en realidad, más que imbatible, es que es más completa que la competencia a largo plazo: permite ofrecer un shopify a precio de etsy con katana. Nótese que se estudian dos opciones más, katana, una mrp, para visualizar y autoamtizar pedidos integraado con shopify que cuesta 100€/mes y Etsy un marketpalce. De forma que la conclusión cambia ligeramente: tanto amazon como shoppify/wix/odoo saas como doo community en la nube, son buenas opciones, quizá lo más eficiente sigue siendo un odoo en la nube porque pemrite la autoamtización de la petición de la manufactura (ese mrp, katana), pero claro, depende del precio al que esto se consiga. Lo suyo sería a precio de Etsy o a precio de amazon, es decir, un cierto porcentaje de la compra.
+
+AHora bien, con esta hipótesis en mente, de que tatno etsy como amazon como shoipify o wix son opcioens válidas pero que la jugada es que, sólo si se pagan 100€/mes es posible automatizar el stock del catálogo con la producción, es entonces cuando aparece el valor de un odoo en la nube: es al fin un katana con shopify.
+
+b. Entonces, ahora se comparar  qué estructura de coste aporta más valor. VAlor en qué sentido? Para qué cleinte?
+
+Se plantea ese primer usairo de breadfree o los cuadros de mi madre y luego en un futuro otras posible tiendas. De forma que se destaca que a largo plazo es buena idea optimizar costes, pero a corto lo que se desea es una solución con la performance de odoo saas pero grátis un cierto tiempo, el tiempo de prueba, teimpo en el que se puedan testear lso procesos de negocio.
+
+Ahora en vez hacer 1.b se realzia la tarea 2, me refiero cronológicamente
+
+- [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
+
+cuáles son los procesos de negocio?
+
+Las tareas o casos de uso que se comparan => estrategia de odoo en la nube para llevar inventarios, y luego posibildiad de conexión con etsy o amazon
+
 
 
 
