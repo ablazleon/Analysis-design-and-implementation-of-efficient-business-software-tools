@@ -46,11 +46,11 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
  
 | Procesos vs tool | 1 [Shopify](https://www.shopify.com/pricing) | [Wix](https://www.wix.com/upgrade/website) |  [Wordpress](https://wordpress.com/pricing/) | [Magento](https://magento.com/products/magento-commerce) | [Gumroad](https://gumroad.com/features/pricing) | [Sap](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)  | [Salesforce](https://www.g2.com/products/salesforce-crm/pricing) | [Odoo Saas](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly) | [Etsy](https://www.etsy.com/es/legal/fees/) 1 | 2 [Amazon](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [Glovo](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)  | Google sheet 2 | 3 [ConvertKit](https://convertkit.com/pricing) | [MailChimp](https://mailchimp.com/pricing/) | [Klaviyo](https://www.klaviyo.com/pricing) | [Hootsuite](https://www.hootsuite.com/plans) 3|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:  | :---: | :---: | :---: | :---: |
-| 1.1. | x| x |  x | x | x | x | x | x | x |  |   |  | x | x | | |
-| 1.2. | x| x |  x | x | x | x | x | x  |x| |   |  | x | x | | |
-| 2.1.||x||x||x|x|x|x|x|||||||
-| 2.2.||||x||x|x|x|x|x|||||||
-| 2.3.  ||||x||x|x|x|x|x|||||||
+| 1.1.  | x     | x     |  x    |     x |     x |     x | x     |     x | x     |       |       |        |     x |     x |       |       |
+| 1.2.  | x     | x     |  x    |     x |     x | x     | x     | x     |x      |       |       |        |     x |     x |       |       |
+| 2.1.  |       |      x|       |     x |       |      x|x      |      x|x      |      x|       |        |       |       |       |       |
+| 2.2.  |       |       |       |      x|       |      x|      x|      x|      x|      x|       |        |       |       |       |       |
+| 2.3.  |       |       |       |     x |       |      x|x|x|x|x|||||||
 |3.1. | |  |  | x | | ? | x | x |  || | |x | x | x | x|
 | 3.2.  | |  |  | x | | ? | x | x | | | | |x | x | x | x|
 |  Precio del servicio| 30€/mes | 17.5€/mes |  8€/mes | 2000€/mes | 10€/mes | 16.000€ | 25€/mes | 120€/mes | 0.2€/producto/mes .1 | 2. 0 hasta 40 artículos 40€/mes | 200€/mes  | 0€/mes .2|3. 30€/mes | 15€/mes | 30€/mes | 40€/mes .3|
