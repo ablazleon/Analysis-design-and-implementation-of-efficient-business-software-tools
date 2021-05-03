@@ -10,6 +10,10 @@ Automatizar tareas regala tiempo a las personas: facilitar el acceso a informaci
 ## 1.2. Procesos
 # 2. Estructura de coste y herramientas
 
+-----------
+
+# 1. Relación entre procesos y herramientas
+## 1.1. Herramientas
 
 1. Tienda online
 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago
@@ -44,6 +48,10 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
 https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
 
+## 1.2. Procesos
+
+A continuación se listan los procesos de negocio, para concluir cómo orquestrar cada tarea.
+
 1. Tienda online
 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago: 
 - [ ] se crea un sitio web de forma fácil
@@ -59,11 +67,18 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
 - [ ] o contactar si desea comprarlo y recogerlo
 2. Gestión de operaciones
 2.1. Integración pedido tienda/Visualización de stock
+- [ ] Cada pedido recoge una creación limitada
 2.2. Generación de alertas para comprar a proveedores
+- [ ] una petición de compra genera un mensaje al manufacturero
+- [ ] cuando el manufacturero termina el proceso de fabricación avisa para que se pueda recoger y enviar el pedido
 3. Automatización de marketing
 3.1. Generación y envío de correos, como newsletter
+- [ ] se permite suscrbir a una newsletter
 3.2. Integración con isntagram 
+- [ ] se puede automatizar las campañas de marketing en más de una plataforma
 
 
-Seguridad propia gestión de parches y cve
+# 2. Estructura de coste y herramientas
+
+
 
