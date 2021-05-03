@@ -348,6 +348,16 @@ Se plantea ese primer usairo de breadfree o los cuadros de mi madre y luego en u
 
 Ahora en vez hacer 1.b se realzia la tarea 2, me refiero cronológicamente
 
+Pero en resumen la idea es que si kitana cuesta 100€/mes
+
+se plantean soluiones escalables como 
+
+kubenretes => autopilot 13€/month
+cloud run + cloud sql
+alibaba: pay as you go
+
+de forma que se puede despelgar odoo community para ofercer shopify + katana por la mitad de dinero
+
 - [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
 
 cuáles son los procesos de negocio?
@@ -358,7 +368,7 @@ Se plantean unos ciertos casos de uso con historias de usuario específicas, que
 
 Para desplegar el odoo community, se plantea o usar un stack de bitnami que exige configurar ips o instalar cada elemento. Instalar cada elemento ayuda a tener concienia de cómo luego operacionalro en microservicios.
 
-
+Se crea una vm para luego pasar el despliegue y que sea fácil
 
 
 
