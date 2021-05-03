@@ -354,6 +354,12 @@ cuáles son los procesos de negocio?
 
 Las tareas o casos de uso que se comparan => estrategia de odoo en la nube para llevar inventarios, y luego posibildiad de conexión con etsy o amazon
 
+Se plantean unos ciertos casos de uso con historias de usuario específicas, que definene los procesos de negocio. Y a continaución se comparan si se puedne realizar con las sigueitnes herramientas: básciamente todas se prueban con un odoo en vbox, etsy y amazon permiten vender pero no automatizar lso pedidos con la manufactura.
+
+Para desplegar el odoo community, se plantea o usar un stack de bitnami que exige configurar ips o instalar cada elemento. Instalar cada elemento ayuda a tener concienia de cómo luego operacionalro en microservicios.
+
+
+
 
 
 
