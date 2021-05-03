@@ -325,9 +325,20 @@ Hola Santiago y Dani, ¿cómo va todo? Bueno pues en estos poco minutos quiero c
 
 Qué he hecho en este mes?
 
-Pues a parte de examenes jeje
+Pues a parte de examenes jeje he planteado las tres tareas que hablamos:
 
+- [ ] 1 Primero explroar la estructura de coste, a raiz de pensar a priori dónde es mejor despelgar
+- [ ] 2 prototipar la de odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
+- [ ] 3 describir conclusiones, sobre todo, cuál es el más idóneo llevar a producción
 
+- 1- EN cuanto a 1 Primero explroar la estructura de coste, a raiz de pensar a priori dónde es mejor despelgar. Otra vez pensé, y me di cuenta de que claro esta estructura de costes es una propuesta de valor del servicio, por eso es tan improtante
+
+Me dediqué a dos subtareas:
+
+a. recomparar las hipótesis referida a los procesos de negocio
+b. comparar  qué estructura de coste aporta más valor
+
+a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. No se estudian dos más katana, como una mrp, para visualizar y autoamtizar epdidos integraado con shopify que cuesta 100€/mes y Etsy una plataforma como Amazon
 
 
 
