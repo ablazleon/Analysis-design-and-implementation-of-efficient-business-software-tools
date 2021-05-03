@@ -370,6 +370,6 @@ Para desplegar el odoo community, se plantea o usar un stack de bitnami que exig
 
 Se crea una vm para luego pasar el despliegue y que sea fácil
 
-
+https://www.odoo.com/documentation/14.0/setup/install.html
 
 
