@@ -338,7 +338,7 @@ Me dediqué a dos subtareas:
 a. recomparar las hipótesis referida a los procesos de negocio
 b. comparar  qué estructura de coste aporta más valor
 
-a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. No se estudian dos más katana, como una mrp, para visualizar y autoamtizar epdidos integraado con shopify que cuesta 100€/mes y Etsy una plataforma como Amazon
+a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. Pero en realidad, más que imbatible, es que es más completa. Además, se estudian dos más, katana, una mrp, para visualizar y autoamtizar epdidos integraado con shopify que cuesta 100€/mes y Etsy una plataforma como Shopify. De forma que la conclusión cambia ligeramente: tanto amazon como shoppify/wix/odoo saas como doo community en la nube, son buenas opciones, quizá lo más eficiente sigue siendo un odoo en la nube porque pemrite la autoamtización de la petición de la manufactura (ese mrp), pero claro, depende del precio al que esto se consiga.
 
 
 
