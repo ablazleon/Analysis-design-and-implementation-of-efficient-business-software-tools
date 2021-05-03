@@ -46,7 +46,7 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
  
  Procesos vs tool 
 ||1 Shopify| Wix | Wordpress| Magento|Gumroad|Sap|Salesforce|Odoo Saas|Etsy 1|2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
-|:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:  | :---: | | :---: | :---: | :---: | :---: |
+|:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:  | :---: |  :---: | :---: | :---: | :---: |
 |1.1. | x     | x     |  x    |     x |     x |     x | x     |     x | x     |      x|       |        |       |    x |     x |       |       |
 |1.2. | x     | x     |  x    |     x |     x | x     | x     | x     |x      |      x|       |        |       |     x |     x |       |       |
 |2.1. |       |      x|       |     x |       |      x|x      |      x|x      |      x|       |        |       |       |       |       |       |
