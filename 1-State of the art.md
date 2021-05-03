@@ -58,5 +58,9 @@ https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQ
 
 Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir
 
+https://www.repricerexpress.com/amazon-fba-vs-shopify/
+https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/
+https://www.etsy.com/es/legal/fees/
+
 Seguridad propia gestión de parches y cve
 
