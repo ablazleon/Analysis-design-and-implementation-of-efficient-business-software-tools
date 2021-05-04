@@ -393,7 +393,7 @@ sudo apt-get upgrade
 
 sudo apt-get install openssh-server fail2ban -y
 
-sudo adduser --system --home=/opt/odoo --group odoo
+sudo adduser --system --home=/opt/odoo --group odooUser
 
 sudo apt-get install -y python3-pip
 
@@ -419,7 +419,7 @@ exit
 
 sudo apt-get install git -y
 
-sudo su - odoo -s /bin/bash
+sudo su - odooUser -s /bin/bash
 
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 14.0 --single-branch .
 
@@ -430,6 +430,23 @@ sudo pip3 install -r /opt/odoo/requirements.txt
 sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt install -f
+
+sudo cp /opt/odoo/debian/odoo.conf /etc/odoo.conf
+sudo nano /etc/odoo.conf
+
+sudo chown odoo: /etc/odoo.conf
+sudo chmod 640 /etc/odoo.conf
+
+sudo mkdir /var/log/odoo
+sudo chown odoo:root /var/log/odoo
+
+sudo nano /etc/systemd/system/odoo.service
+
+sudo chmod 755 /etc/systemd/system/odoo.service
+sudo chown root: /etc/systemd/system/odoo.service
+
+sudo systemctl start odoo.service
+sudo systemctl status odoo.service
 
 ---------------
 
