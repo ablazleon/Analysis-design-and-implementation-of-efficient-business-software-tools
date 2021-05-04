@@ -412,8 +412,6 @@ createuser --createdb --username postgres --no-createrole --no-superuser --pwpro
 psql
 ALTER USER odoo14 WITH SUPERUSER;
 
--------------
-
 \q
 exit
 
@@ -430,6 +428,8 @@ sudo pip3 install -r /opt/odoo/requirements.txt
 sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt install -f
+
+-----------------
 
 sudo cp /opt/odoo/debian/odoo.conf /etc/odoo.conf
 sudo nano /etc/odoo.conf
