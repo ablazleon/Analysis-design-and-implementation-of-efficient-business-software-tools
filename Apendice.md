@@ -11,11 +11,11 @@ https://www.cybrosys.com/blog/how-to-install-odoo-14-on-ubuntu-20-04-lts
 ```
 sudo apt-get update
 
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 sudo apt-get install openssh-server fail2ban -y
 
-sudo adduser --system --home=/opt/odoo --group odooUser
+sudo adduser --system --home=/opt/odoo --group odoo
 
 sudo apt-get install -y python3-pip
 
@@ -26,7 +26,7 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo npm install -g less less-plugin-clean-css
 sudo apt-get install -y node-less
 
-sudo apt-get install postgresql
+sudo apt-get install postgresql -y
 
 sudo su - postgres
 createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt odoo14
