@@ -11,7 +11,7 @@ Ciertas aplicaiones digitales no son accesibles para los negocios hasta que no p
 
 Misión de kontá: ofrecer estos procesos a un precio asequible para que los emprendedores se puedan concentrar en aportar valor y no en realizar tareas monótonas.
 
-Se plantea esta idea como una startup
+Se plantea esta idea como una startup y se describe su estado al año de empezar en una situación de equilibrio, consolidada ya como empresa: dos empleados que optimizan la plataforma y realizan labores de consultoría. 
 
 ------------
 
