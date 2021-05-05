@@ -39,7 +39,7 @@ exit
 
 sudo apt-get install git -y
 
-sudo su - odooUser -s /bin/bash
+sudo su - odoo -s /bin/bash
 
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 14.0 --single-branch .
 
