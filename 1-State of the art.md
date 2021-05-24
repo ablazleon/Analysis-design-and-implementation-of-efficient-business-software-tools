@@ -90,5 +90,16 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 
 # 2. Estructura de coste y herramientas
 
+Una empresa es 6 meses grátis para ver cómo va la jugada
+
+AWS 30 créditos
+
+amazon 60
+
+azure 300, 30 días
+
+Alicloud
+
+Despelgarlo en azure y copiar el script
 
 
