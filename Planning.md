@@ -367,6 +367,17 @@ vmaas, k8saas, caas, faas
 
 => 40€/mes
 
+7 al 15 de jun =>
+prototipar odoo
+preguntar cual de los 4 propeustas es mejor/más barata
+
+tengo: tantos créidtos grátis: 5 casos de prueba de dónde mejor
+
+kubenretes => autopilot 13€/month y azure, se puedne apagar si no se usan
+cloud run + cloud sql => 10 a 20
+alibaba: pay as you go
+fargate and aurora, fargate necesita lb?
+
 
 - [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
 
