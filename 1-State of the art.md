@@ -111,3 +111,21 @@ facildiad y coste
 
 Como combinacion de las dos al rpecio de shopify
 
+entre 30-50$ mes
+
+20$/mes
+
+vm, Kaas, Caas, FaaS
+
+0-3
+
+Scalability
+Cost
+Comment
+
+| type/prop   | Scalability | Cost          | Comment      |
+| :---:       |    :----:   |         :---: |              |
+| Vm          | Not scalable| Depends       |              |
+| Paragraph   | Text        | And more      |              |
+| Paragraph   | Text        | And more      |              |
+| Paragraph   | Text        | And more      |              |
