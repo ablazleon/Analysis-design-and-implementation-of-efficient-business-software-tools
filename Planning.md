@@ -371,6 +371,16 @@ vmaas, k8saas, caas, faas
 prototipar odoo
 preguntar cual de los 4 propeustas es mejor/más barata
 
+5 créditos
+
+Azure => 100$/12 months
+AWS => 50$ 4/30/2022
+Google=> 40$ 15 Oct 21, 50$ 1 Oct 21
+Alibaba =>?
+
+https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN
+
+
 tengo: tantos créidtos grátis: 5 casos de prueba de dónde mejor
 
 kubenretes => autopilot 13€/month y azure, se puedne apagar si no se usan
@@ -390,6 +400,48 @@ Se plantean unos ciertos casos de uso con historias de usuario específicas, que
 Para desplegar el odoo community, se plantea o usar un stack de bitnami que exige configurar ips o instalar cada elemento. Instalar cada elemento ayuda a tener concienia de cómo luego operacionalro en microservicios.
 
 Se crea una vm para luego pasar el despliegue y que sea fácil
+
+https://www.cybrosys.com/blog/how-to-install-odoo-14-on-ubuntu-20-04-lts
+
+```
+sudo systemctl status odoo.service
+sudo systemctl start odoo.service
+```
+
+Creo un ejeemplo con ALuche como base de datos y example
+
+Para comprobar los procesos de negocio:
+
+1- Tienda online 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago 1.2. Seguimiento de paquetes
+
+2- Gestión de operaciones 2.1. Integración pedido tienda/Visualización de stock 2.2. Generación de alertas para comprar a proveedores
+
+3- Automatización de marketing 3.1. Generación y envío de correos, como newsletter 3.2. Integración con isntagram
+
+sales, invoicing, inventory, email marketing, dalre a isntall
+
+=> hacer un test para que puedan probar
+
+------------
+
+Caso 1: digital business for an artist
+
+1- Tienda online 
+
+1.1. Constructor de sitios web (CMS) 
+catálogo 
+paltaforma de pago 
+ 1.2. Seguimiento de paquetes
+
+
+
+
+
+Extra cómo hacer backups
+
+
+-------------
+
 
 Junio
 1
