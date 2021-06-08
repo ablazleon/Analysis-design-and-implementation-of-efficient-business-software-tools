@@ -96,8 +96,8 @@ Se han proppuesto procesos, herrmaientas, ahroa se comapran disitnos despliegues
 Una empresa es 6 meses grátis para ver cómo va la jugada
 
 Azure => 100$/12 months
-AWS => 50$ 4/30/2022
-Google=> 40$ 15 Oct 21, 50$ 1 Oct 21
+AWS => 50$ 4/30/2022 => 5 meses
+Google=> 40$ 15 Oct 21, 50$ 1 Oct 21 => 5 meses
 Alibaba =>?
 
 https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN
@@ -126,6 +126,47 @@ Comment
 | type/prop   | Scalability | Cost          | Comment      |
 | :---:       |    :----:   |         :---: |      :---:   |
 | Vm          | Not scalable| Depends       |              |
-| Paragraph   | Text        | And more      |              |
-| Paragraph   | Text        | And more      |              |
-| Paragraph   | Text        | And more      |              |
+| KaaS        | Y        | ?      | hay que estudar qué opción pemirte que se apague durante la noche, más coste de operación             |
+| CaaS        | Y        |   ?            |   depende de qué opción, cloud run, fargate o eci están bien, el problema está con la bbdd           |
+| FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
+
+
+- kubenretes => autopilot 13€/month, o azure, 
++ puedes apagarlo cuando queires
++ a largo plazo es la mejor, me da expertise
+
+- cloud run + cloud sql => ineficiente a largo plazo
+- alibaba: pay as you go
+con bbdd pero no tengo, créditos
+fargate and aurora
+https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/
+
+=> preguntar más barato para pruebas
+
+- clúster de k8s: verioens de la bbdd
+- alicloud: cuánto costaría
+- fargate con aurorsaervelress
+
+- cloud run + cloud sql => ineficiente a largo plazo, o apañar con g functions
+
+ttps://medium.com/cognitoiq/how-cognitoiq-are-using-application-load-balancers-to-cut-elastic-load-balancing-cost-by-90-78d4e980624b
+
+kubenretes => autopilot 13€/month y azure, se puedne apagar si no se usan
+cloud run + cloud sql => 10 a 20
+alibaba: pay as you go ? cua´tno cuesta
+fargate and aurora, fargate necesita lb?
+
+qué es más abrato? un clúster a pelo o un clúster?
+
+los uso los dos y comparao
+
+de 6 a cuátno?
+
+fargate + aurora servelress
+gcp autopilot => me va a dar problemas con los logs de kibana
+
+cómo desplegar un fargate?
+
+
+
+
