@@ -90,16 +90,24 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 
 # 2. Estructura de coste y herramientas
 
+
+Se han proppuesto procesos, herrmaientas, ahroa se comapran disitnos despliegues:
+
 Una empresa es 6 meses grátis para ver cómo va la jugada
 
-AWS 30 créditos
+Azure => 100$/12 months
+AWS => 50$ 4/30/2022
+Google=> 40$ 15 Oct 21, 50$ 1 Oct 21
+Alibaba =>?
 
-amazon 60
+https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN
 
-azure 300, 30 días
+Despleigeus
 
-Alicloud
+On premise IaaS PaaS SaaS
 
-Despelgarlo en azure y copiar el script
+=> SaaS
+facildiad y coste
 
+Como combinacion de las dos al rpecio de shopify
 
