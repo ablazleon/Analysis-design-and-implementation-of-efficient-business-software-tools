@@ -124,7 +124,7 @@ Cost
 Comment
 
 | type/prop   | Scalability | Cost          | Comment      |
-| :---:       |    :----:   |         :---: |              |
+| :---:       |    :----:   |         :---: |      :---:   |
 | Vm          | Not scalable| Depends       |              |
 | Paragraph   | Text        | And more      |              |
 | Paragraph   | Text        | And more      |              |
