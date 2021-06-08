@@ -167,6 +167,18 @@ gcp autopilot => me va a dar problemas con los logs de kibana
 
 cómo desplegar un fargate?
 
+# Deploy in fargate
 
+1. Deploy this test
+2. Deploy a rpoduction
+3. Put anotehr bank  and get there the money
+
+put the serivce there
+
+WHich coitnainers
+
+RUn a farget free wihtout nothing
+
+https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338
 
 
