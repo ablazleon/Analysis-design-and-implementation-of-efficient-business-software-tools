@@ -373,15 +373,7 @@ preguntar cual de los 4 propeustas es mejor/más barata
 
 5 créditos
 
-Azure => 100$/12 months
-AWS => 50$ 4/30/2022
-Google=> 40$ 15 Oct 21, 50$ 1 Oct 21
-Alibaba =>?
 
-https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN
-
-
-tengo: tantos créidtos grátis: 5 casos de prueba de dónde mejor
 
 kubenretes => autopilot 13€/month y azure, se puedne apagar si no se usan
 cloud run + cloud sql => 10 a 20
