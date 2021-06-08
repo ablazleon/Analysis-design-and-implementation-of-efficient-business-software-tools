@@ -391,17 +391,28 @@ Para desplegar el odoo community, se plantea o usar un stack de bitnami que exig
 
 Se crea una vm para luego pasar el despliegue y que sea fácil
 
-Jun
+Junio
 1
 2 check odoo and compare clouds
-3 deploy and newsletter and eshop
-4 writing plans
-5
+3 deploy and newsletter and eshop, writing plans => newsletter works and breafdree works
+4 make a service that creates shops, so they can pay me
+5 
+
+Ok, i need practicasi can get curriculares
+Aselcis he hecho esto qué os parece => código lbire
+Ciberseguirdaid despeligue en la nube
+
+
 Julio
-2
-3
+2 make a risk analysis of kontá and mum
+3 write tfm
+
+20 de julio coger aisgnaturas
+
 4
 5
+I pick teh subject
+
 
 
 
