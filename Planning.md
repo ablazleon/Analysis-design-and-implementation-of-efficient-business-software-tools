@@ -352,33 +352,11 @@ Pero en resumen la idea es que si kitana cuesta 100€/mes
 
 se plantean soluiones escalables como 
 
-kubenretes => autopilot 13€/month
-cloud run + cloud sql
-alibaba: pay as you go
-fargate and aurora
-https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/
+
 
 de forma que se puede despelgar odoo community para ofercer shopify + katana por la mitad de dinero
 
-cloud vs on premise => cloud
-saas, paas, iaas => ofrcer un saas
 
-vmaas, k8saas, caas, faas
-
-=> 40€/mes
-
-7 al 15 de jun =>
-prototipar odoo
-preguntar cual de los 4 propeustas es mejor/más barata
-
-5 créditos
-
-
-
-kubenretes => autopilot 13€/month y azure, se puedne apagar si no se usan
-cloud run + cloud sql => 10 a 20
-alibaba: pay as you go
-fargate and aurora, fargate necesita lb?
 
 
 - [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
