@@ -181,4 +181,16 @@ RUn a farget free wihtout nothing
 
 https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338
 
+First step is to deploy some simple dcoker
+
+then do this
+
+the autoamte this in teh future
+
+Terraform?
+
+
+https://it-projects-llc.github.io/odoo-saas-tools/getting-started/
+
+
 
