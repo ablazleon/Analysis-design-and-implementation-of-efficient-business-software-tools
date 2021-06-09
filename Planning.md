@@ -352,12 +352,7 @@ Pero en resumen la idea es que si kitana cuesta 100€/mes
 
 se plantean soluiones escalables como 
 
-
-
 de forma que se puede despelgar odoo community para ofercer shopify + katana por la mitad de dinero
-
-
-
 
 - [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
 
@@ -391,6 +386,33 @@ Para comprobar los procesos de negocio:
 sales, invoicing, inventory, email marketing, dalre a isntall
 
 => hacer un test para que puedan probar
+
+Y enseñar las capturas
+
+- [ ] 3 describir conclusiones, sobre todo, cuál es el más idóneo llevar a producción
+
+Esto se ha materailzado en eneseñar  leer la parte de state fot he art con cada apratado leer entera
+
+Camibar el idnice en general, escirbir la parte de faragtet
+
+Despelgar fargate en pruebas: beta
+
+Despelgar un docekr de ejemplo en fargate
+Despelgar aurora
+Despelgar faraget odoo + aurora
+
+
+Hacer un análsis de riegso con toda la docu
+
+QUé tengo pensado ahcer
+
+Tener a producción el servicio de digital bsuiness para el 8 de julio, breadfree con la nwesletter
+
+Hacer un analsis de riuegso para mejorar esa versión beta en producción
+Cömoa hcer apra que cualquiera me pueda decir algo: imaginita que sea llamadme
+
+
+
 
 ------------
 
