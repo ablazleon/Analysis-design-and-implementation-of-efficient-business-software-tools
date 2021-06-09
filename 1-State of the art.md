@@ -8,7 +8,7 @@
 Solúción para sistemas de información:
 
 Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas, en particular, para aquellas pequeñas (por planes estatales de inversión como AceleraPyme). A continuación, se analiza en base a datos la fase "what is?" del ciclo de "Design Thinking": se investigan las necesidades del usuario. Para ello se realizan tres discusiones. 
-1- Primero se discute, presentando en una gráfica, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
+1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
 2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
 --------------
@@ -22,15 +22,19 @@ Se plantea esta idea como una startup y se describe su estado al año de empezar
 
 
 # 1. Relación entre procesos y herramientas
-- ¿Qué procesor de negocio necesita tener autoamtizados la empresa y qué herramientas existen en el mercado que las realicen (sobre todo SaaS) ? 
 ## 1.1. Herramientas. 
 ## 1.2. Procesos
 # 2. Estructura de coste y herramientas
-Si se plantea el despliegue de una solución opensource, ¿cuál es la relación entre la forma de despliegue (herramienta) y la estrucutra de coste?
+## 2.1. Estructura de coste y créditos de proveedores de nube
+## 2.2. Estructura de coste y tipo de despliegue
+
 -----------
 
 # 1. Relación entre procesos y herramientas
 ## 1.1. Herramientas
+
+Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
+
 
 1. Tienda online
 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago
@@ -97,21 +101,28 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 
 # 2. Estructura de coste y herramientas
 
+A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
-Se han proppuesto procesos, herrmaientas, ahroa se comapran disitnos despliegues:
+Se realizan dos reflexiones:
 
-Una empresa es 6 meses grátis para ver cómo va la jugada
+## 2.1. Estructura de coste y créditos de proveedores de nube
+
+Una interesante reflexión es presentar los créditos que por alumno puedo conseguir a junio de 2021, pues en parte a esto dependerá la elección del servicio de despliegue. Tras este estudio los proveedores en la nube
 
 Azure => 100$/12 months
-AWS => 50$ 4/30/2022 => 5 meses
+AWS => creédtios de alumno upm 50$ 4/30/2022 => 5 meses
 Google=> 40$ 15 Oct 21, 50$ 1 Oct 21 => 5 meses
 Alibaba =>?
 
 https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN
 
-Despleigeus
+## 2.2. Estructura de coste y tipo de despliegue
 
-On premise IaaS PaaS SaaS
+En esta sección se discute que existen distintos tipos de despliegue de las herrmaientas que habilitan los procesos de negocio. Y para cada tipo de despliegue teórico, distintos servicios de distintos proveedores en la nube que lo proveen.
+
+Generlmente se realiza la clasificación entre tipos de despliegue: On premise IaaS PaaS SaaS
+
+De la reflexión realizada en la sección 1. 
 
 => SaaS
 facildiad y coste
@@ -122,7 +133,7 @@ entre 30-50$ mes
 
 20$/mes
 
-vm, Kaas, Caas, FaaS
+vm, Kaas, Caas, FaaS, PaaS
 
 0-3
 
