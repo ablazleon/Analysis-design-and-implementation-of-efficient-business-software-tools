@@ -1,19 +1,6 @@
-------------
-ïndice
+Índice
 
-# 1. Estudio del estado del arte (what is?)
-## 1. Relación entre procesos de negocio y herramientas habilitadoras
-## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
-# 2. Análisis y diseño
-## a. Identificación del caso de estudio (what if?/what wows?))
-- Los siguientes casos de estudio definen el negocio
-### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
-## b. Identificación de soluciones (what works?)
-### Puesta a producción del servicio 
-- Fase 1: saleor + gcp(cloud run + cloud sql)
-- Fase 2: odoo ce + aws (fargate + auroraserverless)
-### Mejora continua: análisis de riesgos
-## 3. Discusión sobre la implementación (what works?)
+
 
 ------------
 
