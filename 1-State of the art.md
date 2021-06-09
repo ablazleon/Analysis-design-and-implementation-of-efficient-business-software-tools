@@ -1,7 +1,26 @@
+------------
+ïndice
+
+# 1. Estudio del estado del arte (what is?)
+## 1. Relación entre procesos de negocio y herramientas habilitadoras
+## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
+# 2. Análisis y diseño
+## a. Identificación del caso de estudio (what if?/what wows?))
+- Los siguientes casos de estudio definen el negocio
+### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
+## b. Identificación de soluciones (what works?)
+### Puesta a producción del servicio 
+- Fase 1: saleor + gcp(cloud run + cloud sql)
+- Fase 2: odoo ce + aws (fargate + auroraserverless)
+### Mejora continua: análisis de riesgos
+## 3. Discusión sobre la implementación (what works?)
+
+------------
+
 
 Solúción para sistemas de información:
 
-Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas, en particular, para aquellas pequeñas (por planes estateales de inversión como AceleraPyme). A continuación, se analiza en base a datos la fase "what is?" del ciclo de "Design Thinking": se investigan las necesidades del usuario. Para ello se realizan tres discusiones. 
+Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas, en particular, para aquellas pequeñas (por planes estatales de inversión como AceleraPyme). A continuación, se analiza en base a datos la fase "what is?" del ciclo de "Design Thinking": se investigan las necesidades del usuario. Para ello se realizan tres discusiones. 
 1- Primero se discute, presentando en una gráfica, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
 2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
@@ -13,13 +32,14 @@ Misión de kontá: ofrecer estos procesos a un precio asequible para que los emp
 
 Se plantea esta idea como una startup y se describe su estado al año de empezar en una situación de equilibrio, consolidada ya como empresa: dos empleados que optimizan la plataforma y realizan labores de consultoría. 
 
-------------
+
 
 # 1. Relación entre procesos y herramientas
-## 1.1. Herramientas
+- ¿Qué procesor de negocio necesita tener autoamtizados la empresa y qué herramientas existen en el mercado que las realicen (sobre todo SaaS) ? 
+## 1.1. Herramientas. 
 ## 1.2. Procesos
 # 2. Estructura de coste y herramientas
-
+Si se plantea el despliegue de una solución opensource, ¿cuál es la relación entre la forma de despliegue (herramienta) y la estrucutra de coste?
 -----------
 
 # 1. Relación entre procesos y herramientas
@@ -129,7 +149,7 @@ Comment
 | KaaS        | Y        | ?      | hay que estudar qué opción pemirte que se apague durante la noche, más coste de operación             |
 | CaaS        | Y        |   ?            |   depende de qué opción, cloud run, fargate o eci están bien, el problema está con la bbdd           |
 | FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
-
+| PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
 
 - kubenretes => autopilot 13€/month, o azure, 
 + puedes apagarlo cuando queires
