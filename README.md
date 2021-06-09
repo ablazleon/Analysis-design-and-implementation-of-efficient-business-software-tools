@@ -19,7 +19,7 @@ Análisis, diseño e implementación de un servicio de comercio electrónico en 
 5. Implementarlo y probarla
 
 # 1- Anteproyecto
-# 2- Memoria (índice)
+# 2- Índice
 
 -----------
 
@@ -61,41 +61,39 @@ En este estudio se propone:
 
 - Sprint 3: odoo
 
-# 2- Memoria
+--------------
 
-## Index
+# 2- ïndice
 
-## Intro and objectives => requirments detected
+# Introducción
+# 1. Estudio del estado del arte (what is?)
+## 1. Relación entre procesos de negocio y herramientas habilitadoras
+## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
+# 2. Análisis y diseño
+## a. Identificación del caso de estudio (what if?/what wows?))
+- Los siguientes casos de estudio definen el negocio
+### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
+## b. Identificación de soluciones (what works?)
+### Puesta a producción del servicio 
+- Fase 1: saleor + gcp(cloud run + cloud sql)
+- Fase 2: odoo ce + aws (fargate + auroraserverless)
+### Mejora continua: análisis de riesgos
+## 3. Discusión sobre la implementación (what works?). Conclusión
+# Líneas futuras
+# Anexo
+## Organización del tiempo
+## Retos a los que me enfrenté
 
-## Enabling technologies
-
-## Analysis
-
-## Design and implementation
-
-## Conclusion
-
-## Future lines
-
-## Annex
-
-### Time management
-
-### Challenges that I faced
+---------------
 
 # Draft
 
-## Intro and objectives => requirments detected
-
-## Enabling technologies
-
-## Analysis
+## Organización y planificación previstas
 
 1. Catálogo de productos para empresas barato (+ posibilidad de venta online)
 2. Registar productos para analizar daots sobre el uso del almacen
 3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2 para que sean grátis en vez de pagar a una pasarela
 
-## Design and implementation
 
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
 Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
@@ -116,16 +114,7 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 - manage invetory
 - other features rpa
 
-
-## Conclusion
-
-## Future lines
-
-## Annex
-
-### Time management
-
-### Challenges that I faced
+## Retos a los que me enfrenté
 
 1- How to publish the summaries that I am creating how to make them accesible
 
