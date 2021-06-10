@@ -5,7 +5,7 @@
 Índice:
 
 # Introducción
-# 1. Estudio del estado del arte (what is?)
+# 1. [Estudio del estado del arte (what is?)](https://github.com/ablazleon/Analysis-design-and-implementation-of-efficient-business-software-tools/blob/main/1-State%20of%20the%20art.md)
 ## 1. Relación entre procesos de negocio (3 casos de uso identificados) y herramientas habilitadoras
 ## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
 # 2. Análisis y diseño (identificar y probar soluciones, diseñenado una apta y más barata)
@@ -22,7 +22,7 @@
 # Líneas futuras
 # Anexo
 ## Organización del tiempo
-## Retos a los que me enfrenté
+## [Retos a los que me enfrenté](https://github.com/ablazleon/Analysis-design-and-implementation-of-efficient-business-software-tools/blob/main/RetosALosQueMeEnfrente.md)
 
 # 1- Anteproyecto
 
