@@ -160,3 +160,6 @@ https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployme
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
 
 - hacerlo en googel cloud en julio por si acaso
+
+-azure, https://docs.microsoft.com/en-us/azure/postgresql/concepts-performance-recommendations, https://channel9.msdn.com/Shows/Azure-Friday/Introducing-Flexible-Server-in-Azure-Database-for-PostgreSQL-and-MySQL
+
