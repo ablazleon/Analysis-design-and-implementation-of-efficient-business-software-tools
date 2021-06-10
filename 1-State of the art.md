@@ -114,8 +114,7 @@ Primero se evaláun lso depsliegues teóricos. Generalmente se realiza la clasif
 | FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
 
-
-
+Finalmente, se comparan distintos stacks de soluciones, sobre los criterios Cost, compatbilidad y comentario
 
 - kubenretes => autopilot 13€/month, o azure, 
 + puedes apagarlo cuando queires
