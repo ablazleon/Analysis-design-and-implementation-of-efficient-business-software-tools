@@ -119,10 +119,10 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 - Kaas: GKE el servicio de google parece el mejor servicio de cloud. https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
 - CaaS: como Azure no posee servelress db de postgress, cloud sql no se puede apgar por las noches, aws parece la solución.
 
-- references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfc
+- references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfchgh price of autopilot: not it is included in the fee. fargate, is cool but maybe is beter to follow the gke autoplit as an standard
 
-- hgh price of autopilot: not it is included in the fee. fargate, is cool but maybe is beter to follow the gke autoplit as an standard
-
+- fargate: not having to manage the databases: they are connected to aurao sv and they can be turned off when i want
+- gcp: gke autopilot
 
 
 
