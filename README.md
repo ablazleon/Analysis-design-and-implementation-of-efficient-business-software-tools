@@ -2,7 +2,7 @@
 
 - En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
-# 2- ïndice
+Índice:
 
 # Introducción
 # 1. Estudio del estado del arte (what is?)
@@ -71,7 +71,6 @@ En este estudio se propone:
 1. Catálogo de productos para empresas barato (+ posibilidad de venta online)
 2. Registar productos para analizar daots sobre el uso del almacen
 3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2 para que sean grátis en vez de pagar a una pasarela
-
 
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
 Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
