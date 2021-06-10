@@ -36,10 +36,11 @@ Despelgar fargate en pruebas: beta
 
 - 1. Despelgar un docekr de ejemplo en fargate
 
-https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338
+https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338, https://pereliksoft.com/index.php/2020/11/19/aws-fargate-vs-google-cloud-run/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/
 
+Better to manage cloud run
 
-
+o create eksctl vs autopilot for database
 
 odoo saas, ask them how to do this
 
