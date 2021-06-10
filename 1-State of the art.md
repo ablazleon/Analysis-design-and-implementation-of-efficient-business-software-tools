@@ -103,7 +103,7 @@ https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966
 
 En esta sección se discute que existen distintos tipos de despliegue de las herrmaientas que habilitan los procesos de negocio. Y para cada tipo de despliegue teórico, distintos servicios de distintos proveedores en la nube que lo proveen.
 
-Primero se evaláun lso depsliegues teóricos. Generalmente se realiza la clasificación entre tipos de despliegue: On premise IaaS PaaS SaaS. De la reflexión realizada en la sección 1, se concluye que el coste puede ser de 20€/month/client, la solución on premise sale deamsiado cara, así como las SaaS discutidas en secciones anteriores. Se plantean a contianución comaprar las solcuiones que se englobarían en el rango IaaS/PaaS, en Iaas, incluyendo Vm, Kuberntes as a service (KaaS), Contianer as a service, Fucntion as a service y PaaS. Báscimente la conclusión de la siguiente comaprativa, es que son las soluciones Kubernetes as a Service o CaaS, las que ofrecen escalabilidad a un coste razonable.
+Primero se evalúan los despliegues teóricos. Generalmente, se realiza la clasificación entre tipos de despliegue: On premise IaaS PaaS SaaS. De la reflexión realizada en la sección 1, se concluye que el coste puede ser de 20€/month/client, la solución on premise sale deamsiado cara, así como las SaaS discutidas en secciones anteriores. Se plantean a continuación comaprar las soluciones que se englobarían en el rango IaaS/PaaS, en Iaas, incluyendo Vm, Kuberntes as a service (KaaS), Contianer as a service, Fucntion as a service y PaaS. Báscamente la conclusión de la siguiente comaprativa, es que son las soluciones Kubernetes as a Service o CaaS, las que ofrecen escalabilidad a un coste razonable. Sin embargo, las soluciones de kubernetes exige una operación complicada a priori de los servicios. GKE el servicio de google, parece el mejor servicio de cloud de KaaS, con autopilot se pueden gestionar los recursos pero exige gestionar dbs.
 
 
 | type/prop   | Scalability | Cost          | Comment      |
@@ -114,9 +114,10 @@ Primero se evaláun lso depsliegues teóricos. Generalmente se realiza la clasif
 | FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
 
-Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Kaas y Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). KaaS frente a CaaS. Entre ambas soluciones no se es capaz de decir cuál es mejor a priori
+https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
 
-- Kaas: GKE el servicio de google parece el mejor servicio de cloud. https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
+Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). 
+
 - CaaS: como Azure no posee servelress db de postgress, cloud sql no se puede apgar por las noches, aws parece la solución.
 
 - references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfchgh price of autopilot: not it is included in the fee. fargate, is cool but maybe is beter to follow the gke autoplit as an standard
@@ -124,6 +125,29 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 - fargate: not having to manage the databases: they are connected to aurao sv and they can be turned off when i want
 - gcp: gke autopilot, i elarn to deploy a db, anad turned it off when it is needed. Maybe this is provided out of the box. 17€/m vs 10
 
+https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3, https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3
 
+- is aurora serverless really useful?
 
+https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057
+
+- deploy cloud run: obtain these 10€, iamges took so long to get there
+
+- ALB: https://cloudsoft.io/blog/aws-alb-cost-estimation
+
+- cloud run vs lambda: https://iamondemand.com/blog/google-cloud-run-vs-aws-lambda-performance-benchmarks-part-2/
+
+- cloud run vs fargate: https://keepler.io/en/2019/10/serverless-services-for-containers-aws-vs-google-cloud/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/#:~:text=AWS%20Fargate%2FEKS%20is%20comparable,can%20accept%20a%20pod%20definition.
+
+- cloud run: https://github.com/ahmetb/cloud-run-faq#does-cloud-run-have-cold-starts
+
+- aws fargate: https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057
+
+- aws azure posgres ql: https://www.reddit.com/r/AZURE/comments/kz93ot/any_real_world_cost_comparison_between_azure_sql/, https://azure.microsoft.com/en-us/pricing/details/postgresql/hyperscale-citus/
+
+- hyperscale es bastante caro
+
+- https://aws.amazon.com/activate/
+
+- https://www.trek10.com/blog/fargate-pricing-vs-ec2#:~:text=As%20you%20can%20see%2C%20around,to%20cost%20about%2035%25%20more.
 
