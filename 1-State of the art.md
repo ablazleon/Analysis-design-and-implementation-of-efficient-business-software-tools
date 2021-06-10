@@ -1,7 +1,7 @@
 
 Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas, en particular, para aquellas pequeñas (por planes estatales de inversión como AceleraPyme). A continuación, se analiza en base a datos la fase "what is?" del ciclo de "Design Thinking": se investigan las necesidades del usuario. Para ello se realizan tres discusiones. 
-1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
-2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
+- 1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
+- 2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
 
 # 1. Relación entre procesos y herramientas
@@ -114,43 +114,13 @@ Primero se evaláun lso depsliegues teóricos. Generalmente se realiza la clasif
 | FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
 
-Finalmente, se comparan distintos stacks de soluciones, sobre los criterios Cost, compatbilidad y comentario
+Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Kaas y Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). KaaS frente a CaaS. Entre ambas soluciones no se es capaz de decir cuál es mejor a priori
 
-- kubenretes => autopilot 13€/month, o azure, 
-+ puedes apagarlo cuando queires
-+ a largo plazo es la mejor, me da expertise
+- Kaas: GKE el servicio de google parece el mejor servicio de cloud. https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
+- CaaS: como Azure no posee servelress db de postgress, cloud sql no se puede apgar por las noches, aws parece la solución.
 
-- cloud run + cloud sql => ineficiente a largo plazo
-- alibaba: pay as you go
-con bbdd pero no tengo, créditos
-fargate and aurora
 https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/
 
-=> preguntar más barato para pruebas
-
-- clúster de k8s: verioens de la bbdd
-- alicloud: cuánto costaría
-- fargate con aurorsaervelress
-
-- cloud run + cloud sql => ineficiente a largo plazo, o apañar con g functions
-
-ttps://medium.com/cognitoiq/how-cognitoiq-are-using-application-load-balancers-to-cut-elastic-load-balancing-cost-by-90-78d4e980624b
-
-kubenretes => autopilot 13€/month y azure, se puedne apagar si no se usan
-cloud run + cloud sql => 10 a 20
-alibaba: pay as you go ? cua´tno cuesta
-fargate and aurora, fargate necesita lb?
-
-qué es más abrato? un clúster a pelo o un clúster?
-
-los uso los dos y comparao
-
-de 6 a cuátno?
-
-fargate + aurora servelress
-gcp autopilot => me va a dar problemas con los logs de kibana
-
-cómo desplegar un fargate?
 
 
 
