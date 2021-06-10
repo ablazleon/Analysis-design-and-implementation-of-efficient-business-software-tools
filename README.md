@@ -1,6 +1,4 @@
-# Analysis-design-and-implementation-of-efficient-business-software-tools
-
-Análisis, diseño e implementación de un servicio de comercio electrónico en la nube/
+# Análisis, diseño e implementación de un servicio de comercio electrónico en la nube
 
 - En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
