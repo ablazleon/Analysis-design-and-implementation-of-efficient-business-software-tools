@@ -27,7 +27,18 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 - Intento 2: odoo ce + aws (fargate + auroraserverless)
 
+Despelgar fargate en pruebas: beta
 
+- 1. Despelgar un docekr de ejemplo en fargate
+- 2. Despelgar aurora
+- 3. Despelgar faraget odoo + aurora
+- 4. Terraform module for more than one
+
+- 1. Despelgar un docekr de ejemplo en fargate
+
+https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338
+
+odoo saas
 
 
 ### Mejora continua: análisis de riesgos
