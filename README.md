@@ -1,6 +1,6 @@
 # Análisis, diseño e implementación de un servicio de comercio electrónico en la nube
 
-- En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
+- En este documento describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
 Índice:
 
@@ -14,6 +14,7 @@
 ### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
+- Fase 0: FaaS shop
 - Fase 1: saleor + gcp(cloud run + cloud sql)
 - Fase 2: odoo ce + aws (fargate + auroraserverless)
 ### Mejora continua: análisis de riesgos
@@ -74,11 +75,7 @@ En este estudio se propone:
 
 - Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week)
 Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend + cloud + db):
-
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
-
-Using Saleor + Cloud: www.breadfree.es
-
 - spending of 10€ per month becasue of the db => turn into less (I am with the free plan)
 
 - much time perosnalizing saleor => maybe odoo website creator
