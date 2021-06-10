@@ -1,27 +1,29 @@
 # Analysis-design-and-implementation-of-efficient-business-software-tools
 
-Análisis, diseño e implementación de un servicio de comercio electrónico en la nube/Desarrollo de un servicio de software para empresa competitivo/En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
+Análisis, diseño e implementación de un servicio de comercio electrónico en la nube/
 
+- En este docuemnto describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
 
-1. Hacer un estudio del estado del arte de estas 3 funcionalidades 
-2. Identificación de un caso de estudio
-3. Realizar un análsis (identificar y probar) soluciones
-4. Diseñar un solución más barata
-5. Implementarlo y probarla
+# 2- ïndice
 
-------------
-
-1. Hacer un estudio del estado del arte de estas 3 funcionalidades 
-=> se definen los procesos de negocio/funcionalidades, se proponen algunos y se agrupan
-2. Identificación de un caso de estudio
-3. Realizar un análsis (identificar y probar) soluciones
-4. Diseñar un solución más barata
-5. Implementarlo y probarla
-
-# 1- Anteproyecto
-# 2- Índice
-
------------
+# Introducción
+# 1. Estudio del estado del arte (what is?)
+## 1. Relación entre procesos de negocio (3 casos de uso identificados) y herramientas habilitadoras
+## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
+# 2. Análisis y diseño (identificar y probar soluciones, diseñenado una apta y más barata)
+## a. Identificación del caso de estudio (what if?/what wows?))
+- Los siguientes casos de estudio definen el negocio
+### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
+## b. Identificación de soluciones (what works?)
+### Puesta a producción del servicio 
+- Fase 1: saleor + gcp(cloud run + cloud sql)
+- Fase 2: odoo ce + aws (fargate + auroraserverless)
+### Mejora continua: análisis de riesgos
+## 3. Discusión sobre la implementación (what works?). Conclusión
+# Líneas futuras
+# Anexo
+## Organización del tiempo
+## Retos a los que me enfrenté
 
 # 1- Anteproyecto
 
@@ -55,34 +57,12 @@ En este estudio se propone:
 
 ## Organización y planificación previstas
 
-- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) and  (15th September 2020 -15th October 2020 => 4h/week) [200 h]
+- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) [80 de saleor] and  (15th September 2020 -15th October 2020 => 4h/week) [20 de comentar] + [100 de la prueba de los cursos] = [200 h]
 
-- Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)- Sprint 2: efficient software) 10+80h
+- Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)- Sprint 2: efficient software) [30] + [100] h = [130 h]
 
-- Sprint 3: odoo
+- Sprint 3: odoo. junio
 
---------------
-
-# 2- ïndice
-
-# Introducción
-# 1. Estudio del estado del arte (what is?)
-## 1. Relación entre procesos de negocio y herramientas habilitadoras
-## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
-# 2. Análisis y diseño
-## a. Identificación del caso de estudio (what if?/what wows?))
-- Los siguientes casos de estudio definen el negocio
-### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
-## b. Identificación de soluciones (what works?)
-### Puesta a producción del servicio 
-- Fase 1: saleor + gcp(cloud run + cloud sql)
-- Fase 2: odoo ce + aws (fargate + auroraserverless)
-### Mejora continua: análisis de riesgos
-## 3. Discusión sobre la implementación (what works?). Conclusión
-# Líneas futuras
-# Anexo
-## Organización del tiempo
-## Retos a los que me enfrenté
 
 ---------------
 
