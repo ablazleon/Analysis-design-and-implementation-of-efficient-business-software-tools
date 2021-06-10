@@ -38,7 +38,9 @@ Despelgar fargate en pruebas: beta
 
 https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338
 
-odoo saas
 
+
+
+odoo saas, ask them how to do this
 
 ### Mejora continua: análisis de riesgos
