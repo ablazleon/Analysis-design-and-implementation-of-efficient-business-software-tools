@@ -111,16 +111,22 @@ Primero se evalúan los despliegues teóricos. Generalmente, se realiza la clasi
 | Vm          | Not scalable| Depends       |              |
 | KaaS        | Y        | ?      | hay que estudar qué opción pemirte que se apague durante la noche, más coste de operación             |
 | CaaS        | Y        |   ?            |   depende de qué opción, cloud run, fargate o eci están bien, el problema está con la bbdd           |
-| FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
+| FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el código enteor para usar las funciones       |
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
 
 https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
 
-Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). 
+Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). COmpatible se refiere a compatible con que sea serverless, es decir que sólo se pague por los recuross que se empleeen.
 
-- CaaS: como Azure no posee servelress db de postgress, cloud sql no se puede apgar por las noches, aws parece la solución.
+|CaaSstack/prop     |Compatibility       | Cost          | Comment      |
+| :---:             |    :----:          |         :---: |      :---:   |
+| Azure:ACI+AzPGSQL | No psql svless     | ?             |  Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite        |
+| AWS:Fargate+AuroraSvl| Y               | min 7€        | Parece más difícil de desplegar que gcrun, pero por otro lado, parece que el coste no es proporcional al número de usuarios            |
+| GCP:CloudRun+CloudSql| Y               | min 10€       |   la opción más fácil de desplegar pero no la más barata debido a que la bbdd es necesario también pagarla por las noches           |
+| Alicloud:ECI+AsparaDB| Y               | ?             |  La función pay as you go tiene sentido, auqnue carece de cre´ditos grátis con lo que agilizar la prueba del stack       |
+| IBM                  | No psql svless  | ?             | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite        |
 
-- references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfchgh price of autopilot: not it is included in the fee. fargate, is cool but maybe is beter to follow the gke autoplit as an standard
+- references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfchgh price of autopilot: not 
 
 - fargate: not having to manage the databases: they are connected to aurao sv and they can be turned off when i want
 - gcp: gke autopilot, i elarn to deploy a db, anad turned it off when it is needed. Maybe this is provided out of the box. 17€/m vs 10
@@ -151,3 +157,6 @@ https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployme
 
 - https://www.trek10.com/blog/fargate-pricing-vs-ec2#:~:text=As%20you%20can%20see%2C%20around,to%20cost%20about%2035%25%20more.
 
+- aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
+
+- hacerlo en googel cloud en julio por si acaso
