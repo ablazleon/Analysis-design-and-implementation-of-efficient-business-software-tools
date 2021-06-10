@@ -56,9 +56,13 @@ En este estudio se propone:
 
 ## Organización y planificación previstas
 
-- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) [80 de saleor] and  (15th September 2020 -15th October 2020 => 4h/week) [20 de comentar] + [100 de la prueba de los cursos] = [200 h]
+1 ects -> 27h => 30 ects 810
+
+- Sprint 1: cheap ecommerce (15th August 2020 - 15th September 2020 => 8h/day) [80 de saleor] and  (15th September 2020 -15th October 2020 => 4h/week) [20 de comentar] + 40x4 [160 de la prueba de los cursos] = [260 h]
 
 - Sprint 2: efficient software (15th October 2020 - 7th Feb 2021 => 1h/week) and ( 7th Feb 2021 - x => 20h/week) (June)- Sprint 2: efficient software) [30] + [100] h = [130 h]
+
+- [400 h]
 
 - Sprint 3: odoo. junio
 
