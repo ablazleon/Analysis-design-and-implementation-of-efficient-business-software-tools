@@ -122,7 +122,7 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 - references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfchgh price of autopilot: not it is included in the fee. fargate, is cool but maybe is beter to follow the gke autoplit as an standard
 
 - fargate: not having to manage the databases: they are connected to aurao sv and they can be turned off when i want
-- gcp: gke autopilot
+- gcp: gke autopilot, i elarn to deploy a db, anad turned it off when it is needed. Maybe this is provided out of the box. 17€/m vs 10
 
 
 
