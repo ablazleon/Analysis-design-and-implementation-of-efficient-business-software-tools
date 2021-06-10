@@ -103,26 +103,8 @@ https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966
 
 En esta sección se discute que existen distintos tipos de despliegue de las herrmaientas que habilitan los procesos de negocio. Y para cada tipo de despliegue teórico, distintos servicios de distintos proveedores en la nube que lo proveen.
 
-Generlmente se realiza la clasificación entre tipos de despliegue: On premise IaaS PaaS SaaS
+Primero se evaláun lso depsliegues teóricos. Generalmente se realiza la clasificación entre tipos de despliegue: On premise IaaS PaaS SaaS. De la reflexión realizada en la sección 1, se concluye que el coste puede ser de 20€/month/client, la solución on premise sale deamsiado cara, así como las SaaS discutidas en secciones anteriores. Se plantean a contianución comaprar las solcuiones que se englobarían en el rango IaaS/PaaS, en Iaas, incluyendo Vm, Kuberntes as a service (KaaS), Contianer as a service, Fucntion as a service y PaaS. Báscimente la conclusión de la siguiente comaprativa, es que son las soluciones Kubernetes as a Service o CaaS, las que ofrecen escalabilidad a un coste razonable.
 
-De la reflexión realizada en la sección 1. 
-
-=> SaaS
-facildiad y coste
-
-Como combinacion de las dos al rpecio de shopify
-
-entre 30-50$ mes
-
-20$/mes
-
-vm, Kaas, Caas, FaaS, PaaS
-
-0-3
-
-Scalability
-Cost
-Comment
 
 | type/prop   | Scalability | Cost          | Comment      |
 | :---:       |    :----:   |         :---: |      :---:   |
@@ -131,6 +113,9 @@ Comment
 | CaaS        | Y        |   ?            |   depende de qué opción, cloud run, fargate o eci están bien, el problema está con la bbdd           |
 | FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el c´dogio enteor para usar las funciones       |
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
+
+
+
 
 - kubenretes => autopilot 13€/month, o azure, 
 + puedes apagarlo cuando queires
@@ -167,33 +152,6 @@ fargate + aurora servelress
 gcp autopilot => me va a dar problemas con los logs de kibana
 
 cómo desplegar un fargate?
-
-# Deploy in fargate
-
-1. Deploy this test
-2. Deploy a rpoduction
-3. Put anotehr bank  and get there the money
-
-put the serivce there
-
-WHich coitnainers
-
-RUn a farget free wihtout nothing
-
-https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338
-
-First step is to deploy some simple dcoker
-
-then do this
-
-the autoamte this in teh future
-
-
-How to do a terraform module
-Terraform?
-
-
-https://it-projects-llc.github.io/odoo-saas-tools/getting-started/
 
 
 
