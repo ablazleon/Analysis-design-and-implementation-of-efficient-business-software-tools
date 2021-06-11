@@ -48,5 +48,20 @@ Try the differnet configruations
 
 Can i change acocunt , oepnbank works
 
+como orgnaizco los pagos https://www.bbvaapimarket.com/es/banking-apis/es-api-pagos-payments-psd2/
+pero parece que no es grátis
+
+https://www.unnax.com/blog/9-ways-psd2-is-fundamentally-changing-e-commerce-payments/
+https://www.unnax.com/products/payments/
+
+Flanks
+
+DIrect payments
+
+Fargate
+NEwsletter
+Tienda
+hacer ceunta en n26
+
 
 ### Mejora continua: análisis de riesgos
