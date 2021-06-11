@@ -44,4 +44,6 @@ o create eksctl vs autopilot for database
 
 odoo saas, ask them how to do this
 
+Try the differnet configruations
+
 ### Mejora continua: análisis de riesgos
