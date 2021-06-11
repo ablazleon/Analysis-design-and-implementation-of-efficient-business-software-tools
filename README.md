@@ -8,7 +8,7 @@
 # 1. [Estudio del estado del arte (what is?)](https://github.com/ablazleon/Analysis-design-and-implementation-of-efficient-business-software-tools/blob/main/1-State%20of%20the%20art.md)
 ## 1. Relación entre procesos de negocio (3 casos de uso identificados) y herramientas habilitadoras
 ## 2. Relación entre la estrucutra de coste del despliegue y las herramientas habilitadoras
-# 2. Análisis y diseño (identificar y probar soluciones, diseñenado una apta y más barata)
+# 2. [Análisis y diseño (identificar y probar soluciones, diseñenado una apta y más barata)](https://github.com/ablazleon/Analysis-design-and-implementation-of-efficient-business-software-tools/blob/main/2-Analysis%20and%20design.md)
 ## a. Identificación del caso de estudio (what if?/what wows?))
 - Los siguientes casos de estudio definen el negocio
 ### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
