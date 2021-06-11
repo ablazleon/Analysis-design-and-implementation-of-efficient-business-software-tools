@@ -46,4 +46,7 @@ odoo saas, ask them how to do this
 
 Try the differnet configruations
 
+Can i change acocunt , oepnbank works
+
+
 ### Mejora continua: análisis de riesgos
