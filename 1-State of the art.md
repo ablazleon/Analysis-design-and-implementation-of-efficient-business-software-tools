@@ -44,13 +44,7 @@ Primero se discute, presentando en una tabla, la relación entre procesos de neg
 
 Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir
 
-https://www.repricerexpress.com/amazon-fba-vs-shopify/
-https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/
-https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541
-https://www.salesforce.com/editions-pricing/small-business/
-https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528
-https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf
-https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
+- Referenias: [1](https://www.repricerexpress.com/amazon-fba-vs-shopify/), [2](https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/), [3](https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541), [4](https://www.salesforce.com/editions-pricing/small-business/) [5](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528)=, [6](https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf), [7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing)
 
 ## 1.2. Procesos
 
@@ -94,9 +88,7 @@ Una interesante reflexión es presentar los créditos que por alumno puedo conse
 Azure => 100$/12 months
 AWS => creédtios de alumno upm 50$ 4/30/2022 => 5 meses
 Google=> 40$ 15 Oct 21, 50$ 1 Oct 21 => 5 meses
-Alibaba =>?
-
-https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN
+Alibaba => [?](https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966d6fUFbooN)
 
 ## 2.2. Estructura de coste y tipo de despliegue
 
@@ -129,14 +121,13 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | CRun+AuroraSvl       | Y               | ?             |            | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite |
 
 
+### Comparación de implementación de stacks
+
+COpilot vs cdk vs cli
+
+
 - https://aws.amazon.com/activate/
 
 
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
- 
-
-### Comparación de implementación de stacks
-
-
-
 
