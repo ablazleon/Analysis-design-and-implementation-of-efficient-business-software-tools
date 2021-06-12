@@ -110,64 +110,33 @@ Primero se evalúan los despliegues teóricos. Generalmente, se realiza la clasi
 | type/prop   | Scalability | Cost          | Comment      |
 | :---:       |    :----:   |         :---: |      :---:   |
 | Vm          | Not scalable| Depends       |              |
-| KaaS        | Y        | ?      | hay que estudar qué opción pemirte que se apague durante la noche, más coste de operación             |
-| CaaS        | Y        |   ?            |   depende de qué opción, cloud run, fargate o eci están bien, el problema está con la bbdd           |
+| KaaS        | Y        | ?             | [hay que estudar qué opción pemirte que se apague durante la noche, más coste de operación](https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/)             |
+| CaaS        | Y        |   ?            |   [depende de qué opción, cloud run, fargate o eci están bien, el problema está con la bbdd](https://www.youtube.com/watch?v=-59KDnNrIfchgh)           |
 | FaaS        | Y        | 0             |  El método más barato para adaptar el coste a la demanda, pero ncesita de reescribir el código enteor para usar las funciones       |
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
-
-https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
 
 ### Comparación de stacks
 
 Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). COmpatible se refiere a compatible con que sea serverless, es decir que sólo se pague por los recuross que se empleeen.
 
-|CaaSstack/prop     |Compatibility       | Cost          | Comment      |
-| :---:             |    :----:          |         :---: |      :---:   |
-| Azure:ACI+AzPGSQL | No psql svless     | ?             |  Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite        |
-| AWS:Fargate+AuroraSvl| Y               | min 7€        | Parece más difícil de desplegar que gcrun, pero por otro lado, parece que el coste no es proporcional al número de usuarios            |
-| GCP:CloudRun+CloudSql| Y               | min 10€       |   la opción más fácil de desplegar pero no la más barata debido a que la bbdd es necesario también pagarla por las noches           |
-| Alicloud:ECI+AsparaDB| Y               | ?             |  La función pay as you go tiene sentido, auqnue carece de cre´ditos grátis con lo que agilizar la prueba del stack       |
-| IBM                  | No psql svless  | ?             | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite        |
+|CaaSstack/prop     |Compatibility       | Cost          | References | Comment   |
+| :---:             |    :----:          |         :---: |    :---:   |   :---:   |
+| Azure:ACI+AzPGSQL | No psql svless     | ?             | [1 cost of azure psgql](https://www.reddit.com/r/AZURE/comments/kz93ot/any_real_world_cost_comparison_between_azure_sql/) [2 psg scaling](https://azure.microsoft.com/en-us/pricing/details/postgresql/hyperscale-citus/)  [3 performance](https://docs.microsoft.com/en-us/azure/postgresql/concepts-performance-recommendations) [4 flexible server psg does not turned off when not in use](https://channel9.msdn.com/Shows/Azure-Friday/Introducing-Flexible-Server-in-Azure-Database-for-PostgreSQL-and-MySQL)     | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite|
+| AWS:Fargate+AuroraSvl| Y               | min 7€        | [1 FargatevsGKE](https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.)  [2 AWS Aurora Svless](https://labrlearning.medium.com/interacting-with-aws-aurora-serverless-1398c9de329a) [3 fargate cepoyments](https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057)  [4 ALB cost estimation](https://cloudsoft.io/blog/aws-alb-cost-estimation) [5 fargate pricing vs ec2](https://www.trek10.com/blog/fargate-pricing-vs-ec2#:~:text=As%20you%20can%20see%2C%20around,to%20cost%20about%2035%25%20more.)     | Más difícil desplegar que gcrun, pero coste no es proporcional al número de usuarios |
+| GCP:CloudRun+CloudSql| Y               | min 10€       | [1 CloudSql](https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3) [2 Scheduling cloudsql](https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3) [3 cloudrun vs lambda](https://iamondemand.com/blog/google-cloud-run-vs-aws-lambda-performance-benchmarks-part-2/)  [4 cloud run vs fargate](https://keepler.io/en/2019/10/serverless-services-for-containers-aws-vs-google-cloud/) [5 cloud run vs fargate vs aci](https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/#:~:text=AWS%20Fargate%2FEKS%20is%20comparable,can%20accept%20a%20pod%20definition.)  [5 crun cold starts](https://github.com/ahmetb/cloud-run-faq#does-cloud-run-have-cold-starts)     | Opción más fácil desplegar. Pero bbdd es necesario también pagarla por las noches|
+| Alicloud:ECI+AsparaDB| Y               | ?             |            | Pay as you go tiene sentido, aunque carece de créditos grátis con lo que agilizar la prueba del stack |
+| IBM                  | No psql svless  | ?             |            | Sin servicio posgres serverless y con un ACI más difícil de depslegar que gcrun, este stack no compite |
+| CRun+AuroraSvl       | Y               | ?             |            | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite |
 
-- references: https://www.reddit.com/r/aws/comments/h96nhe/access_aurora_serverless_instance_from_local/, https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.,  https://www.youtube.com/watch?v=-59KDnNrIfchgh price of autopilot: not 
-
-- fargate: not having to manage the databases: they are connected to aurao sv and they can be turned off when i want
-- gcp: gke autopilot, i elarn to deploy a db, anad turned it off when it is needed. Maybe this is provided out of the box. 17€/m vs 10
-
-https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3, https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3
-
-- is aurora serverless really useful?
-
-https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057
-
-- deploy cloud run: obtain these 10€, iamges took so long to get there
-
-- ALB: https://cloudsoft.io/blog/aws-alb-cost-estimation
-
-- cloud run vs lambda: https://iamondemand.com/blog/google-cloud-run-vs-aws-lambda-performance-benchmarks-part-2/
-
-- cloud run vs fargate: https://keepler.io/en/2019/10/serverless-services-for-containers-aws-vs-google-cloud/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/#:~:text=AWS%20Fargate%2FEKS%20is%20comparable,can%20accept%20a%20pod%20definition.
-
-- cloud run: https://github.com/ahmetb/cloud-run-faq#does-cloud-run-have-cold-starts
-
-- aws fargate: https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057
-
-- aws azure posgres ql: https://www.reddit.com/r/AZURE/comments/kz93ot/any_real_world_cost_comparison_between_azure_sql/, https://azure.microsoft.com/en-us/pricing/details/postgresql/hyperscale-citus/
-
-- hyperscale es bastante caro
 
 - https://aws.amazon.com/activate/
 
-- https://www.trek10.com/blog/fargate-pricing-vs-ec2#:~:text=As%20you%20can%20see%2C%20around,to%20cost%20about%2035%25%20more.
 
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
-
-- hacerlo en googel cloud en julio por si acaso
-
--azure, https://docs.microsoft.com/en-us/azure/postgresql/concepts-performance-recommendations, https://channel9.msdn.com/Shows/Azure-Friday/Introducing-Flexible-Server-in-Azure-Database-for-PostgreSQL-and-MySQL
+ 
 
 ### Comparación de implementación de stacks
 
-https://labrlearning.medium.com/interacting-with-aws-aurora-serverless-1398c9de329a
+
 
 
