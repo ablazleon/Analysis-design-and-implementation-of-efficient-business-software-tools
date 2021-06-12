@@ -81,7 +81,6 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 3.2. Integración con isntagram 
 - [ ] se puede automatizar las campañas de marketing en más de una plataforma
 
-
 # 2. Estructura de coste y herramientas
 
 A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
@@ -101,7 +100,9 @@ https://www.alibabacloud.com/campaign/education?spm=a3c0i.217264.1159678.1.60966
 
 ## 2.2. Estructura de coste y tipo de despliegue
 
-En esta sección se discute que existen distintos tipos de despliegue de las herrmaientas que habilitan los procesos de negocio. Y para cada tipo de despliegue teórico, distintos servicios de distintos proveedores en la nube que lo proveen.
+En esta sección se discute la relación que existen entre distintos tipos posibles de despliegues en la nube en función de paradigma y porveddores de estas herrmaientas que habilitan los procesos de negocio. Primero se comparan tipos de ***despleigue genéricos***, después ciertos ***stacks*** y finalmente ****formas de implementar estos stacks***.
+
+### Comparación de tipos de despliegue
 
 Primero se evalúan los despliegues teóricos. Generalmente, se realiza la clasificación entre tipos de despliegue: On premise IaaS PaaS SaaS. De la reflexión realizada en la sección 1, se concluye que el coste puede ser de 20€/month/client, la solución on premise sale deamsiado cara, así como las SaaS discutidas en secciones anteriores. Se plantean a continuación comaprar las soluciones que se englobarían en el rango IaaS/PaaS, en Iaas, incluyendo Vm, Kuberntes as a service (KaaS), Contianer as a service, Fucntion as a service y PaaS. Báscamente la conclusión de la siguiente comaprativa, es que son las soluciones Kubernetes as a Service o CaaS, las que ofrecen escalabilidad a un coste razonable. Sin embargo, las soluciones de kubernetes exige una operación complicada a priori de los servicios. GKE el servicio de google, parece el mejor servicio de cloud de KaaS, con autopilot se pueden gestionar los recursos pero exige gestionar dbs.
 
@@ -115,6 +116,8 @@ Primero se evalúan los despliegues teóricos. Generalmente, se realiza la clasi
 | PaaS        | N        | 0             |  PaaS como DonDominio o Heroku son ampliamente usadas pero restringen a la plataforma: Heroku unos costes altos y DonDominioo usar un sistema en PHP       |
 
 https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/
+
+### Comparación de stacks
 
 Finalmente, se comparan distintos stacks de soluciones. Básicamente las soluciones Caas, sobre los proveedores de los que se disponen créditos (Azure, GCP y AWS). COmpatible se refiere a compatible con que sea serverless, es decir que sólo se pague por los recuross que se empleeen.
 
@@ -162,4 +165,9 @@ https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployme
 - hacerlo en googel cloud en julio por si acaso
 
 -azure, https://docs.microsoft.com/en-us/azure/postgresql/concepts-performance-recommendations, https://channel9.msdn.com/Shows/Azure-Friday/Introducing-Flexible-Server-in-Azure-Database-for-PostgreSQL-and-MySQL
+
+### Comparación de implementación de stacks
+
+https://labrlearning.medium.com/interacting-with-aws-aurora-serverless-1398c9de329a
+
 
