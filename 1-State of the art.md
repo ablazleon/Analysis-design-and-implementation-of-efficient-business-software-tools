@@ -126,19 +126,27 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 
 ### Comparación de implementación de stacks
 
+Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primera, oues auqnue a priori parezca más difícil de depslegar, posee menos coste el escalado
+
+| type/prop              | Facilidad   | Créditos      | Comment      |
+| :---:                  |    :----:   |         :---: |      :---:   |
+| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       | 20€/m => 10€/m/c, can get more credits, dbs can be created and does not cost             |
+| GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c => 10€/m/c, easier to deploy             |
+
 objetivo de coste, de 50 a70 (imagnees)
 
 COpilot vs cdk vs cli
+
+
 
 - https://aws.amazon.com/activate/
 
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
 
-| type/prop              | Facilidad   | Créditos      | Comment      |
-| :---:                  |    :----:   |         :---: |      :---:   |
-| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       | -30€/m => 10€/m/c, can get more credits, dbs can be created and does not cost             |
-| GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c,              |
-
 - all thisif i want to deplyo a paltform, one db per each. Auroar maybe is cehaper
 
 - Despliegue odoo: https://www.youtube.com/watch?v=PSyGrZZOd3Q
+
+https://aws.amazon.com/premiumsupport/knowledge-center/tags-billing-cost-center-project/
+
+https://blog.doit-intl.com/how-does-a-cloud-sql-database-scale-and-what-to-know-when-setting-one-up-c23c52fc9947
