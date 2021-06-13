@@ -321,15 +321,22 @@ Spitn 2.3
 
 Sprint 2, tercera iteración
 
-Hola Santiago y Dani, ¿cómo va todo? Bueno pues en estos poco minutos quiero compartir con vosotros, pues lo de siempre, qué he hecho, qué tengo pensado hacer y qué problemas he tenido.
+Hola Santiago y Dani, ¿cómo va todo? Bueno pues en estos poco minutos quiero compartir con vosotros, pues lo de siempre, qué he hecho en este mes, qué tengo pensado hacer y qué problemas he tenido.
 
 Qué he hecho en este mes?
 
 Pues a parte de examenes jeje he planteado las tres tareas que hablamos:
 
-- [ ] 1 Primero explroar la estructura de coste, a raiz de pensar a priori dónde es mejor despelgar
-- [ ] 2 prototipar la de odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
-- [ ] 3 describir conclusiones, sobre todo, cuál es el más idóneo llevar a producción
+ENseñar toogl de cua´tnas hroas
+
+- [ ] 1 Primero explroar la estructura de coste, a raiz de pensar a priori en qué proveedor de nube y de qué foram es mejor mejor despelgar
+- [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, comparando con lighthouse la performance, es decir cómo de rápido se carga la web en comapración
+- [ ] 3 describir conclusiones, sobre todo, qué forma de despliegue parece la idónea para llevar a producción
+
+QUé tengo pensado hacer para el sigueitne sprint: hito es para el 1 de julio es necesario que haya un servicio de dnewsletter en produción
+
+- [ ] 1 Desplegado un entorno de pruebas en gcp
+- [ ] 2 20 de junio llevalro a producion -25 hacerle laod tesitng
 
 - 1- EN cuanto a 1 Primero explroar la estructura de coste, a raiz de pensar a priori dónde es mejor despelgar. Otra vez pensé, y me di cuenta de que claro esta estructura de costes es una propuesta de valor del servicio, por eso es tan improtante
 
@@ -338,21 +345,14 @@ Me dediqué a dos subtareas:
 a. recomparar las hipótesis referida a los procesos de negocio
 b. comparar  qué estructura de coste aporta más valor
 
-a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. Pero en realidad, más que imbatible, es que es más completa que la competencia a largo plazo: permite ofrecer un shopify a precio de etsy con katana. Nótese que se estudian dos opciones más, katana, una mrp, para visualizar y autoamtizar pedidos integraado con shopify que cuesta 100€/mes y Etsy un marketpalce. De forma que la conclusión cambia ligeramente: tanto amazon como shoppify/wix/odoo saas como doo community en la nube, son buenas opciones, quizá lo más eficiente sigue siendo un odoo en la nube porque pemrite la autoamtización de la petición de la manufactura (ese mrp, katana), pero claro, depende del precio al que esto se consiga. Lo suyo sería a precio de Etsy o a precio de amazon, es decir, un cierto porcentaje de la compra.
+a. Por qué quería recomparar las hipótesis referidas a los procesos de negocio? Porque de la tabla anterior (que por cierto he hecho más chiquitita para que se peuda ver) es la clave, es la propuesta de valor: la conlusión del otro sprint era que desplegar un odoo community era una opción imbatible frente al resto de ocpioens. Pero en realidad, más que imbatible, es que es más completa que la competencia a largo plazo: permite ofrecer un shopify a precio de etsy con katana. Nótese que se estudian dos opciones más, katana, una mrp, para visualizar y autoamtizar pedidos integraado con shopify que cuesta 100€/mes y Etsy un marketpalce. De forma que la conclusión cambia ligeramente: tanto amazon como shoppify/wix/odoo saas como doo community en la nube, son buenas opciones, quizá lo más eficiente sigue siendo un odoo en la nube porque pemrite la autoamtización de la petición de la manufactura (ese mrp, katana), pero claro, depende del precio al que esto se consiga. Odoo es´ta a 50#/mes, conseguir igualarlo o bajar el precio.
 
-AHora bien, con esta hipótesis en mente, de que tatno etsy como amazon como shoipify o wix son opcioens válidas pero que la jugada es que, sólo si se pagan 100€/mes es posible automatizar el stock del catálogo con la producción, es entonces cuando aparece el valor de un odoo en la nube: es al fin un katana con shopify.
+AHora bien, con esta hipótesis en mente, de que tatno etsy como amazon como shoipify o wix son opcioens válidas pero que la jugada es que, sólo si se pagan 100€/mes es posible automatizar el stock del catálogo con la producción, es entonces cuando aparece el valor de un odoo en la nube: es al fin un katana con shopify, un odoo saas. O beuno para el email amrketing mailchimp
 
 b. Entonces, ahora se comparar  qué estructura de coste aporta más valor. VAlor en qué sentido? Para qué cleinte?
 
 Se plantea ese primer usairo de breadfree o los cuadros de mi madre y luego en un futuro otras posible tiendas. De forma que se destaca que a largo plazo es buena idea optimizar costes, pero a corto lo que se desea es una solución con la performance de odoo saas pero grátis un cierto tiempo, el tiempo de prueba, teimpo en el que se puedan testear lso procesos de negocio.
 
-Ahora en vez hacer 1.b se realzia la tarea 2, me refiero cronológicamente
-
-Pero en resumen la idea es que si kitana cuesta 100€/mes
-
-se plantean soluiones escalables como 
-
-de forma que se puede despelgar odoo community para ofercer shopify + katana por la mitad de dinero
 
 - [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, y luego en más opciones, comparando con lighthouse la performance
 
@@ -367,25 +367,6 @@ Para desplegar el odoo community, se plantea o usar un stack de bitnami que exig
 Se crea una vm para luego pasar el despliegue y que sea fácil
 
 https://www.cybrosys.com/blog/how-to-install-odoo-14-on-ubuntu-20-04-lts
-
-```
-sudo systemctl status odoo.service
-sudo systemctl start odoo.service
-```
-
-Creo un ejeemplo con ALuche como base de datos y example
-
-Para comprobar los procesos de negocio:
-
-1- Tienda online 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago 1.2. Seguimiento de paquetes
-
-2- Gestión de operaciones 2.1. Integración pedido tienda/Visualización de stock 2.2. Generación de alertas para comprar a proveedores
-
-3- Automatización de marketing 3.1. Generación y envío de correos, como newsletter 3.2. Integración con isntagram
-
-sales, invoicing, inventory, email marketing, dalre a isntall
-
-=> hacer un test para que puedan probar
 
 Y enseñar las capturas
 
