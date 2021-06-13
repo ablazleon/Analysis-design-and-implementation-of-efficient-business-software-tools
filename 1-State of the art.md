@@ -132,5 +132,10 @@ COpilot vs cdk vs cli
 
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
 
-- 
+| type/prop              | Scalability | Cost          | Comment      |
+| :---:                  |    :----:   |         :---: |      :---:   |
+| AWS:Fargate+AuroraSvl  | Not scalable| Depends       |              |
+| GCP:CloudRun+CloudSql  | Y           | ?             |              |
+
+- all thisif i want to deplyo a paltform, one db per each. Auroar maybe is cehaper
 
