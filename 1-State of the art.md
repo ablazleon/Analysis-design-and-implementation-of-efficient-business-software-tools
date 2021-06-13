@@ -126,16 +126,19 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 
 ### Comparación de implementación de stacks
 
+objetivo de coste, de 50 a70 (imagnees)
+
 COpilot vs cdk vs cli
 
 - https://aws.amazon.com/activate/
 
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
 
-| type/prop              | Scalability | Cost          | Comment      |
+| type/prop              | Facilidad   | Créditos      | Comment      |
 | :---:                  |    :----:   |         :---: |      :---:   |
-| AWS:Fargate+AuroraSvl  | Not scalable| Depends       |              |
-| GCP:CloudRun+CloudSql  | Y           | ?             |              |
+| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       | -30€/m => 10€/m/c, can get more credits, dbs can be created and does not cost             |
+| GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c,              |
 
 - all thisif i want to deplyo a paltform, one db per each. Auroar maybe is cehaper
 
+- Despliegue odoo: https://www.youtube.com/watch?v=PSyGrZZOd3Q
