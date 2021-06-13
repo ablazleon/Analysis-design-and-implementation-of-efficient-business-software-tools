@@ -119,15 +119,18 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | Alicloud:ECI+AsparaDB| Y               | ?             |            | Pay as you go tiene sentido, aunque carece de créditos grátis con lo que agilizar la prueba del stack |
 | IBM                  | No psql svless  | ?             |            | Sin servicio posgres serverless y con un ACI más difícil de depslegar que gcrun, este stack no compite |
 | CRun+AuroraSvl       | Y               | ?             |            | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite |
+| Clouding       | N               | ?             | [1](https://clouding.io/)           | Sin servicio posgres serverless y con un servicio de computación más dif´cil de depslegar que gcrun, este stack no compite |
+| Digital Ocean      | Y               | ?             | [1](https://www.digitalocean.com/pricing/#app-platform)           | 50#/month 4GB 2CPU + db, it also has kubernetes, but this needs and overhead of operation |
+| Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
 
 
 ### Comparación de implementación de stacks
 
 COpilot vs cdk vs cli
 
-
 - https://aws.amazon.com/activate/
 
-
 - aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
+
+- 
 
