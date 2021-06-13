@@ -38,7 +38,8 @@ Despelgar fargate en pruebas: beta
 
 Con copilot un multi az
 
-https://aws.amazon.com/blogs/containers/running-wordpress-amazon-ecs-fargate-ecs/
+https://aws.amazon.com/blogs/containers/introducing-aws-copilot/
+Cost of the stack: https://stackoverflow.com/questions/65337280/how-to-get-budget-estimate-for-copilot
 
 https://community.bitnami.com/t/help-on-architecture-for-odoo-deployment-with-multiple-sites-1-db/93346
 
@@ -46,9 +47,13 @@ with steps: https://aws.amazon.com/blogs/compute/building-deploying-and-operatin
 
 with cli: https://aws.amazon.com/blogs/containers/running-wordpress-amazon-ecs-fargate-ecs/
 
+Addons aurora
+
+https://aws.github.io/copilot-cli/docs/developing/additional-aws-resources/
+
 https://ecsworkshop.com/microservices/
 
-https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338, https://pereliksoft.com/index.php/2020/11/19/aws-fargate-vs-google-cloud-run/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/, https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057, https://aws.amazon.com/blogs/containers/running-wordpress-amazon-ecs-fargate-ecs/, https://blog.codecentric.de/en/2021/03/fargate-with-efs-and-aurora-serverless-using-aws-cdk/, https://aws.amazon.com/blogs/compute/building-deploying-and-operating-containerized-applications-with-aws-fargate/, https://www.youtube.com/watch?v=Nv7s-N8ZxQA, https://cloudacademy.com/course/course-automatically-created-2018-10-02-113135226141/c3l4-terraform1/
+https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338, https://pereliksoft.com/index.php/2020/11/19/aws-fargate-vs-google-cloud-run/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/, https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057, https://blog.codecentric.de/en/2021/03/fargate-with-efs-and-aurora-serverless-using-aws-cdk/, https://aws.amazon.com/blogs/compute/building-deploying-and-operating-containerized-applications-with-aws-fargate/, https://www.youtube.com/watch?v=Nv7s-N8ZxQA, https://cloudacademy.com/course/course-automatically-created-2018-10-02-113135226141/c3l4-terraform1/
 
 Better to manage cloud run
 
