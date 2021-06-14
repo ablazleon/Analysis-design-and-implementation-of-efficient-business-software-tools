@@ -44,7 +44,7 @@ Primero se discute, presentando en una tabla, la relación entre procesos de neg
 
 Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir
 
-- Referenias: [1](https://www.repricerexpress.com/amazon-fba-vs-shopify/), [2](https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/), [3](https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541), [4](https://www.salesforce.com/editions-pricing/small-business/) [5](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528)=, [6](https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf), [7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing)
+- Referenias: [1](https://www.repricerexpress.com/amazon-fba-vs-shopify/), [2](https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/), [3](https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541), [4](https://www.salesforce.com/editions-pricing/small-business/), [5](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528=), [6](https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf), [7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing)
 
 ## 1.2. Procesos
 
@@ -130,7 +130,7 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 
 | type/prop              | Facilidad   | Créditos      | Comment      |
 | :---:                  |    :----:   |         :---: |      :---:   |
-| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings -+- can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
+| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+- can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
 | GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
 objetivo de coste, de 50 a70 (imagnees)
