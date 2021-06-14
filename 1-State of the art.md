@@ -135,6 +135,10 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 
 objetivo de coste, de 50 a70 (imagnees)
 
+https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.html
+
+
+
 COpilot vs cdk vs cli
 
 https://www.youtube.com/watch?v=nvW1i33my3o
