@@ -329,14 +329,17 @@ Pues a parte de examenes jeje he planteado las tres tareas que hablamos:
 
 ENseñar toogl de cua´tnas hroas
 
-- [ ] 1 Primero explroar la estructura de coste, a raiz de pensar a priori en qué proveedor de nube y de qué foram es mejor mejor despelgar
+- [ ] 1 Primero explroar la estructura de coste, es decir, si un saas cuesta 50€, un proveedor den uebe ofrece algúns ervicio para depslegar a un precio menor 
 - [ ] 2 prototipar odoo en vbox, comprobando que se pueden ejecutar sobre él los procesos de negocio, comparando con lighthouse la performance, es decir cómo de rápido se carga la web en comapración
 - [ ] 3 describir conclusiones, sobre todo, qué forma de despliegue parece la idónea para llevar a producción
 
-QUé tengo pensado hacer para el sigueitne sprint: hito es para el 1 de julio es necesario que haya un servicio de dnewsletter en produción
+QUé tengo pensado hacer para el sigueitne sprint: hito es para el 25 de junio es necesario que haya un servicio de dnewsletter en produción para que se peuda aprender ausarlo para el 8 de julio sacar la capmapaña. Pureba a depslegar en gcp odoo ce con el ojetivo de que ceusta 30 en vez de 70
 
-- [ ] 1 Desplegado un entorno de pruebas en gcp
+- [ ] 1 Desplegado un entorno de pruebas 20
 - [ ] 2 20 de junio llevalro a producion -25 hacerle laod tesitng
+- [ ] 3 25 probar y enseñar
+
+Ahora a cotnaincuion, desaroolar un pcoo más qué hice
 
 - 1- EN cuanto a 1 Primero explroar la estructura de coste, a raiz de pensar a priori dónde es mejor despelgar. Otra vez pensé, y me di cuenta de que claro esta estructura de costes es una propuesta de valor del servicio, por eso es tan improtante
 
@@ -391,6 +394,25 @@ Tener a producción el servicio de digital bsuiness para el 8 de julio, breadfre
 
 Hacer un analsis de riuegso para mejorar esa versión beta en producción
 Cömoa hcer apra que cualquiera me pueda decir algo: imaginita que sea llamadme
+
+para julio auqnue sea a finales coetno hasta dódne llegué
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
