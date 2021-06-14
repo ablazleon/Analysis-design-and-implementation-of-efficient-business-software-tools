@@ -73,9 +73,12 @@ https://ecsworkshop.com/microservices/
 
 https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338, https://pereliksoft.com/index.php/2020/11/19/aws-fargate-vs-google-cloud-run/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/, https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057, https://blog.codecentric.de/en/2021/03/fargate-with-efs-and-aurora-serverless-using-aws-cdk/, https://aws.amazon.com/blogs/compute/building-deploying-and-operating-containerized-applications-with-aws-fargate/, https://www.youtube.com/watch?v=Nv7s-N8ZxQA, https://cloudacademy.com/course/course-automatically-created-2018-10-02-113135226141/c3l4-terraform1/
 
-
 https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/
 Better to manage cloud run
+
+https://www.reddit.com/r/aws/comments/n2ts9r/aurora_serverless_v2_approximate_release_date/
+
+https://cloud.google.com/sql/docs/quotas#:~:text=Cloud%20Run%20services%20are%20limited,connections%20per%20deployment%20can%20grow.
 
 o create eksctl vs autopilot for database
 
