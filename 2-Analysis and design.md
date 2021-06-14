@@ -25,7 +25,25 @@ Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend +
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
 https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-saleor-google-cloud-run-dns-31e7c94f4c9a
 
-- Intento 2: odoo ce + aws (fargate + auroraserverless)
+- Intento 2: odoo ce + gcp (crun + cloudsql)
+
+- 1. En la cuenta extra
+- Subir el contenedor de odoo: cómo coenctar la bbdd sin url?
+https://www.cloudbooklet.com/install-odoo-13-on-ubuntu-18-04-with-nginx-google-cloud/
+crar la bbdd y conectarla con la máuqina virtual, dejar este ordena encendido por si acaso
+script que cree un bbdd
+- 1. Crear facturación con la cuenta extra
+
+De qué manera escala cloud sql? CUántas conexiones permite?
+https://cloud.google.com/sql/docs/quotas#postgresql
+
+concurrent connections
+
+cloudsql vs aurora serverless
+
+having to allcoate a big thing for using it litlte times
+https://www.jeremydaly.com/aurora-serverless-v2-preview/
+------------
 
 Despelgar fargate en pruebas: beta
 
