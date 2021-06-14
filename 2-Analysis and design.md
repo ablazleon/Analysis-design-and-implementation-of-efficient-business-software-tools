@@ -76,6 +76,8 @@ https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-
 https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/
 Better to manage cloud run
 
+https://www.jeremydaly.com/aurora-serverless-the-good-the-bad-and-the-scalable/
+
 https://www.reddit.com/r/aws/comments/n2ts9r/aurora_serverless_v2_approximate_release_date/
 
 https://cloud.google.com/sql/docs/quotas#:~:text=Cloud%20Run%20services%20are%20limited,connections%20per%20deployment%20can%20grow.
