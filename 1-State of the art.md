@@ -130,8 +130,8 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 
 | type/prop              | Facilidad   | Créditos      | Comment      |
 | :---:                  |    :----:   |         :---: |      :---:   |
-| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       | 20€+10€/m => 30€/m/c one lb per env to separeete billings, +- can get more credits, but they run out quickly, +- dbs can be created and does not cost, but one fargate up always             |
-| GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c => 10€/m/c, easier to deploy             |
+| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings -+- can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
+| GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
 objetivo de coste, de 50 a70 (imagnees)
 
