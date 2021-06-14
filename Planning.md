@@ -397,7 +397,7 @@ Cömoa hcer apra que cualquiera me pueda decir algo: imaginita que sea llamadme
 
 para julio auqnue sea a finales coetno hasta dódne llegué
 
-
+Problemas en cuanto a saas: frameowkr para saas cloud tool pero aprece que ya no es´ta soprotoad
 
 -------------------
 
