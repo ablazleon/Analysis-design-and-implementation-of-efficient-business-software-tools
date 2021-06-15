@@ -40,6 +40,7 @@ lb, app1, app2
 proble with root account
 
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
+https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html
 
 Then teh wordpress thing
 
