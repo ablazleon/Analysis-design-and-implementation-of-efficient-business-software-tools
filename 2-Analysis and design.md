@@ -62,6 +62,19 @@ with steps: https://aws.amazon.com/blogs/compute/building-deploying-and-operatin
 
 with cli: https://aws.amazon.com/blogs/containers/running-wordpress-amazon-ecs-fargate-ecs/
 
+Temproary managed credneitals
+```
+✘ execute "env upgrade --app demo --name test": get template version of environment test in app demo: get metadata for stack demo-test: get template summary: InvalidClientTokenId: The security token included in the request is invalid
+        status code: 403, request id: f2dd98e8-f84c-4ef0-acc5-2a78d7c2aab5
+        
+        
+admin:~/environment/demo-app (master) $ aws sts get-session-token --serial-number arn:aws:iam::764217278004:mfa/admin --token-code 273414
+
+An error occurred (InvalidClientTokenId) when calling the GetSessionToken operation: The security token included in the request is invalid        
+```
+
+It seems it needs aws cofnigure after disabling it, it continue not working
+
 Addons aurora
 
 https://aws.github.io/copilot-cli/docs/developing/additional-aws-resources/
