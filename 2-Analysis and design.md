@@ -35,6 +35,21 @@ Despelgar fargate en pruebas: beta
 
 - 1. Despelgar un docekr de ejemplo en fargate
 
+lb, app1, app2
+
+proble with root account
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
+
+Then teh wordpress thing
+
+Need not a root acount
+
+couse: AWS OTP-AWSD7
+AWS: Getting Started with Cloud Security
+
+
+
 Con copilot un multi az
 
 https://aws.amazon.com/blogs/containers/introducing-aws-copilot/
@@ -55,6 +70,8 @@ https://aws.amazon.com/rds/aurora/serverless/
 https://aws.amazon.com/blogs/database/best-practices-for-working-with-amazon-aurora-serverless/
 
 https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338, https://pereliksoft.com/index.php/2020/11/19/aws-fargate-vs-google-cloud-run/, https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/, https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057, https://blog.codecentric.de/en/2021/03/fargate-with-efs-and-aurora-serverless-using-aws-cdk/, https://aws.amazon.com/blogs/compute/building-deploying-and-operating-containerized-applications-with-aws-fargate/, https://www.youtube.com/watch?v=Nv7s-N8ZxQA, https://cloudacademy.com/course/course-automatically-created-2018-10-02-113135226141/c3l4-terraform1/
+
+https://www.youtube.com/watch?v=YCCFK2RRm7U
 
 https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/
 Better to manage cloud run
