@@ -114,7 +114,7 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 |CaaSstack/prop     |Compatibility       | Cost          | References | Comment   |
 | :---:             |    :----:          |         :---: |    :---:   |   :---:   |
 | Azure:ACI+AzPGSQL | No psql svless     | ?             | [1 cost of azure psgql](https://www.reddit.com/r/AZURE/comments/kz93ot/any_real_world_cost_comparison_between_azure_sql/) [2 psg scaling](https://azure.microsoft.com/en-us/pricing/details/postgresql/hyperscale-citus/)  [3 performance](https://docs.microsoft.com/en-us/azure/postgresql/concepts-performance-recommendations) [4 flexible server psg does not turned off when not in use](https://channel9.msdn.com/Shows/Azure-Friday/Introducing-Flexible-Server-in-Azure-Database-for-PostgreSQL-and-MySQL)     | Sin servicio posgres serverless y con un ACI más dif´cil de depslegar que gcrun, este stack no compite|
-| AWS:Fargate+AuroraSvl| Y               | min 7€        | [1 FargatevsGKE](https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.)  [2 AWS Aurora Svless](https://labrlearning.medium.com/interacting-with-aws-aurora-serverless-1398c9de329a) [3 fargate cepoyments](https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057)  [4 ALB cost estimation](https://cloudsoft.io/blog/aws-alb-cost-estimation) [5 fargate pricing vs ec2](https://www.trek10.com/blog/fargate-pricing-vs-ec2#:~:text=As%20you%20can%20see%2C%20around,to%20cost%20about%2035%25%20more.)     | Más difícil desplegar que gcrun, pero coste no es proporcional al número de usuarios |
+| AWS:Fargate+AuroraSvl| Y               | min 7€        | [1 FargatevsGKE](https://blog.iron.io/aws-fargate-vs-gke/#:~:text=GKE,-By%20Nick%20%7C%20August&text=Both%20services%20are%20backed%20by,part%20of%20Google%20Cloud%20Platform.)  [2 AWS Aurora Svless](https://labrlearning.medium.com/interacting-with-aws-aurora-serverless-1398c9de329a) [3 fargate cepoyments](https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057)  [4 ALB cost estimation](https://cloudsoft.io/blog/aws-alb-cost-estimation) [5 fargate pricing vs ec2](https://www.trek10.com/blog/fargate-pricing-vs-ec2#:~:text=As%20you%20can%20see%2C%20around,to%20cost%20about%2035%25%20more.)   [6 Aurora svl v1, v2 seems no tto be compatible with pg](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.html)  | Más difícil desplegar que gcrun, pero coste no es proporcional al número de usuarios |
 | GCP:CloudRun+CloudSql| Y               | min 10€       | [1 CloudSql](https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3) [2 Scheduling cloudsql](https://medium.com/google-cloud/save-money-by-scheduling-cloud-sql-7981e1b65ea3) [3 cloudrun vs lambda](https://iamondemand.com/blog/google-cloud-run-vs-aws-lambda-performance-benchmarks-part-2/)  [4 cloud run vs fargate](https://keepler.io/en/2019/10/serverless-services-for-containers-aws-vs-google-cloud/) [5 cloud run vs fargate vs aci](https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/#:~:text=AWS%20Fargate%2FEKS%20is%20comparable,can%20accept%20a%20pod%20definition.)  [5 crun cold starts](https://github.com/ahmetb/cloud-run-faq#does-cloud-run-have-cold-starts)     | Opción más fácil desplegar. Pero bbdd es necesario también pagarla por las noches|
 | Alicloud:ECI+AsparaDB| Y               | ?             |            | Pay as you go tiene sentido, aunque carece de créditos grátis con lo que agilizar la prueba del stack |
 | IBM                  | No psql svless  | ?             |            | Sin servicio posgres serverless y con un ACI más difícil de depslegar que gcrun, este stack no compite |
@@ -122,7 +122,7 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | Clouding       | N               | ?             | [1](https://clouding.io/)           | Sin servicio posgres serverless y con un servicio de computación más dif´cil de depslegar que gcrun, este stack no compite |
 | Digital Ocean      | Y               | ?             | [1](https://www.digitalocean.com/pricing/#app-platform)           | 50#/month 4GB 2CPU + db, it also has kubernetes, but this needs and overhead of operation |
 | Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
-
+| AWS:AppRunner+AuroraSvl | Y               | ?             | [1](https://www.theregister.com/2021/05/19/aws_introduces_app_runner_google/#:~:text=js%2012.&text=Pricing%20is%20dependent%20on%20resources,if%20it%20is%20always%20running.),[2](https://www.youtube.com/c/ContainersfromtheCouch/videos)          | 56€, as it cannot be sale down to zero. So, firstly it was explored beacuse it mught be cheaper that having to provision an lb, but it seems it's not |
 
 ### Comparación de implementación de stacks
 
@@ -133,6 +133,7 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 | AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+ can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
 | GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
+
 A continuación se comparan métodos de despligue del stack planteado en AWS:
 
 | type/prop      | Facilidad   |  Comment   |
@@ -141,13 +142,7 @@ A continuación se comparan métodos de despligue del stack planteado en AWS:
 | CDK            | 2           |            |  
 | CLI            | 1           |            |  
 
-https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.html
 
-
-
-COpilot vs cdk vs cli
-
-https://www.youtube.com/watch?v=nvW1i33my3o
 
 - https://aws.amazon.com/activate/
 
