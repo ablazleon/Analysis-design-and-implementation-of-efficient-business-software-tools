@@ -126,14 +126,20 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 
 ### Comparación de implementación de stacks
 
-Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primera, oues auqnue a priori parezca más difícil de depslegar, posee menos coste el escalado
+Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primera, pues auqnue a priori parezca más difícil de depslegar, posee menos coste en el escalado.
 
 | type/prop              | Facilidad   | Créditos      | Comment      |
 | :---:                  |    :----:   |         :---: |      :---:   |
-| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+- can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
+| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+ can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
 | GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
-objetivo de coste, de 50 a70 (imagnees)
+A continuación se comparan métodos de despligue del stack planteado en AWS:
+
+| type/prop      | Facilidad   |  Comment   |
+| :---:          |    :----:   |    :---:   |
+| Copilot        | 3           |            |
+| CDK            | 2           |            |  
+| CLI            | 1           |            |  
 
 https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.html
 
