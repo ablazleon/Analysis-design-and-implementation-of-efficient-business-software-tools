@@ -73,6 +73,16 @@ admin:~/environment/demo-app (master) $ aws sts get-session-token --serial-numbe
 An error occurred (InvalidClientTokenId) when calling the GetSessionToken operation: The security token included in the request is invalid        
 ```
 
+```
+sudo curl -Lo /usr/local/bin/copilot https://github.com/aws/copilot-cli/releases/latest/download/copilot-linux \
+   && sudo chmod +x /usr/local/bin/copilot \
+   && copilot --help
+```
+
+no puedo isntalar docker en cloud shell y en cloud9 da problemas de iam.
+
+
+
 Then the wordpress https://github.com/bvtujo/copilot-wordpress
 
 It seems it needs aws cofnigure after disabling it, it continue not working
