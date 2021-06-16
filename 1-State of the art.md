@@ -134,6 +134,15 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 | GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +i safe three months +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
 https://www.jeremydaly.com/aurora-serverless-the-good-the-bad-and-the-scalable/#:~:text=Aurora%20Serverless%20is%20designed%20to,of%20connections%20are%20being%20used
+https://www.reddit.com/r/aws/comments/bew37h/help_me_understand_aurora_serverless_pricing/
+https://www.percona.com/blog/2020/10/27/a-first-glance-at-amazon-aurora-serverless-rds/
+https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/
+https://forums.aws.amazon.com/thread.jspa?threadID=288043
+https://www.bigcommerce.com/articles/ecommerce/ecommerce-hosting/#faqs-about-ecommerce-hosting
+https://learning.oreilly.com/library/view/ecommerce-in-the/9781491946626/ch04.html
+https://www.artifakt.com/pricing/
+https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/
+https://www.reddit.com/r/aws/comments/gh1nqw/rds_vs_aurora_big_price_difference/
 
 minimum 86€ per db, oen min acu
 
@@ -143,6 +152,7 @@ better beacuse auroara servelress scales better:
 
 option 1: providig one deplyometn in gcp
 option 2: dpeloying 
+
 
 
 A continuación se comparan métodos de despligue del stack planteado en AWS:
