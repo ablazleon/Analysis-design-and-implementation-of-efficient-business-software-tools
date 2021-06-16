@@ -81,7 +81,7 @@ sudo curl -Lo /usr/local/bin/copilot https://github.com/aws/copilot-cli/releases
 
 no puedo isntalar docker en cloud shell y en cloud9 da problemas de iam.
 
-
+aws cli 2 for copilot init
 
 Then the wordpress https://github.com/bvtujo/copilot-wordpress
 
