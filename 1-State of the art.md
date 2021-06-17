@@ -155,7 +155,33 @@ better beacuse auroara servelress scales better:
 - option 1: despliegue en gcp: 3 meses o 6, y puede que el servelress v2 ya haya salido a GA,y app runner decrementando el precio
 - option 2: desplegar en aws: va a costar más caro pero puede escalar si llegna muchas peticiones? Depende más de 20 s el escalar
 
+gcp grátis, con una bbdd guapa
 
+quitar el otro breadfree de mi cuenta, de 100 a 50
+
+lo siento web en manetneimeitno
+
+3 días de depliuege a tope
+
+20 jun
+
+
+
+8 julio
+
+
+despelgar en gcp, i find a databse that suits this thing, 40$ each, free
+
+- desplegarlo y comprobar que se pueden hacer backups
+
+despelgar en aws, y asumir 80$ al mes, 40$ al mes,
+estos 6 meses
+3 meses
+
+https://www.doofinder.com/es/blog/cuanto-cuesta-crear-ecommerce
+https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios
+
+kuebrntes 
 
 A continuación se comparan métodos de despligue del stack planteado en AWS:
 
