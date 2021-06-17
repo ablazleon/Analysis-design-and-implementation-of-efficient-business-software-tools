@@ -130,7 +130,7 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 
 | type/prop              | Facilidad   | Créditos      | Comment      |
 | :---:                  |    :----:   |         :---: |      :---:   |
-| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€/m => 30€/m/c one lb per env to separeete billings +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+ can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
+| AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€+10€/m=> 40€/m/c one lb per env to separeete billings +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+ can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
 | GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +i safe three months +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
 https://www.jeremydaly.com/aurora-serverless-the-good-the-bad-and-the-scalable/#:~:text=Aurora%20Serverless%20is%20designed%20to,of%20connections%20are%20being%20used
@@ -144,14 +144,16 @@ https://www.artifakt.com/pricing/
 https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/
 https://www.reddit.com/r/aws/comments/gh1nqw/rds_vs_aurora_big_price_difference/
 
+
+
 minimum 86€ per db, oen min acu
 
 pick one db and dpedning on it sacle manually
 
 better beacuse auroara servelress scales better:
 
-option 1: providig one deplyometn in gcp
-option 2: dpeloying 
+- option 1: despliegue en gcp: 3 meses o 6, y puede que el servelress v2 ya haya salido a GA,y app runner decrementando el precio
+- option 2: desplegar en aws: va a costar más caro pero puede escalar si llegna muchas peticiones? Depende más de 20 s el escalar
 
 
 
