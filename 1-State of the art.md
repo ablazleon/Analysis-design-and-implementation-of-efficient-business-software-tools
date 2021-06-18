@@ -54,8 +54,8 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 [7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing),
 [8](https://www.doofinder.com/es/blog/cuanto-cuesta-crear-ecommerce),
 [9](https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios),
-[10](https://www.wix.com/upgrade/website)
-
+[10](https://www.wix.com/upgrade/website),
+[11 Etsy easy to start but expensive](https://www.youtube.com/watch?v=JtjcEJqmAnE)
 ## 1.2. Procesos
 
 A continuación se listan los procesos de negocio, para concluir cómo orquestrar cada tarea.
