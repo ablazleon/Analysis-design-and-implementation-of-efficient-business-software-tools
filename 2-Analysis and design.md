@@ -27,6 +27,10 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 - Intento 2: odoo ce + aws(fargate+aurora serverless v1) vs odoo + gcp(crun+cloudsql)
 
+AWS and GCP
+
+## AWS
+
 Despelgar fargate en pruebas: beta
 
 - 1. Despelgar con copilot una app
@@ -35,21 +39,12 @@ Despelgar fargate en pruebas: beta
 
 - 1. Despelgar un docekr de ejemplo en fargate
 
-lb, app1, app2
 
-proble with root account
-
-https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
-https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html
-
-Then teh wordpress thing
-
-Need not a root acount
+Then teh wordpress thing, https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
+Need not a root acount, https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html
 
 couse: AWS OTP-AWSD7
 AWS: Getting Started with Cloud Security
-
-
 
 Con copilot un multi az
 
@@ -100,7 +95,6 @@ https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-
 https://www.youtube.com/watch?v=YCCFK2RRm7U
 
 
-
 https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/
 Better to manage cloud run
 
@@ -115,6 +109,23 @@ o create eksctl vs autopilot for database
 odoo saas, ask them how to do this
 
 Try the differnet configruations
+
+## GCP
+
+Primero, en al cuenta de extra teleco: depsleigo grun + cluodsql
+
+One odoo, and tehn one database and how to connect them. I will write the commands
+
+CUando esto funcione, pruebo la perforamnce, y digo que ya está en prueba
+
+Intentñe hacer backup pero no lo cosneguí. Hacer un ambiente de prueba y otro de proucción
+
+Hoy: montar los dos, y hacer backup entre ese y uno de 40. Hacer video. Definri ese procidieminteo
+
+CUando ese proceidmeinto funciona, mañana depseligo en la otra cuenta, con el scirpt los dos, sobre la configuración de las cuentas
+
+
+
 
 Can i change acocunt , oepnbank works
 
@@ -140,6 +151,10 @@ cloudsql vs aurora serverless
 
 having to allcoate a big thing for using it litlte times
 https://www.jeremydaly.com/aurora-serverless-v2-preview/
+
+
+
+
 ------------
 
 Flanks
