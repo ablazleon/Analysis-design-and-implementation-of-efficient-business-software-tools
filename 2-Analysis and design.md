@@ -144,6 +144,93 @@ cambiar en el odoo conf la ip publica a pincho
 
 o con un dockerfile o directamtne desde bintami
 
+Configurar una bbdd con las crdeniclaes
+
+dos repos:
+
+prod y dev, con 
+
+- Despliegue odoo: https://www.youtube.com/watch?v=PSyGrZZOd3Q
+
+https://aws.amazon.com/premiumsupport/knowledge-center/tags-billing-cost-center-project/
+
+https://blog.doit-intl.com/how-does-a-cloud-sql-database-scale-and-what-to-know-when-setting-one-up-c23c52fc9947
+
+Cómo hacer que cloud run coja las imágenes?
+
+EN gcr de binami o direcatmenete
+
+https://github.com/bitnami/bitnami-docker-odoo/blob/14.0.20210610-debian-10-r7/14/debian-10/Dockerfile
+
+bitnami me isntala psogresql y no me vale
+
+https://www.cloudbooklet.com/install-odoo-13-on-ubuntu-18-04-with-nginx-google-cloud/
+
+cloudsql
+https://www.cybrosys.com/blog/odoo-14-deployment-using-docker
+y con docker
+
+EL proceso de actualziar, hacer un fork, eso obliga a cloud build a ejecturase
+
+como hacer que github actualice un fork autoamticametne
+
+version en producción
+
+vesion en prueba, cada mes actualizo, esta ligado a un repo que se actualiza siempre
+la de produccion a uno que solo se actualiza cada mes
+
+como con rpuebas comrpboar que funciona
+load testing autaotmizar un camino
+
+dos fork uno test y otro prod
+
+Action of github to autoamtically chagne this
+
+https://mathieu.carbou.me/post/649318432483033088/automatic-fork-syncing-with-github
+https://gist.github.com/mathieucarbou/96ab30024f0d3fb44cac970219d23efc
+
+Make this repo private, but with githu bactions
+
+version en dev
+
+cloudsql
+
+https://cloud.google.com/sql/docs/quotas
+https://blog.doit-intl.com/how-does-a-cloud-sql-database-scale-and-what-to-know-when-setting-one-up-c23c52fc9947
+
+Es mejro una istnancia psotgrsql por cada db, o todas als dbs en una?
+
+
+https://cloud.google.com/sql/docs/mysql/operational-guidelines
+https://cloud.google.com/sql/docs/mysql/replication/create-replica
+
+qué datos tampoco tan necesarios, el adress pero se puede borrar
+
+no hace falta ha
+
+probar distnais configuraciones:
+
+superpotetne: distitnas
+
+5 días, en una grande todo
+
+creo una de cada, con lo mínimo
+
+csot of backup
+
+42.9€/m
+automate backups daily, puede que haya perdido una comrpa
+y puedo perder cleitnes suscritos
+
+como hago backup, no hay para odoo 14
+
+buena idea activar backup
+
+la más abrata y luego otra
+
+https://github.com/odoo/docker/blob/master/14.0/entrypoint.sh
+
+HOST 1
 
 ------------
 
