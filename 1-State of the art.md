@@ -53,7 +53,8 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 [6](https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf), 
 [7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing),
 [8](https://www.doofinder.com/es/blog/cuanto-cuesta-crear-ecommerce),
-[9](https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios)
+[9](https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios),
+[10](https://www.wix.com/upgrade/website)
 
 ## 1.2. Procesos
 
