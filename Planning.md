@@ -425,6 +425,10 @@ backup
 hacer un konta, grátis para siempre. Para pedir créditos, de aws, gcp
 
 
+1- cloud run 
+2- cloudsql
+3-how to connect
+
 - [ ] 2 20 de junio llevalro a producion -25 hacerle laod tesitng
 - [ ] 3 25 probar y enseñar
 
