@@ -232,6 +232,8 @@ https://github.com/odoo/docker/blob/master/14.0/entrypoint.sh
 
 HOST 1
 
+How to creaet an user called odoo
+
 ------------
 
 Can i change acocunt , oepnbank works
