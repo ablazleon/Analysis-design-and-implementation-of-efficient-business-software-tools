@@ -124,8 +124,28 @@ Hoy: montar los dos, y hacer backup entre ese y uno de 40. Hacer video. Definri 
 
 CUando ese proceidmeinto funciona, mañana depseligo en la otra cuenta, con el scirpt los dos, sobre la configuración de las cuentas
 
+De ese contendor a cloud run, no puedo tiene que estar dnetro
+
+CLoudbuild: del repo creo en gcr una imagen, y caundo cambien el repo puedo cambiar la iamgen.
+
+https://kinsta.com/blog/google-cloud-network/
+https://gcping.com/
+https://www.bunnyshell.com/blog/easily-deploy-odoo-cloud/
+
+bunnyshell
+
+Belgium
+
+No hay dockerfile, qué ficheor confirugrar para que se conecte la bbdd
+
+https://www.cloudbooklet.com/install-odoo-13-on-ubuntu-18-04-with-nginx-google-cloud/
+
+cambiar en el odoo conf la ip publica a pincho
+
+o con un dockerfile o directamtne desde bintami
 
 
+------------
 
 Can i change acocunt , oepnbank works
 
