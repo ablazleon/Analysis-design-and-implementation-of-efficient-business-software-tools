@@ -418,6 +418,12 @@ Una grande y en ella varias, menos latencia
 
 witha ntoehr account, pass this data to the otehr
 
+depwsslegar eso probar:
+
+perforamce
+backup
+hacer un konta, grátis para siempre. Para pedir créditos, de aws, gcp
+
 
 - [ ] 2 20 de junio llevalro a producion -25 hacerle laod tesitng
 - [ ] 3 25 probar y enseñar
