@@ -240,6 +240,10 @@ upstream connect error or disconnect/reset before headers. reset reason: protoco
 
 after cancelling the http2, something went wrong
 
+Subirlo de 1GB y CPU, a 2 GB
+
+Ops somethign went bad
+
 ------------
 
 Can i change acocunt , oepnbank works
