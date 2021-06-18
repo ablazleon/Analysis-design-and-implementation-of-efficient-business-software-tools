@@ -234,6 +234,12 @@ HOST 1
 
 How to creaet an user called odoo
 
+```
+upstream connect error or disconnect/reset before headers. reset reason: protocol error
+```
+
+after cancelling the http2, something went wrong
+
 ------------
 
 Can i change acocunt , oepnbank works
