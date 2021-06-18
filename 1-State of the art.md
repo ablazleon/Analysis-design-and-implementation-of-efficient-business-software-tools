@@ -44,7 +44,16 @@ Primero se discute, presentando en una tabla, la relación entre procesos de neg
 
 Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir
 
-- Referenias: [1](https://www.repricerexpress.com/amazon-fba-vs-shopify/), [2](https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/), [3](https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541), [4](https://www.salesforce.com/editions-pricing/small-business/), [5](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528=), [6](https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf), [7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing)
+- Referencias: 
+[1](https://www.repricerexpress.com/amazon-fba-vs-shopify/), 
+[2](https://www.websitebuilderexpert.com/ecommerce-website-builders/comparisons/shopify-vs-etsy/), 
+[3](https://www.odoo.com/forum/marketing-16/how-can-i-link-an-instagram-account-to-the-social-marketing-app-164541), 
+[4](https://www.salesforce.com/editions-pricing/small-business/), 
+[5](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit#gid=1476303528=), 
+[6](https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf), 
+[7](https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing),
+[8](https://www.doofinder.com/es/blog/cuanto-cuesta-crear-ecommerce),
+[9](https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios)
 
 ## 1.2. Procesos
 
@@ -124,6 +133,9 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
 | AWS:AppRunner+AuroraSvl | Y               | ?             | [1](https://www.theregister.com/2021/05/19/aws_introduces_app_runner_google/#:~:text=js%2012.&text=Pricing%20is%20dependent%20on%20resources,if%20it%20is%20always%20running.),[2](https://www.youtube.com/c/ContainersfromtheCouch/videos)  [3 problems with cloud mapping](https://dev.to/aws-builders/aws-app-runner-initial-thoughts-1pl8)        | 56€, as it cannot be sale down to zero. So, firstly it was explored beacuse it mught be cheaper that having to provision an lb, but it seems it's not |
 
+
+
+
 ### Comparación de implementación de stacks
 
 Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primera, pues auqnue a priori parezca más difícil de depslegar, posee menos coste en el escalado.
@@ -133,55 +145,24 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 | AWS:Fargate+AuroraSvl  | N           | 40€ + ?       |  20€+10€+10€/m=> 40€/m/c one lb per env to separeete billings -mas caro, en lso primeros 7 meses +a largo plazo este método salvará de quedarse sin servicio en días espeiclaes -+ can get more credits, but they run out quicklier, +- dbs can be created and does not cost, but one fargate up always             |
 | GCP:CloudRun+CloudSql  | Y           | 300€/3m + cambio| 20€/m/c, +i safe three months - puede que àrte del tráfico no se curse -por el dns en cada cambio, un día sin mantenemiento -crear disitnos  +- easier to deploy, pero si tengo que hacer scripting me llevará tiempo también - cloud sql si no atienda tráfico, hay que scalarlo a una bbdd con más ram            |
 
-https://www.jeremydaly.com/aurora-serverless-the-good-the-bad-and-the-scalable/#:~:text=Aurora%20Serverless%20is%20designed%20to,of%20connections%20are%20being%20used
-https://www.reddit.com/r/aws/comments/bew37h/help_me_understand_aurora_serverless_pricing/
-https://www.percona.com/blog/2020/10/27/a-first-glance-at-amazon-aurora-serverless-rds/
-https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/
-https://forums.aws.amazon.com/thread.jspa?threadID=288043
-https://www.bigcommerce.com/articles/ecommerce/ecommerce-hosting/#faqs-about-ecommerce-hosting
-https://learning.oreilly.com/library/view/ecommerce-in-the/9781491946626/ch04.html
-https://www.artifakt.com/pricing/
-https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/
-https://www.reddit.com/r/aws/comments/gh1nqw/rds_vs_aurora_big_price_difference/
+Referencias, sobre la comparacion de ambos servicios:
+
+[1](https://www.jeremydaly.com/aurora-serverless-the-good-the-bad-and-the-scalable/#:~:text=Aurora%20Serverless%20is%20designed%20to,of%20connections%20are%20being%20used)
+[2](https://www.reddit.com/r/aws/comments/bew37h/help_me_understand_aurora_serverless_pricing/)
+[3](https://www.percona.com/blog/2020/10/27/a-first-glance-at-amazon-aurora-serverless-rds/)
+[4](https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/)
+[5](https://forums.aws.amazon.com/thread.jspa?threadID=288043)
+[6](https://www.bigcommerce.com/articles/ecommerce/ecommerce-hosting/#faqs-about-ecommerce-hosting)
+[7](https://learning.oreilly.com/library/view/ecommerce-in-the/9781491946626/ch04.html)
+[8](https://www.artifakt.com/pricing/)
+[9](https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/)
+[10](https://www.reddit.com/r/aws/comments/gh1nqw/rds_vs_aurora_big_price_difference/)
 
 
-
-minimum 86€ per db, oen min acu
-
-pick one db and dpedning on it sacle manually
-
-better beacuse auroara servelress scales better:
+Se propone la siguiente estrategia:
 
 - option 1: despliegue en gcp: 3 meses o 6, y puede que el servelress v2 ya haya salido a GA,y app runner decrementando el precio
 - option 2: desplegar en aws: va a costar más caro pero puede escalar si llegna muchas peticiones? Depende más de 20 s el escalar
-
-gcp grátis, con una bbdd guapa
-
-quitar el otro breadfree de mi cuenta, de 100 a 50
-
-lo siento web en manetneimeitno
-
-3 días de depliuege a tope
-
-20 jun
-
-
-
-8 julio
-
-
-despelgar en gcp, i find a databse that suits this thing, 40$ each, free
-
-- desplegarlo y comprobar que se pueden hacer backups
-
-despelgar en aws, y asumir 80$ al mes, 40$ al mes,
-estos 6 meses
-3 meses
-
-https://www.doofinder.com/es/blog/cuanto-cuesta-crear-ecommerce
-https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios
-
-kuebrntes 
 
 A continuación se comparan métodos de despligue del stack planteado en AWS:
 
@@ -190,14 +171,6 @@ A continuación se comparan métodos de despligue del stack planteado en AWS:
 | Copilot        | 3           |            |
 | CDK            | 2           |            |  
 | CLI            | 1           |            |  
-
-
-
-- https://aws.amazon.com/activate/
-
-- aws tengo 50€, 6€, 20€ dos meses => pedir créditos ofrecer despleigues. 60€/hora consutloria
-
-- all thisif i want to deplyo a paltform, one db per each. Auroar maybe is cehaper
 
 - Despliegue odoo: https://www.youtube.com/watch?v=PSyGrZZOd3Q
 
