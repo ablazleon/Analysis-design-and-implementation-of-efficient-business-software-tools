@@ -25,7 +25,7 @@ Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend +
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
 https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-saleor-google-cloud-run-dns-31e7c94f4c9a
 
-- Intento 2: odoo ce + aws(fargate+aurora serverless v1)
+- Intento 2: odoo ce + aws(fargate+aurora serverless v1) vs odoo + gcp(crun+cloudsql)
 
 Despelgar fargate en pruebas: beta
 
