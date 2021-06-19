@@ -206,6 +206,25 @@ https://www.postgresql.org/docs/8.0/sql-createuser.html
 
 Como cogia la variable PORT reservada para el servidor la cofnundia con la de la bbdd, hay que deifnir otro puerto
 
+```
+postgres=> create user odoo with password 'odoo';
+CREATE ROLE
+postgres=> \du 
+                                                List of roles
+         Role name         |                         Attributes                         |      Member of
+---------------------------+------------------------------------------------------------+---------------------
+ cloudsqladmin             | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ cloudsqlagent             | Create role, Create DB                                     | {cloudsqlsuperuser}
+ cloudsqliamserviceaccount | Cannot login                                               | {}
+ cloudsqliamuser           | Cannot login                                               | {}
+ cloudsqlimportexport      | Create role, Create DB                                     | {cloudsqlsuperuser}
+ cloudsqlreplica           | Replication                                                | {pg_monitor}
+ cloudsqlsuperuser         | Create role, Create DB                                     | {pg_monitor}
+ odoo                      |                                                            | {}
+ postgres                  | Create role, Create DB                                     | {cloudsqlsuperuser}
+```
+
+
 ------------
 
 Can i change acocunt , oepnbank works
