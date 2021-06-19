@@ -27,7 +27,7 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 - Intento 2: odoo ce + aws(fargate+aurora serverless v1) vs odoo + gcp(crun+cloudsql)
 
-AWS and GCP
+AWS and GCP (resultado del state of the art)
 
 ## AWS
 
@@ -42,15 +42,18 @@ Despelgar fargate en pruebas: beta
 
 [Desplegar un wordpress con copilot(aurora+faragete)](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html)
 
-70€/mes es mucho
-
-o create eksctl vs autopilot for database
-
-odoo saas, ask them how to do this
-
-Try the differnet configruations
-
 ## GCP
+
+Estrategia: sacrificar que la bbdd pueda tener muchas conexiones porque los créditos sean grátis en gcp. Se despliega una bbdd, y se intenta ajustar a que este coste tenga lo que costaría con shopify (30€), pero con gestión de impuestos e inventarios.
+
+Se plantea:
+
+7-17 jun: plantear estrategia
+17-25: ejecutarla
+25 decidir si se puede desplegar odoo o mejor shopify
+
+
+
 
 Primero, en al cuenta de extra teleco: depsleigo grun + cluodsql
 
@@ -261,6 +264,8 @@ Database connection failure: FATAL:  password authentication failed for user "od
 Se vuelve a itnorducir en la bbdd para comrpoar que existe este suaurio y tineeesta contraseña
 
 Crear la db privada con una vpc
+
+Database creation error: permission denied to create database
 
 ------------
 
