@@ -37,11 +37,16 @@ Despelgar fargate en pruebas: beta
 - 2. Despelgar aurora
 - 3. Despelgar faraget odoo + aurora
 
-- 1. Despelgar un docekr de ejemplo en fargate
+- 1. Despelgar un docker de ejemplo en fargate
 
 
-Then teh wordpress thing, https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
-Need not a root acount, https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html
+[Desplegar un wordpress con copilot(aurora+faragete)](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html)
+
+Anexo problema 1 iam y actualizacion del cli de aws a 2
+
+Problema con iam:
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html
 
 couse: AWS OTP-AWSD7
 AWS: Getting Started with Cloud Security
@@ -81,6 +86,7 @@ aws cli 2 for copilot init
 Then the wordpress https://github.com/bvtujo/copilot-wordpress
 
 It seems it needs aws cofnigure after disabling it, it continue not working
+
 
 Addons aurora
 
@@ -293,6 +299,7 @@ cloudsql vs aurora serverless
 having to allcoate a big thing for using it litlte times
 https://www.jeremydaly.com/aurora-serverless-v2-preview/
 
+No había apuesto accesible la bbdd
 
 
 
