@@ -237,6 +237,12 @@ No había apuesto accesible la bbdd
 
 Aün a´si dice que no es accesible: poenrla pública, y si aún así nada, el problema es del contendor probar ahí dentro
 
+Database connection failure: FATAL:  password authentication failed for user "odoo" 
+
+Se vuelve a itnorducir en la bbdd para comrpoar que existe este suaurio y tineeesta contraseña
+
+Crear la db privada con una vpc
+
 ------------
 
 Flanks
