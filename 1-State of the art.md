@@ -148,17 +148,37 @@ Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primer
 
 Referencias, sobre la comparacion de ambos servicios:
 
+[6](https://www.bigcommerce.com/articles/ecommerce/ecommerce-hosting/#faqs-about-ecommerce-hosting)
+[7](https://learning.oreilly.com/library/view/ecommerce-in-the/9781491946626/ch04.html)
+[8](https://www.artifakt.com/pricing/)
+
+Cloud sql vs aurora serverless v1
+
 [1](https://www.jeremydaly.com/aurora-serverless-the-good-the-bad-and-the-scalable/#:~:text=Aurora%20Serverless%20is%20designed%20to,of%20connections%20are%20being%20used)
 [2](https://www.reddit.com/r/aws/comments/bew37h/help_me_understand_aurora_serverless_pricing/)
 [3](https://www.percona.com/blog/2020/10/27/a-first-glance-at-amazon-aurora-serverless-rds/)
 [4](https://www.reddit.com/r/aws/comments/adre7w/is_anyone_using_aurora_serverless_in_production/)
 [5](https://forums.aws.amazon.com/thread.jspa?threadID=288043)
-[6](https://www.bigcommerce.com/articles/ecommerce/ecommerce-hosting/#faqs-about-ecommerce-hosting)
-[7](https://learning.oreilly.com/library/view/ecommerce-in-the/9781491946626/ch04.html)
+[6](https://aws.amazon.com/rds/aurora/serverless/)
+[7](https://aws.github.io/copilot-cli/docs/developing/additional-aws-resources/)
 [8](https://www.artifakt.com/pricing/)
 [9](https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/)
 [10](https://www.reddit.com/r/aws/comments/gh1nqw/rds_vs_aurora_big_price_difference/)
+[11](https://aws.amazon.com/blogs/database/best-practices-for-working-with-amazon-aurora-serverless/)
+[12](https://www.reddit.com/r/aws/comments/n2ts9r/aurora_serverless_v2_approximate_release_date/)
+[13](https://cloud.google.com/sql/docs/quotas#:~:text=Cloud%20Run%20services%20are%20limited,connections%20per%20deployment%20can%20grow.)
 
+Fargate vs cloud run
+
+[1](https://ecsworkshop.com/microservices/)
+[2](https://medium.com/adobetech/deploy-microservices-using-aws-ecs-fargate-and-api-gateway-1b5e71129338)
+[3](https://pereliksoft.com/index.php/2020/11/19/aws-fargate-vs-google-cloud-run/)
+[4](https://thenewstack.io/comparison-aws-fargate-vs-google-cloud-run-vs-azure-container-instances/)
+[5](https://medium.com/@jonah.jones/things-to-love-about-aws-fargate-part-1-deployments-c2a8a8349057)
+[6](https://blog.codecentric.de/en/2021/03/fargate-with-efs-and-aurora-serverless-using-aws-cdk/)
+[7](https://aws.amazon.com/blogs/compute/building-deploying-and-operating-containerized-applications-with-aws-fargate/)
+[8](https://www.youtube.com/watch?v=Nv7s-N8ZxQA)
+[9](https://www.youtube.com/watch?v=YCCFK2RRm7U)
 
 Se propone la siguiente estrategia:
 
