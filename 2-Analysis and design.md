@@ -244,6 +244,28 @@ Subirlo de 1GB y CPU, a 2 GB
 
 Ops somethign went bad
 
+Estaba confundiendo el repo de docker dcon el de odoo
+
+
+https://jaychapel.medium.com/4-ways-to-get-google-cloud-credits-c4b7256ff862
+https://www.joinffl.com/program
+
+Hasta que punto es mala idea lo de pedir creidtos de cloud? QUñe procentaje de la empresa se queddan?
+
+https://bonbillo.com/?cat=-1
+
+Ask this for breadfree and for kontá
+
+Database connection failure: could not connect to server: Connection timed out
+
+Está pidiendo 8069 para la db
+
+no deja usar el susairo odoo, puede que haya que crearlo antes
+
+https://www.postgresql.org/docs/8.0/sql-createuser.html
+
+Como cogia la variable PORT reservada para el servidor la cofnundia con la de la bbdd, hay que deifnir otro puerto
+
 ------------
 
 Can i change acocunt , oepnbank works
