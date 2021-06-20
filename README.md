@@ -23,6 +23,7 @@
 # Anexo
 ## Organización del tiempo
 ## [Retos a los que me enfrenté](https://github.com/ablazleon/Analysis-design-and-implementation-of-efficient-business-software-tools/blob/main/RetosALosQueMeEnfrente.md)
+## Procedimientos
 
 # 1- Anteproyecto
 
