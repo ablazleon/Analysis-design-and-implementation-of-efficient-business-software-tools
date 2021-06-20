@@ -56,7 +56,7 @@ Después se reflexiona sobre cómo posibilitar más conexiones al servicio.
 [3](https://cloud.google.com/sql/docs/quotas)
 [4](https://cloud.google.com/sql/docs/mysql/operational-guidelines)
 [5](https://cloud.google.com/sql/docs/mysql/replication/create-replica)
-
+[6](https://www.jhanley.com/google-cloud-sql-for-mysql-connection-security-high-availability-and-failover/)
 
 
 Con la configración en multiaz y backup se espera 42.5€/m
@@ -110,6 +110,10 @@ Database creation error: permission denied to create database
 ```
 
 [1](https://www.odoo.com/es_ES/forum/ayuda-1/programmingerror-permission-denied-to-create-database-64086)
+
+```
+ALTER USER odoo WITH CREATEDB;
+```
 
 ------------
 
