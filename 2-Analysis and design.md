@@ -267,6 +267,32 @@ Crear la db privada con una vpc
 
 Database creation error: permission denied to create database
 
+https://www.odoo.com/es_ES/forum/ayuda-1/programmingerror-permission-denied-to-create-database-64086
+
+User odoo no tenía privilegios para crear cosas en la db.
+
+Ya tenog pásame eso y lo voy poniendo
+
+crear un prod, con bbdd prod y ahí configurar la bbdd como privada y ahí
+
+Dejar bonito eso una iamgen parecida y todo y entonces hacer bakup a al otro servicio
+
+QUé módulos
+
+Cómo activar la actualizacion autoamtica con github actions
+
+Conexión perdida. Intentando reconectar...
+
+Crear ese en prod, e itnetnar coenctar ese otro
+
+1- Conseguir el backup y probarlo
+2- poenrlo seguro, pasarle el link
+3- craer la bbdd uy probar en una de ejemplo eso
+
+Mañana
+
+3- configurar peidad leon
+
 ------------
 
 Flanks
