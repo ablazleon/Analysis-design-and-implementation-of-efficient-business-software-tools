@@ -65,6 +65,7 @@ hago esas dos, y cofngiro las cosas
 Estrategia de backup:
 diariamente
 
+https://www.odoo.com/es_ES/forum/ayuda-1/domain-name-for-website-in-odoo-community-edition-152627
 
 ---------------
 
