@@ -62,7 +62,8 @@ ponerlo como kontá
 
 hago esas dos, y cofngiro las cosas
 
-
+Estrategia de backup:
+diariamente
 
 
 ---------------
