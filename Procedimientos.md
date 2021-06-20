@@ -101,9 +101,7 @@ Se pone accesible la bbdd. Se hace primero exponiéndola públicamente creando u
 
 Después de esto, como mejora de seguridad, se vuelve a hacer un fork de odoo/docker, ahora privado. Después se configura github actions para que haga pull del repo. Así se deben crear dos servicios en cloud run: uno de test con una github action automática y uno de prod con una github action manual. Luego se reflexiona que si lso cambios pasan los tests de odoo, parece razoanble sólo ahcer una action y que esta sea automática. Se debe disponer de una manera de comprobar que una actulización ha hecho caer el servicio. Por ejemplo para culaquier incidencia consultar a un correo.
 
-### Configurar
-
-Primero, nos percatamos de que al crear una bd aparece el siguiente error, que se subsana dotando de ciertos privilegios al usuario odoo.
+Nos percatamos de que al crear una bd aparece el siguiente error, que se subsana dotando de ciertos privilegios al usuario odoo.
 
 ```
 Database creation error: permission denied to create database
@@ -116,6 +114,18 @@ ALTER USER odoo WITH CREATEDB;
 ```
 
 Se quita finalmente el acceso público para comprobar que fucniona con este servicio privado.
+
+### Configurar
+
+
+```
+Error de usuario:
+
+Odoo is currently processing a scheduled action.
+Module operations are not possible at this time, please try again later or contact your system administrator.
+```
+
+Se reinicia y funciona.
 
 ------------
 
