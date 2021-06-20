@@ -115,6 +115,8 @@ Database creation error: permission denied to create database
 ALTER USER odoo WITH CREATEDB;
 ```
 
+Se quita finalmente el acceso público para comprobar que fucniona con este servicio privado.
+
 ------------
 
 
