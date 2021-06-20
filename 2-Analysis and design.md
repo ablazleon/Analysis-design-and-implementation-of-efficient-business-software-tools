@@ -292,6 +292,10 @@ proteger los correo sy cotnraseñas
 
 Para desplegar la bbdd privada es encesario un vpc conector
 
+que pasa cuando realizo una atulziacion
+
+cómo mangjar la clave maestra e cloud sql
+
 migarar a un bbdd privada, 
 
 db2 migarr a una bbdd privada
