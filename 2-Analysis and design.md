@@ -52,6 +52,19 @@ Se plantea:
 17-25: ejecutarla
 25 decidir si se puede desplegar odoo o mejor shopify
 
+-------------
+
+COger el de bookstore
+
+comprar el dominio de piedadleon
+
+ponerlo como kontá
+
+hago esas dos, y cofngiro las cosas
+
+
+
+
 ---------------
 
 Can i change acocunt , oepnbank works
