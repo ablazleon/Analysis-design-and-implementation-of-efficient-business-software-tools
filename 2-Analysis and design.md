@@ -287,11 +287,17 @@ Crear ese en prod, e itnetnar coenctar ese otro
 
 1- Conseguir el backup y probarlo
 2- poenrlo seguro, pasarle el link
-3- craer la bbdd uy probar en una de ejemplo eso
+3- craer la bbdd uy probar en una de ejemplo que puedo hacer backup y pasarlo allí: por ejemplo el peidad leon con lo básico sin fotos
+
+less tahn 10% of memory, soi pick 2GB
 
 Mañana
 
-3- configurar peidad leon
+4- conseguir dominio
+5- configurar peidad leon con los cuadros en un prod
+6- garantía me parece chancullo
+
+como lo de amrjketing lo usas y sólo cuadno veas beneficios entonces te cesta, no te cuesta sino que parte se va a eso
 
 ------------
 
