@@ -67,6 +67,12 @@ diariamente
 
 https://www.odoo.com/es_ES/forum/ayuda-1/domain-name-for-website-in-odoo-community-edition-152627
 
+
+
+```
+Error: Request Entity Too Large
+Your client issued a request that was too large.
+```
 ---------------
 
 Can i change acocunt , oepnbank works
