@@ -287,6 +287,34 @@ Crear ese en prod, e itnetnar coenctar ese otro
 
 1- Conseguir el backup y probarlo
 2- poenrlo seguro, pasarle el link
+
+proteger los correo sy cotnraseñas
+
+Para desplegar la bbdd privada es encesario un vpc conector
+
+migarar a un bbdd privada, 
+
+db2 migarr a una bbdd privada
+
+https://cloud.google.com/sql/docs/postgres/connect-run
+
+cuanto improta la seguridad: si me borran la bbdd, no tenog nada
+
+qué hacer con las contraseñas, en un repo privado
+
+https://www.odoo.com/es_ES/security
+https://www.odoo.com/es_ES/forum/ayuda-1/warning-your-odoo-database-manager-is-not-protected-please-set-a-master-password-to-secure-it-109951
+
+Cómo gestioanr las cotnraseñas de una forma que la master password sólo sea concoida por el usuario
+
+
+crear un string muy largo, y ponerlo en los dos lados, poner esa copia en privado
+se puede poner ese fichero de configuración en privado
+
+github actiosn apra actualziarlo
+
+porqué despue´s de usar lighhouse no se ven los estilos
+
 3- craer la bbdd uy probar en una de ejemplo que puedo hacer backup y pasarlo allí: por ejemplo el peidad leon con lo básico sin fotos
 
 less tahn 10% of memory, soi pick 2GB
@@ -296,6 +324,8 @@ Mañana
 4- conseguir dominio
 5- configurar peidad leon con los cuadros en un prod
 6- garantía me parece chancullo
+7- enviar emsnaje al de saas
+
 
 como lo de amrjketing lo usas y sólo cuadno veas beneficios entonces te cesta, no te cuesta sino que parte se va a eso
 
