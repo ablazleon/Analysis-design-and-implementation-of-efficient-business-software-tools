@@ -127,6 +127,12 @@ https://stackoverflow.com/questions/348363/what-is-the-best-place-for-storing-up
 https://portcities.net/blog/tech-blog-6/post/why-companies-should-host-odoo-on-cloud-and-advantages-of-google-cloud-platform-29
 
 
+https://kyoukai.readthedocs.io/en/latest/adv/http2.html
+https://www.tunetheweb.com/performance/http2/
+https://www.odoo.com/es_ES/forum/ayuda-1/v-14-recommendation-for-web-server-for-odoo-183087
+https://developers.google.com/web/fundamentals/performance/http2
+https://cloud.google.com/blog/products/serverless/cloud-run-gets-websockets-http-2-and-grpc-bidirectional-streams
+
 Vamos a ver tenemos un problema
 
 EN hacer bakup para pasar eso de ahí, al otro si fuera necesario, el problema es que el límtie están en 32 megas,
