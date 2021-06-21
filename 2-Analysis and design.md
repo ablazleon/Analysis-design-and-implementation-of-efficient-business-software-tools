@@ -108,6 +108,12 @@ https://dba.stackexchange.com/questions/10142/how-to-make-it-impossible-for-a-po
 
 ---------------
 
+Mejor método de pago:
+
+https://www.xataka.com/basics/6-alternativas-bizum-para-enviar-dinero-al-momento
+
+
+
 Can i change acocunt , oepnbank works
 
 como orgnaizco los pagos https://www.bbvaapimarket.com/es/banking-apis/es-api-pagos-payments-psd2/
