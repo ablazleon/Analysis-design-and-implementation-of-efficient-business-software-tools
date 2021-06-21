@@ -73,6 +73,13 @@ https://www.odoo.com/es_ES/forum/ayuda-1/domain-name-for-website-in-odoo-communi
 Error: Request Entity Too Large
 Your client issued a request that was too large.
 ```
+
+
+
+```
+Database restore error: Postgres subprocess ('/usr/bin/pg_restore', '--dbname=breadfree', '--no-owner', '/tmp/tmplkjmgika') error 1
+```
+
 ---------------
 
 Can i change acocunt , oepnbank works
