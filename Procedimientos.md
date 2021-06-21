@@ -117,6 +117,26 @@ Se quita finalmente el acceso público para comprobar que fucniona con este serv
 
 Cambiar password odoo en el conf por una autogenerada
 
+Para borrar una database: 
+
+- 1 se le da el role de postgres al usuario odoo que posee la database, desde el role posgres
+- 2 se hace a postgres owner de  la db. Porque si no odoo conectado a breadfree no prodía borrarlo
+- 3 postgres borra la db breadfree
+
+```
+postgres=> grant postgres to odoo;
+GRANT ROLE
+
+breadfree=> alter database breadfree owner to postgres;
+ALTER DATABASE
+
+postgres=> drop database breadfree;
+DROP DATABASE
+```
+
+
+https://stackoverflow.com/questions/26684643/error-must-be-member-of-role-when-creating-schema-in-postgresql
+
 ### Configurar
 
 
