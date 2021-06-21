@@ -79,6 +79,26 @@ Your client issued a request that was too large.
 ```
 Database restore error: Postgres subprocess ('/usr/bin/pg_restore', '--dbname=breadfree', '--no-owner', '/tmp/tmplkjmgika') error 1
 ```
+```
+Internal Server Error
+The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+```
+
+Borrar las tablas
+
+
+Estrategia cada caso de uso
+
+SItio web
+
+Marketing
+
+Inventario
+
+Crear productos, con referencia y precio, cada estrategia de precio
+
+
+
 
 ---------------
 
