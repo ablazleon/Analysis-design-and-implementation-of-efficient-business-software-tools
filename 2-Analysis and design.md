@@ -92,6 +92,98 @@ Borrar las tablas
 gcloud sql connect db4 --user=odoo --database=breadfree --quiet
 ```
 
+No peude exceder de 32MB la request. 
+
+https://support.websoft9.com/docs/odoo/zh/else-troubleshooting.html#odoo-related
+https://cloud.google.com/run/quotas
+
+Necesidad de hacer un cambio, que no es fácil a prioir https://cloud.google.com/blog/products/serverless/cloud-run-gets-websockets-http-2-and-grpc-bidirectional-streams
+
+https://stackoverflow.com/questions/61231930/can-i-have-my-cloudrun-server-receive-http-2-requests
+
+Se pdoría intentar un script que rellenaes la bbdd.
+
+```
+upstream connect error or disconnect/reset before headers. reset reason: protocol error
+```
+
+Cómo hacer bvackup si no se peude hacer a travñes de ahí
+
+Hya dos partes: filestore y sql. Parece que si sólo hago backup de eso, falla
+
+en el dump he pdoido saber la verisón de la bbdd, es necesario los filesotre? sí
+
+probarlo con ese posgres 13, puede que la versión o sea la misma
+
+en odoo qué está en filestore y qué en la bbdd. QUé pasa si no restauro el filestore y sólo el dumping en sql? algo tiene que spar proque pesa abastante
+
+cómo lo restauro entonces?
+
+https://firebase.google.com/docs/firestore/quickstart#python_1
+
+tocar c´doigo lo que impclairá hacer tests
+https://apps.odoo.com/apps/modules/12.0/auto_backup/
+https://stackoverflow.com/questions/348363/what-is-the-best-place-for-storing-uploaded-images-sql-database-or-disk-file-sy
+https://portcities.net/blog/tech-blog-6/post/why-companies-should-host-odoo-on-cloud-and-advantages-of-google-cloud-platform-29
+
+
+Vamos a ver tenemos un problema
+
+EN hacer bakup para pasar eso de ahí, al otro si fuera necesario, el problema es que el límtie están en 32 megas,
+parece uqe no se peude más y no s epeude hacer backup de otra forma, porque tiene lso fiels een filesystem. Lo suyo se´ria usar un servico de filesystem para que cuest menos lso coentendores no necesitan tanta memoruia, y pro otro lado s epuede haecer backup. pero impclia cambiar c´dogio y eso impclai tiempo y mcuhas purebas.
+
+Solcuioens que se me ocurren, hay un m´doulo que hacee autobackup puedio rpobar con él, aún a´si nada
+o reducrilo para que lelgue a 32 o activar http2. Parace que els ervidor web que usa odoo (wekzeug, osea como apcah nginx) no pemrite http2, hombre pdoría poner en esa misma imagen un coentendor nginx para que encapsulara en http2, hombre pdrá funcionar
+
+qué permiti´ria sobre todo no dpeneder de cauntas iamgens pognamso, ese cloud autoamtion no vale para iamgens
+
+
+
+---------------
+
+Un trello con errores centor de atenicón al usuario
+
+quién se entere que llame
+
+erroreres comunes
+
+el límite es 52 cómo hagfo para hacer bakcups
+
+sino lo puedo ahcer a tarves de la web o migro a http2
+
+newsletter el 8 va a estar y el ivenntaroo también, eso me ralla y es cierto que .
+
+S´ñigueme ptrutnagnto per sí que es ceirto llevo este mes he parpendido
+
+Te lo dejo motnado esta semana, decidir con tiempo, darle caña a eso: temo lo de la beca,t elo digo con tiempo
+100% no voy a estar, 8 h con lo de bvakcup, 2-4h a la smeana cosas putnaules Adir he itnetando mucho esto y no me funciona. 
+
+Por ejemplo, inventario d eproductos lo esoty autnamizanod, paln d eproduccion ym naudfatutra, en casa de pasta no van las cosas bien. Ya vendéis y ya os podéis permitir a alguien incluso a una cosnutlora, esoty ivnlocrado, pero ya me ahn lalamdao la atneiconen csa de que tengo que ganar pasta
+
+os hago el cambio 3 meses si querési con una cuenta mía que se ahce g´ratis. Háblalo con Miguel
+
+SI quieres create una cuenta en gcp y te lo desplñegio en tí, me mola mazo ofrecerlso gra´tis y he pdpido contiuair, pero síq ue es cierot que a tope no puedo estar
+
+1- backup
+2- esta smeana caña a eso
+
+31 junio
+operación Manu
+ahcer un software, compras hasta pagar 100€, 2 meses grátis  a partir de ahí parte va par ala saca
+7 julio
+
+buscar en oca, oye he hecho esto
+no tenog nignuan ventaja diferneical, soy otro más co nmenos conocieminto
+tengo conomeitnos de seguridad
+coentarle un splunk
+
+15 de julio
+misnait 
+aws
+
+------------
+
+
 Estrategia cada caso de uso
 
 SItio web
