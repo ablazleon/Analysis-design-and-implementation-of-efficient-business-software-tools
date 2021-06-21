@@ -137,6 +137,10 @@ DROP DATABASE
 
 https://stackoverflow.com/questions/26684643/error-must-be-member-of-role-when-creating-schema-in-postgresql
 
+```
+postgres=> drop database breadfree;
+```
+
 ### Configurar
 
 
@@ -149,6 +153,12 @@ Module operations are not possible at this time, please try again later or conta
 
 Se reinicia y funciona.
 
+```
+postgres=> SELECT pg_terminate_backend (pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'breadfree';
+ERROR:  must be a member of the role whose process is being terminated or member of pg_signal_backend
+```
 
 
 ------------
