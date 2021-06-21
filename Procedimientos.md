@@ -115,6 +115,8 @@ ALTER USER odoo WITH CREATEDB;
 
 Se quita finalmente el acceso público para comprobar que fucniona con este servicio privado.
 
+Cambiar password odoo en el conf por una autogenerada
+
 ### Configurar
 
 
@@ -126,6 +128,8 @@ Module operations are not possible at this time, please try again later or conta
 ```
 
 Se reinicia y funciona.
+
+
 
 ------------
 
