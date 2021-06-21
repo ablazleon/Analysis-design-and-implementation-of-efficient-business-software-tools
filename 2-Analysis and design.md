@@ -84,8 +84,13 @@ Internal Server Error
 The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
 ```
 
+
+
 Borrar las tablas
 
+```
+gcloud sql connect db4 --user=odoo --database=breadfree --quiet
+```
 
 Estrategia cada caso de uso
 
@@ -97,7 +102,8 @@ Inventario
 
 Crear productos, con referencia y precio, cada estrategia de precio
 
-
+https://www.postgresqltutorial.com/postgresql-show-tables/
+https://dba.stackexchange.com/questions/10142/how-to-make-it-impossible-for-a-postgres-user-to-delete-databases
 
 
 ---------------
