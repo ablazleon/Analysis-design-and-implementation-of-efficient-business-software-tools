@@ -170,6 +170,65 @@ https://www.novixys.com/blog/python-web-application-docker-nginx-uwsgi/
 
 cómo poner para que odoo sea ejecutado por nginx en un container, ejecutarlo en el puerto 80. Quizá poner un issue
 
+
+----------------
+
+https://stackoverflow.com/questions/19948149/can-i-run-multiple-programs-in-a-docker-container
+
+https://github.com/jbfink/docker-wordpress/blob/master/Dockerfile
+
+-------------------
+
+How to set in a Dockerfile an nginx in front of a container? I tried making odoo handle http/2(on gcloud run) through running an nginx in front of it
+
+Hi! Thanks in advance :)  My question is, how to set in a Dockerfile an nginx in front of a container? I saw examples like this [0], but they all use docker compose to run the nginx in front of it. The only example I saw that runs both in the same container is this [5], but I don't understand the steps. Can you give me any documentation that I can understand? Because according to this example I should modify the Dockerfile adding in the last lines a RUN:
+
+They are tow processes I cannot run two processes in one container
+
+The rest of the Dockerfile is in here [4]:
+
+```
+... more
+
+COPY wait-for-psql.py /usr/local/bin/wait-for-psql.py
+
+# Set default user when running the container
+USER odoo
+
+=> Here
+# after setting proxy-mode in odoo-conf
+docker run --link odoo:odoo --name nginx -v /nginx/nginx.conf:/etc/nginx/nginx.conf:ro -d -p 80:80 nginx
+=>
+
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["odoo"]
+```
+
+```
+
+```
+
+
+ I'm deploying an odoo ce on google cloud run + cloud sql. I configured one odoo as a demo with 5 blogposts and when I tried to download it, it says that the request was too large. Then, I imagined this was because of the 32MB of cloud run request quota [1]. Then, I saw that the quota for http/2 connections was unlimited, so I activated http/2 button in cloud run. Next, when I accessed the service an error relating "connection failure appeared". So, my first question is, **anyone that has been able to make automate backups in odoo with cloud run, have you been able to make odoo handle http/2 connections (on google cloud run)? Can you give me any advice of how have you done it?**
+
+To do so I thought of two ways: one, was upgrading the odoo http server to one that can handle http/2 like Quark. This first way seems impossible to me, because it would force me to rewrite many pieces of odoo, maybe. Then, the second option that I thought of was running in front of the odoo container (that runs a python web server on a Werkzeug), an nginx. I read in the web that nginx could upgrade connections to http/2. But, I also read that cloud run was running its internal load balancer [2]. So, my second question: **would it be possible to run in the same odoo container an nginx that exposes this service on cloud run?** 
+
+I read some documentation about running an nginx in front of an odoo service in a vm [3]. So it would be just adding this code to the odoo Dockerfile?
+
+
+
+
+However, as cloud run needs containers, I think if I setup the nginx entrypoint and also the run entrypoint.sh in the Dockerfile these both may crash [4]. I'm googling a lot if 
+
+
+[0] https://github.com/Verisage/docker-nginx-letsencrypt-odoo/blob/master/docker-compose.yml
+[1] https://cloud.google.com/run/quotas
+[2] https://stackoverflow.com/questions/61794069/cloud-run-needs-nginx-or-not
+[3] https://linuxize.com/post/configure-odoo-with-nginx-as-a-reverse-proxy/
+[4] https://github.com/odoo/docker/tree/master/14.0
+[5] https://github.com/swoldanski/odoo-nginx-docker-multitenant
+
+
 ---------
 
 Cómo automatizar los backups
@@ -186,6 +245,17 @@ installing this inside one, is cool, but maybe force it to be up all time
 no puede ser más grande que 32, preguntar eso
 
 levnatanrlo con posgres1l 12
+
+
+-----------
+
+
+crear un posgres12 e intentarlo allí
+
+
+-----------
+
+problema cuando credo dos bbdd en una
 
 ------------
 
@@ -237,6 +307,7 @@ coentarle un splunk
 misnait 
 aws
 
+
 ------------
 
 
@@ -252,6 +323,12 @@ Crear productos, con referencia y precio, cada estrategia de precio
 
 https://www.postgresqltutorial.com/postgresql-show-tables/
 https://dba.stackexchange.com/questions/10142/how-to-make-it-impossible-for-a-postgres-user-to-delete-databases
+
+
+------------
+
+https://www.aselcis.com/en_US/jobs
+https://www.aeodoo.org/forum/aeodoo-1
 
 
 ---------------
