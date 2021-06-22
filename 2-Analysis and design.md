@@ -170,6 +170,33 @@ https://www.novixys.com/blog/python-web-application-docker-nginx-uwsgi/
 
 cómo poner para que odoo sea ejecutado por nginx en un container, ejecutarlo en el puerto 80. Quizá poner un issue
 
+Hcaer una demo, probar con eso y sino, pero dónde lo dejo?
+
+corn job, inside this or outside, un proceso maestor que haga backups, dónde?
+
+Ejecuto eso y lo pruebo, dódne lo guardo
+
+Los modulos en la version hsoted se guaradan en addons. En addons no puedo acceder
+
+A nos er que lo meta en el github de odoo y ese lo compile a mi imagen
+
+https://cloud.google.com/run/docs/triggering/using-scheduler
+
+
+
+---------------
+
+Un DOckerfile más serio con un github actions para hacer pulling
+
+
+Probar ocn un docekrfile: un ockerfile público sin la contraseña, sino tenog que ahcer una github action, y eso no escala
+Hay que ahcerlo no se hace sólo
+
+https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions
+
+
+
+https://wikiprot.protaapp.com/11_vulnerabilities/#herramientas-para-gestion-de-vulnerabilidades
 
 ----------------
 
@@ -187,6 +214,9 @@ They are tow processes I cannot run two processes in one container
 
 The rest of the Dockerfile is in here [4]:
 
+
+
+
 ```
 ... more
 
@@ -196,7 +226,7 @@ COPY wait-for-psql.py /usr/local/bin/wait-for-psql.py
 USER odoo
 
 => Here
-# after setting proxy-mode in odoo-conf
+# After setting proxy-mode in odoo-conf
 docker run --link odoo:odoo --name nginx -v /nginx/nginx.conf:/etc/nginx/nginx.conf:ro -d -p 80:80 nginx
 =>
 
@@ -249,7 +279,7 @@ levnatanrlo con posgres1l 12
 
 -----------
 
-
+activar la autenticación en dos apsos
 crear un posgres12 e intentarlo allí
 
 
