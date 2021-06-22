@@ -143,7 +143,11 @@ o reducrilo para que lelgue a 32 o activar http2. Parace que els ervidor web que
 
 qué permiti´ria sobre todo no dpeneder de cauntas iamgens pognamso, ese cloud autoamtion no vale para iamgens
 
+https://serverfault.com/questions/966408/google-cloud-run-how-to-mount-filestore-nfs
 
+no soprota filestore
+
+alguna psoiblidad de http2, sino backup, no
 
 ---------------
 
