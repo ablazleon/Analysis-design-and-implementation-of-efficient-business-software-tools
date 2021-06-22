@@ -149,6 +149,52 @@ no soprota filestore
 
 alguna psoiblidad de http2, sino backup, no
 
+Poner un nginx, pero no hace falta tiene su propio blacneador
+
+https://stackoverflow.com/questions/38878880/serving-python-flask-rest-api-over-http2
+
+quart
+
+conactenar un gninx, no sé qué configuraicion
+
+https://stackoverflow.com/questions/61794069/cloud-run-needs-nginx-or-not
+https://stackoverflow.com/questions/37004983/what-exactly-is-werkzeug
+https://www.odoo.com/documentation/12.0/administration/deployment/deploy.html#https
+https://softwareengineering.stackexchange.com/questions/382777/clearing-up-misconceptions-about-a-flask-backend-and-client-side-rendering
+
+no hace falta poner un nginx, ya tien uno gcrun
+
+SI pongo un lb tengo que manejar ssl, y además, va a salir muy caro
+
+https://www.novixys.com/blog/python-web-application-docker-nginx-uwsgi/
+
+cómo poner para que odoo sea ejecutado por nginx en un container, ejecutarlo en el puerto 80. Quizá poner un issue
+
+---------
+
+Cómo automatizar los backups
+
+https://linuxize.com/post/how-to-setup-automatic-odoo-backup/
+
+con un curl ahí
+
+a cron contianer that do it
+
+installing this inside one, is cool, but maybe force it to be up all time
+
+
+no puede ser más grande que 32, preguntar eso
+
+levnatanrlo con posgres1l 12
+
+------------
+
+si pongo el repo en privado no se auto actuliza, tengo que hacer las actions
+
+ponerlo en público pero poner las amster password como un parámetro
+
+
+
 ---------------
 
 Un trello con errores centor de atenicón al usuario
