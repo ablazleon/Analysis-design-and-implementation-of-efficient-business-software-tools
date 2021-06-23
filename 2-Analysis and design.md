@@ -202,7 +202,24 @@ https://apps.odoo.com/apps/modules/14.0/delivery_sendcloud_official/
 https://apps.odoo.com/apps/modules/14.0/ir_attachment_s3/
 https://apps.odoo.com/apps/modules/14.0/odoo_backup_sh/
 
+Cómo montar esos dos addons
 
+DOcekr en el dockerfile más
+
+odoo
+
+copy de addons y comprobar
+
+público o privado?
+
+es posible la master password te la db aoscialer con el key manger
+
+cambiar credenicales aws
+
+db6
+
+indepentdintemente de que se pueda ligar el suaurio del admin del cluodsql con la password en odoo conf
+control de acceso en cloud sql
 
 
 ---------------
