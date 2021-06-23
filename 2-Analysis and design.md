@@ -183,6 +183,25 @@ A nos er que lo meta en el github de odoo y ese lo compile a mi imagen
 https://cloud.google.com/run/docs/triggering/using-scheduler
 
 
+Cómo automatizar los backups
+
+https://linuxize.com/post/how-to-setup-automatic-odoo-backup/
+
+con un curl ahí
+
+a cron contianer that do it
+
+installing this inside one, is cool, but maybe force it to be up all time
+
+
+no puede ser más grande que 32, preguntar eso
+
+levnatanrlo con posgres1l 12
+
+or isntall it in the addons: installing this in the addons seems better
+
+
+
 
 ---------------
 
@@ -261,20 +280,6 @@ However, as cloud run needs containers, I think if I setup the nginx entrypoint 
 
 ---------
 
-Cómo automatizar los backups
-
-https://linuxize.com/post/how-to-setup-automatic-odoo-backup/
-
-con un curl ahí
-
-a cron contianer that do it
-
-installing this inside one, is cool, but maybe force it to be up all time
-
-
-no puede ser más grande que 32, preguntar eso
-
-levnatanrlo con posgres1l 12
 
 
 -----------
