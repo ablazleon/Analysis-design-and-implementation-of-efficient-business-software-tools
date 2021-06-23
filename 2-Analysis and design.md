@@ -193,12 +193,14 @@ a cron contianer that do it
 
 installing this inside one, is cool, but maybe force it to be up all time
 
-
 no puede ser más grande que 32, preguntar eso
 
-levnatanrlo con posgres1l 12
 
 or isntall it in the addons: installing this in the addons seems better
+
+https://apps.odoo.com/apps/modules/14.0/delivery_sendcloud_official/
+https://apps.odoo.com/apps/modules/14.0/ir_attachment_s3/
+https://apps.odoo.com/apps/modules/14.0/odoo_backup_sh/
 
 
 
