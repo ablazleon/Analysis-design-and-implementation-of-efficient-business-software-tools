@@ -14,8 +14,6 @@
 
 ## 1. Creación manual de un servicio odoo ce (crun+csql)
 
-
-
 ### Código de odoo
 ### Crun
 ### Csql 
@@ -173,41 +171,28 @@ ERROR:  must be a member of the role whose process is being terminated or member
 ## 2. Procedimiento de backup
 
 
-corn job, inside this or outside, un proceso maestor que haga backups, dónde?
+ ?De qué forma autoamtizar el bakup de la bbd y del filestore?
+ 
+ - Hacerlo 
+ - BUscar un addon
 
-Ejecuto eso y lo pruebo, dódne lo guardo
+-----------
 
-Los modulos en la version hsoted se guaradan en addons. En addons no puedo acceder
+- Hacerlo
 
-A nos er que lo meta en el github de odoo y ese lo compile a mi imagen
+Con un scheduler ejecutar cloud run. Peor puede que el script dependa de la versión
 
-https://cloud.google.com/run/docs/triggering/using-scheduler
+[1](https://cloud.google.com/run/docs/triggering/using-scheduler)
+[2](https://linuxize.com/post/how-to-setup-automatic-odoo-backup/)
 
+- Addons
 
-Cómo automatizar los backups
+Existen addons compatibles gratuitos
 
-https://linuxize.com/post/how-to-setup-automatic-odoo-backup/
+[1](https://apps.odoo.com/apps/modules/14.0/odoo_backup_sh/)
+[2](https://apps.odoo.com/apps/modules/14.0/ir_attachment_s3/)
 
-con un curl ahí
-
-a cron contianer that do it
-
-installing this inside one, is cool, but maybe force it to be up all time
-
-no puede ser más grande que 32, preguntar eso
-
-
-or isntall it in the addons: installing this in the addons seems better
-
-https://apps.odoo.com/apps/modules/14.0/delivery_sendcloud_official/
-https://apps.odoo.com/apps/modules/14.0/ir_attachment_s3/
-https://apps.odoo.com/apps/modules/14.0/odoo_backup_sh/
-
-Cómo montar esos dos addons
-
-DOcekr en el dockerfile más
-
-odoo
+Montarlos sobrer el Dockerfile. Hacer un Dockerfile con este. Crear una db6 de pruebas con una password sencilla pero inyectándola
 
 copy de addons y comprobar
 
