@@ -192,20 +192,10 @@ Existen addons compatibles gratuitos
 [1](https://apps.odoo.com/apps/modules/14.0/odoo_backup_sh/)
 [2](https://apps.odoo.com/apps/modules/14.0/ir_attachment_s3/)
 
-Montarlos sobrer el Dockerfile. Hacer un Dockerfile con este. Crear una db6 de pruebas con una password sencilla pero inyectándola
+Montarlos sobrer el Dockerfile. Hacer un Dockerfile con este. Crear una db6 de pruebas inyectándola la password.
+Añadirle a este Dockerfile el addon de backup. Meter las credenciales de aws en ello. COnfigurarla cómo funciona.
 
-copy de addons y comprobar
-
-público o privado?
-
-es posible la master password te la db aoscialer con el key manger
-
-cambiar credenicales aws
-
-db6
-
-indepentdintemente de que se pueda ligar el suaurio del admin del cluodsql con la password en odoo conf
-control de acceso en cloud sql
+Luego el addon de attachment a s3.
 
 
 -------------
