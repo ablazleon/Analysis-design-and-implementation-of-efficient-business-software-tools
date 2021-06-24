@@ -123,7 +123,8 @@ si pongo el repo en privado no se auto actuliza, tengo que hacer las actions
 
 ponerlo en público pero poner las amster password como un parámetro
 
-
+--------
+https://apps.odoo.com/apps/modules/14.0/delivery_sendcloud_official/
 
 ---------------
 
