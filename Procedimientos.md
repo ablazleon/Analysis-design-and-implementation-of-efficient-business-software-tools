@@ -50,6 +50,9 @@ Si se configura http2 aparece este error:
 upstream connect error or disconnect/reset before headers. reset reason: protocol error
 ```
 
+entreypoint.sh y odoo.conf => dbport = 5432
+
+
 ### Csql 
 
 Primero se reflexiona sobre qué instancia es mejor coger.
@@ -64,7 +67,7 @@ Después se reflexiona sobre cómo posibilitar más conexiones al servicio.
 [6](https://www.jhanley.com/google-cloud-sql-for-mysql-connection-security-high-availability-and-failover/)
 
 
-Con la configración en multiaz y backup se espera 42.5€/m
+Con la configración en multiaz se espera 42.5€/m. No se configura backup pues se realiza este de forma externa. Se elige shared-core 1.7 GB
 
 Primero, se desconecta la línea admin_password para que esta password coincida con la password de odoo.conf
 
@@ -370,6 +373,7 @@ https://www.odoo.com/es_ES/forum/ayuda-1/warning-your-odoo-database-manager-is-n
 
 Cómo gestioanr las cotnraseñas de una forma que la master password sólo sea concoida por el usuario
 
+Crear un nuevo service account
 
 crear un string muy largo, y ponerlo en los dos lados, poner esa copia en privado
 se puede poner ese fichero de configuración en privado
