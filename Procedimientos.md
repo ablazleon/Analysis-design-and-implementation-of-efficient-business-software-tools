@@ -34,6 +34,7 @@ COnfigurar una github acción para que se haga pull del docker maestro.
 [1](https://mathieu.carbou.me/post/649318432483033088/automatic-fork-syncing-with-github)
 [2](https://gist.github.com/mathieucarbou/96ab30024f0d3fb44cac970219d23efc)
 
+Poner como default la branch master.
 
 ### Crun
 Se elige la región con menos latencia, Beligum (gcping) y los valores del contenedor.
@@ -52,6 +53,11 @@ upstream connect error or disconnect/reset before headers. reset reason: protoco
 
 entreypoint.sh y odoo.conf => dbport = 5432
 
+Puede ser que este error sea debido a llamr una revision con un nombre ya usado o ha llamar uno repo en mayúscula.
+
+```
+Your build failed to run: generic::invalid_argument: invalid build: invalid image name "eu.gcr.io/breadfree/myOdoo/bf-test:a93ef07e1398c76d1c8bf55ae6e59cd73db3b4d0": could not parse reference: eu.gcr.io/breadfree/myOdoo/bf-test:a93ef07e1398c76d1c8bf55ae6e59cd73db3b4d0
+```
 
 ### Csql 
 
@@ -69,7 +75,9 @@ Después se reflexiona sobre cómo posibilitar más conexiones al servicio.
 
 Con la configración en multiaz se espera 42.5€/m. No se configura backup pues se realiza este de forma externa. Se elige shared-core 1.7 GB
 
-Primero, se desconecta la línea admin_password para que esta password coincida con la password de odoo.conf
+Primero, se descomenta la línea admin_password, escriebiendo una de tal forma que esta password coincida con la password de odoo.conf.
+
+Además se elige el Docekrfile como ./14.0/Dockerfile y la rama como master.
 
 ```
 Database connection failure: could not connect to server: Connection timed out
@@ -83,6 +91,19 @@ ERROR: (gcloud.sql.connect) It seems your client does not have ipv6 connectivity
 
 [1](https://www.postgresql.org/docs/8.0/sql-createuser.html)
 
+
+Se cambian el puerto a 8069, y se introduce la variable de entorno PORTDB.
+
+La password ppuede ser odoo u otra más grande
+
+
+
+```
+ create user odoo with password 'odoo';
+ \du
+ ALTER USER odoo WITH CREATEDB;
+ \du
+```
 
 ```
 postgres=> create user odoo with password 'odoo';
@@ -103,6 +124,7 @@ postgres=> \du
  
  create user odoo with password 'odoo';
  \du
+ ALTER USER odoo WITH CREATEDB;
 ```
 
 Se pone accesible la bbdd. Se hace primero exponiéndola públicamente creando una red a la que acceden todos (0.0.0.0/0). Luego, se mejora la privacidad del diseño configurando la bbdd como privada, creando un conector vpc serverless.
@@ -128,7 +150,7 @@ Cambiar password odoo en el conf por una autogenerada
 Para borrar una database: 
 
 - 1 se le da el role de postgres al usuario odoo que posee la database, desde el role posgres
-- 2 se hace a postgres owner de  la db. Porque si no odoo conectado a breadfree no prodía borrarlo
+- 2 se hace a postgres owner de la db. Porque si no odoo conectado a breadfree no prodía borrarlo
 - 3 postgres borra la db breadfree
 
 ```
@@ -199,7 +221,6 @@ Montarlos sobrer el Dockerfile. Hacer un Dockerfile con este. Crear una db6 de p
 Añadirle a este Dockerfile el addon de backup. Meter las credenciales de aws en ello. COnfigurarla cómo funciona.
 
 Luego el addon de attachment a s3.
-
 
 -------------
 
