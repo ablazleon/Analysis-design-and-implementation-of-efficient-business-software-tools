@@ -6,9 +6,11 @@
 
 ## 3. Procedimiento de actualización
 
-## 4. Mejora. Usar http2 parapermitir backups mayores de 32 MB.
+## 4. Bug/mejora. Usar http2 parapermitir backups mayores de 32 MB.
 
 ## 5. Procedimiento de control de acceso autorizado
+
+## 6. Bug/mejora. Cloud run es stateless, no persiste los VOLUMEs.
 
 Oca vs saas
 https://www.youtube.com/watch?v=XqND6_PITio
@@ -327,3 +329,81 @@ porqué despue´s de usar lighhouse no se ven los estilos
 
 como lo de amrjketing lo usas y sólo cuadno veas beneficios entonces te cesta, no te cuesta sino que parte se va a eso
 
+----------------
+
+## 6. Bug/mejora. Cloud run es stateless, no persiste los VOLUMEs.
+
+No se meustra css
+
+https://www.odoo.com/es_ES/forum/ayuda-1/no-css-no-images-after-user-logout-from-website-127642
+```
+Failed to load resource: the server responded with a status of 404 () web.ssets frontend.css:1
+```
+
+si cloud run no persite los volúmenes, los addons se van 
+
+puede ser porque pirde los filestore.
+
+QUé guarda odoo en filestore?
+
+Los themes, que se pierden, y las imágenes
+
+Cuando pongo un theme se pierde
+
+Por eso paarece sin css.
+
+O persisto el theme
+
+odoo cómo guardas el filestore en la nube
+
+cloud run no hay integración con el filestore, no se persiste
+
+https://www.odoo.com/es_ES/forum/ayuda-1/how-to-configure-the-filestore-in-high-availability-172440
+
+https://github.com/itpp-labs/misc-addons/tree/11.0/ir_attachment_s3
+
+precio de redis
+
+https://github.com/diogocduarte/odoo_s3/tree/12.0
+
+https://github.com/itpp-labs/misc-addons
+
+session sotre modules
+
+https://apps.odoo.com/apps/modules/12.0/base_session_store_psql/
+https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
+https://www.odoo.com/es_ES/forum/ayuda-1/css-and-js-files-are-not-loading-96868
+
+https://apps.openerp.com/apps/modules/13.0/muk_fields_file/
+v13
+
+https://apps.odoo.com/apps/modules/13.0/muk_session_store/
+
+Hacer otro odoo, y habilitar ahí con redis la session
+
+CHoose the modules for the same provider
+
+v14, there's no sesion storage there
+
+v13
+https://github.com/itpp-labs/misc-addons/tree/13.0/base_session_store_psql
+https://github.com/itpp-labs/misc-addons/tree/13.0/ir_attachment_url
+
+https://github.com/Smile-SA/odoo_addons/tree/13.0
+muk
+
+itpp labs
+
+https://github.com/it-projects-llc/saas-addons/tree/13.0/saas
+
+=> para hacer un saas muhco curro
+
+incluso los propios volúmenes cuando meto el addon están en el filestore
+
+
+
+-------------
+
+Regenerate the keys
+
+https://ask.streamsets.com/question/9775/unable-to-write-object-to-amazon-s3-the-request-signature-we-calculated-does-not-match-the-signature-you-provided-check-your-key-and-signing-method/
