@@ -169,6 +169,10 @@ misnait
 aws
 
 
+--------------
+
+WARNING ? odoo.addons.base.models.ir_cron: Skipping database bf-dev because of modules to install/upgrade/remove.
+
 ------------
 
 
