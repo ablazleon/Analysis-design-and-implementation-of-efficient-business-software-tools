@@ -400,7 +400,7 @@ https://github.com/it-projects-llc/saas-addons/tree/13.0/saas
 
 incluso los propios volúmenes cuando meto el addon están en el filestore
 
-
+Crear otro servicio bf-dev2 en db9
 
 -------------
 
