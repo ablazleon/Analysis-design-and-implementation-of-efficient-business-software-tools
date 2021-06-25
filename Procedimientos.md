@@ -10,6 +10,9 @@
 
 ## 5. Procedimiento de control de acceso autorizado
 
+Oca vs saas
+https://www.youtube.com/watch?v=XqND6_PITio
+
 -------------------
 
 ## 1. Creación manual de un servicio odoo ce (crun+csql)
