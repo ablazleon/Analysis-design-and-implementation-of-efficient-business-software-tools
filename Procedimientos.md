@@ -230,6 +230,33 @@ Se propone arranca la db, y entocnes instalar y darle a udpate.
 
 No hay bd, no hay ningún error, todo puede ser por haber clikado dos veces en crear bd. Se crea un bd8 y se borra esta.
 
+
+```
+Imposible instalar el módulo "odoo_backup_sh" porqué hay una dependencia externa no resuelta: Python library not installed: boto3
+```
+
+Se intenta hacer run de pip install. En la documentation se dice que se debe elegir un bucket un un folder. Se intenta crear un folder en el bucket, pero no se sabe si se refiere a un folder en el bucket o en el contenedor de odoo.
+
+https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/
+
+Parece que la región más barata es us-east-1, N Virginia. Además no tiene gran latencia.
+
+Cuando descargo el zip dice que no tiene permiso.
+
+```
+The request signature we calculated does not match the signature you provided. Check your key and signing method.
+```
+
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html
+https://github.com/aws/aws-sdk-go/issues/3110
+https://stackoverflow.com/questions/7116450/what-are-valid-s3-key-names-that-can-be-accessed-via-the-s3-rest-api
+
+Aún con las dos cuentas da este error.
+
+
+
+
 Luego el addon de attachment a s3.
 
 -------------
