@@ -402,6 +402,8 @@ incluso los propios volúmenes cuando meto el addon están en el filestore
 
 Crear otro servicio bf-dev2 en db9
 
+Probar desde el principio con redis y esas 2
+
 -------------
 
 Regenerate the keys
