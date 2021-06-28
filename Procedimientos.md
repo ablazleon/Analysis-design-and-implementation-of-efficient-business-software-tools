@@ -404,6 +404,20 @@ Crear otro servicio bf-dev2 en db9
 
 Probar desde el principio con redis y esas 2
 
+isntall teh muik thing
+
+create anotehr service in db9, create db10 jsut in case
+and whit this redis
+first a fork with jsut this
+
+https://github.com/camptocamp/odoo-cloud-platform/tree/14.0
+
+se intenta con la 14
+
+en la session se puierde, en lso attachemtn se quedan en s3. Cömo autoamtizar el backup?
+
+
+
 -------------
 
 Regenerate the keys
