@@ -545,7 +545,9 @@ Probar desde el principio con redis y esas 2
 
 https://github.com/camptocamp/odoo-cloud-platform
 
-How to create a repo composition of various repos?
+
+
+
 
 -------------
 
