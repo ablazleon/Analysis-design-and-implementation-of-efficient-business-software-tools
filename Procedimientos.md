@@ -19,17 +19,29 @@ https://www.youtube.com/watch?v=XqND6_PITio
 
 ## 1. Creación manual de un servicio odoo ce (crun+csql)
 
+# CE 14
+
 ### Código de odoo
 ### Crun
 ### Csql 
 ### Configurar
 
------------
+# CE 13 + session store (redis) + s3 (backup and images)
 
 ### Código de odoo
-Fork de odoo/docker y configurar cloudbuild para que caundo cambie el repo (con las actualizaciones) se cree otra vez la imagen.
+### Crun
+### Csql 
+### Redis
+### Images 
+### Backup
+### Configurar
 
-Es mejor que coger un contenedor de bitnami, pues bitnami isntal postgres en la misma docker network.
+-----------
+
+# CE 14
+
+### Código de odoo
+Fork de odoo/docker y configurar cloudbuild para que cuando cambie el repo (con las actualizaciones) se cree otra vez la imagen. Es mejor que coger un contenedor de bitnami, pues bitnami isntal postgres en la misma docker network.
 
 [1](https://github.com/bitnami/bitnami-docker-odoo/blob/14.0.20210610-debian-10-r7/14/debian-10/Dockerfile)
 [2](https://www.cloudbooklet.com/install-odoo-13-on-ubuntu-18-04-with-nginx-google-cloud/)
@@ -100,8 +112,6 @@ ERROR: (gcloud.sql.connect) It seems your client does not have ipv6 connectivity
 Se cambian el puerto a 8069, y se introduce la variable de entorno PORTDB.
 
 La password ppuede ser odoo u otra más grande
-
-
 
 ```
  \du
@@ -197,6 +207,131 @@ ERROR:  must be a member of the role whose process is being terminated or member
 ```
 
 
+# CE 13 + session store (redis) + s3 (backup and images)
+
+### Código de odoo
+
+- 1. Fork de odoo/docker y configurar cloudbuild para que cuando cambie el repo (con las actualizaciones) se cree otra vez la imagen. Es mejor que coger un contenedor de bitnami, pues bitnami isntal postgres en la misma docker network.
+
+- 2. Configurar una github acción para que se haga pull del docker maestro.
+
+- 3. Poner como default la branch master.
+
+### Crun
+
+- 1. Se elige la región con menos latencia, Beligum (gcping) y los valores del contenedor.
+
+- 2. Se configuran dos variables de entorno: host con la ip de la ddbb y dbport con el puerto de posgres. Nótese que se debe cambiar el valor port pro dbport en entrypoint.sh para que no colisione con el valor or defecto del port que expone cloud run
+
+
+### Csql
+
+- 1. Primero se reflexiona sobre qué instancia es mejor coger.
+- 2. Luego sobre cómo conectar cloudsql con odoo, básicamente exponiendo parámetros como variables de entorno y cambiando parámetros del fichero de configuración. Como la clave maestra
+- 3. Después se reflexiona sobre cómo posibilitar más conexiones al servicio.
+
+- 4. Con la configración en multiaz se espera 42.5€/m. No se configura backup pues se realiza este de forma externa. Se elige shared-core 1.7 GB
+
+- 5. Primero, se descomenta la línea admin_password, escriebiendo una de tal forma que esta password coincida con la password de odoo.conf.
+
+- 6. Además se elige el Docekrfile como ./13.0/Dockerfile y la rama como master.
+
+```
+Database connection failure: could not connect to server: Connection timed out
+```
+
+Después de reflexionar se crea un usuario odoo con contraseña odoo, para permtir que la aplicación se conecte a la bbdd. Como mediante cloudsehll con ip privada dice que error, se da una ip pública para crear el usuario.
+
+````
+ERROR: (gcloud.sql.connect) It seems your client does not have ipv6 connectivity and the database instance does not have an ipv4 address. Please request an ipv4 address for this database instance.
+````
+
+[1](https://www.postgresql.org/docs/8.0/sql-createuser.html)
+
+
+Se cambian el puerto a 8069, y se introduce la variable de entorno PORTDB.
+
+La password ppuede ser odoo u otra más grande
+
+```
+ \du
+ create user odoo with password 'J2Gpv74A5yGPk735FstW9aBwEKGPetneCkCXADG6wFD8hh2BY7rUrVVuZwvqZ4ds';
+ \du
+ ALTER USER odoo WITH CREATEDB;
+ \du
+```
+
+```
+postgres=> create user odoo with password 'odoo';
+CREATE ROLE
+postgres=> \du 
+                                                List of roles
+         Role name         |                         Attributes                         |      Member of
+---------------------------+------------------------------------------------------------+---------------------
+ cloudsqladmin             | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ cloudsqlagent             | Create role, Create DB                                     | {cloudsqlsuperuser}
+ cloudsqliamserviceaccount | Cannot login                                               | {}
+ cloudsqliamuser           | Cannot login                                               | {}
+ cloudsqlimportexport      | Create role, Create DB                                     | {cloudsqlsuperuser}
+ cloudsqlreplica           | Replication                                                | {pg_monitor}
+ cloudsqlsuperuser         | Create role, Create DB                                     | {pg_monitor}
+ odoo                      |                                                            | {}
+ postgres                  | Create role, Create DB                                     | {cloudsqlsuperuser}
+ 
+ create user odoo with password 'odoo';
+ \du
+ ALTER USER odoo WITH CREATEDB;
+```
+
+Se pone accesible la bbdd. Se hace primero exponiéndola públicamente creando una red a la que acceden todos (0.0.0.0/0). Luego, se mejora la privacidad del diseño configurando la bbdd como privada, creando un conector vpc serverless.
+
+Después de esto, como mejora de seguridad, se vuelve a hacer un fork de odoo/docker, ahora privado. Después se configura github actions para que haga pull del repo. Así se deben crear dos servicios en cloud run: uno de test con una github action automática y uno de prod con una github action manual. Luego se reflexiona que si lso cambios pasan los tests de odoo, parece razoanble sólo ahcer una action y que esta sea automática. Se debe disponer de una manera de comprobar que una actulización ha hecho caer el servicio. Por ejemplo para culaquier incidencia consultar a un correo.
+
+Nos percatamos de que al crear una bd aparece el siguiente error, que se subsana dotando de ciertos privilegios al usuario odoo.
+
+```
+Database creation error: permission denied to create database
+```
+
+[1](https://www.odoo.com/es_ES/forum/ayuda-1/programmingerror-permission-denied-to-create-database-64086)
+
+```
+ALTER USER odoo WITH CREATEDB;
+```
+
+Se quita finalmente el acceso público para comprobar que fucniona con este servicio privado.
+
+Cambiar password odoo en el conf por una autogenerada
+
+Para borrar una database: 
+
+- 1 se le da el role de postgres al usuario odoo que posee la database, desde el role posgres
+- 2 se hace a postgres owner de la db. Porque si no odoo conectado a breadfree no prodía borrarlo
+- 3 postgres borra la db breadfree
+
+```
+postgres=> grant postgres to odoo;
+GRANT ROLE
+
+breadfree=> alter database breadfree owner to postgres;
+ALTER DATABASE
+
+postgres=> drop database breadfree;
+DROP DATABASE
+```
+
+
+https://stackoverflow.com/questions/26684643/error-must-be-member-of-role-when-creating-schema-in-postgresql
+
+```
+postgres=> drop database breadfree;
+```
+
+### Redis
+### Images 
+### Backup
+### Configurar
+
 ------------
 
 ## 2. Procedimiento de backup
@@ -285,6 +420,8 @@ https://subscription.packtpub.com/book/business_and_other/9781800200319/1/ch01lv
 ## 4. Mejora. Usar http2 parapermitir backups mayores de 32 MB.
 
 https://stackoverflow.com/questions/68130278/how-to-set-in-a-dockerfile-an-nginx-in-front-of-the-same-container-google-cloud
+
+https://docs.docker.com/config/containers/multi-service_container/
 ------------
 
 ## 5. Procedimiento de control de acceso autorizado
@@ -403,20 +540,6 @@ incluso los propios volúmenes cuando meto el addon están en el filestore
 Crear otro servicio bf-dev2 en db9
 
 Probar desde el principio con redis y esas 2
-
-isntall teh muik thing
-
-create anotehr service in db9, create db10 jsut in case
-and whit this redis
-first a fork with jsut this
-
-https://github.com/camptocamp/odoo-cloud-platform/tree/14.0
-
-se intenta con la 14
-
-en la session se puierde, en lso attachemtn se quedan en s3. Cömo autoamtizar el backup?
-
-
 
 -------------
 
