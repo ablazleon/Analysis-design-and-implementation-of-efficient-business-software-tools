@@ -13,9 +13,6 @@ QUé tengo pensado hacer para el sigueitne sprint: hito es para el 25 de junio e
 
 La estrategia de parar reducir coste, la opció mejor aprece en gcp con cloudsql. app runner + aurora svl 70$ pero escla más
 
-
-
-
 Una grande y en ella varias, menos latencia
 
 witha ntoehr account, pass this data to the otehr
@@ -49,9 +46,13 @@ crear otro contenedor, cómo hacer que aneje los secretos la bbdd y el fichero d
 
 Para bakup hay que isntalar eso, lo pruebo en la máquina. dónde guardo el backup?
 
-
-
 ## procedimeinto de http2
+
+para ahcer eso
+
+## problema con las sessiones
+
+migracion a la version 13
 
 ---------
 
