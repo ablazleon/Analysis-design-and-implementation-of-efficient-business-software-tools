@@ -415,9 +415,11 @@ https://docs.github.com/en/billing/managing-billing-for-github-actions/about-bil
 
 https://subscription.packtpub.com/book/business_and_other/9781800200319/1/ch01lvl1sec07/updating-the-add-on-modules-list
 
+Creating a rpeo composing several repos
+
 -------------
 
-## 4. Mejora. Usar http2 parapermitir backups mayores de 32 MB.
+## 4. Mejora. Usar http2 para permitir backups mayores de 32 MB.
 
 https://stackoverflow.com/questions/68130278/how-to-set-in-a-dockerfile-an-nginx-in-front-of-the-same-container-google-cloud
 
@@ -540,6 +542,10 @@ incluso los propios volúmenes cuando meto el addon están en el filestore
 Crear otro servicio bf-dev2 en db9
 
 Probar desde el principio con redis y esas 2
+
+https://github.com/camptocamp/odoo-cloud-platform
+
+How to create a repo composition of various repos?
 
 -------------
 
