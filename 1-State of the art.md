@@ -5,7 +5,7 @@ Automatizar tareas regala tiempo a las personas: facilitar el acceso a informaci
 
 
 # 1. Relación entre procesos y herramientas
-## 1.1. Herramientas. 
+## 1.1. Herramientas
 ## 1.2. Procesos
 # 2. Estructura de coste y herramientas
 ## 2.1. Estructura de coste y créditos de proveedores de nube
@@ -16,7 +16,7 @@ Automatizar tareas regala tiempo a las personas: facilitar el acceso a informaci
 # 1. Relación entre procesos y herramientas
 ## 1.1. Herramientas
 
-Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
+Primero se discute, presentando en una tabla, la relación entre procesos de negocio, que primero se listan y herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen? Si bien en esta se han comprado las ofertas SaaS, al final se compara brevemente ofertas open source.
 
 
 1. Tienda online
@@ -42,7 +42,7 @@ Primero se discute, presentando en una tabla, la relación entre procesos de neg
 |  Precio del servicio| [30€/mes](https://www.shopify.com/pricing) | [17.5€/mes](https://www.wix.com/upgrade/website) |  [8€/mes](https://wordpress.com/pricing/) | [2000€/mes](https://magento.com/products/magento-commerce) | [10€/mes](https://gumroad.com/features/pricing)  | [16.000€](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/) | [25€/mes](https://www.g2.com/products/salesforce-crm/pricing)  | [100€/mes](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |   [0.2€/producto/mes](https://www.etsy.com/es/legal/fees/)  .1 | 2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
 | Comentario| Difícil 2 | Difícil 2  | Difícil 2 | Alto precio | Difícil 2 | Alto precio | Ecommerce precio RFQ | Completo, alto precio a corto | Difícil 2 .1 | 2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
 
-Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir
+Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir en ofrecer las bondades de este conjunto Shopify + Katana (175€/mes) por menos coste y así menos precio.
 
 - Referencias: 
 [1](https://www.repricerexpress.com/amazon-fba-vs-shopify/), 
@@ -56,6 +56,12 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 [9](https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios),
 [10](https://www.wix.com/upgrade/website),
 [11 Etsy easy to start but expensive](https://www.youtube.com/watch?v=JtjcEJqmAnE)
+
+La forma que se plantea de implementar esta propuesta de valor es mediante el despliegue en la nube de un proyecto open source que provea de estos procesos.
+
+[1](https://itsfoss.com/open-source-ecommerce/)
+
+
 ## 1.2. Procesos
 
 A continuación se listan los procesos de negocio, para concluir cómo orquestrar cada tarea.
@@ -133,9 +139,6 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | Digital Ocean      | Y               | ?             | [1](https://www.digitalocean.com/pricing/#app-platform)           | 50#/month 4GB 2CPU + db, it also has kubernetes, but this needs and overhead of operation |
 | Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
 | AWS:AppRunner+AuroraSvl | Y               | ?             | [1](https://www.theregister.com/2021/05/19/aws_introduces_app_runner_google/#:~:text=js%2012.&text=Pricing%20is%20dependent%20on%20resources,if%20it%20is%20always%20running.),[2](https://www.youtube.com/c/ContainersfromtheCouch/videos)  [3 problems with cloud mapping](https://dev.to/aws-builders/aws-app-runner-initial-thoughts-1pl8)        | 56€, as it cannot be sale down to zero. So, firstly it was explored beacuse it mught be cheaper that having to provision an lb, but it seems it's not |
-
-
-
 
 ### Comparación de implementación de stacks
 
