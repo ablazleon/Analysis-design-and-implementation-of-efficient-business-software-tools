@@ -328,6 +328,11 @@ postgres=> drop database breadfree;
 ```
 
 ### Redis
+
+Se añade el código de camptocamp.
+
+Se añade al script las dependencias necesarias.
+
 ### Images 
 ### Backup
 ### Configurar
