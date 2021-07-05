@@ -368,6 +368,29 @@ https://realpython.com/python-redis/
 
 The requirment says it is needed redis 2.10.5, why it cannot be used a redis higher? WHich si the redis version that mathces?
 
+Hay un pyaml there
+
+Se itnetna con un redis 4
+
+Sino se va montando un 13
+
+https://cloud.google.com/memorystore/docs/redis/scaling-instances
+
+Scaling is a bit hard 
+
+https://cloud.google.com/memorystore/docs/redis/pricing
+
++32€
+
+Crear otro servicio
+
+añadirle ese addon
+
+no hacer upgrad pero isntalr el compiler de rust
+
+ese 13
+
+
 
 ### Images 
 ### Backup
