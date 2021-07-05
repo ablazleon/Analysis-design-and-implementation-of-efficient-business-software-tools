@@ -333,6 +333,21 @@ Se añade el código de camptocamp.
 
 Se añade al script las dependencias necesarias.
 
+Lo instalo pero con el requirement no sale
+
+bdist wheel en el camp2camp
+
+https://github.com/aws/aws-cli/issues/4243
+https://stackoverflow.com/questions/34819221/why-is-python-setup-py-saying-invalid-command-bdist-wheel-on-travis-ci/49426845
+
+que salgan lso módulos
+
+puede qaue sea necesario borrar la db
+
+falta el resu tom,cilaer, para un reuqirment nuevo iamgino
+
+Cree un rqeuirment habiendo un requirment para el addon
+
 ### Images 
 ### Backup
 ### Configurar
