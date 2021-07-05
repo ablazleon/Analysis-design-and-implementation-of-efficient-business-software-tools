@@ -348,6 +348,27 @@ falta el resu tom,cilaer, para un reuqirment nuevo iamgino
 
 Cree un rqeuirment habiendo un requirment para el addon
 
+Se configura el cloud platform
+
+redis version problem
+
+Eso significa que no soporta redis superiores?
+
+Intentar con la 13 que parece que sí que guraa sesiones
+
+Pregutnar eso
+
+usar la versión 13 de campto camp
+
+redis version of redispy
+
+sesion in 13
+
+https://realpython.com/python-redis/
+
+The requirment says it is needed redis 2.10.5, why it cannot be used a redis higher? WHich si the redis version that mathces?
+
+
 ### Images 
 ### Backup
 ### Configurar
