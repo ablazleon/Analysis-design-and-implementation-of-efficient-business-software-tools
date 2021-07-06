@@ -650,6 +650,12 @@ Regenerate the keys
 
 https://ask.streamsets.com/question/9775/unable-to-write-object-to-amazon-s3-the-request-signature-we-calculated-does-not-match-the-signature-you-provided-check-your-key-and-signing-method/
 
+https://github.com/OCA/server-env/tree/14.0
+
+Intenta instalar el módulo 'cloud_platform' que depende del módulo 'server_environment'.
+Este último módulo no está disponible en su sistema.
+
+
 
 ## 7. Saber cuántas visitas. Conectar google analytics
 
