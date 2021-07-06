@@ -175,6 +175,8 @@ Para borrar una database:
 postgres=> grant postgres to odoo;
 GRANT ROLE
 
+ gcloud sql connect db9 --user=odoo --database=breadfree --quiet
+
 breadfree=> alter database breadfree owner to postgres;
 ALTER DATABASE
 
@@ -207,6 +209,8 @@ FROM pg_stat_activity
 WHERE pg_stat_activity.datname = 'breadfree';
 ERROR:  must be a member of the role whose process is being terminated or member of pg_signal_backend
 ```
+
+Desde breadfree
 
 
 # CE 13 + session store (redis) + s3 (backup and images)
@@ -612,7 +616,7 @@ Probar desde el principio con redis y esas 2
 
 https://github.com/camptocamp/odoo-cloud-platform
 
-
+borrar la db e intentarlo
 
 
 
