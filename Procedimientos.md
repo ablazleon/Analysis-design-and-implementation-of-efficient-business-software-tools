@@ -12,6 +12,8 @@
 
 ## 6. Bug/mejora. Cloud run es stateless, no persiste los VOLUMEs.
 
+## 7. Saber cuántas visitas. Conectar google analytics
+
 Oca vs saas
 https://www.youtube.com/watch?v=XqND6_PITio
 
@@ -390,6 +392,7 @@ no hacer upgrad pero isntalr el compiler de rust
 
 ese 13
 
+en my odooesa revision con esa bbdd y ese plugin
 
 
 ### Images 
@@ -618,3 +621,12 @@ https://github.com/camptocamp/odoo-cloud-platform
 Regenerate the keys
 
 https://ask.streamsets.com/question/9775/unable-to-write-object-to-amazon-s3-the-request-signature-we-calculated-does-not-match-the-signature-you-provided-check-your-key-and-signing-method/
+
+
+## 7. Saber cuántas visitas. Conectar google analytics
+
+
+https://analytics.google.com/analytics/academy/course/6/unit/1/lesson/1
+
+
+We weren't able to verify your property: www.breadfree.es
