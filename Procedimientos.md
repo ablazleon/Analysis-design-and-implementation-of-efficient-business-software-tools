@@ -411,6 +411,10 @@ sóloel de redis
 
 wix invenotry vs this
 
+bfdev3 cobn todos los módulos
+bfdev4 con 13
+bfdev5 con un sólo módulo
+
 ### Images 
 ### Backup
 ### Configurar
