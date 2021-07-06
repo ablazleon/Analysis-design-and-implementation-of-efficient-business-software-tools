@@ -638,7 +638,7 @@ https://www.odoo.com/es_ES/forum/ayuda-1/how-to-install-addon-modules-127246
 
 it is needed restarting
 
-create a service add this
+create a service add this one by one
 
 -------------
 
