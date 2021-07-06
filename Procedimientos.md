@@ -184,6 +184,7 @@ postgres=> drop database breadfree;
 DROP DATABASE
 ```
 
+Aun así no funciona, se usa otra db y ya está
 
 https://stackoverflow.com/questions/26684643/error-must-be-member-of-role-when-creating-schema-in-postgresql
 
@@ -398,6 +399,17 @@ ese 13
 
 en my odooesa revision con esa bbdd y ese plugin
 
+pq no se ven los módulos, sólo si los ahgo uno a uno sí
+
+no aparecen los módulos aunque la db sea nueva
+
+si se añade un git dentor de otro no se ve
+
+todos de una no funciona, una a una
+
+sóloel de redis
+
+wix invenotry vs this
 
 ### Images 
 ### Backup
@@ -618,7 +630,15 @@ https://github.com/camptocamp/odoo-cloud-platform
 
 borrar la db e intentarlo
 
+sino borro no salen los módulos
 
+sólo lo coge si esta vacia
+
+https://www.odoo.com/es_ES/forum/ayuda-1/how-to-install-addon-modules-127246
+
+it is needed restarting
+
+create a service add this
 
 -------------
 
