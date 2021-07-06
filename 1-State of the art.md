@@ -56,6 +56,7 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 [9](https://www.godaddy.com/es-es/paginas-web/creador-paginas-web/planes-precios),
 [10](https://www.wix.com/upgrade/website),
 [11 Etsy easy to start but expensive](https://www.youtube.com/watch?v=JtjcEJqmAnE)
+[12 wix/squarespace is faster to setup but it will take me longer to migrate or set this up](https://www.websitetooltester.com/en/ecommerce-platforms/)
 
 La forma que se plantea de implementar esta propuesta de valor es mediante el despliegue en la nube de un proyecto open source que provea de estos procesos. Se encuentran disitnos proyectos, y en la tabla básicamnete se ha comparado Saleor y Odoo CE. Como se observa que Saleor es sólo una plantilla para realizar la función 1, y que no plantea el resto de soluciones, se propone desplegar odoo CE.
 
