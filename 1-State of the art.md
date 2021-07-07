@@ -57,6 +57,7 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 [10](https://www.wix.com/upgrade/website),
 [11 Etsy easy to start but expensive](https://www.youtube.com/watch?v=JtjcEJqmAnE)
 [12 wix/squarespace is faster to setup but it will take me longer to migrate or set this up](https://www.websitetooltester.com/en/ecommerce-platforms/)
+[13 order management in wix](https://www.youtube.com/watch?v=CXUsaMnpN-w)
 
 La forma que se plantea de implementar esta propuesta de valor es mediante el despliegue en la nube de un proyecto open source que provea de estos procesos. Se encuentran disitnos proyectos, y en la tabla básicamnete se ha comparado Saleor y Odoo CE. Como se observa que Saleor es sólo una plantilla para realizar la función 1, y que no plantea el resto de soluciones, se propone desplegar odoo CE.
 
@@ -99,15 +100,17 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 - [ ] o contactar si desea comprarlo y recogerlo
 2. Gestión de operaciones
 2.1. Integración pedido tienda/Visualización de stock
-- [ ] Cada pedido recoge una creación limitada
+- [ ] Cada pedido recoge una creación limitada => descuentos como variantes
 2.2. Generación de alertas para comprar a proveedores
-- [ ] una petición de compra genera un mensaje al manufacturero
+- [ ] una petición de compra genera un mensaje al manufacturero 
 - [ ] cuando el manufacturero termina el proceso de fabricación avisa para que se pueda recoger y enviar el pedido
 3. Automatización de marketing
 3.1. Generación y envío de correos, como newsletter
 - [ ] se permite suscrbir a una newsletter
 3.2. Integración con isntagram 
 - [ ] se puede automatizar las campañas de marketing en más de una plataforma
+
+
 
 # 2. Estructura de coste y herramientas
 
