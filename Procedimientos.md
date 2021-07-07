@@ -423,7 +423,18 @@ instalar ese
 
 en bfdev3o paaprecen los mdolos que se añaden depsues de crear la bd
 
+en dev4
+
+porque no sale para isntalar es la version 13
+
+no seale el modulo como app sino como extra
+
+Aunque actulize se sigue sin ver
+
 ### Images 
+
+comprobar que se poneen las ima´genes
+
 ### Backup
 ### Configurar
 
@@ -651,6 +662,10 @@ https://www.odoo.com/es_ES/forum/ayuda-1/how-to-install-addon-modules-127246
 it is needed restarting
 
 create a service add this one by one
+
+quiero ver si con un sólo modulo tmabien sa,le como extra o como app
+
+
 
 -------------
 
