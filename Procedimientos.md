@@ -435,6 +435,13 @@ Aunque actulize se sigue sin ver
 
 comprobar que se poneen las ima´genes
 
+bfdev3
+bfdev4 these things are set
+
+
+
+https://www.odoo.com/es_ES/forum/ayuda-1/what-exactly-is-needed-to-load-a-module-as-server-wide-73152
+
 ### Backup
 ### Configurar
 
@@ -670,6 +677,34 @@ s3 backup
 pero el oposgres parece que no se isntala que viene como dado
 
 se comprueba si conserva la sesion el debv6 no tendría que ocnservarloa
+
+eso
+
+```
+GET4041.04 KB24 msChrome 91 https://bf-dev3-u7raxlu3nq-ew.a.run.app/web/content/290-f328144/1/website.assets_editor.css
+```
+
+said the guys of camptocamp i tried doing this
+iptpp the aame i did that and it didn't work
+
+linkedin
+
+https://www.odoo.com/es_ES/forum/ayuda-1/replace-session-store-of-odoo-werkzeug-86843
+
+bfdev3 falla el css
+bfdev4 parece que funciona
+
+ir_attachment_s3
+ir_attachment_url
+odoo_backup_sh
+
+specify this
+write ok this is not working
+
+ese s3 no se puede actulizar
+
+have a shower
+
 
 
 -------------
