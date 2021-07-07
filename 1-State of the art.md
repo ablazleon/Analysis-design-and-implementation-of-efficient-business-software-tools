@@ -85,29 +85,29 @@ Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, 
 
 A continuación se listan los procesos de negocio, para concluir cómo orquestrar cada tarea.
 
-1. Tienda online
-1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago: 
+- 1. Tienda online
+- 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago: 
 - [ ] se crea un sitio web de forma fácil
 - [ ] con un catálogo con fotos desde un csv para cambiar los precios de forma automática
 - [ ] los clientes llegan a un dominio específico
 - [ ] eligen un producto de un cierto tamaño
 - [ ] elgien un producto con unas variantes específcas, con o sin marco y paspartu
 - [ ] se puede elegir entre varias plataforma de pago (paypal, stripe)
-1.2. Seguimiento de paquetes
+- 1.2. Seguimiento de paquetes
 - [ ] a un cliente se le ofrecen distintos medios de transporte, con precios distitnos en función de días
 - [ ] el cliente puede saber cuánto le falta al paquete para llegar
 - [ ] o se puede informar en la web de cómo contactar al proveedor si hay algún problema
 - [ ] o contactar si desea comprarlo y recogerlo
-2. Gestión de operaciones
-2.1. Integración pedido tienda/Visualización de stock
-- [ ] Cada pedido recoge una creación limitada => descuentos como variantes
-2.2. Generación de alertas para comprar a proveedores
+- 2. Gestión de operaciones
+- 2.1. Integración pedido tienda/Visualización de stock
+- [ ] Cada pedido recoge una creación limitada (descuentos como variantes)
+- 2.2. Generación de alertas para comprar a proveedores
 - [ ] una petición de compra genera un mensaje al manufacturero 
 - [ ] cuando el manufacturero termina el proceso de fabricación avisa para que se pueda recoger y enviar el pedido
-3. Automatización de marketing
-3.1. Generación y envío de correos, como newsletter
+- 3. Automatización de marketing
+- 3.1. Generación y envío de correos, como newsletter
 - [ ] se permite suscrbir a una newsletter
-3.2. Integración con isntagram 
+- 3.2. Integración con instagram 
 - [ ] se puede automatizar las campañas de marketing en más de una plataforma
 
 
