@@ -665,6 +665,11 @@ create a service add this one by one
 
 quiero ver si con un sólo modulo tmabien sa,le como extra o como app
 
+s3 backup
+
+pero el oposgres parece que no se isntala que viene como dado
+
+se comprueba si conserva la sesion el debv6 no tendría que ocnservarloa
 
 
 -------------
