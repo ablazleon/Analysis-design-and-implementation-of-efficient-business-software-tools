@@ -67,7 +67,7 @@ Ahora bien, se plantea la necesidad de ciertos addons. Buscando soluciones se de
 
 | v14       | camp2camp   |  itpp-labs |
 | :---:          |    :----:   |    :---:   |
-| Auto backup    | x           |  x         |
+| Auto backup    | (pero sí gcp) |  x         |
 | Más estrellas gh|            |    x       |  
 | Guardar sesiones|     x       |            |  
 
