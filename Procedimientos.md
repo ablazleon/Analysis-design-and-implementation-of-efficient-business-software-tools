@@ -431,6 +431,21 @@ no seale el modulo como app sino como extra
 
 Aunque actulize se sigue sin ver
 
+```
+Could not get content for /website/static/src/scss/options/user_values.custom.web.assets_common.scss defined in bundle 'web.assets_common'.
+```
+
+style compilation
+say there's a problem with redis
+
+poner un issue: hay un problema con redis
+
+put an issue this does not wo
+
+falla la compilación: será porque cloud run no alberga la sesión o porqué?
+
+repeat this anotehr time and check why this happen
+
 ### Images 
 
 comprobar que se poneen las ima´genes
