@@ -438,9 +438,10 @@ comprobar que se poneen las ima´genes
 bfdev3
 bfdev4 these things are set
 
-
-
 https://www.odoo.com/es_ES/forum/ayuda-1/what-exactly-is-needed-to-load-a-module-as-server-wide-73152
+
+Se plantea que no funcionara por las iamgnes se configura las iamgnes: ya está instlado ty a´sun así no funciona
+
 
 ### Backup
 ### Configurar
