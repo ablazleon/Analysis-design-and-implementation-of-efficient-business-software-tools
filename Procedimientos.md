@@ -113,7 +113,7 @@ ERROR: (gcloud.sql.connect) It seems your client does not have ipv6 connectivity
 
 Se cambian el puerto a 8069, y se introduce la variable de entorno PORTDB.
 
-La password ppuede ser odoo u otra más grande
+La password puede ser odoo u otra
 
 ```
  \du
@@ -414,6 +414,14 @@ wix invenotry vs this
 bfdev3 cobn todos los módulos
 bfdev4 con 13
 bfdev5 con un sólo módulo
+
+instalar otro modlo
+
+comprobar si tienen los mismo modulos
+
+instalar ese
+
+en bfdev3o paaprecen los mdolos que se añaden depsues de crear la bd
 
 ### Images 
 ### Backup
