@@ -218,5 +218,5 @@ A continuación se comparan métodos de despligue del stack planteado en AWS:
 | CDK            | 2           |            |  
 | CLI            | 1           |            |  
 
-
+Tras un primer despliegue se observa que
 
