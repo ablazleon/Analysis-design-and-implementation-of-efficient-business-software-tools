@@ -71,7 +71,7 @@ Ahora bien, se plantea la necesidad de ciertos addons. Buscando soluciones se de
 | Más estrellas gh|            |    x       |  
 | Guardar sesiones|     x       |            |  
 
-Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, al estar estos addons funcionando en v14 será más fácil migrar a la v15, para seguir con los parcehs de seguridad.
+Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, al estar estos addons funcionando en v14 será más fácil migrar a la v15, para seguir con los parcehs de seguridad. Sin embargo, habría que ocmprobar si es más fácil realizar importaciones del backup en v14 que en v13.
 
 
 | v13       | camp2camp   |  itpp-labs |
