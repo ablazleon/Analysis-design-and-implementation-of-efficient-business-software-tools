@@ -777,6 +777,21 @@ no es staeful =>
 
 comprobar que los attahcemtns es´tan en s3 en technical
 
+https://www.cloudping.info/
+https://aws.amazon.com/s3/pricing/
+paris
+
+attachment_large_object/
+ir_attachment_force_storage
+ir_attachment_s3
+odoo_backup_sh
+
+https://stackoverflow.com/questions/10145309/is-gae-stateless-what-are-the-implications
+
+is multitenancy = concurrency?
+
+como hacer que desparezca cuando
+
 
 
 -------------
