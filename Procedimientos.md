@@ -458,6 +458,15 @@ https://www.odoo.com/es_ES/forum/ayuda-1/what-exactly-is-needed-to-load-a-module
 Se plantea que no funcionara por las iamgnes se configura las iamgnes: ya está instlado ty a´sun así no funciona
 
 
+website/src una camprpeta de los addons
+
+como guardar los addons
+
+https://odooerpcloud.com/shop/odoo-install-script-1#attr=3
+
+actuaizar
+
+
 ### Backup
 ### Configurar
 
