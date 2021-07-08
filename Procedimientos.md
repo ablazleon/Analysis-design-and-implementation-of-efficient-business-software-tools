@@ -792,6 +792,16 @@ is multitenancy = concurrency?
 
 como hacer que desparezca cuando
 
+export page by page
+
+https://reedrehg.medium.com/odoo-images-and-attachments-explaining-and-regenerating-assets-d1eb7fe8a3ed
+
+connect the attachmetns and then de regenrate
+
+sitio web, debug regenrete
+
+attachment
+
 
 
 -------------
