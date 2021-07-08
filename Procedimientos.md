@@ -466,6 +466,22 @@ https://odooerpcloud.com/shop/odoo-install-script-1#attr=3
 
 actuaizar
 
+los addons
+
+web.assets.commons
+
+=> cloudsql 50 connections
+más fácil actulizar cuando se hace un cambio => git pull
+
+https://odoo-community.org/page/Contribute
+
+https://cloud.google.com/products/calculator#id=b2909003-f635-452f-a6bf-fb3cb7b73aac
+
+https://github.com/ahmetb/cloud-run-faq#what-is-cloud-run-for-anthos
+
+stateless, no puedo servir
+
+web asset common css
 
 ### Backup
 ### Configurar
@@ -729,6 +745,37 @@ write ok this is not working
 ese s3 no se puede actulizar
 
 have a shower
+
+https://www.odoo.com/es_ES/forum/ayuda-1/what-does-attachment-true-do-173406
+
+los attachemtns se peuden guradar en la db?
+
+cómo servir los statics
+
+los attachmetns son también assets?
+pq no se guardan en s3?
+
+los attachmetns son s3
+
+=> en camptocamp parece que no funciona
+=> itpp luego no funciona; issue
+
+abro dos issues
+
+como guardar el addon, los static como attachemnt, no se guradan
+
+https://reedrehg.medium.com/easier-odoo-development-278bbaab38c8
+
+https://dokumen.tips/business/simple-odoo-erp-auto-scaling-on-aws.html
+
+alguien es capaz de motnarlo para que sea así?
+https://github.com/odoo/odoo/issues/26059
+
+https://github.com/odoo/odoo/pull/7937
+
+no es staeful =>
+
+comprobar que los attahcemtns es´tan en s3 en technical
 
 
 
