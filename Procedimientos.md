@@ -832,6 +832,18 @@ why lib/odoo
 
 https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
 
+attach a volume, para peristirlo
+
+odoo kubenrtes
+
+```
+Bad Request
+Session expired (invalid CSRF token)
+```
+
+
+
+
 -------------
 
 Regenerate the keys
