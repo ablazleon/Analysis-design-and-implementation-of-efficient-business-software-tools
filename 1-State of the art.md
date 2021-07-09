@@ -110,7 +110,7 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 - 3.2. Integración con instagram 
 - [ ] se puede automatizar las campañas de marketing en más de una plataforma
 
-- Así, tanto wix/shopify (17/30) serán una buena apuesta en comparación con odoo ce, sobre todo si se pueden realizar estos procesos definidos en 2., para lo que se suele necesitar de un sistema de invario que ceusta en 30(stock&buy) a 100(katana).
+- Así, tanto wix/shopify (17/30) serán una buena apuesta en comparación con odoo ce, sobre todo si se pueden realizar estos procesos definidos en 2., para lo que se suele necesitar de un sistema de inventario que ceusta en 30(stock&buy) a 100(katana). Es decir, se apuesta por desarrollar 3 semanas odoo ce 
 
 
 # 2. Estructura de coste y herramientas
