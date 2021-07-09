@@ -448,41 +448,6 @@ repeat this anotehr time and check why this happen
 
 ### Images 
 
-comprobar que se poneen las ima´genes
-
-bfdev3
-bfdev4 these things are set
-
-https://www.odoo.com/es_ES/forum/ayuda-1/what-exactly-is-needed-to-load-a-module-as-server-wide-73152
-
-Se plantea que no funcionara por las iamgnes se configura las iamgnes: ya está instlado ty a´sun así no funciona
-
-
-website/src una camprpeta de los addons
-
-como guardar los addons
-
-https://odooerpcloud.com/shop/odoo-install-script-1#attr=3
-
-actuaizar
-
-los addons
-
-web.assets.commons
-
-=> cloudsql 50 connections
-más fácil actulizar cuando se hace un cambio => git pull
-
-https://odoo-community.org/page/Contribute
-
-https://cloud.google.com/products/calculator#id=b2909003-f635-452f-a6bf-fb3cb7b73aac
-
-https://github.com/ahmetb/cloud-run-faq#what-is-cloud-run-for-anthos
-
-stateless, no puedo servir
-
-web asset common css
-
 ### Backup
 ### Configurar
 
@@ -625,6 +590,43 @@ como lo de amrjketing lo usas y sólo cuadno veas beneficios entonces te cesta, 
 ----------------
 
 ## 6. Bug/mejora. Cloud run es stateless, no persiste los VOLUMEs.
+
+comprobar que se poneen las ima´genes
+
+bfdev3
+bfdev4 these things are set
+
+https://www.odoo.com/es_ES/forum/ayuda-1/what-exactly-is-needed-to-load-a-module-as-server-wide-73152
+
+Se plantea que no funcionara por las iamgnes se configura las iamgnes: ya está instlado ty a´sun así no funciona
+
+
+website/src una camprpeta de los addons
+
+como guardar los addons
+
+https://odooerpcloud.com/shop/odoo-install-script-1#attr=3
+
+actuaizar
+
+los addons
+
+web.assets.commons
+
+=> cloudsql 50 connections
+más fácil actulizar cuando se hace un cambio => git pull
+
+https://odoo-community.org/page/Contribute
+
+https://cloud.google.com/products/calculator#id=b2909003-f635-452f-a6bf-fb3cb7b73aac
+
+https://github.com/ahmetb/cloud-run-faq#what-is-cloud-run-for-anthos
+
+stateless, no puedo servir
+
+web asset common css
+https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
+
 
 No se meustra css
 
@@ -816,6 +818,17 @@ eb/content/258-3d5e37d/web.assets_common.css:1 Failed to load resource: the serv
 - redis
 - problem with this session
 - stackovf: how to , cloud run contianer based without the compelxity of k8s, and out of the box ci cd
+no es stateful
+
+si es´tan guardados como attachment, pq dice que falta css
+
+https://www.slideshare.net/lecadoujr/simple-odoo-erp-auto-scaling-on-aws
+
+hacerlo con una vm: 
+directamente 
+docker compose
+
+why lib/odoo
 
 -------------
 
