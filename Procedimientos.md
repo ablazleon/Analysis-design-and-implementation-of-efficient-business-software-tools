@@ -802,7 +802,14 @@ sitio web, debug regenrete
 
 attachment
 
+activate s3 attachment
 
+sino creo ningún módlo, qué pasa?
+
+redis de campto camp no fucniona => why to work this way this does not have backup
+cehck if this work
+
+try or vm/or this
 
 -------------
 
