@@ -830,6 +830,8 @@ docker compose
 
 why lib/odoo
 
+https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
+
 -------------
 
 Regenerate the keys
