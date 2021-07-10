@@ -94,7 +94,7 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 - [ ] elgien un producto con unas variantes específcas, con o sin marco y paspartu
 - [ ] se puede elegir entre varias plataforma de pago (paypal, stripe)
 - 1.2. Seguimiento de paquetes
-- [ ] a un cliente se le ofrecen distintos medios de transporte, con precios distitnos en función de días
+- ([ ] a un cliente se le ofrecen distintos medios de transporte, con precios distitnos en función de días)
 - [ ] el cliente puede saber cuánto le falta al paquete para llegar
 - [ ] o se puede informar en la web de cómo contactar al proveedor si hay algún problema
 - [ ] o contactar si desea comprarlo y recogerlo
@@ -117,6 +117,22 @@ https://multiorders.com/pricing/
 multichannel caro en wix caro en odoo, no hay app:
 
 [1](https://www.etsy.com/shop/GaryAsatrianArt?ref=l2-about-shopname)
+
+Por qué odoo me gusta?
+
+Mr Domain 5€/mes un ecommerce
+
+woocommerce
+
+- shopify/wix => cms 
+- + automatiza la compra, puedo crear una quote y mandarla por correo 
+- + el inventario: necesito saber cuántas tengo? La vd es que no, los glicés se hacen al momento y los originales se peudne vender con marco (poner out of stock)
+- + automatización de correos
+- + generar las etiquetas para los paquetes en correos
+- + precio
+
+wordpress/prestashop/magento
+
 
 # 2. Estructura de coste y herramientas
 
