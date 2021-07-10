@@ -11,6 +11,8 @@ QUé tengo pensado hacer para el sigueitne sprint: hito es para el 25 de junio e
 
 - [ ] 1 Desplegado un entorno de pruebas 20
 
+stateless copilot => 70€/mes
+
 La estrategia de parar reducir coste, la opció mejor aprece en gcp con cloudsql. app runner + aurora svl 70$ pero escla más
 
 Una grande y en ella varias, menos latencia
@@ -53,6 +55,22 @@ para ahcer eso
 ## problema con las sessiones
 
 migracion a la version 13
+
+
+actulizar la tabla de herramientas
+
+cloud run + cloud sql 30€/mes => 360€/año => no funciona
+problema con el backup que se puede solucioanr exportando
+
+tiene que ser en la nube?
+
+hacer algo que cuimpla los procesos en paln consultor
+
+15 de julio, 20
+
+ofrcer eso que haga a más
+
+
 
 ---------
 
