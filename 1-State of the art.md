@@ -1,6 +1,6 @@
 
 Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas, en particular, para aquellas pequeñas (por planes estatales de inversión como AceleraPyme). A continuación, se analiza en base a datos la fase "what is?" del ciclo de "Design Thinking": se investigan las necesidades del usuario. Para ello se realizan tres discusiones. 
-- 1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen?
+- 1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen? Nótese que en cuanto a "herramienta" se entiende el servicio software entero, detallando su infrastuctura con el fin de comprar costes.
 - 2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
 
@@ -18,16 +18,38 @@ Automatizar tareas regala tiempo a las personas: facilitar el acceso a informaci
 
 Primero se discute, presentando en una tabla, la relación entre procesos de negocio, que primero se listan y herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen? 
 
+Primero se esbozan los procesos de negocio para el ejemplo de pequeño negocio en #2.
+
+- I.	Se crea arte
+- II.	Se inventaria: asigna un código y precio y se publica en la web (1)
+- III.	Un usuario realiza una compra
+- a.	Comprueba qué producto quiere, con qué precio y para cuándo, y acepta tasa de envío
+- b.	Realiza el pago y el trámite de compra rllenando la dirección
+- c.	Aparece un pedido con una dirección.
+- d.	Dependiendo de si es original o glicé. 
+- i.	Si es original: se enmarca y se envía
+- ii.	Si es glicé 
+- 1.	cada dos días se cogen los pedidos y enviamos un correo con los productos. 
+- 2.	Previamente escaneamos los cuadros con un número, enviamos un correo con cada número cada día y que nos confirmen para recogerlo
+- 3.	Se firma el cuadro y se pone el cuadro en el tubo
+- 4. En un correo de atención al usuario se atienden las devoluciones.
+- 5. Se gestionan descuentos para próximas compras
+
+--------
 
 1. Tienda online
 1.1. Constructor de sitios web (CMS) + catálogo + paltaforma de pago
-1.2. Seguimiento de paquetes
+1.2. Seguimiento de paquetes: avisar que se ha realizado el envío
 2. Gestión de operaciones
-2.1. Integración pedido tienda/Visualización de stock
-2.2. Generación de alertas para comprar a proveedores
+2.1. Integración pedido tienda/Visualización de stock: poner en los originales que el stock es uno. Si quieres otro, escribir a cotnactaconleon
+2.2. Generación de pedidios para comprar a proveedores: enviar los códigos de los impresos y las cantidades al correo de la impresora
 3. Automatización de marketing
 3.1. Generación y envío de correos, como newsletter
-3.2. Integración con isntagram 
+3.2. Integración con instagram 
+Disponibilidad
+Seguridad
+
+
  
  Procesos vs tool 
 ||1 Shopify| Wix | Wordpress.com| Magento|Gumroad| Saleor+GCP(cloud run + csql) |Salesforce/Sap |Odoo Saas/Odoo|Etsy 1|2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
