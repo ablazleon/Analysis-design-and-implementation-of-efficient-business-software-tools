@@ -42,11 +42,11 @@ Estos procesos genéricos son los que se comparan para cada herramienta. Así se
 - 1. Tienda online
 - 1.1. Constructor de sitios web (CMS) + catálogo + plataforma de pago
 - 1.2. Seguimiento de paquetes: avisar que se ha realizado el envío
+- 1.3. Subscripción a la newsletter
 - 2. Gestión de operaciones
 - 2.1. Integración pedido tienda/Visualización de stock: poner en los originales que el stock es uno. Si quieres otro, escribir a cotnactaconleon
 - 2.2. Generación de pedidios para comprar a proveedores: enviar los códigos de los impresos y las cantidades al correo de la impresora
-- 3. Automatización de marketing
-- 3.1. Subscripción a la newsletter
+- 2.3. Opciones de envío para nacional e internacional
 - Disponibilidad: cuantos usuarios o conexiones a la vez se pueden servir
 - Seguridad: cuán fácil es actualizar el sw
 
@@ -65,63 +65,42 @@ Hcare más tablas para incluir la opción de mr domain con woocommerce
 |      |1 Shopify    | Wix   | Wordpress.com | Magento|Gumroad| Salesforce| Sap   |Odoo Saas |Etsy 1|
 |:---: | :---:       | :---: | :---:         | :---:  | :---: |  :---:    | :---: | :---:    | :---: |
 |1.1.  | x           | x     |               |     x  |     x |   x       |     x | x        |   x   |    
-|1.2.  | x           | x     |               |     x  |     x |   x       | x     |x         |       |  
+|1.2.  | x(aftership)| x     |               |     x  |     x |   x       | x     |x         |       |  
+|1.3.  | x           | x     |  x            |     x  |     x |    x      | x     | x        |x      |  
 |2.1.  |             |      x|               |     x  |       |  x        |      x|x         |       | 
-|2.2.  |             |       |               |      x |       |        x  |      x|          |       |    
-|2.3.  |             |       |               |     x  |       |        x  |      x|          |       |     
-|3.1.  |             |       |               |     x  |       |       x   |     x |          |       |   
-|3.2.  |             |       |               |     x  |       |       x   |     x |          |       |  
+|2.2.  |             |       |               |      x |       |        x  |      x|          |       |        
 | €/mes| 30          |17.5   |  8            | 2000   | 10    | 25        | 16.000€| 100     | 0.2€/producto/mes.1 | 
+|Disp  | alta        | alta  |  alta         |   alta | alta  |   alta    |  alta |alta      | alta  |   
+|Segu  |   alta      | alta  | alta          |  alta  | alta  |   alta    |  alta | alta     | alta  |   
 |      |1 [Shopify](https://www.shopify.com/pricing)    | [Wix](https://www.wix.com/upgrade/website)   | [Wordpress.com](https://wordpress.com/pricing/) | [Magento](https://magento.com/products/magento-commerce) |[Gumroad](https://gumroad.com/features/pricing)| [Salesforce](https://www.g2.com/products/salesforce-crm/pricing)| [Sap](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)   | [Odoo](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |[Etsy](https://www.etsy.com/es/legal/fees/) 1|
+|      |1 [No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=do01YIxEVKk)    | [No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=CXUsaMnpN-w)   | Necesita Woocommerce | Demasiado caro |[No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=FWxu08-TsS0)| Demasiado caro| Demasiado caro |
 
  Procesos vs tool 
-|     |1 Saleor(crun+csql)| Wix   | Wordpress.com | Magento|Gumroad| Saleor+GCP(cloud run + csql) |Salesforce/Sap |Odoo Saas/Odoo|Etsy 1|
-|:---:| :---:             | :---: | :---:         | :---: | :---: | :---: | :---: | :---: | :---: | 
-|1.1. | x                 | x     |  x            |     x |     x |    x  | x     |     x | x     |     
-|1.2. | x                 | x     |  x            |     x |     x |    x  | x     | x     |x      |    
-|2.1. |                   |      x|               |     x |       |      |x      |      x|x      |    
-|2.2. |                   |       |               |      x|       |      |      x|      x|       |    
-|2.3. |                   |       |               |     x |       |      |      x|      x|       |    
-|3.1. |                   |       |               |     x |       |      |     x |     x |       |    
-|3.2. |                   |       |               |     x |       |      |     x |     x |       |  
-|  Precio del servicio| [30€/mes](https://www.shopify.com/pricing) | [17.5€/mes](https://www.wix.com/upgrade/website) |  [8€/mes](https://wordpress.com/pricing/) | [2000€/mes](https://magento.com/products/magento-commerce) | [10€/mes](https://gumroad.com/features/pricing)  | OSS  | [25€/mes](https://www.g2.com/products/salesforce-crm/pricing) / [16.000€](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)  | [100€/mes](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |   [0.2€/producto/mes](https://www.etsy.com/es/legal/fees/)  .1 | 
-| Comentario| Difícil 2 | Difícil 2  | Difícil 2 | Alto precio | Difícil 2 | Alto precio | Ecommerce precio RFQ | Completo, alto precio a corto | Difícil 2 .1 |
+|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|
+|:---:| :---:             | :---:              | :---:                   | 
+|1.1. | x                 | x                  |  x                      |       
+|1.2. | x                 | x                  |  x                      |     
+|1.3. | x                 | x                  |  x                      |      
+|2.1. |                   |                   x|                         |        
+|2.2. |                   |                    |                         |         
+|2.3. |                   |                    |                         |       
+|€/mes| 15€/mes           | [25€/mes => 300€](https://cloud.google.com/products/calculator/#id=a2a1ffa9-7c7b-4e41-bd53-2c1e86aa9f79) [mail after ship](https://www.odoo.com/documentation/13.0/applications/inventory_and_mrp/inventory/management/misc/email_delivery.html)    | 120€ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr](https://www.mrdomain.com/products/hosting/basic/) [5€/mes](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) |  
 
-||1 Shopify| Wix | Wordpress.com| Magento|Gumroad| Saleor+GCP(cloud run + csql) |Salesforce/Sap |Odoo Saas/Odoo|Etsy 1|2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
-|:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:  | :---: |  :---: | :---: | :---: | :---: |
-|1.1. | x     | x     |  x    |     x |     x |    x  | x     |     x | x     |      x|       |        |       |    x |     x |       |       |
-|1.2. | x     | x     |  x    |     x |     x |    x  | x     | x     |x      |      x|       |        |       |     x |     x |       |       |
-|2.1. |       |      x|       |     x |       |      |x      |      x|x      |      x|       |        |       |       |       |       |       |
-|2.2. |       |       |       |      x|       |      |      x|      x|       |      x| x     |        |       |       |       |       |       |
-|2.3. |       |       |       |     x |       |      |      x|      x|       |      x|       |        |       |       |       |       |       |
-|3.1. |       |       |       |     x |       |      |     x |     x |       |       |       |        |       |x      |     x |     x |      x|
-|3.2. |       |       |       |     x |       |      |     x |     x |       |       |       |        |       |     x |     x |     x |      x|
-|  Precio del servicio| [30€/mes](https://www.shopify.com/pricing) | [17.5€/mes](https://www.wix.com/upgrade/website) |  [8€/mes](https://wordpress.com/pricing/) | [2000€/mes](https://magento.com/products/magento-commerce) | [10€/mes](https://gumroad.com/features/pricing)  | OSS  | [25€/mes](https://www.g2.com/products/salesforce-crm/pricing) / [16.000€](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)  | [100€/mes](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |   [0.2€/producto/mes](https://www.etsy.com/es/legal/fees/)  .1 | 2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
-| Comentario| Difícil 2 | Difícil 2  | Difícil 2 | Alto precio | Difícil 2 | Alto precio | Ecommerce precio RFQ | Completo, alto precio a corto | Difícil 2 .1 | 2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
 
-||1 Shopify| Wix | Wordpress.com| Magento|Gumroad| Saleor+GCP(cloud run + csql) |Salesforce/Sap |Odoo Saas/Odoo|Etsy 1|2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
-|:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:  | :---: |  :---: | :---: | :---: | :---: |
-|1.1. | x     | x     |  x    |     x |     x |    x  | x     |     x | x     |      x|       |        |       |    x |     x |       |       |
-|1.2. | x     | x     |  x    |     x |     x |    x  | x     | x     |x      |      x|       |        |       |     x |     x |       |       |
-|2.1. |       |      x|       |     x |       |      |x      |      x|x      |      x|       |        |       |       |       |       |       |
-|2.2. |       |       |       |      x|       |      |      x|      x|       |      x| x     |        |       |       |       |       |       |
-|2.3. |       |       |       |     x |       |      |      x|      x|       |      x|       |        |       |       |       |       |       |
-|3.1. |       |       |       |     x |       |      |     x |     x |       |       |       |        |       |x      |     x |     x |      x|
-|3.2. |       |       |       |     x |       |      |     x |     x |       |       |       |        |       |     x |     x |     x |      x|
-|  Precio del servicio| [30€/mes](https://www.shopify.com/pricing) | [17.5€/mes](https://www.wix.com/upgrade/website) |  [8€/mes](https://wordpress.com/pricing/) | [2000€/mes](https://magento.com/products/magento-commerce) | [10€/mes](https://gumroad.com/features/pricing)  | OSS  | [25€/mes](https://www.g2.com/products/salesforce-crm/pricing) / [16.000€](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)  | [100€/mes](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |   [0.2€/producto/mes](https://www.etsy.com/es/legal/fees/)  .1 | 2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
-| Comentario| Difícil 2 | Difícil 2  | Difícil 2 | Alto precio | Difícil 2 | Alto precio | Ecommerce precio RFQ | Completo, alto precio a corto | Difícil 2 .1 | 2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
+|     |2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
+|:---:| :---: | :---: | :---:  | :---: |  :---:       | :---:      | :---: | :---: |
+|1.1. |      x|       |        |       |    x         |     x      |       |       |
+|1.2. |       |      x|       |        |              |     x       |     x |       |      
+|2.1. |              x|       |        |               |            |       |       |      
+|2.2. |       |       |       |      x|               |            |      x|      x|            
+|2.3. |       |       |       |     x |              |             |      x|      x|    
+|3.1. |       |       |       |     x |              |             |     x |     x |      
+|3.2. |       |       |       |     x |              |             |     x |     x |    
+|  Precio del servicio|  2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
+| Comentario|  2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
 
-||1 Shopify| Wix | Wordpress.com| Magento|Gumroad| Saleor+GCP(cloud run + csql) |Salesforce/Sap |Odoo Saas/Odoo|Etsy 1|2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
-|:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:  | :---: |  :---: | :---: | :---: | :---: |
-|1.1. | x     | x     |  x    |     x |     x |    x  | x     |     x | x     |      x|       |        |       |    x |     x |       |       |
-|1.2. | x     | x     |  x    |     x |     x |    x  | x     | x     |x      |      x|       |        |       |     x |     x |       |       |
-|2.1. |       |      x|       |     x |       |      |x      |      x|x      |      x|       |        |       |       |       |       |       |
-|2.2. |       |       |       |      x|       |      |      x|      x|       |      x| x     |        |       |       |       |       |       |
-|2.3. |       |       |       |     x |       |      |      x|      x|       |      x|       |        |       |       |       |       |       |
-|3.1. |       |       |       |     x |       |      |     x |     x |       |       |       |        |       |x      |     x |     x |      x|
-|3.2. |       |       |       |     x |       |      |     x |     x |       |       |       |        |       |     x |     x |     x |      x|
-|  Precio del servicio| [30€/mes](https://www.shopify.com/pricing) | [17.5€/mes](https://www.wix.com/upgrade/website) |  [8€/mes](https://wordpress.com/pricing/) | [2000€/mes](https://magento.com/products/magento-commerce) | [10€/mes](https://gumroad.com/features/pricing)  | OSS  | [25€/mes](https://www.g2.com/products/salesforce-crm/pricing) / [16.000€](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)  | [100€/mes](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |   [0.2€/producto/mes](https://www.etsy.com/es/legal/fees/)  .1 | 2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
-| Comentario| Difícil 2 | Difícil 2  | Difícil 2 | Alto precio | Difícil 2 | Alto precio | Ecommerce precio RFQ | Completo, alto precio a corto | Difícil 2 .1 | 2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
+
+
 
 
 
