@@ -71,6 +71,8 @@ hacer algo que cuimpla los procesos en paln consultor
 ofrcer eso que haga a más
 
 
+rescribir la tabla de herramietnas: poniedno herramietnas como stack, y añadir seuridad y disponibldiad. En dos horas mr domian puede ocsta 60+120 =180€/año vs 360€/mes. Merece la pena?
+
 
 ---------
 
