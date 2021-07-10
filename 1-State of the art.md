@@ -100,10 +100,10 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 - [ ] o contactar si desea comprarlo y recogerlo
 - 2. Gestión de operaciones
 - 2.1. Integración pedido tienda/Visualización de stock
-- [ ] Cada pedido recoge una creación limitada (descuentos como variantes)
-- 2.2. Generación de alertas para comprar a proveedores
-- [ ] una petición de compra genera un mensaje al manufacturero [necesidad de integración, pro ejemplo con katana](https://apps.shopify.com/katana-mrp-manufacturing-and-inventory-management) 
-- [ ] cuando el manufacturero termina el proceso de fabricación avisa para que se pueda recoger y enviar el pedido
+- [ ] Cada pedido recoge una creación limitada (descuentos como variantes) => ninguna de los dos lo tiene
+- 2.2. Generación de alertas para comprar a proveedores => si se imprime una a una no hace falta
+- [ ] una petición de compra genera un mensaje al manufacturero [necesidad de integración, pro ejemplo con katana](https://apps.shopify.com/katana-mrp-manufacturing-and-inventory-management) => también se puede hacer por correo
+- [ ] cuando el manufacturero termina el proceso de fabricación avisa para que se pueda recoger y enviar el pedido => con odoo manufactura puede ver esto y generar las encesarias?
 - 3. Automatización de marketing
 - 3.1. Generación y envío de correos, como newsletter
 - [ ] se permite suscrbir a una newsletter
@@ -112,6 +112,11 @@ A continuación se listan los procesos de negocio, para concluir cómo orquestra
 
 - Así, tanto wix/shopify (17/30) serán una buena apuesta en comparación con odoo ce, sobre todo si se pueden realizar estos procesos definidos en 2., para lo que se suele necesitar de un sistema de inventario que ceusta en 30(stock&buy) a 100(katana). Es decir, se apuesta por desarrollar 3 semanas odoo ce 
 
+https://multiorders.com/pricing/
+
+multichannel caro en wix caro en odoo, no hay app:
+
+[1](https://www.etsy.com/shop/GaryAsatrianArt?ref=l2-about-shopname)
 
 # 2. Estructura de coste y herramientas
 
