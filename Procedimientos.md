@@ -572,3 +572,7 @@ Odoo git en minúsculas
 
 Pirmero se conecta a una red pública, luego se prueba con una privada
 
+Crear el usuario odoo
+
+https://cloud.google.com/compute/docs/tutorials/basic-webserver-apache
+
