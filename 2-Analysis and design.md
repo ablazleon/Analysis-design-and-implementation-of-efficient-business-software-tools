@@ -46,11 +46,9 @@ Despelgar fargate en pruebas: beta
 
 Estrategia: sacrificar que la bbdd pueda tener muchas conexiones porque los créditos sean grátis en gcp. Se despliega una bbdd, y se intenta ajustar a que este coste tenga lo que costaría con shopify (30€), pero con gestión de impuestos e inventarios.
 
-Se plantea:
+- Intento 3: odoo ce + gcp (vm+cloudsql)
 
-7-17 jun: plantear estrategia
-17-25: ejecutarla
-25 decidir si se puede desplegar odoo o mejor shopify
+- Intento 4: odoo ce + gcp (gke+cloudsql)
 
 -------------
 
