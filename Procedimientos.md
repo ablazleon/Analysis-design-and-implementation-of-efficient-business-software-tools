@@ -608,6 +608,11 @@ https://www.youtube.com/watch?v=245ZJLm1AV4
 
 18+12+12
 
+Create an isntance group
+
+https://www.namecheap.com/domains/registration/results/?domain=piedadleon
+https://domains.google.com/registrar/search?searchTerm=piedadleon&hl=en#
+
 
 
 
