@@ -147,6 +147,14 @@ Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, 
 | Más estrellas gh|            |    x       |  
 | Guardar sesiones|     x       |    x        | 
 
+Finalmente como nota se compara qué proveddor de nombre de dominio es mejor:
+
+
+A la larga más barato
+
+https://cloud.google.com/domains/pricing?hl=es-419 => 12$/año
+https://www.websiteplanet.com/blog/google-domains-vs-godaddy-crowned-king/
+
 ## 1.2. Procesos
 
 A continuación se listan los procesos de negocio, para concluir cómo orquestrar cada tarea.
