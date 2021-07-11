@@ -257,6 +257,9 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
 | AWS:AppRunner+AuroraSvl | Y               | ?             | [1](https://www.theregister.com/2021/05/19/aws_introduces_app_runner_google/#:~:text=js%2012.&text=Pricing%20is%20dependent%20on%20resources,if%20it%20is%20always%20running.),[2](https://www.youtube.com/c/ContainersfromtheCouch/videos)  [3 problems with cloud mapping](https://dev.to/aws-builders/aws-app-runner-initial-thoughts-1pl8)        | 56€, as it cannot be sale down to zero. So, firstly it was explored beacuse it mught be cheaper that having to provision an lb, but it seems it's not |
 
+Alicloud no es tan barato
+https://www.alibabacloud.com/pricing-calculator#/
+
 ### Comparación de implementación de stacks
 
 Finalmente, se comparan dos opciones razonables. Se opta por despelgar la primera, pues auqnue a priori parezca más difícil de depslegar, posee menos coste en el escalado.
