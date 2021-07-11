@@ -602,6 +602,11 @@ cuánto cuesta un gke
 
 how to conenct form kubenrtes a cloud sql
 
+how to seetup ssl
+
+https://www.youtube.com/watch?v=245ZJLm1AV4
+
+18+12+12
 
 
 
