@@ -318,3 +318,6 @@ A continuación se comparan métodos de despligue del stack planteado en AWS:
 
 Tras un primer despliegue se observa que
 
+https://cloud.google.com/products/calculator/#id=9cd9c839-6297-4892-a6b0-a64134593c24
+
+35€
