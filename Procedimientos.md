@@ -568,5 +568,7 @@ Desplegar el contenedor desde cloud run.
 
 Lo buieno de usar odoo 14 con psotgres 12 es que se peude migrar breadfree.
 
+Odoo git en minúsculas
 
+Pirmero se conecta a una red pública, luego se prueba con una privada
 
