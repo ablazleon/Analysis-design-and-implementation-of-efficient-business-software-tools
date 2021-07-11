@@ -598,6 +598,10 @@ https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-setup-guide/gke-https-
 
 en k8s tamibén hay que crear un lb
 
+cuánto cuesta un gke
+
+how to conenct form kubenrtes a cloud sql
+
 
 
 
