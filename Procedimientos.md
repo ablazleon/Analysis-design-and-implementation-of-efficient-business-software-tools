@@ -576,3 +576,29 @@ Crear el usuario odoo
 
 https://cloud.google.com/compute/docs/tutorials/basic-webserver-apache
 
+Cmaibar vm version without deleting the db
+
+COmo conectar la vm y cloud sql
+
+https://timtech4u.medium.com/connecting-to-cloud-sql-from-vm-instances-on-google-cloud-platform-f43166716346#:~:text=On%20your%20GCP%20Console%2C%20click,ahead%20and%20select%20Create%20Instance.&text=Go%20ahead%20and%20input%20your,ID%2C%20Root%20Password%20and%20Zone.
+
+Set the primary internal ip as allowed connections
+
+https://www.odoo.com/es_ES/forum/ayuda-1/hardware-requirements-for-odoo-11-138936
+
+FUnciona aun concetada a una red itenrna, pq está en dafult
+
+https://cloud.google.com/load-balancing/docs/https
+
+SI tengo que activar un balanceador de carga para tener https, cada una tendrá un filestore distitno.
+
+Parece que lo que se dbe proponer es craer un cluster
+
+https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-setup-guide/gke-https-setup
+
+en k8s tamibén hay que crear un lb
+
+
+
+
+
