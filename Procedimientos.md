@@ -213,7 +213,6 @@ ERROR:  must be a member of the role whose process is being terminated or member
 
 Desde breadfree
 
-
 # CE 13 + session store (redis) + s3 (backup and images)
 
 ### Código de odoo
@@ -336,100 +335,14 @@ postgres=> drop database breadfree;
 
 ### Redis
 
-Se añade el código de camptocamp.
-
-Se añade al script las dependencias necesarias.
-
-Lo instalo pero con el requirement no sale
-
-bdist wheel en el camp2camp
-
-https://github.com/aws/aws-cli/issues/4243
-https://stackoverflow.com/questions/34819221/why-is-python-setup-py-saying-invalid-command-bdist-wheel-on-travis-ci/49426845
-
-que salgan lso módulos
-
-puede qaue sea necesario borrar la db
-
-falta el resu tom,cilaer, para un reuqirment nuevo iamgino
-
-Cree un rqeuirment habiendo un requirment para el addon
-
-Se configura el cloud platform
-
-redis version problem
-
-Eso significa que no soporta redis superiores?
-
-Intentar con la 13 que parece que sí que guraa sesiones
-
-Pregutnar eso
-
-usar la versión 13 de campto camp
-
-redis version of redispy
-
-sesion in 13
-
-https://realpython.com/python-redis/
-
-The requirment says it is needed redis 2.10.5, why it cannot be used a redis higher? WHich si the redis version that mathces?
-
-Hay un pyaml there
-
-Se itnetna con un redis 4
-
-Sino se va montando un 13
-
-https://cloud.google.com/memorystore/docs/redis/scaling-instances
-
-Scaling is a bit hard 
-
-https://cloud.google.com/memorystore/docs/redis/pricing
-
-+32€
-
-Crear otro servicio
-
-añadirle ese addon
-
-no hacer upgrad pero isntalr el compiler de rust
-
-ese 13
-
-en my odooesa revision con esa bbdd y ese plugin
-
-pq no se ven los módulos, sólo si los ahgo uno a uno sí
-
-no aparecen los módulos aunque la db sea nueva
-
-si se añade un git dentor de otro no se ve
-
-todos de una no funciona, una a una
-
-sóloel de redis
-
-wix invenotry vs this
+Se añade el código de camptocamp. Se añade al script las dependencias necesarias. Lo instalo pero con el requirement no sale. bdist wheel en el camp2camp
+[1](https://github.com/aws/aws-cli/issues/4243), [2](https://stackoverflow.com/questions/34819221/why-is-python-setup-py-saying-invalid-command-bdist-wheel-on-travis-ci/49426845). [3](https://realpython.com/python-redis/) The requirment says it is needed redis 2.10.5, why it cannot be used a redis higher? WHich si the redis version that mathces? Hay un pyaml there. Se itnetna con un redis 4. Sino se va montando un 13 [4](https://cloud.google.com/memorystore/docs/redis/scaling-instances) Scaling is a bit hard 
+[5](https://cloud.google.com/memorystore/docs/redis/pricing) +32€. ¿Por qué no se ven los módulos, sólo si los ahgo uno a uno sí? no aparecen los módulos aunque la db sea nueva => nos módulos extra. 
 
 bfdev3 cobn todos los módulos
 bfdev4 con 13
 bfdev5 con un sólo módulo
 
-instalar otro modlo
-
-comprobar si tienen los mismo modulos
-
-instalar ese
-
-en bfdev3o paaprecen los mdolos que se añaden depsues de crear la bd
-
-en dev4
-
-porque no sale para isntalar es la version 13
-
-no seale el modulo como app sino como extra
-
-Aunque actulize se sigue sin ver
 
 ```
 Could not get content for /website/static/src/scss/options/user_values.custom.web.assets_common.scss defined in bundle 'web.assets_common'.
@@ -591,250 +504,28 @@ como lo de amrjketing lo usas y sólo cuadno veas beneficios entonces te cesta, 
 
 ## 6. Bug/mejora. Cloud run es stateless, no persiste los VOLUMEs.
 
-comprobar que se poneen las ima´genes
+[Esto lleva a problemas de visualización de js y css](https://stackoverflow.com/questions/68334528/have-you-found-a-way-of-persisting-the-odoo-core-modules-in-v14-different-form-a). [No se muestra css](https://www.odoo.com/es_ES/forum/ayuda-1/no-css-no-images-after-user-logout-from-website-127642)
 
-bfdev3
-bfdev4 these things are set
-
-https://www.odoo.com/es_ES/forum/ayuda-1/what-exactly-is-needed-to-load-a-module-as-server-wide-73152
-
-Se plantea que no funcionara por las iamgnes se configura las iamgnes: ya está instlado ty a´sun así no funciona
-
-
-website/src una camprpeta de los addons
-
-como guardar los addons
-
-https://odooerpcloud.com/shop/odoo-install-script-1#attr=3
-
-actuaizar
-
-los addons
-
-web.assets.commons
-
-=> cloudsql 50 connections
-más fácil actulizar cuando se hace un cambio => git pull
-
-https://odoo-community.org/page/Contribute
-
-https://cloud.google.com/products/calculator#id=b2909003-f635-452f-a6bf-fb3cb7b73aac
-
-https://github.com/ahmetb/cloud-run-faq#what-is-cloud-run-for-anthos
-
-stateless, no puedo servir
-
-web asset common css
-https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
-
-
-No se meustra css
-
-https://www.odoo.com/es_ES/forum/ayuda-1/no-css-no-images-after-user-logout-from-website-127642
 ```
 Failed to load resource: the server responded with a status of 404 () web.ssets frontend.css:1
 ```
 
-si cloud run no persite los volúmenes, los addons se van 
-
-puede ser porque pirde los filestore.
-
-QUé guarda odoo en filestore?
-
-Los themes, que se pierden, y las imágenes
-
-Cuando pongo un theme se pierde
-
-Por eso paarece sin css.
-
-O persisto el theme
-
-odoo cómo guardas el filestore en la nube
-
-cloud run no hay integración con el filestore, no se persiste
-
-https://www.odoo.com/es_ES/forum/ayuda-1/how-to-configure-the-filestore-in-high-availability-172440
-
-https://github.com/itpp-labs/misc-addons/tree/11.0/ir_attachment_s3
-
-precio de redis
-
-https://github.com/diogocduarte/odoo_s3/tree/12.0
-
-https://github.com/itpp-labs/misc-addons
-
-session sotre modules
-
-https://apps.odoo.com/apps/modules/12.0/base_session_store_psql/
-https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
-https://www.odoo.com/es_ES/forum/ayuda-1/css-and-js-files-are-not-loading-96868
-
-https://apps.openerp.com/apps/modules/13.0/muk_fields_file/
-v13
-
-https://apps.odoo.com/apps/modules/13.0/muk_session_store/
-
-Hacer otro odoo, y habilitar ahí con redis la session
-
-CHoose the modules for the same provider
-
-v14, there's no sesion storage there
-
-v13
-https://github.com/itpp-labs/misc-addons/tree/13.0/base_session_store_psql
-https://github.com/itpp-labs/misc-addons/tree/13.0/ir_attachment_url
-
-https://github.com/Smile-SA/odoo_addons/tree/13.0
-muk
-
-itpp labs
-
-https://github.com/it-projects-llc/saas-addons/tree/13.0/saas
-
-=> para hacer un saas muhco curro
-
-incluso los propios volúmenes cuando meto el addon están en el filestore
-
-Crear otro servicio bf-dev2 en db9
-
-Probar desde el principio con redis y esas 2
-
-https://github.com/camptocamp/odoo-cloud-platform
-
-borrar la db e intentarlo
-
-sino borro no salen los módulos
-
-sólo lo coge si esta vacia
-
-https://www.odoo.com/es_ES/forum/ayuda-1/how-to-install-addon-modules-127246
-
-it is needed restarting
-
-create a service add this one by one
-
-quiero ver si con un sólo modulo tmabien sa,le como extra o como app
-
-s3 backup
-
-pero el oposgres parece que no se isntala que viene como dado
-
-se comprueba si conserva la sesion el debv6 no tendría que ocnservarloa
-
-eso
+[si cloud run no persite los volúmenes, los addons se van](https://www.odoo.com/es_ES/forum/ayuda-1/how-to-configure-the-filestore-in-high-availability-172440)
+[Con attachments](https://github.com/itpp-labs/misc-addons/tree/11.0/ir_attachment_s3)
+[Otros casos](https://www.odoo.com/es_ES/forum/ayuda-1/css-and-js-files-are-not-loading-96868)
 
 ```
 GET4041.04 KB24 msChrome 91 https://bf-dev3-u7raxlu3nq-ew.a.run.app/web/content/290-f328144/1/website.assets_editor.css
 ```
 
-said the guys of camptocamp i tried doing this
-iptpp the aame i did that and it didn't work
 
-linkedin
+[Parece que sí es posible con autoscaling groups](https://dokumen.tips/business/simple-odoo-erp-auto-scaling-on-aws.html) [2](https://www.slideshare.net/lecadoujr/simple-odoo-erp-auto-scaling-on-aws)
 
-https://www.odoo.com/es_ES/forum/ayuda-1/replace-session-store-of-odoo-werkzeug-86843
+Se elige París como localización de bucket: [1](https://www.cloudping.info/), [2](https://aws.amazon.com/s3/pricing/)
 
-bfdev3 falla el css
-bfdev4 parece que funciona
-
-ir_attachment_s3
-ir_attachment_url
-odoo_backup_sh
-
-specify this
-write ok this is not working
-
-ese s3 no se puede actulizar
-
-have a shower
-
-https://www.odoo.com/es_ES/forum/ayuda-1/what-does-attachment-true-do-173406
-
-los attachemtns se peuden guradar en la db?
-
-cómo servir los statics
-
-los attachmetns son también assets?
-pq no se guardan en s3?
-
-los attachmetns son s3
-
-=> en camptocamp parece que no funciona
-=> itpp luego no funciona; issue
-
-abro dos issues
-
-como guardar el addon, los static como attachemnt, no se guradan
-
-https://reedrehg.medium.com/easier-odoo-development-278bbaab38c8
-
-https://dokumen.tips/business/simple-odoo-erp-auto-scaling-on-aws.html
-
-alguien es capaz de motnarlo para que sea así?
-https://github.com/odoo/odoo/issues/26059
-
-https://github.com/odoo/odoo/pull/7937
-
-no es staeful =>
-
-comprobar que los attahcemtns es´tan en s3 en technical
-
-https://www.cloudping.info/
-https://aws.amazon.com/s3/pricing/
-paris
-
-attachment_large_object/
-ir_attachment_force_storage
-ir_attachment_s3
-odoo_backup_sh
-
-https://stackoverflow.com/questions/10145309/is-gae-stateless-what-are-the-implications
-
-is multitenancy = concurrency?
-
-como hacer que desparezca cuando
-
-export page by page
-
-https://reedrehg.medium.com/odoo-images-and-attachments-explaining-and-regenerating-assets-d1eb7fe8a3ed
-
-connect the attachmetns and then de regenrate
-
-sitio web, debug regenrete
-
-attachment
-
-activate s3 attachment
-
-sino creo ningún módlo, qué pasa?
-
-redis de campto camp no fucniona => why to work this way this does not have backup
-cehck if this work
-
-try or vm/or this
-
+```
 eb/content/258-3d5e37d/web.assets_common.css:1 Failed to load resource: the server responded with a status of 404 
-
-- redis
-- problem with this session
-- stackovf: how to , cloud run contianer based without the compelxity of k8s, and out of the box ci cd
-no es stateful
-
-si es´tan guardados como attachment, pq dice que falta css
-
-https://www.slideshare.net/lecadoujr/simple-odoo-erp-auto-scaling-on-aws
-
-hacerlo con una vm: 
-directamente 
-docker compose
-
-why lib/odoo
-
-https://stackoverflow.com/questions/64228967/how-to-mount-persistent-storage-to-google-cloud-run
-
-attach a volume, para peristirlo
-
-odoo kubenrtes
+```
 
 ```
 Bad Request
