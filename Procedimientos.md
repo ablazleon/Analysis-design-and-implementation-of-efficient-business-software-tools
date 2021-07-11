@@ -14,6 +14,8 @@
 
 ## 7. Saber cuántas visitas. Conectar google analytics
 
+## 8. Desplegar odoo ce vm+cloudsql
+
 Oca vs saas
 https://www.youtube.com/watch?v=XqND6_PITio
 
@@ -555,3 +557,16 @@ https://analytics.google.com/analytics/academy/course/6/unit/1/lesson/1
 
 
 We weren't able to verify your property: www.breadfree.es
+
+## 8. Desplegar odoo ce vm+cloudsql
+
+[Tutorial](https://www.youtube.com/watch?v=UAamkipG8R8) + [csql integration](https://www.cloudbooklet.com/how-to-install-odoo-14-on-ubuntu-20-04-google-cloud/)
+
+Se elige esta opción por ser más fácil de despelgar al principio y poder prototipar si odoo ce es válido o no.
+
+Desplegar el contenedor desde cloud run.
+
+Lo buieno de usar odoo 14 con psotgres 12 es que se peude migrar breadfree.
+
+
+
