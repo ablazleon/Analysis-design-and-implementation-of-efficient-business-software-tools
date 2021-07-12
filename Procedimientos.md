@@ -614,5 +614,12 @@ https://www.namecheap.com/domains/registration/results/?domain=piedadleon
 https://domains.google.com/registrar/search?searchTerm=piedadleon&hl=en#
 
 
+FIrst one vm:
+
+then multivm
+and then gke
 
 
+en autoscaling group la memoria de una vm puede ser accedida por otra
+
+https://www.todobravo.es/que-dominio-elegir-para-tus-paginas-web-com-es-eu/
