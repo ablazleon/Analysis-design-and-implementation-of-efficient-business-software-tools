@@ -648,3 +648,4 @@ psycopg2.OperationalError: FATAL:  remaining connection slots are reserved for n
 
 Se feurza a reiniciar
 
+Cómo saber cuándo hay un error para reniciar?
