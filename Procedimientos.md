@@ -646,5 +646,5 @@ Por qué dice el health check que no está healthy?
 psycopg2.OperationalError: FATAL:  remaining connection slots are reserved for non-replication superuser connections
 ```
 
-
+Se feurza a reiniciar
 
