@@ -651,3 +651,5 @@ Se feurza a reiniciar
 Cómo saber cuándo hay un error para reniciar?
 
 bbdd más memoria par que quepan otros plugins
+
+COmo coenctar el banco a strupe
