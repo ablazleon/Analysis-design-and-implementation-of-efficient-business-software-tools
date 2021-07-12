@@ -623,3 +623,13 @@ and then gke
 en autoscaling group la memoria de una vm puede ser accedida por otra
 
 https://www.todobravo.es/que-dominio-elegir-para-tus-paginas-web-com-es-eu/
+
+instance group
+
+https://www.reddit.com/r/webhosting/comments/j7f5tv/premiumdns_with_namecheap_is_it_worth_it_or_give/
+
+https://www.cloudflare.com/learning/dns/what-is-cloudflare-registrar/
+
+https://www.gregoryvarghese.com/why-im-switching-from-namecheap-to-cloudflare/
+
+piedad elon .art y cambari en 60 días
