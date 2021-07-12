@@ -653,3 +653,11 @@ Cómo saber cuándo hay un error para reniciar?
 bbdd más memoria par que quepan otros plugins
 
 COmo coenctar el banco a strupe
+
+https://odoo-community.org/groups/contributors-15/contributors-66571
+
+Muchas conexiones abiertas
+
+https://cloud.google.com/load-balancing/docs/https/setting-up-https
+
+añadir una regla de firewall
