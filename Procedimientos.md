@@ -633,3 +633,11 @@ https://www.cloudflare.com/learning/dns/what-is-cloudflare-registrar/
 https://www.gregoryvarghese.com/why-im-switching-from-namecheap-to-cloudflare/
 
 piedad elon .art y cambari en 60 días
+
+```
+The requested URL / was not found on this server. That’s all we know.
+```
+
+CUidado con lso puertos 8069 en el helathcheck
+
+Por qué dice el health check que no está healthy?
