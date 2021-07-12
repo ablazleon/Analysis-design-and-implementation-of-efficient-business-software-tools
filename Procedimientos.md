@@ -661,3 +661,5 @@ Muchas conexiones abiertas
 https://cloud.google.com/load-balancing/docs/https/setting-up-https
 
 añadir una regla de firewall
+
+https://stackoverflow.com/questions/30419407/google-compute-engine-http-load-balancer-not-working-after-vm-restart
