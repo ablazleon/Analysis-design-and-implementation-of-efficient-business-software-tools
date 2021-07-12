@@ -641,3 +641,10 @@ The requested URL / was not found on this server. That’s all we know.
 CUidado con lso puertos 8069 en el helathcheck
 
 Por qué dice el health check que no está healthy?
+
+```
+psycopg2.OperationalError: FATAL:  remaining connection slots are reserved for non-replication superuser connections
+```
+
+
+
