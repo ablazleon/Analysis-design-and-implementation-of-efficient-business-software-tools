@@ -321,3 +321,9 @@ Tras un primer despliegue se observa que
 https://cloud.google.com/products/calculator/#id=9cd9c839-6297-4892-a6b0-a64134593c24
 
 35€
+
+https://www.digitalocean.com/pricing#managed-databases
+
+for vm digital ocean can be cehaper
+
+15 + 10 +10
