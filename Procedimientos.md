@@ -677,3 +677,5 @@ Se desnicripta con la clave, en mi caso la master y gpg, o estas instructs https
 AL hacer más grnade la vm se pierde el volumen
 
 https://piedadleon.art
+
+THe oauth client was not found
