@@ -675,3 +675,5 @@ aws s3api get-object --bucket odoo-backup-dev --key ./breadfree.2021-07-12_19-33
 Se desnicripta con la clave, en mi caso la master y gpg, o estas instructs https://github.com/itpp-labs/misc-addons/blob/14.0/odoo_backup_sh/doc/index.rst
 
 AL hacer más grnade la vm se pierde el volumen
+
+https://piedadleon.art
