@@ -665,3 +665,13 @@ añadir una regla de firewall
 https://stackoverflow.com/questions/30419407/google-compute-engine-http-load-balancer-not-working-after-vm-restart
 
 si da ssl protocol error se le quita la s
+
+cuidado en s3 da problema de signatura, pero se peude descargar con un comando parecido a través de aws cli
+
+```
+aws s3api get-object --bucket odoo-backup-dev --key ./breadfree.2021-07-12_19-33-18.info /mnt/c/Users/ablaz/PycharmProjects/breadfree.2021-07-12_19-33-18.info
+```
+
+Se desnicripta con la clave, en mi caso la master y gpg, o estas instructs https://github.com/itpp-labs/misc-addons/blob/14.0/odoo_backup_sh/doc/index.rst
+
+AL hacer más grnade la vm se pierde el volumen
