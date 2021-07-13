@@ -16,6 +16,8 @@
 
 ## 8. Desplegar odoo ce vm+cloudsql
 
+## 9. Configurar productos: variantes, estrategia de precios y descuentos
+
 Oca vs saas
 https://www.youtube.com/watch?v=XqND6_PITio
 
@@ -679,3 +681,28 @@ AL hacer más grnade la vm se pierde el volumen
 https://piedadleon.art
 
 THe oauth client was not found
+
+o es impresión o es original, precios y sotcks disntios para cada producto
+
+## 9. Configurar productos: variantes, estrategia de precios y descuentos
+
+dos productos original e impreso
+
+https://www.etsy.com/listing/805031532/custom-pencil-drawing-from-your-photo?ref=shop_home_feat_1&frs=1
+
+https://www.etsy.com/listing/920217574/hyperrealistic-graphite-pencil-sketching?ref=internal_similar_listing_bot-1&frs=1&variation0=1729590287
+
+Julien Berge
+
+vende originales
+
+qué estrategia de preicos
+
+Originales:
+
+Tamaño
+
+
+
+
+
