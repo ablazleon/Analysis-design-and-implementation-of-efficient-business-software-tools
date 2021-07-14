@@ -728,3 +728,5 @@ gcloud compute forwarding-rules create http-content-rule \
    --target-http-proxy=http-lb-proxy \
    --ports=80
    ```
+
+Adding a cutom header
