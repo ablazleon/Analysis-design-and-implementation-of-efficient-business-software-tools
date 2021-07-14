@@ -710,3 +710,5 @@ https://www.packlink.es/elegir-servicio?hash=1gr61z
 https://www.puntopack.es/espacio-pro/ofertas-y-servicios/oferta-a-medida/modos-y-pais-de-envio/
 
 puntopack
+
+no se puecde exprota r a xls las variantes
