@@ -738,3 +738,14 @@ gcloud compute backend-services update odoo-dev-backend \
   ```
 
 discounts
+
+cuando crean muchas vairantes empeiza a djear d efuncioanr la db
+
+migro a una db mayor
+
+https://www.odoo.com/forum/inventory-11/can-t-import-variants-due-to-error-on-attribute-186407
+
+https://cloud.google.com/products/calculator/#id=fcb44e5e-252b-4deb-88e3-90f9750e9944
+
+montarlo varias veces una para cada
+
