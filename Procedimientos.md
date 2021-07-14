@@ -716,3 +716,7 @@ no se puecde exprota r a xls las variantes
 cuando le doy al carrito desaprarece
 
 admitting to http
+
+https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6
+
+redirects
