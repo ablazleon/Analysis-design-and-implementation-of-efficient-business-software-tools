@@ -689,3 +689,18 @@ o es impresión o es original, precios y sotcks disntios para cada producto
 como crear la opcion metodo de entrega
 
 no s epued esubir iamgénes da igaul como lo ahga
+
+preserved state size
+
+S3 attachemnt lead to this
+
+```
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 639, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 315, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+binascii.Error: Incorrect padding
+```
