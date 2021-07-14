@@ -712,3 +712,5 @@ https://www.puntopack.es/espacio-pro/ofertas-y-servicios/oferta-a-medida/modos-y
 puntopack
 
 no se puecde exprota r a xls las variantes
+
+cuando le doy al carrito desaprarece
