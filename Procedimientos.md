@@ -720,3 +720,11 @@ admitting to http
 https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6
 
 redirects
+
+```
+gcloud compute forwarding-rules create http-content-rule \
+   --address=35.227.243.117 \
+   --global \
+   --target-http-proxy=http-lb-proxy \
+   --ports=80
+   ```
