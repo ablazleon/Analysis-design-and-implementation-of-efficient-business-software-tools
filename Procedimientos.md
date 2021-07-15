@@ -566,33 +566,25 @@ We weren't able to verify your property: www.breadfree.es
 
 Se elige esta opción por ser más fácil de despelgar al principio y poder prototipar si odoo ce es válido o no.
 
-Desplegar el contenedor desde cloud run.
+- 1. Desplegar el contenedor desde el creado en cloud run.
 
-Lo buieno de usar odoo 14 con psotgres 12 es que se peude migrar breadfree.
+- 2. Lo bueno de usar odoo 14 con psotgres 12 es que se peude migrar breadfree.
 
-Odoo git en minúsculas
+- 3. Odoo git en minúsculas
 
-Pirmero se conecta a una red pública, luego se prueba con una privada
+- 4. Pirmero se conecta a una red pública, luego se prueba con una privada
 
-Crear el usuario odoo
+- 5. Crear el usuario odoo
 
-https://cloud.google.com/compute/docs/tutorials/basic-webserver-apache
+- 6. Cambiar la versión de la vm sin borrarla, temrina borrando el disco
 
-Cmaibar vm version without deleting the db
+- 7. [Cómo conectar la vm y cloud sql](https://timtech4u.medium.com/connecting-to-cloud-sql-from-vm-instances-on-google-cloud-platform-f43166716346#:~:text=On%20your%20GCP%20Console%2C%20click,ahead%20and%20select%20Create%20Instance.&text=Go%20ahead%20and%20input%20your,ID%2C%20Root%20Password%20and%20Zone.)
 
-COmo conectar la vm y cloud sql
+- 8. [Set the primary internal ip as allowed connections](https://www.odoo.com/es_ES/forum/ayuda-1/hardware-requirements-for-odoo-11-138936)
 
-https://timtech4u.medium.com/connecting-to-cloud-sql-from-vm-instances-on-google-cloud-platform-f43166716346#:~:text=On%20your%20GCP%20Console%2C%20click,ahead%20and%20select%20Create%20Instance.&text=Go%20ahead%20and%20input%20your,ID%2C%20Root%20Password%20and%20Zone.
+- 9. FUnciona aun concetada a una red itenrna, pq está en dafult
 
-Set the primary internal ip as allowed connections
-
-https://www.odoo.com/es_ES/forum/ayuda-1/hardware-requirements-for-odoo-11-138936
-
-FUnciona aun concetada a una red itenrna, pq está en dafult
-
-https://cloud.google.com/load-balancing/docs/https
-
-SI tengo que activar un balanceador de carga para tener https, cada una tendrá un filestore distitno.
+- SI tengo que activar un balanceador de carga para tener https, cada una tendrá un filestore distitno. [1](https://cloud.google.com/load-balancing/docs/https)
 
 Parece que lo que se dbe proponer es craer un cluster
 
@@ -715,9 +707,8 @@ no se puecde exprota r a xls las variantes
 
 cuando le doy al carrito desaprarece
 
-admitting to http
+[admitting to http](https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6)
 
-https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6
 
 redirects
 
@@ -748,4 +739,29 @@ https://www.odoo.com/forum/inventory-11/can-t-import-variants-due-to-error-on-at
 https://cloud.google.com/products/calculator/#id=fcb44e5e-252b-4deb-88e3-90f9750e9944
 
 montarlo varias veces una para cada
+
+Plan para que salga más barata la tienda:
+
+- 1. Migrar la vm a una ucenta con un carné, siendo esta la cuenta principal. Así aguanto 3 meses, luego 3 ceuntas más, ahorrando como 800€  
+
+- 2. En el mientras, despelgar en k8s o con autoscaling para reducir coste. Por qué no se conecta con las orgnaizaicones de las que soy partícipe?
+
+- 0. Sobre el código crear un container
+
+- a. Crear vm: con 4Gb y 2 de CPU
+
+- b. crear sql, 1 y 1.7
+
+- c. [crear lb.](https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6)
+
+
+
+En una ceunta se crea un cluster de gke  con una tamaño mínimo, dos uno de autopilot y otro de normal
+
+```
+Region "us-central1" for subnet "default" does not match cluster's region "us-west2"
+```
+
+https://stackoverflow.com/questions/62362051/gcp-kubernetes-engine-my-first-cluster-config-when-i-change-the-zone-cluster
+
 
