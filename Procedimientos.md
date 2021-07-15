@@ -747,4 +747,17 @@ Region "us-central1" for subnet "default" does not match cluster's region "us-we
 
 https://stackoverflow.com/questions/62362051/gcp-kubernetes-engine-my-first-cluster-config-when-i-change-the-zone-cluster
 
+healthc cheak en el puerto correpoenidnete
+
+Cambienado el tiempo de drianing
+
+https://kinsta.com/knowledgebase/err_ssl_version_or_cipher_mismatch/
+
+Porque el certiifcado es´ta asoicado a varios dominios
+
+```
+ERR_SSL_VERSION_OR_CIPHER_MISMATCH
+```
+
+
 
