@@ -584,34 +584,15 @@ Se elige esta opción por ser más fácil de despelgar al principio y poder prot
 
 - 9. FUnciona aun concetada a una red itenrna, pq está en dafult
 
-- SI tengo que activar un balanceador de carga para tener https, cada una tendrá un filestore distitno. [1](https://cloud.google.com/load-balancing/docs/https)
+- Si tengo que activar un balanceador de carga para tener https, cada una tendrá un filestore distitno. [1](https://cloud.google.com/load-balancing/docs/https)
 
-Parece que lo que se dbe proponer es craer un cluster
+Parece que lo que se debe proponer es craer un cluster, o un scaling group
 
 https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-setup-guide/gke-https-setup
 
-en k8s tamibén hay que crear un lb
-
-cuánto cuesta un gke
-
-how to conenct form kubenrtes a cloud sql
-
-how to seetup ssl
-
-https://www.youtube.com/watch?v=245ZJLm1AV4
-
-18+12+12
-
-Create an isntance group
-
-https://www.namecheap.com/domains/registration/results/?domain=piedadleon
-https://domains.google.com/registrar/search?searchTerm=piedadleon&hl=en#
 
 
-FIrst one vm:
 
-then multivm
-and then gke
 
 
 en autoscaling group la memoria de una vm puede ser accedida por otra
@@ -620,6 +601,8 @@ https://www.todobravo.es/que-dominio-elegir-para-tus-paginas-web-com-es-eu/
 
 instance group
 
+https://www.namecheap.com/domains/registration/results/?domain=piedadleon
+https://domains.google.com/registrar/search?searchTerm=piedadleon&hl=en#
 https://www.reddit.com/r/webhosting/comments/j7f5tv/premiumdns_with_namecheap_is_it_worth_it_or_give/
 
 https://www.cloudflare.com/learning/dns/what-is-cloudflare-registrar/
@@ -748,13 +731,13 @@ Plan para que salga más barata la tienda:
 
 - 0. Sobre el código crear un container
 
-- a. Crear vm: con 4Gb y 2 de CPU
+- a. Crear vm: con 4Gb y 2 de CPU con una regla de fw pemrition el puerto 8069
 
 - b. crear sql, 1 y 1.7
 
 - c. [crear lb.](https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6)
 
-
+- d. [Setup domain](https://www.youtube.com/watch?v=245ZJLm1AV4&t=1464s)
 
 En una ceunta se crea un cluster de gke  con una tamaño mínimo, dos uno de autopilot y otro de normal
 
