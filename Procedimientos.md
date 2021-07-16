@@ -770,6 +770,7 @@ cómo escala?
 
 ## 9. Configurar productos: variantes, estrategia de precios y descuentos
 
+Prodcutso > configurar vairantes
 
 
 
