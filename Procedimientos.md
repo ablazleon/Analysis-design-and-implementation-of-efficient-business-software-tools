@@ -591,10 +591,6 @@ Parece que lo que se debe proponer es craer un cluster, o un scaling group
 https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-setup-guide/gke-https-setup
 
 
-
-
-
-
 en autoscaling group la memoria de una vm puede ser accedida por otra
 
 https://www.todobravo.es/que-dominio-elegir-para-tus-paginas-web-com-es-eu/
@@ -735,7 +731,7 @@ Plan para que salga más barata la tienda:
 
 - b. crear sql, 1 y 1.7
 
-- c. [crear lb.](https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6)
+- c. [crear lb.](https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6) y [admitting to http](https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#console_6)
 
 - d. [Setup domain](https://www.youtube.com/watch?v=245ZJLm1AV4&t=1464s)
 
@@ -758,6 +754,23 @@ Porque el certiifcado es´ta asoicado a varios dominios
 ```
 ERR_SSL_VERSION_OR_CIPHER_MISMATCH
 ```
+
+Psa un itempo y caindo sólo está asociado a uno se va solcionando
+
+Se ocnfigura un primer setup para hacer el siege y ver cuántos usuairos siporta
+
+cómo escala?
+
+- 1. Hacerlo con vm, cuántos usuarios permite? Qué hacer si me quedo sin servicio? Parece que es la bbdd la que tiene el límite, como en la iamgen salía no puede hacer más coenxiones. AUtoescalado de la bbdd en k8s
+
+- 2. Hacerlo con autoscaling groups: de qué es lo que se queda con poco primero. Como ligar el disco
+
+- 3. Probar con k8s
+
+
+## 9. Configurar productos: variantes, estrategia de precios y descuentos
+
+
 
 
 
