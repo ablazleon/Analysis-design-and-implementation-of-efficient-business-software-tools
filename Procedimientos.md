@@ -810,3 +810,8 @@ footer con la ceunta bnacaria
 https://www.europapress.es/estar-donde-estes/noticia-impuesto-sociedades-cuando-toca-presentarlo-20190702173125.html#:~:text=El%20impuesto%20sobre%20sociedades%20es%20un%20tributo%20competencia%20del%20estado,1%20de%20enero%20de%202016.
 
 https://www.bankia.es/es/bankademia/pymes-y-autonomos/autonomos/iva-autonomos
+
+Cómo hacer facturas
+
+
+
