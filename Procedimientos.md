@@ -804,3 +804,5 @@ Crear un product de cada tipo
 https://debitoor.es/blog/iva-artistas-autonomos
 
 cómo añadir el iva
+
+footer con la ceunta bnacaria
