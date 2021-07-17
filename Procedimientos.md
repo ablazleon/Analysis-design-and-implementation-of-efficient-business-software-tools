@@ -793,3 +793,12 @@ https://www.infoautonomos.com/seguridad-social/tarifa-plana-autonomos/
 9 meses ganando eso 
 
 https://pro.packlink.es/becommerce/vender-en-etsy-sin-ser-autonomo/#:~:text=Etsy%20es%20una%20plataforma%20internacional,para%20vender%20en%20la%20misma.&text=Aunque%20circula%20un%20falso%20mito,existe%20esta%20norma%20como%20tal.
+
+
+https://www.odoo.com/forum/help-1/importing-products-with-variants-including-internal-reference-and-barcode-per-variant-160219
+
+https://www.odoo.com/es_ES/forum/ayuda-1/importing-products-with-without-product-variants-146115
+
+Crear un product de cada tipo
+
+https://debitoor.es/blog/iva-artistas-autonomos
