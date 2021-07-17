@@ -802,3 +802,5 @@ https://www.odoo.com/es_ES/forum/ayuda-1/importing-products-with-without-product
 Crear un product de cada tipo
 
 https://debitoor.es/blog/iva-artistas-autonomos
+
+cómo añadir el iva
