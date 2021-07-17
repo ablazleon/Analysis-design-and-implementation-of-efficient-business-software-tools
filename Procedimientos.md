@@ -772,6 +772,24 @@ cómo escala?
 
 Prodcutso > configurar vairantes
 
+Alamacenable
 
+Hace el serivio cuan alguien pide 1 se crea y ya está
 
+Pago seguro a tra´ves de bbva
 
+https://www.gestoriaonlinesapientia.com/consejos-fiscales-tienda-online/
+
+https://getquipu.com/blog/abrir-tienda-online-sin-ser-autonomo/
+
+darse de alta como autónomo
+
+https://www.elabogadodigital.com/obtengo-unos-ingresos-reducidos-debo-darme-de-alta-como-autonomo/
+
+Que sea habitual cuando llegue al SMI a lso 400 habrá que darse de alta y tener menos benficios
+
+https://www.infoautonomos.com/seguridad-social/tarifa-plana-autonomos/
+
+9 meses ganando eso 
+
+https://pro.packlink.es/becommerce/vender-en-etsy-sin-ser-autonomo/#:~:text=Etsy%20es%20una%20plataforma%20internacional,para%20vender%20en%20la%20misma.&text=Aunque%20circula%20un%20falso%20mito,existe%20esta%20norma%20como%20tal.
