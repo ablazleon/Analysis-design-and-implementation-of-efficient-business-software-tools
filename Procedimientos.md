@@ -813,5 +813,47 @@ https://www.bankia.es/es/bankademia/pymes-y-autonomos/autonomos/iva-autonomos
 
 Cómo hacer facturas
 
+https://ayudatpymes.com/gestron/vender-por-internet-sin-ser-autonomo/
 
+https://www.shopify.es/blog/113361733-tengo-que-hacerme-autonomo-si-tengo-una-tienda-online
+
+EMpezar a vender ocnsistiría en impuestos + cuota de autonomos
+
+Poco probable si poco 
+
+no hago facturas: pero cobro impuestos
+
+no cobro impuestos, tienda online 3 meses
+
+o a través d einstagram directmatne, a través de biuzm o de paypal
+
+la teinda onlien no la publqucamos sólo usamos para hacer el proceso más fácil
+
+creo un cliente
+
+o primero instagram y en 6 meses si funciona pago
+
+o no pago, en 6 meses in facutra y que la gente compra directmatne desde ahí y desde etsy
+
+y a partir de 6 meses hacienda impuestos y cuota praece esporádica
+
+que lo grandes sean a través de ella
+
+que los orgiainels sean a través y así puede el que envíe los pagos a mí a ella o a Marta en el peor de los casos
+
+para los originales a2 contacr con la ertista
+
+de alta vale lo cerramos sólo da ese poco
+
+eso sin iva y se va viendo
+
+1- hacer un instagram profesional para los encargaos (acepto ideas)
+2- tienda onnline y etsy para los pequeños
+
+https://www.tiendanube.com/blog/como-vender-por-instagram/
+
+https://www.infoautonomos.com/blog/autonomo-varias-actividades-obligaciones/
+
+
+https://www.youtube.com/watch?v=CW4hQ32C1ZQ
 
