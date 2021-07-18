@@ -88,6 +88,8 @@ Se presentan 4 tablas:
 |2.3. |                   |                    |                         |       
 |€/mes| 15€/mes           | [40$/mes => 480$](https://cloud.google.com/products/calculator/#id=a2a1ffa9-7c7b-4e41-bd53-2c1e86aa9f79) [mail after ship](https://www.odoo.com/documentation/13.0/applications/inventory_and_mrp/inventory/management/misc/email_delivery.html) [integrado con dhl](https://www.youtube.com/watch?v=W4wmGfHwkEc)   | 350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|  
 
+
+
 Woocomcer tiene plugin de correos, ¿es tan necesario? Parece que no. Pero no genera alertas de ivnentario cuando quedne pocos tubos, y llevar las cuentas de las ventas.
 
 Se preuba odoo por 2: porque se puede comrpar varios productos a la vez y por la gestión de ivnentarios. Si en woocommerce se encuentran plugins para hacer backup y gestionar inventarios como se han encontrado en odoo, qué problema habría? [1](https://wordpress.org/plugins/stock-tracking-reporting-for-woocommerce/), [2](https://www.storeapps.org/woocommerce-inventory-management/)
@@ -107,8 +109,16 @@ WC [1 Backup](https://litextension.com/blog/backup-woocommerce/), [2 backup](htt
 |  Precio del servicio|  2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
 | Comentario|  2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
 
+[1](https://www.techradar.com/news/best-wordpress-hosting-providers)
+[2](https://www.websitebuilderexpert.com/web-hosting/comparisons/bluehost-vs-godaddy)
+[3](https://themeisle.com/blog/managed-wordpress-hosting-cheap/)
 
 
+| Hosting WP       | camp2camp   |  itpp-labs |
+| :---:          |    :----:   |    :---:   |
+| Auto backup    | (pero sí gcp) |  x         |
+| Más estrellas gh|            |    x       |  
+| Guardar sesiones|     x       |            |  
 
 
 
