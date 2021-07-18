@@ -327,3 +327,7 @@ https://www.digitalocean.com/pricing#managed-databases
 for vm digital ocean can be cehaper
 
 15 + 10 +10
+
+linode 
+
+20 1 4GB + 20 db + 10 lb =50
