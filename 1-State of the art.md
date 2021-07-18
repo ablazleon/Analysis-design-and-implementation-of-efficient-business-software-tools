@@ -331,3 +331,18 @@ for vm digital ocean can be cehaper
 linode 
 
 20 1 4GB + 20 db + 10 lb =50
+
+precios kubenrnetes
+
+https://www.digitalocean.com/pricing/#kubernetes
+
+https://www.linode.com/pricing/
+
+gcp preemptible
+
+https://cloud.google.com/compute/docs/instances/preemptible
+
+seems no to be possible
+
+
+
