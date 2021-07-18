@@ -857,3 +857,12 @@ https://www.infoautonomos.com/blog/autonomo-varias-actividades-obligaciones/
 
 https://www.youtube.com/watch?v=CW4hQ32C1ZQ
 
+estado del arte esporádica: bot de email vs eccommerce
+
+https://mailytica.com/en/pricing/
+
+https://www.youtube.com/watch?v=xfj7X-rA4_I
+
+https://www.creativebloq.com/wordpress/free-wordpress-backup-plugins-101517335
+
+
