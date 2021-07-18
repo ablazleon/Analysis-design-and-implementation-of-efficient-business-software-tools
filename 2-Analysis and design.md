@@ -1,4 +1,4 @@
-# 2. Análisis y diseño (identificar y probar soluciones, diseñenado una apta y más barata)
+# 2. Análisis y diseño (identificar y probar soluciones, diseñanado una apta y más barata)
 ## a. Identificación del caso de estudio (what if?/what wows?))
 - Los siguientes casos de estudio definen el negocio
 ### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
@@ -7,7 +7,7 @@ Empresas pequeñas con los procesos de negocio comentados anteriormente. Se plan
 
 Ciertas aplicaiones digitales no son accesibles para los negocios hasta que no poseen suficiente capital para permitírsela: procesos tan importantes en un negocio como el catálogo web, la automatización del proceso de inventario y producción y la newsletter. Shopify, permite estos mínimos servicios a 30€/mes, pero requiere de un sistema de gestión de producción como katana que cuesta 100€/mes. Odoo ofrce una plataforma dónde automatiza estos tres procesos, pero a 100€/mes también. Por ello, se detecta una demanda de un servicio que ofrezca estos procesos a un precio menor, por ejemplo 15€/mes el servicio de catálogo + newsletter (como wix o shoopify lite( y a 50€/mes la automatización del proceso de inventario y producción.
 
-Misión de kontá: ofrecer estos procesos a un precio asequible para que los emprendedores se puedan concentrar en aportar valor y no en realizar tareas monótonas.
+- Misión de kontá: ofrecer estos procesos a un precio asequible para que los emprendedores se puedan concentrar en aportar valor y no en realizar tareas monótonas.
 
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
@@ -27,7 +27,23 @@ https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-sal
 
 - Intento 2: odoo ce + aws(fargate+aurora serverless v1) vs odoo + gcp(crun+cloudsql)
 
-AWS and GCP (resultado del state of the art)
+No valen porque on preservan el estado
+
+- Intento 3: odoo ce + vm + cloud sql (60€/mes)
+
+Parece que todas estas soluciones alojadas en la nube son bastante costosas para pequeñas empresas
+
+- Intento 4: Wordpress + WooCommerce + MrDomain (60€/año)
+
+Si con eso es necesario, ¿para qué un despliegue en k8s? ¿Da odoo más valor que Wp+WC+inventario?
+
+3 días ese depsleigue
+
+he hecho un análsisi
+
+25 qué hago Santiago?
+
+
 
 ## AWS
 
