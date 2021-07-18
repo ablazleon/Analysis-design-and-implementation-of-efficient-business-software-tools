@@ -74,6 +74,13 @@ ofrcer eso que haga a más
 rescribir la tabla de herramietnas: poniedno herramietnas como stack, y añadir seuridad y disponibldiad. En dos horas mr domian puede ocsta 60+120 =180€/año vs 360€/mes. Merece la pena?
 
 
+por 180 € algo mejor que shopify => ventas
+ 
+ por 600 €
+ 
+ más tengo el protfolio de servicios
+
+
 ---------
 
 
