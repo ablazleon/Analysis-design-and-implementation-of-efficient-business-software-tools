@@ -28,7 +28,7 @@ Primero se esbozan los procesos de negocio del ciclo de producción para el ejem
 - c.	Aparece un pedido con una dirección.
 - d.	Dependiendo de si es original o glicé. 
 - i.	Si es original: se enmarca y se envía
-- ii.	Si es glicé 
+- ii.	Si es impreso 
 - 1.	cada dos días se cogen los pedidos y enviamos un correo con los productos. 
 - 2.	Previamente escaneamos los cuadros con un número, enviamos un correo con cada número cada día y que nos confirmen para recogerlo
 - 3.	Se firma el cuadro y se pone el cuadro en el tubo
@@ -57,9 +57,9 @@ Se presentan 4 tablas:
 - 2. Herramientas de gestión de inventarios
 - 3. Herramientas de marketing
 
+-----------
 
-
-Hcare más tablas para incluir la opción de mr domain con woocommerce
+- 1. Herramientas de tienda online SaaS
  
  Procesos vs tool 
 |      |1 Shopify    | Wix   | Wordpress.com | Magento|Gumroad| Salesforce| Sap   |Odoo Saas |Etsy 1|
@@ -75,6 +75,8 @@ Hcare más tablas para incluir la opción de mr domain con woocommerce
 |      |1 [Shopify](https://www.shopify.com/pricing)    | [Wix](https://www.wix.com/upgrade/website)   | [Wordpress.com](https://wordpress.com/pricing/) | [Magento](https://magento.com/products/magento-commerce) |[Gumroad](https://gumroad.com/features/pricing)| [Salesforce](https://www.g2.com/products/salesforce-crm/pricing)| [Sap](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)   | [Odoo](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |[Etsy](https://www.etsy.com/es/legal/fees/) 1|
 |      |1 [No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=do01YIxEVKk)    | [No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=CXUsaMnpN-w)   | Necesita Woocommerce | Demasiado caro |[No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=FWxu08-TsS0)| Demasiado caro| Demasiado caro |
 
+- 1. Herramientas de tienda online Open Source desplegadas
+
  Procesos vs tool 
 |     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|
 |:---:| :---:             | :---:              | :---:                   | 
@@ -89,6 +91,8 @@ Hcare más tablas para incluir la opción de mr domain con woocommerce
 Woocomcer tiene plugin de correos, ¿es tan necesario? Parece que no. Pero no genera alertas de ivnentario cuando quedne pocos tubos, y llevar las cuentas de las ventas.
 
 Se preuba odoo por 2: porque se puede comrpar varios productos a la vez y por la gestión de ivnentarios. Si en woocommerce se encuentran plugins para hacer backup y gestionar inventarios como se han encontrado en odoo, qué problema habría? [1](https://wordpress.org/plugins/stock-tracking-reporting-for-woocommerce/), [2](https://www.storeapps.org/woocommerce-inventory-management/)
+
+WC [1 Backup](https://litextension.com/blog/backup-woocommerce/), [2 backup](https://themegrill.com/blog/best-wordpress-backup-plugins/), [3 updraft plus](https://wordpress.org/plugins/updraftplus/#description)
 
 
 |     |2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
