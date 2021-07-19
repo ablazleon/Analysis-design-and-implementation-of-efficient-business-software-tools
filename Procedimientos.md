@@ -18,6 +18,8 @@
 
 ## 9. Configurar productos: variantes, estrategia de precios y descuentos
 
+## 10. Maquetar el diseño
+
 Oca vs saas
 https://www.youtube.com/watch?v=XqND6_PITio
 
@@ -864,5 +866,9 @@ https://mailytica.com/en/pricing/
 https://www.youtube.com/watch?v=xfj7X-rA4_I
 
 https://www.creativebloq.com/wordpress/free-wordpress-backup-plugins-101517335
+
+## 10. Maquetar el diseño
+
+En intentos previos en este proyecto usé figme para maquetar el diseño. En un segundo intento se crea un proyecto en google sites que se ofrece al cleitne para que edite el texto y las imágenes.
 
 
