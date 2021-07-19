@@ -78,7 +78,7 @@ Se presentan 4 tablas:
 - 1. Herramientas de tienda online Open Source desplegadas
 
  Procesos vs tool 
-|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|WP+WC+NC+Updraft+subscribeEmail+MarketingAutomation  1|
+|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|WP+WC+NC+Updraft+subscribeEmail+MarketingAutomation+Etsy(autoamte.io)  1|
 |:---:| :---:             | :---:              | :---:                   | :---:                   | 
 |1.1. | x                 | x                  |  x                      |  x                      |      
 |1.2. | x                 | x                  |  x                      | x                      |     
@@ -93,6 +93,7 @@ CRM and email?
 
 
 [1](https://es.wordpress.org/plugins/email-subscribe/)
+[2](https://www.sendcloud.es/vender-en-etsy/)
 
 Hay hosting para wordpress muy pbaratos [1](https://miposicionamientoweb.es/cual-es-el-hosting-mas-barato-y-de-calidad/) [2](https://www.hostinger.es/tutoriales/que-es-un-vps)
 
