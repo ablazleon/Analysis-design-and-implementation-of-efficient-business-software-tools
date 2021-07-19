@@ -78,7 +78,7 @@ Se presentan 4 tablas:
 - 1. Herramientas de tienda online Open Source desplegadas
 
  Procesos vs tool 
-|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|WP+WC+NC+Updraft  1|
+|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|WP+WC+NC+Updraft+subscribeEmail+MarketingAutomation  1|
 |:---:| :---:             | :---:              | :---:                   | :---:                   | 
 |1.1. | x                 | x                  |  x                      |  x                      |      
 |1.2. | x                 | x                  |  x                      | x                      |     
@@ -89,6 +89,10 @@ Se presentan 4 tablas:
 |€/mes| 15€/mes           | [40$/mes => 480$](https://cloud.google.com/products/calculator/#id=a2a1ffa9-7c7b-4e41-bd53-2c1e86aa9f79) [mail after ship](https://www.odoo.com/documentation/13.0/applications/inventory_and_mrp/inventory/management/misc/email_delivery.html) [integrado con dhl](https://www.youtube.com/watch?v=W4wmGfHwkEc)   | 350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|  350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|
 
 CRM and email?
+
+
+
+[1](https://es.wordpress.org/plugins/email-subscribe/)
 
 Hay hosting para wordpress muy pbaratos [1](https://miposicionamientoweb.es/cual-es-el-hosting-mas-barato-y-de-calidad/) [2](https://www.hostinger.es/tutoriales/que-es-un-vps)
 
@@ -127,7 +131,7 @@ kubernetes => despelgar 10 y comprobar que los rpecios salen a menos, pq mejor q
 | :---:          |    :----:   |    :---:   |  :---:   |
 | Precio 1y simple |   40      | 86         | 150       |
 | SSL              |   0   |    0       |  x       |  
-| Guardar sesiones|     x       |            |         |  
+
 
 Cömo comrpobar que el certificado de google es mejor que el de namecheap? GCP las tiene dv no ov.
 
