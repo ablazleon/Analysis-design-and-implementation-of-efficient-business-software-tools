@@ -895,7 +895,7 @@ Se debe introducir un theme:
 - 1. Crear website
 - 2. Hacerlo seguro
 - 3. Download elementor
-
+- 4. Import los productos desde un csv
 
 
 
