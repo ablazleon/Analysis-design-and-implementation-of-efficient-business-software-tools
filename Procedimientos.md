@@ -890,13 +890,24 @@ Problem in odoo when improting:
 
 https://docs.woocommerce.com/document/product-csv-importer-exporter/
 
+Se debe introducir un theme:
+
+- 1. Crear website
+- 2. Hacerlo seguro
+- 3. Download elementor
+
+
+
+
+
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
 
 Como loader io neceista validadcion y en odoo es dificil hacer que una url descargue un ficehro se prueban [otras alternativas](https://theqalead.com/tools/load-testing-tools/)
 
+Alguna forma de mostrar alguna alerta para que no esté en 500
 
-
-
+Cömo dimeisnoanr recuross para que cueste lo mínimo posible pero se atienda todo el tráfico. €/mes 4 - 60
 
