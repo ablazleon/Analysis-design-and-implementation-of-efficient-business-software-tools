@@ -872,3 +872,7 @@ https://www.creativebloq.com/wordpress/free-wordpress-backup-plugins-101517335
 En intentos previos en este proyecto usé figme para maquetar el diseño. En un segundo intento se crea un proyecto en google sites que se ofrece al cleitne para que edite el texto y las imágenes.
 
 
+-----------------
+
+woocmerce different shoippings
+promotions
