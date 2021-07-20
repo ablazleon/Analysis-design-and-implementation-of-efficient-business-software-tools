@@ -20,6 +20,10 @@
 
 ## 10. Maquetar el diseño
 
+## 11. Configurar WordPress in Namecheap + Woocommerce + autobackups
+
+## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
+
 Oca vs saas
 https://www.youtube.com/watch?v=XqND6_PITio
 
@@ -872,7 +876,9 @@ https://www.creativebloq.com/wordpress/free-wordpress-backup-plugins-101517335
 En intentos previos en este proyecto usé figme para maquetar el diseño. En un segundo intento se crea un proyecto en google sites que se ofrece al cleitne para que edite el texto y las imágenes.
 
 
------------------
+## 11. Configurar WordPress in Namecheap + Woocommerce + autobackups
+
+ Como se ha comentado en la comparación del estado del arte, se procede a configurar este stack con el fin de compararlo con el despleigue de odoo
 
 woocmerce different shoippings
 promotions
@@ -883,5 +889,14 @@ woocommerce how to import prodcuts as in an excel
 Problem in odoo when improting:
 
 https://docs.woocommerce.com/document/product-csv-importer-exporter/
+
+## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
+
+Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
+
+Como loader io neceista validadcion y en odoo es dificil hacer que una url descargue un ficehro se prueban [otras alternativas](https://theqalead.com/tools/load-testing-tools/)
+
+
+
 
 
