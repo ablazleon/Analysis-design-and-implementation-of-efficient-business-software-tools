@@ -11,11 +11,13 @@ Ciertas aplicaiones digitales no son accesibles para los negocios hasta que no p
 
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
-- Intento 0: Comparativa inicial y FaaS shop
+- Intento 0: Comparativa inicial: coste de vms con IaC en AWS, FaaS shop and GKE
 
 Al principio tras comprar las disitntas formas de proveer con herramientas los procesos de negocios, se idnetifica iniciamnete un servicio FaaS cómo el óptimo en coste. Sin embargo, se plantea un piloto en el siguietne repositorio y se descubre que si bien FaaS es bastatne barato en cuanto al coste en función de las peticiones, obliga a rescribir todo el código.
 
 https://github.com/ablazleon/shop-serverless
+
+Más adletna se plantea una forma mejroada de gke + jenkins X [1](https://www.youtube.com/watch?v=eEcgn_gU3SM)
 
 - Intento 1 1: saleor + gcp(cloud run + cloud sql)
 
