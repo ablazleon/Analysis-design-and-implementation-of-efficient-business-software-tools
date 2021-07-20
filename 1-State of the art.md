@@ -90,14 +90,14 @@ Se presentan 4 tablas:
 
 CRM and email?
 
-
-
 [1](https://es.wordpress.org/plugins/email-subscribe/)
 [2](https://www.sendcloud.es/vender-en-etsy/)
 
 Hay hosting para wordpress muy pbaratos [1](https://miposicionamientoweb.es/cual-es-el-hosting-mas-barato-y-de-calidad/) [2](https://www.hostinger.es/tutoriales/que-es-un-vps)
 
 [1](https://www.namecheap.com/wordpress/pricing/)
+
+30€/año vs hostinger que es más 45 o más
 
 Woocomcer tiene plugin de correos, ¿es tan necesario? Parece que no. Pero no genera alertas de ivnentario cuando quedne pocos tubos, y llevar las cuentas de las ventas.
 
