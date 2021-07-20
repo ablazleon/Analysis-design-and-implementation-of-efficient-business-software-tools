@@ -134,6 +134,19 @@ kubernetes => despelgar 10 y comprobar que los rpecios salen a menos, pq mejor q
 | SSL              |   0   |    0       |  x       |  
 
 
+Qué hosting usar?
+
+[1](https://hostingvictory.com/es/opiniones/namecheap/)
+[2](https://hostingvictory.com/es/opiniones/namecheap/)
+[3](https://miposicionamientoweb.es/cual-es-el-mejor-hosting-espanol/)
+[4](https://www.dondominio.com/products/hosting/basic/)
+
+Dbees pagar por más?
+
+10 GB de ssd
+
+
+
 Cömo comrpobar que el certificado de google es mejor que el de namecheap? GCP las tiene dv no ov.
 
 Los autogestionados por google son DV. Elijo el free plan de namecheap [1](https://www.ssl.com/article/when-not-use-a-dv-ssl-certificate-for-e-commerce/)
