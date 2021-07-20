@@ -877,3 +877,11 @@ En intentos previos en este proyecto usé figme para maquetar el diseño. En un 
 woocmerce different shoippings
 promotions
 jem woocommerce
+
+woocommerce how to import prodcuts as in an excel
+
+Problem in odoo when improting:
+
+https://docs.woocommerce.com/document/product-csv-importer-exporter/
+
+
