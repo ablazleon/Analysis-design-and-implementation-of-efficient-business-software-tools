@@ -896,7 +896,8 @@ Se debe introducir un theme:
 - 2. Hacerlo seguro
 - 3. Download elementor
 - 4. Import los productos desde un csv
-
+- 5. backup
+- 
 
 
 
