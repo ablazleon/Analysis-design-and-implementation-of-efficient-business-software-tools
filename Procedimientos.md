@@ -876,3 +876,4 @@ En intentos previos en este proyecto usé figme para maquetar el diseño. En un 
 
 woocmerce different shoippings
 promotions
+jem woocommerce
