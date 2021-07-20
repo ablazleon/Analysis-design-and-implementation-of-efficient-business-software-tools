@@ -911,3 +911,5 @@ Alguna forma de mostrar alguna alerta para que no esté en 500
 
 Cömo dimeisnoanr recuross para que cueste lo mínimo posible pero se atienda todo el tráfico. €/mes 4 - 60
 
+
+Parece que namecheap tiene un protector contra DDOS que no se puede incorporar en gcp, hace falta [gran presupuesto](https://cloud.google.com/armor#section-7) 
