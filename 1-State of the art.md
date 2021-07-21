@@ -83,28 +83,67 @@ Se presentan 4 tablas:
 |1.1. | x                 | x                  |  x                      |  x                      |      
 |1.2. | x                 | x                  |  x                      | x                      |     
 |1.3. | x                 | x                  |  x                      |  x                      |     
-|2.1. | x                 |                   x|   x                     |  x                      |       
-|2.2. | x                 |x                   |    x                    | x                      |         
-|2.3. | x                 | x                  |     x                   | x                      |       
+|2.1. |                  |                   x|   x                     |  x                      |       
+|2.2. |                 |x                   |    x                    | x                      |         
+|2.3. |                  | x                  |     x                   | x                      |       
 |€/mes| 15€/mes           | [40$/mes => 480$](https://cloud.google.com/products/calculator/#id=a2a1ffa9-7c7b-4e41-bd53-2c1e86aa9f79) [mail after ship](https://www.odoo.com/documentation/13.0/applications/inventory_and_mrp/inventory/management/misc/email_delivery.html) [integrado con dhl](https://www.youtube.com/watch?v=W4wmGfHwkEc)   | 350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|  350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|
 
-CRM and email?
+En esta tabla resumen se plantean tres intentos, de implmenetar la idea, cómo posibilitar transofmración digital de negocios de forma barata:
+
+- 1. Primeros intentos, como kubernetes y despelgar en él bastantes servicios
+- 2. Luego se plantea la opicón de cloud run +csql, que sólo funcionó para saleor
+- 3. La opción de la vm + cloud sql es válida pero tiene agujeros
+- 4. Se plantea la opción de un wordpress hosteado, añadiéndole plugins para simular el funcionamiento integrado de odoo.
+
+
+| Hosting WP       | namecheap (dominio hasta septiembre)   |  hostinger | bluehost |
+| :---:          |    :----:   |    :---:   |  :---:   |
+| Precio 1y simple |   40      | 86         | 150       |
+| SSL              |   0   |    0       |  x       |  
+
+Plugins:
+
+- updraft
+- email
+- automate.io con etsy
+- correos
+
+
 
 [1](https://es.wordpress.org/plugins/email-subscribe/)
 [2](https://www.sendcloud.es/vender-en-etsy/)
+[3](https://miposicionamientoweb.es/cual-es-el-hosting-mas-barato-y-de-calidad/)
+[4](https://www.hostinger.es/tutoriales/que-es-un-vps)
+[5](https://www.namecheap.com/wordpress/pricing/)
+[6](https://wordpress.org/plugins/stock-tracking-reporting-for-woocommerce/), 
+[7](https://www.storeapps.org/woocommerce-inventory-management/)
+[8 Backup](https://litextension.com/blog/backup-woocommerce/)
+[9 backup](https://themegrill.com/blog/best-wordpress-backup-plugins/)
+[10 updraft plus](https://wordpress.org/plugins/updraftplus/#description)
+[11 comprasion](https://updraftplus.com/comparison-updraftplus-free-updraftplus-premium/)
 
-Hay hosting para wordpress muy pbaratos [1](https://miposicionamientoweb.es/cual-es-el-hosting-mas-barato-y-de-calidad/) [2](https://www.hostinger.es/tutoriales/que-es-un-vps)
+[1](https://www.techradar.com/news/best-wordpress-hosting-providers)
+[2](https://www.websitebuilderexpert.com/web-hosting/comparisons/bluehost-vs-godaddy)
+[3](https://themeisle.com/blog/managed-wordpress-hosting-cheap/)
+[4](https://www.softrending.com/blog/diseno-web/diferencias-woocommerce-prestashop-odoo)
+[5](https://www.scaleway.com/en/docs/odoo-on-kubernetes-via-easy-deploy/)
 
-[1](https://www.namecheap.com/wordpress/pricing/)
+Qué hosting usar?
 
-30€/año vs hostinger que es más 45 o más
+[1](https://hostingvictory.com/es/opiniones/namecheap/)
+[2](https://hostingvictory.com/es/opiniones/namecheap/)
+[3](https://miposicionamientoweb.es/cual-es-el-mejor-hosting-espanol/)
+[4](https://www.dondominio.com/products/hosting/basic/)
 
-Woocomcer tiene plugin de correos, ¿es tan necesario? Parece que no. Pero no genera alertas de ivnentario cuando quedne pocos tubos, y llevar las cuentas de las ventas.
+Cömo comrpobar que el certificado de google es mejor que el de namecheap? GCP las tiene dv no ov.
 
-Se preuba odoo por 2: porque se puede comrpar varios productos a la vez y por la gestión de ivnentarios. Si en woocommerce se encuentran plugins para hacer backup y gestionar inventarios como se han encontrado en odoo, qué problema habría? [1](https://wordpress.org/plugins/stock-tracking-reporting-for-woocommerce/), [2](https://www.storeapps.org/woocommerce-inventory-management/)
+Los autogestionados por google son DV. Elijo el free plan de namecheap [1](https://www.ssl.com/article/when-not-use-a-dv-ssl-certificate-for-e-commerce/)
+[2](https://security.stackexchange.com/questions/35076/how-does-an-end-user-differentiate-between-ov-and-dv-certificates)
+[3](https://www.websecurity.digicert.com/security-topics/dangers-of-domain-validated-ssl)
 
-WC [1 Backup](https://litextension.com/blog/backup-woocommerce/), [2 backup](https://themegrill.com/blog/best-wordpress-backup-plugins/), [3 updraft plus](https://wordpress.org/plugins/updraftplus/#description) [4 comprasion](https://updraftplus.com/comparison-updraftplus-free-updraftplus-premium/)
+los ov son mejroes pero para la organización. No puedo ov porque hab´ria que estar dado de alta en el registro [1](https://comodosslstore.com/ssl-validation-process/ov) rnefe sólo tieen ov. DV hasta que seamos una empresa
 
+Atum invenotry[1](https://stockmanagementlabs.com/addons/atum-action-logs/)
 
 |     |2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
 |:---:| :---: | :---: | :---:  | :---: |  :---:       | :---:      | :---: | :---: |
@@ -117,45 +156,6 @@ WC [1 Backup](https://litextension.com/blog/backup-woocommerce/), [2 backup](htt
 |3.2. |       |       |       |     x |              |             |     x |     x |    
 |  Precio del servicio|  2. [0 hasta 40 artículos 40€/mes](https://services.amazon.es/servicios/vender-por-internet/faq.html#:~:text=%C2%BFCu%C3%A1nto%20cuesta%20vender%20en%20Amazon,sin%20IVA%20en%20distintas%20categor%C3%ADas.) | [200€/mes](https://miracomosehace.com/cuanto-cobra-glovo-restaurantes-como-poner-restaurante-glovo/#:~:text=Es%20importante%20mencionar%20que%20la,50%20euros%20a%20la%20semana.)   | 0€/mes   | [100€/mes](https://katanamrp.com/pricing/) .2|3. [30€/mes](https://convertkit.com/pricing) | [15€/mes](https://mailchimp.com/pricing/) | [30€/mes](https://www.klaviyo.com/pricing) | [40€/mes](https://www.hootsuite.com/plans) .3|
 | Comentario|  2. Completo, alto precio a largo | Completo, alto precio a corto  |  2 | 2 .2|3. Falta 2 | 3 | 3 | 3 .3|
-
-[1](https://www.techradar.com/news/best-wordpress-hosting-providers)
-[2](https://www.websitebuilderexpert.com/web-hosting/comparisons/bluehost-vs-godaddy)
-[3](https://themeisle.com/blog/managed-wordpress-hosting-cheap/)
-[4](https://www.softrending.com/blog/diseno-web/diferencias-woocommerce-prestashop-odoo)
-[5](https://www.scaleway.com/en/docs/odoo-on-kubernetes-via-easy-deploy/)
-
-
-opción de la vm + cloud sql => x usuarios, no sé compatir el disco para hacer autoescalado => comprobar ucnátos en loader
-kubernetes => despelgar 10 y comprobar que los rpecios salen a menos, pq mejor que namecheap + woocommerce?
-
-| Hosting WP       | namecheap (dominio hasta septiembre)   |  hostinger | bluehost |
-| :---:          |    :----:   |    :---:   |  :---:   |
-| Precio 1y simple |   40      | 86         | 150       |
-| SSL              |   0   |    0       |  x       |  
-
-
-Qué hosting usar?
-
-[1](https://hostingvictory.com/es/opiniones/namecheap/)
-[2](https://hostingvictory.com/es/opiniones/namecheap/)
-[3](https://miposicionamientoweb.es/cual-es-el-mejor-hosting-espanol/)
-[4](https://www.dondominio.com/products/hosting/basic/)
-
-Dbees pagar por más?
-
-10 GB de ssd
-
-
-
-Cömo comrpobar que el certificado de google es mejor que el de namecheap? GCP las tiene dv no ov.
-
-Los autogestionados por google son DV. Elijo el free plan de namecheap [1](https://www.ssl.com/article/when-not-use-a-dv-ssl-certificate-for-e-commerce/)
-[2](https://security.stackexchange.com/questions/35076/how-does-an-end-user-differentiate-between-ov-and-dv-certificates)
-[3](https://www.websecurity.digicert.com/security-topics/dangers-of-domain-validated-ssl)
-
-los ov son mejroes pero para la organización. No puedo ov porque hab´ria que estar dado de alta en el registro [1](https://comodosslstore.com/ssl-validation-process/ov) rnefe sólo tieen ov. DV hasta que seamos una empresa
-
-Atum invenotry[1](https://stockmanagementlabs.com/addons/atum-action-logs/)
 
 Como conclusión de esta compración se puede sacar que shopify o wix son soluciones para vender ideales, pero a las que les falta, tanto una mayor autoamtización en 2.1 (integración de pedido y visualización de stock, los llamados mrp, como katana, pero que añaden 100€ más de coste). Entonces, se concluye que una propuesta de valor puede consistir en ofrecer las bondades de este conjunto Shopify + Katana (175€/mes) por menos coste y así menos precio.
 
