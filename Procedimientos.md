@@ -912,6 +912,10 @@ Me surgen problemas creando una page; el header transparente solapa
  testimonials, contact, 
  
  eleigr el cosmetics porque tiene las letras blacnas
+ 
+ how to edit the footer
+ 
+ cómo cambiar el contact info en el footer
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
