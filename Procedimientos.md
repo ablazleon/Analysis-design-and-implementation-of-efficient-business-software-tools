@@ -899,6 +899,12 @@ Se debe introducir un theme:
 - 5. backup
 - 
 
+odoo free cms
+
+https://smartslider3.com/blog/best-free-wordpress-page-builder-plugins/
+
+https://translatepress.com/woocommerce-multilingual-free/
+
 
 
 
@@ -916,3 +922,5 @@ Cömo dimeisnoanr recuross para que cueste lo mínimo posible pero se atienda to
 Parece que namecheap tiene un protector contra DDOS que no se puede incorporar en gcp, hace falta [gran presupuesto](https://cloud.google.com/armor#section-7) 
 
 Desde google analytics investigar los códigos y aumentarlo en función de ese porcentaje de tráfico no cursado.
+
+
