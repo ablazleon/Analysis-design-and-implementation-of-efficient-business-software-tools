@@ -905,7 +905,7 @@ https://smartslider3.com/blog/best-free-wordpress-page-builder-plugins/
 
 https://translatepress.com/woocommerce-multilingual-free/
 
-
+Me surgen problemas creando una page; el header transparente solapa
 
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
