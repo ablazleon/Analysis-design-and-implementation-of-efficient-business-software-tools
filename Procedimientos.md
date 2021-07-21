@@ -908,6 +908,10 @@ https://translatepress.com/woocommerce-multilingual-free/
 Me surgen problemas creando una page; el header transparente solapa
  
  que sea en blanco y ya está
+ 
+ testimonials, contact, 
+ 
+ eleigr el cosmetics porque tiene las letras blacnas
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
