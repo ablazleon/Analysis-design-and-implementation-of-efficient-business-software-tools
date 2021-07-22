@@ -929,7 +929,27 @@ isnatlar updraft plus
 - 2. Añadir el theme de astra, instalr el plugin de elementor e imposratar el de cosmetics
 -
 
+Cada cuanto retengo los backups?
 
+Cuál es el free tier de s3 5GB de s3
+
+No sé qué files tengo..
+
+Hay muchas posibilidades de hacer backup por si me borran algo
+
+https://www.cminds.com/7-types-wordpress-attacks/
+
+cómo securizar la tienda
+
+https://es.statista.com/grafico/13222/a-que-hora-hay-mas-usuarios-conectados-a-internet/
+
+Un día que esté depsito a las 4 de la mañana configuro los backups
+
+
+
+
+wp optimize
+security plugins anlyzer
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
