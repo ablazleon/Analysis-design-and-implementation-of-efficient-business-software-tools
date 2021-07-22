@@ -11,7 +11,7 @@ Ciertas aplicaiones digitales no son accesibles para los negocios hasta que no p
 
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
-- Intento 0: Comparativa inicial: coste de vms con IaC en AWS, FaaS shop and GKE
+- Intento 0: Comparativa inicial: coste de vms con IaC en AWS, FaaS shop and GKE (200h)
 
 Al principio tras comprar las disitntas formas de proveer con herramientas los procesos de negocios, se idnetifica iniciamnete un servicio FaaS cómo el óptimo en coste. Sin embargo, se plantea un piloto en el siguietne repositorio y se descubre que si bien FaaS es bastatne barato en cuanto al coste en función de las peticiones, obliga a rescribir todo el código.
 
@@ -19,7 +19,9 @@ https://github.com/ablazleon/shop-serverless
 
 Más adletna se plantea una forma mejroada de gke + jenkins X [1](https://www.youtube.com/watch?v=eEcgn_gU3SM)
 
-- Intento 1 1: saleor + gcp(cloud run + cloud sql)
+https://github.com/ablazleon/aws-design-provision-monitor/blob/master/Task1/Udacity_Diagram_1.pdf
+
+- Intento 1 1: saleor + gcp(cloud run + cloud sql) (100h)
 
 En esta fase se esbozan disitnos casos de uso que más tarde serán expresados como procesos de negocio, y se plantea un despliegue con un coste mínimo de 10$/mes. Con el inconveniente de que saleor, si bien es muy persnalizable en cuanto al frontend, requiere de expertize para la configuración del frontend, y le falta de integraciones nativas, como con un sericio de gestión de inventarios. En esta fase dr provee el despliegue de saleor primero con heroku y luego con netlify; pero cloud runes más barato que estos servicios.
 
@@ -27,15 +29,15 @@ Comparación de recursos (proyectos de eccomerce (erp/crm o frontend + backend +
 https://docs.google.com/spreadsheets/d/1Xon-1Qho6XSfOwBKpCQ4RG33cyaWvSCvdgt_JxIQYl0/edit?usp=sharing
 https://medium.com/@ablazleon/my-journey-on-setting-up-an-ecommerce-learning-saleor-google-cloud-run-dns-31e7c94f4c9a
 
-- Intento 2: odoo ce + aws(fargate+aurora serverless v1) vs odoo + gcp(crun+cloudsql)
+- Intento 2: odoo ce + aws(fargate+aurora serverless v1) vs odoo + gcp(crun+cloudsql) (200h)
 
 No valen porque on preservan el estado
 
-- Intento 3: odoo ce + vm + cloud sql (60€/mes)
+- Intento 3: odoo ce + vm + cloud sql (60€/mes) (50h)
 
 Parece que todas estas soluciones alojadas en la nube son bastante costosas para pequeñas empresas
 
-- Intento 4: Wordpress + WooCommerce + MrDomain (60€/año)
+- Intento 4: Wordpress + WooCommerce + MrDomain (60€/año) (50h)
 
 Si con eso es necesario, ¿para qué un despliegue en k8s? ¿Da odoo más valor que Wp+WC+inventario?
 
