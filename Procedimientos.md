@@ -921,6 +921,16 @@ Me surgen problemas creando una page; el header transparente solapa
  
  Crear categorías y ponerlo a la derecha
 
+Borré sin querer esasa pa´ginas que ahora parecen como dos
+
+isnatlar updraft plus
+
+- 1. Borrar las páginas por defecto
+- 2. Añadir el theme de astra, instalr el plugin de elementor e imposratar el de cosmetics
+-
+
+
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
