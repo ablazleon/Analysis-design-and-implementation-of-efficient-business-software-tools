@@ -106,6 +106,33 @@ Todo esto para el itento de odoo ce, si quieres hago zoom para poenr en contexto
 
 en el rpo actualicé el estado del arte, la jugada era que se han idnetifaicado cierto srequsitos  de tienda onlein+ gesiton d eintecatio gesiton de marketing, iterivamtene s eproponeen sw y depsleigeus
 
+primer itneot pensaba el el qurisot era un minimo ahcer un ecocemrce desde cero, desde serverless incluso hice una demo,a hsta deposlegue un cluter como aumtaizar cd ocn jenkins x o ahora mas adetna con corplace y con argo, auotmaicar con vm awen aws. Quizá hablé pco de esto pero bueno est rabjao que hcie, y el resutlado era que si el objetivo es tener un shopify o wix  o un hstoign con wordpress, iba a ser muy barato hosterlo en le kuebrntes servleerss que iba a ser cloud run
+
+primer inteot saelro, la peroisnalizacion no er acmomoq eureiamos
+
+a busar odoo pareica uan solcuion itnegrada masd carac que un hsoting qu epuede ser como 10€/mes, con cloud run bajar preioc
+
+parece que no y admeas en las purebas con loader que cae la solcuon de vm + csql que fue la sigueiten opcion
+
+una dmeo de que funcioanldiad tenia
+
+suponiia o deplgar un clsuter de juebtes 50 al mes, de priemras no ofrecia mas ventaja que un hstoign
+
+me aplentae apenrder owrpdress y woocmerce, itnear imitar todos los requistos y lso rpoeceso de negocio de odoo itnegrados con plugins de woocmerce, tengo un reusmen de ocampraitva de plguiins , que peude que custe como 30 € al año
+
+- qué es lo que tenog pensado?
+
+si llevo como 600 hen spetiembreen y lo que le pueda deidcar en agosto 100 horas, tener ese mínimo por un lado teinda + newsletter tnaot prar dani como para mi madre y si el tf tfm son 800, en la sotras 50 intear hacer aele anlidas de riesgos de loq ue quede , toamndo como paltneialla elqui hice en una asignaturas
+
+y para finales de septiembre pricniois de otubreescribrlo entero,a sigque para fianles de octubteew te diga este es el word que he hecho qué te parece
+
+
+- problema he tindo
+
+camio
+
+
+
 
 
 
