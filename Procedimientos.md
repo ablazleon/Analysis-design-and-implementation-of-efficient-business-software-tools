@@ -918,6 +918,8 @@ Me surgen problemas creando una page; el header transparente solapa
  cómo cambiar el contact info en el footer
  
  Desde google sites da error forbidden: se poenen las imágenes en namecheap
+ 
+ Crear categorías y ponerlo a la derecha
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
