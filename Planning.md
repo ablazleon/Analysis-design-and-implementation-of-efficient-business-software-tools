@@ -93,5 +93,23 @@ pues en este video os reusmo como siempre, qué he hecho este mes, qué problema
 
 1- Qué he hecho este mes?
 
- 
+Lo que dije que iba a hacer 
+
+- [ ] 1 Desplegado un entorno de pruebas 20
+- [ ] 2 20 de junio llevalro a producion -25 hacerle laod tesitng
+- [ ] 3 25 probar y enseñar
+
+el resutlado ah sido que lo eh hecho pero que en clodu run csql sienod la opcion más barata no vale porque clodu run no persite el estado de form que se peudrn lso css tneog las cpautras qu elo dmeuestran
+
+
+Todo esto para el itento de odoo ce, si quieres hago zoom para poenr en contexto
+
+en el rpo actualicé el estado del arte, la jugada era que se han idnetifaicado cierto srequsitos  de tienda onlein+ gesiton d eintecatio gesiton de marketing, iterivamtene s eproponeen sw y depsleigeus
+
+
+
+
+
+
+
   Me gustaría sobre el 25 de julio proponérosla, pero me falta todavía  En resumen: odoo pareció la solución integrada definitiva frente a WordPress, Spotify (360€ al año )o wix (200€ al año) y con cloud run iba a costar 120€ al año. Pero tras un mes, como te conté, no conseguí que funcionara por el estado efímero de su disco. Probé la forma clásica de servidor en gcp con la tienda de mi madre (https://piedadleon.art), funciona, pero a priori parece que cuesta entre 500 y 700 pavos mensuales. A largo plan, es una solución muy personalizada y se comparte coste entre empresas,se podría asumir, pero en principio,no way. De forma que volvemos a la cooperación inicial. Aunque ya tengamos una web en odoo pq no replantearnos wp? Estoy trabajando en un despliegue con woo
