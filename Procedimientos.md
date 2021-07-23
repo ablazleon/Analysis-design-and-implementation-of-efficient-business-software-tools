@@ -927,7 +927,25 @@ isnatlar updraft plus
 
 - 1. Borrar las páginas por defecto
 - 2. Añadir el theme de astra, instalr el plugin de elementor e imposratar el de cosmetics
--
+- 3. Configurar updraft plus
+- 4. En la imagen de fondo size content
+- 5. Crear variaciones para luego exportalas y completarlas
+- 6. Cómo configurar transporte
+
+https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf
+
+plugind ecorreos para el tranpsorte: on cinluye servicio psotal certificado
+
+en funcion dle preico y dle pais, para zonas
+
+
+
+cómo llevar las ocmpras dentor de woocmmerce?
+
+https://www.hostgator.com/blog/best-wordpress-plugins-inventory-management/
+
+para saber cuantos tuvos o marocso  faltan
+
 
 Cada cuanto retengo los backups?
 
