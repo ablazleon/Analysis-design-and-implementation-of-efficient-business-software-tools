@@ -919,25 +919,22 @@ Me surgen problemas creando una page; el header transparente solapa
  
  Desde google sites da error forbidden: se poenen las imágenes en namecheap
  
- Crear categorías y ponerlo a la derecha
-
-Borré sin querer esasa pa´ginas que ahora parecen como dos
-
-
-
-isnatlar updraft plus
-
 - 1. Borrar las páginas por defecto
 - 2. Añadir el theme de astra, instalr el plugin de elementor e imposratar el de cosmetics
 - 3. Configurar updraft plus
 - 4. En la imagen de fondo size content
 - 5. Crear variaciones para luego exportalas y completarlas
 - 6. Cómo configurar transporte: jem talbe rates
+
+[1](https://www.hispasonic.com/foros/packlink-ojito/508723) Cuidado con packlink que si se rompe no devuelve
+
+Zonas:
+
 - 7. Cómo hacer una tienda multilingüe
 
 [1](https://translatepress.com/change-woocommerce-language/#single)
 
-Cömo saber cuánto espacio me queda de mi wordpress?
+Cómo saber cuánto espacio me queda de mi wordpress?
 
 https://www.youtube.com/watch?v=38b-qAAw9Ns
 
@@ -946,8 +943,6 @@ https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_P
 plugind ecorreos para el tranpsorte: on cinluye servicio psotal certificado
 
 en funcion dle preico y dle pais, para zonas
-
-
 
 
 cómo llevar las ocmpras dentor de woocmmerce?
@@ -973,11 +968,11 @@ https://es.statista.com/grafico/13222/a-que-hora-hay-mas-usuarios-conectados-a-i
 
 Un día que esté depsito a las 4 de la mañana configuro los backups
 
-
-
-
 wp optimize
 security plugins anlyzer
+
+
+
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
