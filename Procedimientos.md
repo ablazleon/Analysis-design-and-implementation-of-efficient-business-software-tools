@@ -923,6 +923,8 @@ Me surgen problemas creando una page; el header transparente solapa
 
 Borré sin querer esasa pa´ginas que ahora parecen como dos
 
+
+
 isnatlar updraft plus
 
 - 1. Borrar las páginas por defecto
@@ -930,13 +932,21 @@ isnatlar updraft plus
 - 3. Configurar updraft plus
 - 4. En la imagen de fondo size content
 - 5. Crear variaciones para luego exportalas y completarlas
-- 6. Cómo configurar transporte
+- 6. Cómo configurar transporte: jem talbe rates
+- 7. Cómo hacer una tienda multilingüe
+
+[1](https://translatepress.com/change-woocommerce-language/#single)
+
+Cömo saber cuánto espacio me queda de mi wordpress?
+
+https://www.youtube.com/watch?v=38b-qAAw9Ns
 
 https://www.correos.es/content/dam/correos/documentos/atc/tarifas/Tarifas_2021_Peninsula_y_Baleares.pdf
 
 plugind ecorreos para el tranpsorte: on cinluye servicio psotal certificado
 
 en funcion dle preico y dle pais, para zonas
+
 
 
 
