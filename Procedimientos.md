@@ -975,6 +975,7 @@ Improtar primero unos productos luego añadir la variacion
 
 Aladir variacion y aumentar precio
 
+Añadir un dibujo 1
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
