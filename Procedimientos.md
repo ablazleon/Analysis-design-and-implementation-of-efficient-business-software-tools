@@ -981,6 +981,11 @@ La ventaja de no tener dos origanles e imrpeso es que no aparezan 80 sino 46
 
 los orignales incluyen paspartú y marco 
 
+stock problemas con gnerar variaocens
+
+Cambiar los nobres a las iamgenes y vovler a subir
+
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
