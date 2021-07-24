@@ -985,6 +985,11 @@ stock problemas con gnerar variaocens
 
 Cambiar los nobres a las iamgenes y vovler a subir
 
+- 8. Google analytics
+
+
+
+
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
