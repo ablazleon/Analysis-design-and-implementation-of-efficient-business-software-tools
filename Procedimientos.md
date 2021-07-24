@@ -971,7 +971,9 @@ Un día que esté depsito a las 4 de la mañana configuro los backups
 wp optimize
 security plugins anlyzer
 
+Improtar primero unos productos luego añadir la variacion
 
+Aladir variacion y aumentar precio
 
 
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
