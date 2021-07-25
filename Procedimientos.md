@@ -1001,6 +1001,24 @@ https://wp-me.com/cant-access-wordpress-after-changing-site-url/
 
 https://kinsta.com/blog/error-404-not-found/
 
+Es necesario el migrator
+
+suar uno y cambiar el site dle sitio
+
+no, con updraft plus no vale
+
+https://wordpress.org/support/topic/migration-with-free-version-of-updraftplus/
+
+Parece que se autoredeircciona porque es´ta configurado el dns así
+
+Dice que no se puede
+
+offload media, o s3
+
+cyberduck, es más seguro
+
+aprece que estaba solapnado con el ssl
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
