@@ -995,6 +995,12 @@ https://www.namecheap.com/support/knowledgebase/article.aspx/10164/2239/how-to-p
 
 https://www.namecheap.com/support/knowledgebase/article.aspx/9491/2187/how-to-set-up-https-for-wordpress/
 
+Cmabié el site url, ahroa no puedo acceder, además de que las copias de seguridad todas apuntan a la url antigua
+
+https://wp-me.com/cant-access-wordpress-after-changing-site-url/
+
+https://kinsta.com/blog/error-404-not-found/
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
