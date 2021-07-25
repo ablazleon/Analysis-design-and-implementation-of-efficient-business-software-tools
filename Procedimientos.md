@@ -1019,6 +1019,8 @@ cyberduck, es más seguro
 
 aprece que estaba solapnado con el ssl
 
+Cuando con el offload, auqneu aparezcan duplciados ucando los borras depsarencen de s3.
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
