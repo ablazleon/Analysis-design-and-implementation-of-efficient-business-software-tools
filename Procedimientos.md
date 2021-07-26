@@ -1025,6 +1025,14 @@ paypal
 
 [1](https://www.elegantthemes.com/blog/wordpress/best-wordpress-paypal-plugins)
 
+https://blog.hubspot.com/website/best-free-ssl-certificate-sources
+
+https://www.namecheap.com/security/ssl-certificates/
+
+https://wpencryption.com/?utm_source=wordpress&utm_medium=premiumfeatures&utm_campaign=wpencryption&__cf_chl_jschl_tk__=pmd_fb7f80f80f12b52947aae2114bde7b2daf9d05e3-1627282660-0-gqNtZGzNAjijcnBszQZ6
+
+35.05
+
 ## 12. Comparación de la carga en oddo ce vm + csql vs wp + wc en nc 
 
 Se emplea loader.iom con el fin de compararar cuanta carga aguatna en vez de 60€/mes, 45€/mes.
