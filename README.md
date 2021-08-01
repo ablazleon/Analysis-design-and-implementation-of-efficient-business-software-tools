@@ -1,6 +1,6 @@
 # Análisis, diseño e implementación de un servicio de comercio electrónico en la nube
 
-- En este documento describo mi propuesta de anteproyecto y realizo un borrador sbore la estrucutra del documento del proyecto.
+- En este documento describo mi propuesta de anteproyecto. 
 
 Índice:
 
@@ -35,9 +35,15 @@ Raúl Adrián Blázquez León
 
 ## Introducción
 
-El software permite automatizar tareas. Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar treas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estateales de inversión como AceleraPyme). Se ha identificado demanda de tres fucnionaldiades que los negocios demandan:
+El software permite automatizar tareas, facilitando el acceso a información o evitando tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estatales de inversión como AceleraPyme).
 
-1. Catálogo de productos para empresas baratos (+ posibilidad de venta online) => aumento de la demanda de venta online
+El objetivo de este proyecto es analizar, diseñar e 
+
+
+
+ Se ha identificado demanda de tres funcionalidades:
+
+1. Catálogo de productos (+ posibilidad de venta online) => aumento de la demanda de venta online
 2. Registrar productos para analizar datos sobre el uso del almacen
 3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2/email marketing/clone the odoo saas
 
