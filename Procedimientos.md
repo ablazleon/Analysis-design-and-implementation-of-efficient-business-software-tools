@@ -1059,3 +1059,66 @@ Modelo de datos importado de una forma, es más difícil inventariar
 En vez de expresarlo como vairantes de productos se expresa como bundles: de lienzo y marco + paspartú se puede hacer un group product de ambos productos conv arantes
 
 [2](https://docs.woocommerce.com/document/group-bundle-products-woocommerce/#)
+
+
+Cómo modelo los datos? 
+
+Cada ítem: dibujo
+
+Dibujo a2, a4 y original
+
+Stocks distintos
+
+Algo para gestionar el stock de cada producto
+
+Si cambio el modelo? 
+
+Group ítem
+
+Lienzo y marco + paspartú
+
+Para cada dibujo un group ítem
+
+El peso en el embalaje del marco
+
+Menos el peso del lienzo con tubo
+
+Puedo expresar un group product dibujo tal como suma de lienzo + marco y pspt
+
+Cuando lleguen orders
+
+Crear un producto marco + paspartú
+y unirlo a dibujo
+
+o lo pongo como variantes o lo pongo como grupo
+
+si lo pongo como variantes, no puedo llevar el stock a no ser que lo ponga como original. El stock del cuadro, pero así no podría llevar el stock de marcos y tubos
+
+Puedo crear piezas en woocommerce y cuando vendo un producto saber que está compuesto por piezas?
+
+no llevo stock, cuando se realiza un pedido no hace falta mirar el almacen, ya sabemos cuántos hay
+
+https://woocommerce.com/products/chained-products/
+
+without paying 50
+
+https://www.youtube.com/watch?v=SJIU2Wwfu28
+
+composite
+
+qué es un cuadro con un marco y paspartú? Un bundle? Se puede comrpar sólo o con el extra
+
+quiero que aparezca dibujo 1, 2 ,3 con marco negro 
+
+como variable, problema con stock de los origianles, o sacar otro para originales, nop
+
+como grupo, que aprezcan los marcos
+
+in stock,cómo hacer que me llegue un mesnaje diciendo que hacen falta tubos o marcos
+
+que esté en oculto
+
+producto compuesto: tengo stock de cada uno
+o grupo de productos con producto couclto
+
+de forma que sé el stock de cada uno
