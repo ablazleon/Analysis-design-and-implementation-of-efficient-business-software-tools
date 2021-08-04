@@ -1052,4 +1052,8 @@ Parece que namecheap tiene un protector contra DDOS que no se puede incorporar e
 
 Desde google analytics investigar los códigos y aumentarlo en función de ese porcentaje de tráfico no cursado.
 
+[1](https://www.skuvault.com/blog/top-7-wordpress-inventory-management-plugins-for-2021/) ATUM es un buen servicio de mng de stock
 
+Modelo de datos importado de una forma, es más difícil inventariar
+
+En vez de expresarlo como vairantes de productos se expresa como bundles: de lienzo y marco + paspartú se puede hacer un group product de ambos productos conv arantes
