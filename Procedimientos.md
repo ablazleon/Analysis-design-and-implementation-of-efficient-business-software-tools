@@ -1057,3 +1057,5 @@ Desde google analytics investigar los códigos y aumentarlo en función de ese p
 Modelo de datos importado de una forma, es más difícil inventariar
 
 En vez de expresarlo como vairantes de productos se expresa como bundles: de lienzo y marco + paspartú se puede hacer un group product de ambos productos conv arantes
+
+[2](https://docs.woocommerce.com/document/group-bundle-products-woocommerce/#)
