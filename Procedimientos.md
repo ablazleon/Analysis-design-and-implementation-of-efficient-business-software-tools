@@ -1122,3 +1122,5 @@ producto compuesto: tengo stock de cada uno
 o grupo de productos con producto couclto
 
 de forma que sé el stock de cada uno
+
+Vairantes de productos: con productos compeusto
