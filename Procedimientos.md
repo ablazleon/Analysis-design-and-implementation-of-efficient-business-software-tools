@@ -1124,3 +1124,23 @@ o grupo de productos con producto couclto
 de forma que sé el stock de cada uno
 
 Vairantes de productos: con productos compeusto
+
+### Inventario en csv
+
+Primero con variantes, las variantes no permiten que sean paquetes (verisón grátis de un plugin para bundles)
+
+LUego con productos simple en bundles. Explciación de cada fila con comprobnates
+
+ID: se debe poner un número alto para que no haya solapes
+SKU: hallado por concatenación de string sobre la hoja 3 Composición
+Published: todo a 1
+Visibility: hidden todos los elementos componentes. Sólo en visible los Dibujos X
+Short description: 0
+Description: una descripción de cada producto.
+
+tres procesos: teinda online, compro me llegan lso correos pago con stripe, puedo acceder a la ceunta
+inventario: cambio productos de cada tipo, creo nuevos autoamtizanod excel; me llegan alertas de cuando falta uno
+
+
+fallos: lo de elemtnr que se ve en blanco claro
+
