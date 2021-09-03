@@ -1133,10 +1133,22 @@ LUego con productos simple en bundles. Explciación de cada fila con comprobnate
 
 ID: se debe poner un número alto para que no haya solapes
 SKU: hallado por concatenación de string sobre la hoja 3 Composición
+Name: igual que SKU
 Published: todo a 1
 Visibility: hidden todos los elementos componentes. Sólo en visible los Dibujos X
 Short description: 0
 Description: una descripción de cada producto.
+Date sale price starts: no definido
+Date sale price ends: no definido
+Tax status: todos taxable
+Tax class: no definido
+In stock?: todo a 1 salvo los lienzos originales que algunos están a cero
+
+
+
+
+
+
 
 tres procesos: teinda online, compro me llegan lso correos pago con stripe, puedo acceder a la ceunta
 inventario: cambio productos de cada tipo, creo nuevos autoamtizanod excel; me llegan alertas de cuando falta uno
