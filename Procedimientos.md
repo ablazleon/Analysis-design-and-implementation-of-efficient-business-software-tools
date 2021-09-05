@@ -1143,11 +1143,52 @@ Date sale price ends: no definido
 Tax status: todos taxable
 Tax class: no definido
 In stock?: todo a 1 salvo los lienzos originales que algunos están a cero
-
-
-
-
-
+Stock: en blanco en todo salvo los originales a 1 dependiendo
+Low stock amount: en blanco
+Backorders allowed?: a 0, ¿no haría falta activar backorder para que se pudieran comprar ciertos productos sin stock?
+Sold individually?: a 0
+Weight (kg): según el peso calculado en el excel
+Length (cm):
+Width (cm):
+Height (cm): 
+Allow customer reviews?: sólo los Dibujos X
+Purchase note:
+Sale price:
+Regular price: calculado sobre el escel
+Categories:
+Tags:
+Shipping class:
+Images: la url de la imagen en s3. Sólo se le asocia a los de los Dibujo X para no saturar el servidor
+Download limit:
+Download expiry days:
+Parent:
+Grouped products: id:X1, id:X2. . .
+Upsells:
+Cross-sells:
+External URL:
+Button text:
+Position:
+Components:
+Meta: wooco_components
+Meta: _last_editor_used_jetpack
+Meta: _atum_attachments
+Meta: woofs_ids
+Meta: woofs_separately
+Meta: site-sidebar-layout
+Meta: site-content-layout
+Meta: theme-transparent-header-meta
+Meta: woosb_ids: product1/1, . . .
+Meta: woosb_disable_auto_price: on para que no lo actuocalcule, sino que se calcule bajo al lógica del excel
+Meta: woosb_discount: 
+Meta: woosb_discount_amount:
+Meta: woosb_shipping_fee:
+Meta: woosb_optional_products
+Meta: woosb_manage_stock
+Meta: woosb_limit_each_min
+Meta: woosb_limit_each_max
+Meta: woosb_limit_each_min_default
+Meta: woosb_limit_whole_min
+Meta: woosb_limit_whole_max
 
 
 tres procesos: teinda online, compro me llegan lso correos pago con stripe, puedo acceder a la ceunta
