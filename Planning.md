@@ -140,3 +140,49 @@ camio
 
 
   Me gustaría sobre el 25 de julio proponérosla, pero me falta todavía  En resumen: odoo pareció la solución integrada definitiva frente a WordPress, Spotify (360€ al año )o wix (200€ al año) y con cloud run iba a costar 120€ al año. Pero tras un mes, como te conté, no conseguí que funcionara por el estado efímero de su disco. Probé la forma clásica de servidor en gcp con la tienda de mi madre (https://piedadleon.art), funciona, pero a priori parece que cuesta entre 500 y 700 pavos mensuales. A largo plan, es una solución muy personalizada y se comparte coste entre empresas,se podría asumir, pero en principio,no way. De forma que volvemos a la cooperación inicial. Aunque ya tengamos una web en odoo pq no replantearnos wp? Estoy trabajando en un despliegue con woo
+  
+  
+  --------------------------------
+  
+  Hola Santiago, qué tal la vuelta de las vacaciones?
+  
+  oye, comparto esta actualziación contigo y no con Dani porque sé que está muy liado estos días, luego te ocmento al fianl  lo que he hablado con él
+  
+  yo bien, muy contento salí en agosto
+  
+  qué he hecho qué tenog pensado hacer en el próximo mes y qué problemas he tneido
+  
+ - qué he hecho desd eifnales de julio que te cometné
+  
+ -  básciamente lo que hacía falta para temrinar habiendo realizado ya esas 650 hroas es ese último empujón que quería darale para llegar a las 810h, y además el poder enseñar un producto que encajer con el lceitne. Hasta ahora he impelenmtando 4 pero ninguno parece que no concenvece al cleitne al 100%.
+
+4 cosas
+
+-  wp +wc + namecheap: más estudio previo de cómo hacer que por 20€ al año  es decir menos de 2€ al mes se tenga toda la funcioanldiad de odoo. y piedad leon art, con una demo
+
+- análsisi de reisgos usando pilar
+
+- ppt presnetaicón aprox en 10 min de lo que propongo decir en enero a ver qué te parece
+
+- meoria en la que palnteo todas esta dieas en word; sigo editando; cosas como cometnario y las voy viendo
+
+
+qué tengo pensado hacer, 28 de seopteimbre
+
+octubre, noviembre,r evisar lo que me propognas
+
+qué probelmas he tneido, nignuo destacable.
+
+
+-----------------------
+
+video demo:
+
+
+--------------
+
+vidoe ppt
+
+
+  
+  
