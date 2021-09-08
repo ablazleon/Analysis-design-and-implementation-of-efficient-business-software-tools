@@ -1190,6 +1190,7 @@ Meta: woosb_limit_each_min_default
 Meta: woosb_limit_whole_min
 Meta: woosb_limit_whole_max
 
+AProvehca la oferta de lanzmaineto
 
 tres procesos: teinda online, compro me llegan lso correos pago con stripe, puedo acceder a la ceunta
 inventario: cambio productos de cada tipo, creo nuevos autoamtizanod excel; me llegan alertas de cuando falta uno
