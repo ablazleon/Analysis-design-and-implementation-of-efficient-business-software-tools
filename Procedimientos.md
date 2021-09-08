@@ -1153,7 +1153,7 @@ Width (cm):
 Height (cm): 
 Allow customer reviews?: sólo los Dibujos X
 Purchase note:
-Sale price:
+Sale price: en blanco para que no salte el precio de oferta
 Regular price: calculado sobre el escel
 Categories:
 Tags:
