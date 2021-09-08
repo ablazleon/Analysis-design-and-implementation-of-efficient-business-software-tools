@@ -15,9 +15,13 @@
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
 - Fase 0: FaaS shop
-- Fase 1: saleor + gcp(cloud run + cloud sql)
-- Fase 2: odoo ce + aws (fargate + auroraserverless)
+- Fase 1: saleor + gke: jenkinsX
+- Fase 2: saleor + gcp (cloud run + cloud sql)
+- Fase 3: odoo ce + aws (fargate + auroraserverless)
+- Fase 4: odoo ce + gcp (cloud run + cloud sql)
+- Fase 5: (wp + wc  + plugins) + namecheap 
 ### Mejora continua: análisis de riesgos
+- Fase 5
 ## 3. Discusión sobre la implementación (what works?). Conclusión
 # Líneas futuras
 # Anexo
@@ -35,11 +39,7 @@ Raúl Adrián Blázquez León
 
 ## Introducción
 
-El software permite automatizar tareas, facilitando el acceso a información o evitando tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estatales de inversión como AceleraPyme).
-
-El objetivo de este proyecto es analizar, diseñar e 
-
-
+El software permite automatizar tareas, facilitando el acceso a información o evitando tareas repetitivas. En el contexto actual, se han identificado, por un lado, ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas en particular para aquellas pequeñas (por planes estatales de inversión como AceleraPyme). Por otro lado, que ciertas tecnologías, sobre todo el despliegue en la nube, permiten crear servicios baratos y eficientes. Así, dado una pyme, el objetivo de este proyecto es analizar, diseñar e implementar un servicio de comercio electrónico en la nube.
 
  Se ha identificado demanda de tres funcionalidades:
 
