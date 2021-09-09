@@ -45,7 +45,7 @@ El software permite automatizar tareas, facilitando el acceso a información o e
 
 1. Catálogo de productos (+ posibilidad de venta online) => aumento de la demanda de venta online
 2. Registrar productos para analizar datos sobre el uso del almacen
-3. Automatizar trámites (puede que con RPA)/ o hacer un plan de operación de ciberseguridad / o hacer los pagos con PSD2/email marketing/clone the odoo saas
+3. NFR: disponibilidad y seguridad
 
 Existen soluciones que permitan estan fucnionalidades desde Wix/Shopify/Odoo.com o Salesforce o SAP a software a medida. En el caso de una pequeña empresa o un autónomo, bsucaría solcuiones baratas, por ejemplo, el primer bloque de soluciones Wix/Shopify/Oddo.com como mínimo cuesta al mes de 15 a 30€ o solciones de ecommerce a medidas hosteadas en MrDomain 3€/mes de hosting (pero que sólo ofrecen la funcionalidad de catálogo ecommerce). En este proyecto se implementan distinto del prototipo: una tienda con un backend basado en lambda, otra basará en salero en cloud run y cloud SQL, odoo en va y gke, y Woocommerce en namecheap. se plantea cómo poder desplegar un servicio que ofrezca estas fucnionalidades de forma más eficiente económicamente: valorando esquemas pay as you go en la nube. Si odoo con estas tres funcionalidades costaría entorno a los 90-120€/mes, se trata de buscar una solución en torno a los 60€/mes comparando caldiades de servicio frente a odoo saas.
 
@@ -62,6 +62,9 @@ En este estudio se propone:
 5. Implementarlo y probarla
 
 ## Organización y planificación previstas
+
+
+
 
 1 ects -> 27h => 30 ects 810
 
