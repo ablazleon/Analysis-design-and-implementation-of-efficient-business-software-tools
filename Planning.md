@@ -191,3 +191,6 @@ despue´s de camri el número de products a mostrar no se pueen ver
 
 https://www.storeapps.org/woocommerce-delete-all-products/
   
+https://stackoverflow.com/questions/47247512/any-way-to-set-screen-options-wordpress-via-the-database
+
+https://wpfluent.com/how-to-delete-all-woocommerce-products/
