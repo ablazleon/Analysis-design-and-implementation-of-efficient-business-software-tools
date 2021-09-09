@@ -180,6 +180,18 @@ video demo:
 
 tres csaso de uso fase anterior
 
+FR:
+Tienda online
+1.1. Constructor de sitios web (CMS) + catálogo + plataforma de pago
+1.2. Seguimiento de paquetes: avisar que se ha realizado el envío
+Gestión de operaciones
+2.1. Integración pedido tienda/Visualización de stock: poner en los originales que el stock es uno. Si quieres otro, escribir al email
+2.2. Generación de pedidos para comprar a proveedores: enviar los códigos de los impresos y las cantidades al correo de la impresora
+2.3. Opciones de envío para nacional e internacional
+NFR:
+Disponibilidad: cuantos usuarios o conexiones a la vez se pueden servir
+Seguridad: cuán fácil es actualizar el sw
+
 --------------
 
 vidoe ppt
