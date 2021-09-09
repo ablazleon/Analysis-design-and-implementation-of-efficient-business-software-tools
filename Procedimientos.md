@@ -1143,7 +1143,7 @@ Date sale price ends: no definido
 Tax status: todos taxable
 Tax class: no definido
 In stock?: todo a 1 salvo los lienzos originales que algunos están a cero
-Stock: en blanco en todo salvo los originales a 1 dependiendo
+Stock: en blanco en todo salvo los originales a 1 dependiendo. Los Dibujos X tiene que estar a 1 para que no salga agotado o en backorder?
 Low stock amount: en blanco
 Backorders allowed?: a 0, ¿no haría falta activar backorder para que se pudieran comprar ciertos productos sin stock?
 Sold individually?: a 0
@@ -1198,3 +1198,4 @@ inventario: cambio productos de cada tipo, creo nuevos autoamtizanod excel; me l
 
 fallos: lo de elemtnr que se ve en blanco claro
 
+https://stackoverflow.com/questions/39673899/products-page-screen-option-adjust-number-of-products-per-page
