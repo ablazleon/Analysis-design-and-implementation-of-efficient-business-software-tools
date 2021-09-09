@@ -178,11 +178,16 @@ qué probelmas he tneido, nignuo destacable.
 
 video demo:
 
+tres csaso de uso fase anterior
 
 --------------
 
 vidoe ppt
 
 
-  
+--------------------
+
+despue´s de camri el número de products a mostrar no se pueen ver
+
+https://www.storeapps.org/woocommerce-delete-all-products/
   
