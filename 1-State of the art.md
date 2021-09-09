@@ -1,6 +1,6 @@
 
 Automatizar tareas regala tiempo a las personas: facilitar el acceso a información o evitar tareas repetitivas. En el contexto actual, se han identificado ciertas iniciativas que manifiestan que el software en el contexto empresarial no es accesible para todas las empresas, en particular, para aquellas pequeñas (por planes estatales de inversión como AceleraPyme). A continuación, se analiza en base a datos la fase "what is?" del ciclo de "Design Thinking": se investigan las necesidades del usuario. Para ello se realizan tres discusiones. 
-- 1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen? Nótese que en cuanto a "herramienta" se entiende el servicio software entero, detallando su infrastuctura con el fin de comprar costes.
+- 1- Primero se discute, presentando en una tabla, la relación entre procesos de negocio, herramientas y precios ¿Qué procesos de negocio se han identificado? ¿Qué herramientas se han encontrado en el mercado (español, en concreto en Madrid) que implementen estos procesos de negocio? ¿Y qué precio tienen? Nótese que en cuanto a "herramienta" se entiende el servicio software entero, detallando su infrastuctura con el fin de comparar costes.
 - 2- A continuación, se discute una segunda dimensión en el debate sobre la relación entre procesos de negocio y herramientas: de estas herramientas, cuál es la relación entre el uso de cada herrmienta y su estructura de coste.
 
 
@@ -26,7 +26,7 @@ Primero se esbozan los procesos de negocio del ciclo de producción para el ejem
 - a.	Comprueba qué producto quiere, con qué precio y para cuándo, y acepta tasa de envío
 - b.	Realiza el pago y el trámite de compra rellenando la dirección
 - c.	Aparece un pedido con una dirección.
-- d.	Dependiendo de si es original o glicé. 
+- d.	Dependiendo de si es original o impreso. 
 - i.	Si es original: se enmarca y se envía
 - ii.	Si es impreso 
 - 1.	cada dos días se cogen los pedidos y enviamos un correo con los productos. 
@@ -39,14 +39,16 @@ Primero se esbozan los procesos de negocio del ciclo de producción para el ejem
 
 Estos procesos genéricos son los que se comparan para cada herramienta. Así se eligirá la herrramienta que automatice más procesos a menor precio:
 
+- FR:
 - 1. Tienda online
 - 1.1. Constructor de sitios web (CMS) + catálogo + plataforma de pago
 - 1.2. Seguimiento de paquetes: avisar que se ha realizado el envío
 - 1.3. Subscripción a la newsletter
 - 2. Gestión de operaciones
-- 2.1. Integración pedido tienda/Visualización de stock: poner en los originales que el stock es uno. Si quieres otro, escribir a cotnactaconleon
-- 2.2. Generación de pedidios para comprar a proveedores: enviar los códigos de los impresos y las cantidades al correo de la impresora
+- 2.1. Integración pedido tienda/Visualización de stock: poner en los originales que el stock es uno. Si quieres otro, escribir al email
+- 2.2. Generación de pedidos para comprar a proveedores: enviar los códigos de los impresos y las cantidades al correo de la impresora
 - 2.3. Opciones de envío para nacional e internacional
+- NFR:
 - Disponibilidad: cuantos usuarios o conexiones a la vez se pueden servir
 - Seguridad: cuán fácil es actualizar el sw
 
@@ -88,7 +90,7 @@ Se presentan 4 tablas:
 |2.3. |                  | x                  |     x                   | x                      |       
 |€/mes| 15€/mes           | [40$/mes => 480$](https://cloud.google.com/products/calculator/#id=a2a1ffa9-7c7b-4e41-bd53-2c1e86aa9f79) [mail after ship](https://www.odoo.com/documentation/13.0/applications/inventory_and_mrp/inventory/management/misc/email_delivery.html) [integrado con dhl](https://www.youtube.com/watch?v=W4wmGfHwkEc)   | 350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|  350$ anuales, [WC](https://woocommerce.com/hosting-solutions/), [Mr, 60$](https://www.mrdomain.com/products/hosting/basic/) [120$/anual](https://cloud.jetpack.com/pricing) [custom emails](https://woocommerce.com/posts/how-to-customize-emails-in-woocommerce/) [Integrado con dhl](https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/woocommerce-shipping/) + [50$](https://woocommerce.com/products/woocommerce-gateway-purchase-order/) + [120$ mailchimp para newsltter, si más de 200 contactos](https://mailchimp.com/pricing/marketing/)|
 
-En esta tabla resumen se plantean tres intentos, de implmenetar la idea, cómo posibilitar transofmración digital de negocios de forma barata:
+En esta tabla resumen se plantean tres intentos, de implmenetar la idea:
 
 - 1. Primeros intentos, como kubernetes y despelgar en él bastantes servicios
 - 2. Luego se plantea la opicón de cloud run +csql, que sólo funcionó para saleor
@@ -108,8 +110,6 @@ Plugins:
 - automate.io con etsy
 - correos
 
-
-
 [1](https://es.wordpress.org/plugins/email-subscribe/)
 [2](https://www.sendcloud.es/vender-en-etsy/)
 [3](https://miposicionamientoweb.es/cual-es-el-hosting-mas-barato-y-de-calidad/)
@@ -128,14 +128,14 @@ Plugins:
 [4](https://www.softrending.com/blog/diseno-web/diferencias-woocommerce-prestashop-odoo)
 [5](https://www.scaleway.com/en/docs/odoo-on-kubernetes-via-easy-deploy/)
 
-Qué hosting usar?
+¿Qué hosting usar?
 
 [1](https://hostingvictory.com/es/opiniones/namecheap/)
 [2](https://hostingvictory.com/es/opiniones/namecheap/)
 [3](https://miposicionamientoweb.es/cual-es-el-mejor-hosting-espanol/)
 [4](https://www.dondominio.com/products/hosting/basic/)
 
-Cömo comrpobar que el certificado de google es mejor que el de namecheap? GCP las tiene dv no ov.
+¿Cómo comrpobar que el certificado de google es mejor que el de namecheap? GCP las tiene dv no ov.
 
 Los autogestionados por google son DV. Elijo el free plan de namecheap [1](https://www.ssl.com/article/when-not-use-a-dv-ssl-certificate-for-e-commerce/)
 [2](https://security.stackexchange.com/questions/35076/how-does-an-end-user-differentiate-between-ov-and-dv-certificates)
@@ -144,6 +144,9 @@ Los autogestionados por google son DV. Elijo el free plan de namecheap [1](https
 los ov son mejroes pero para la organización. No puedo ov porque hab´ria que estar dado de alta en el registro [1](https://comodosslstore.com/ssl-validation-process/ov) rnefe sólo tieen ov. DV hasta que seamos una empresa
 
 Atum invenotry[1](https://stockmanagementlabs.com/addons/atum-action-logs/)
+
+- 2. Herramientas de gestión de inventarios
+- 3. Herramientas de marketing
 
 |     |2 Amazon| Glovo | G sheet| Katana 2|3 ConvertKit| MailChimp |Klaviyo | Hootsuite 3|
 |:---:| :---: | :---: | :---:  | :---: |  :---:       | :---:      | :---: | :---: |
@@ -174,7 +177,7 @@ Como conclusión de esta compración se puede sacar que shopify o wix son soluci
 [12 wix/squarespace is faster to setup but it will take me longer to migrate or set this up](https://www.websitetooltester.com/en/ecommerce-platforms/)
 [13 order management in wix](https://www.youtube.com/watch?v=CXUsaMnpN-w)
 
-La forma que se plantea de implementar esta propuesta de valor es mediante el despliegue en la nube de un proyecto open source que provea de estos procesos. Se encuentran disitnos proyectos, y en la tabla básicamnete se ha comparado Saleor y Odoo CE. Como se observa que Saleor es sólo una plantilla para realizar la función 1, y que no plantea el resto de soluciones, se propone desplegar odoo CE. En el apartado de procesos se detallan los procesos de negocio, y se observa que para automatizar la realización de pedidos, es econoómeicamtne rentable esta opción más que la opción wix o Shopify.
+La forma que se plantea de implementar esta propuesta de valor es mediante el despliegue en la nube de un proyecto open source que provea de estos procesos. Se encuentran disitnos proyectos, y en la tabla básicamnete se ha comparado Saleor y Odoo CE. Como se observa que Saleor es sólo una plantilla para realizar la función 1, y que no plantea el resto de soluciones, se propone desplegar odoo CE. En el apartado de procesos se detallan los procesos de negocio, y se observa que para automatizar la realización de pedidos, es económicamente rentable esta opción más que la opción wix o Shopify.
 
 [1](https://itsfoss.com/open-source-ecommerce/)
 
@@ -187,7 +190,7 @@ Ahora bien, se plantea la necesidad de ciertos addons. Buscando soluciones se de
 | Más estrellas gh|            |    x       |  
 | Guardar sesiones|     x       |            |  
 
-Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, al estar estos addons funcionando en v14 será más fácil migrar a la v15, para seguir con los parcehs de seguridad. Sin embargo, habría que ocmprobar si es más fácil realizar importaciones del backup en v14 que en v13.
+Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, al estar estos addons funcionando en v14 será más fácil migrar a la v15, para seguir con los parches de seguridad. Sin embargo, habría que ocmprobar si es más fácil realizar importaciones del backup en v14 que en v13.
 
 
 | v13       | camp2camp   |  itpp-labs |
@@ -198,11 +201,10 @@ Se plantea montar la solución de c2c, pues aunque tenga menos estrellas en gh, 
 
 Finalmente como nota se compara qué proveddor de nombre de dominio es mejor:
 
-
 A la larga más barato
 
-https://cloud.google.com/domains/pricing?hl=es-419 => 12$/año
-https://www.websiteplanet.com/blog/google-domains-vs-godaddy-crowned-king/
+[1](https://cloud.google.com/domains/pricing?hl=es-419 => 12$/año)
+[2](https://www.websiteplanet.com/blog/google-domains-vs-godaddy-crowned-king/)
 
 ## 1.2. Procesos
 
