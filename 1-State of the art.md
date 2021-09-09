@@ -24,16 +24,13 @@ Primero se esbozan los procesos de negocio del ciclo de producción para el ejem
 - II.	Se inventaria: asigna un código y precio y se publica en la web (1)
 - III.	Un usuario realiza una compra
 - a.	Comprueba qué producto quiere, con qué precio y para cuándo, y acepta tasa de envío
-- b.	Realiza el pago y el trámite de compra rellenando la dirección
+- b.	Realiza el pago y el trámite de compra rellenando la dirección (le llegan correos confirmando el pedido)
 - c.	Aparece un pedido con una dirección.
 - d.	Dependiendo de si es original o impreso. 
-- i.	Si es original: se enmarca y se envía
-- ii.	Si es impreso 
-- 1.	cada dos días se cogen los pedidos y enviamos un correo con los productos. 
-- 2.	Previamente escaneamos los cuadros con un número, enviamos un correo con cada número cada día y que nos confirmen para recogerlo
-- 3.	Se firma el cuadro y se pone el cuadro en el tubo
-- 4. En un correo de atención al usuario se atienden las devoluciones.
-- 5. Se gestionan descuentos para próximas compras
+- IV. Cíclicamente se atienden pedidos: se comprueba el correo para encargos y los pedidos para impresos y orignales
+- 1.	Si llega un pedido de un impreso o se compra un original, se escane este.  
+- 2. Una vez se ha obtenido el lienzo se componen el producto con sus componenetes y se cambia el estado a completado para que lelgue la notifciación que avisa que va a ser enviado a Correos.
+
 
 --------
 
