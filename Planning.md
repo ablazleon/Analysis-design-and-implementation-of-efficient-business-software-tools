@@ -178,8 +178,9 @@ qué probelmas he tneido, nignuo destacable.
 
 video demo:
 
-tres csaso de uso fase anterior
 
+Hola, soy Adrián Blázquez, y en este video muestro los caminos del usaior que se han impelmetnado en este prototipo de tienda en woocommerce + namecheap
+EN el proyecto se han analizado y rpoppeusto 3:
 FR:
 Tienda online
 1.1. Constructor de sitios web (CMS) + catálogo + plataforma de pago
@@ -191,6 +192,17 @@ Gestión de operaciones
 NFR:
 Disponibilidad: cuantos usuarios o conexiones a la vez se pueden servir
 Seguridad: cuán fácil es actualizar el sw
+
+En un pr9mer punto se ocmpreuba como woocmerce pemrite editar web, con elmetnor
+Ver un catlolo, y comprar, s eockpra y lelva el mensaje
+
+Se ha visto cómo se ha ocmprado el origianl, y se desucento uno del stock
+
+Genración de pedios para comrpa a proveedores, se piden y se guradan
+se observa como envío naciaonl e itnernacioanl
+
+disponible y segruo
+
 
 --------------
 
