@@ -1146,7 +1146,7 @@ In stock?: todo a 1 salvo los lienzos originales que algunos están a cero
 Stock: en blanco en todo salvo los originales a 1 dependiendo. Los Dibujos X tiene que estar a 1 para que no salga agotado o en backorder?
 Low stock amount: en blanco
 Backorders allowed?: a 0, ¿no haría falta activar backorder para que se pudieran comprar ciertos productos sin stock?
-Sold individually?: a 0
+Sold individually?: a 0, y 1 para los origianles para que sólo se vendan uno cada vez
 Weight (kg): según el peso calculado en el excel
 Length (cm):
 Width (cm):
