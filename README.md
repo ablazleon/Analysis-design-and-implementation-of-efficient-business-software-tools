@@ -14,14 +14,14 @@
 ### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
-- Fase 0: FaaS shop
-- Fase 1: comparativa despliegues: jenkinsX(eks, gke), cloudformation
+- Fase 0: comparativa despliegues: jenkinsX(eks, gke), cloudformation
+- Fase 1: FaaS shop
 - Fase 2: saleor + gcp (cloud run + cloud sql)
 - Fase 3: odoo ce + aws (fargate + auroraserverless)
 - Fase 4: odoo ce + gcp (cloud run + cloud sql)
 - Fase 5: (wp + wc  + plugins) + namecheap 
 ### Mejora continua: análisis de riesgos
-- Fase 5
+
 ## 3. Discusión sobre la implementación (what works?). Conclusión
 # Líneas futuras
 # Anexo
