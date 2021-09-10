@@ -77,7 +77,7 @@ Se presentan 4 tablas:
 - 1. Herramientas de tienda online Open Source desplegadas
 
  Procesos vs tool 
-|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|WP+WC+NC+Updraft+subscribeEmail+MarketingAutomation+Etsy(autoamte.io)  1|
+|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+MRDomain+Jetpack 1|WP+WC+NC+plugins  1|
 |:---:| :---:             | :---:              | :---:                   | :---:                   | 
 |1.1. | x                 | x                  |  x                      |  x                      |      
 |1.2. | x                 | x                  |  x                      | x                      |     
