@@ -1,16 +1,27 @@
 # 2. Análisis y diseño (identificar y probar soluciones, diseñanado una apta y más barata)
 ## a. Identificación del caso de estudio (what if?/what wows?))
 - Los siguientes casos de estudio definen el negocio
-### eBusiness para artista y eBusiness para Breadfree => Kontá como plataforma SaaS
+### eBusiness para artista y eBusiness para Breadfree 
 
 Empresas pequeñas con los procesos de negocio comentados anteriormente. Se plantea la necesidad de un servicio SaaS para proveer odoo
 
 Ciertas aplicaiones digitales no son accesibles para los negocios hasta que no poseen suficiente capital para permitírsela: procesos tan importantes en un negocio como el catálogo web, la automatización del proceso de inventario y producción y la newsletter. Shopify, permite estos mínimos servicios a 30€/mes, pero requiere de un sistema de gestión de producción como katana que cuesta 100€/mes. Odoo ofrce una plataforma dónde automatiza estos tres procesos, pero a 100€/mes también. Por ello, se detecta una demanda de un servicio que ofrezca estos procesos a un precio menor, por ejemplo 15€/mes el servicio de catálogo + newsletter (como wix o shoopify lite( y a 50€/mes la automatización del proceso de inventario y producción.
 
-- Misión de kontá: ofrecer estos procesos a un precio asequible para que los emprendedores se puedan concentrar en aportar valor y no en realizar tareas monótonas.
+- Misión: ofrecer estos procesos a un precio asequible para que los emprendedores se puedan concentrar en aportar valor y no en realizar tareas monótonas.
 
 ## b. Identificación de soluciones (what works?)
 ### Puesta a producción del servicio 
+
+- Fase 0: comparativa despliegues: jenkinsX(eks, gke), cloudformation
+- Fase 1: FaaS shop
+- Fase 2: saleor + gcp (cloud run + cloud sql)
+- Fase 3: odoo ce + aws (fargate + auroraserverless)
+- Fase 4: odoo ce + gcp (cloud run + cloud sql)
+- Fase 5: (wp + wc  + plugins) + namecheap 
+
+
+--------------------
+
 - Intento 0: Comparativa inicial: coste de vms con IaC en AWS, FaaS shop and GKE (200h)
 
 Al principio tras comprar las disitntas formas de proveer con herramientas los procesos de negocios, se idnetifica iniciamnete un servicio FaaS cómo el óptimo en coste. Sin embargo, se plantea un piloto en el siguietne repositorio y se descubre que si bien FaaS es bastatne barato en cuanto al coste en función de las peticiones, obliga a rescribir todo el código.
