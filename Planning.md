@@ -196,6 +196,8 @@ FR:
 En un pr9mer punto se ocmpreuba como woocmerce pemrite editar web, con elmetnor
 Ver un catlolo, y comprar, s eockpra y lelva el mensaje
 
+Primeor conv ariaciones, psoibidalid de ahcer pedidos de llevar un conteo del stock
+
 Se ha visto cómo se ha ocmprado el origianl, y se desucento uno del stock
 
 Genración de pedios para comrpa a proveedores, se piden y se guradan
