@@ -201,6 +201,14 @@ Se ha visto cómo se ha ocmprado el origianl, y se desucento uno del stock
 Genración de pedios para comrpa a proveedores, se piden y se guradan
 se observa como envío naciaonl e itnernacioanl
 
+Se gnerna las disinta partes y a tra´ves del cmapo low stock del excel se peude, Se ha ocnfiurado con ese plugin
+
+jem talbe rate, en base a pesos
+
+Aceso rápido, dipsonibildiad con la versión ba´sica hasta cdn con el otro fallaban
+
+No se ha relaizado un anañsis de riesgos en proufniddad plugin siem, accesoy 2fa
+
 disponible y segruo
 
 
