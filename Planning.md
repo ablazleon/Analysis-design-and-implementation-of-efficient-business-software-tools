@@ -180,9 +180,15 @@ video demo:
 
 
 Hola, soy Adrián Blázquez, y en este video muestro los caminos del usaior que se han impelmetnado en este prototipo de tienda en woocommerce + namecheap
-EN el proyecto se han analizado y rpoppeusto 3:
+En este último sprint del preycto, los casos de uso que se han analizado se podrían proponer como el sigueitne diagrama de casos de uso. Dos casos de uso relfejados como epic, tienda online y gestor de inventarios.
+Dos grandes actores, el comrpado r y el gestor de la tienda, y casos de uso secundarios derivados de los casos de uso principaes: de tienda online se desa que el comrpador visaulzie los productos del catálogo y pueda realizar el pago bajo la introducción de su domicilio. Además se necesita que llguen correos que informen al suairo del sigueitnemiento del pedido. SObre este caso de uso principal el gestor de la teinda puede consturir la web, es decir añadir o quitar uno u otro producto añadir algún mensjae de oferta.
+Respecto al caso de uso de gestor de oepracone se resalta el poder visualizar el stock. Esto es muy improntate en el caso de la tienda online de la artista, en el que se prevee gran rotación de stock de embalaje y poco spacio de alamcén, así que se propone como forma de autoamzitar la detección de flata de stock.
+Por último, el caso de uso de calculador de csote, en caunto a que se necestia que en los peiddos se refelje tanto el casote dle propio producto para relaizar una estimación dle coste, como dle propio coste del envío en función del peso de los productos.
+
+Por último, se desa señalar que se cntempla como improtantes los requisitos no funcionales de disponibilidad y seguridad, 
+
 FR:
-- Tienda online
+- Tienda online: 
 - 1.1. Constructor de sitios web (CMS) + catálogo + plataforma de pago
 - 1.2. Seguimiento de paquetes: avisar que se ha realizado el envío
 - Gestión de operaciones
