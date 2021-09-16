@@ -187,7 +187,7 @@ FR:
 - 1.2. Seguimiento de paquetes: avisar que se ha realizado el envío
 - Gestión de operaciones
 - 2.1. Integración pedido tienda/Visualización de stock: poner en los originales que el stock es uno. Si quieres otro, escribir al email
-- 2.2. Calculador de coste de envío: Opciones de envío para nacional e internacional
+- 2.2. Calculador de coste: tanto de producto como de de envío: Opciones de envío para nacional e internacional
 - NFR:
 - Disponibilidad: cuantos usuarios o conexiones a la vez se pueden servir
 - Seguridad: cuán fácil es actualizar el sw
