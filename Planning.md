@@ -179,11 +179,28 @@ qué probelmas he tneido, nignuo destacable.
 video demo:
 
 
-Hola, soy Adrián Blázquez, y en este video muestro los caminos del usaior que se han impelmetnado en este prototipo de tienda en woocommerce + namecheap
-En este último sprint del preycto, los casos de uso que se han analizado se podrían proponer como el sigueitne diagrama de casos de uso. Dos casos de uso relfejados como epic, tienda online y gestor de inventarios.
-Dos grandes actores, el comrpado r y el gestor de la tienda, y casos de uso secundarios derivados de los casos de uso principaes: de tienda online se desa que el comrpador visaulzie los productos del catálogo y pueda realizar el pago bajo la introducción de su domicilio. Además se necesita que llguen correos que informen al suairo del sigueitnemiento del pedido. SObre este caso de uso principal el gestor de la teinda puede consturir la web, es decir añadir o quitar uno u otro producto añadir algún mensjae de oferta.
-Respecto al caso de uso de gestor de oepracone se resalta el poder visualizar el stock. Esto es muy improntate en el caso de la tienda online de la artista, en el que se prevee gran rotación de stock de embalaje y poco spacio de alamcén, así que se propone como forma de autoamzitar la detección de flata de stock.
-Por último, el caso de uso de calculador de csote, en caunto a que se necestia que en los peiddos se refelje tanto el casote dle propio producto para relaizar una estimación dle coste, como dle propio coste del envío en función del peso de los productos.
+Hola, soy Adrián Blázquez, y en este video muestro los caminos del usaior que se han impelmetnado en este prototipo de tienda en woocommerce + namecheap En este último sprint del preycto, los casos de uso que se han analizado se podrían proponer como el sigueitne diagrama de casos de uso. Dos casos de uso relfejados como epic, tienda online y gestor de inventarios. Dos grandes actores, el comrpado r y el gestor de la tienda, y casos de uso secundarios derivados de los casos de uso principaes: de tienda online se se identifica uno relacionado con que el comrpador visaulzie los productos del catálogo y pueda realizar el pago bajo la introducción de su domicilio. Además se necesita que llguen correos que informen al suairo del sigueitnemiento del pedido. SObre este caso de uso principal el gestor de la teinda puede consturir la web, es decir añadir o quitar uno u otro producto añadir algún mensjae de oferta. Respecto al caso de uso de gestor de oepracone se resalta el poder visualizar el stock. Esto es muy improntate en el caso de la tienda online de la artista, en el que se prevee gran rotación de stock de embalaje y poco spacio de alamcén, así que se propone como forma de autoamzitar la detección de flata de stock. Por último, el caso de uso de calculador de csote, en caunto a que se necestia que en los peiddos se refelje tanto el casote dle propio producto para relaizar una estimación dle coste, como dle propio coste del envío en función del peso de los productos.
+
+Por último, se desa señalar que se cntempla como improtantes los requisitos no funcionales de disponibilidad y seguridad, que serán analizados en otro video
+
+Vale, primer caso de uso secundario
+
+Visualización de catálogo. El usuario llega a piedadleon.art. consulta la landing Page, le informa de una oferta. Decide leer sobre la artista. Decide consultar el catálogo. Puede ver distintos cuadros y además elegir distintos tamaños y si lo desea impreso o original.
+
+Sobre esta funcionalidad, nótese que primero se planteó un modelo de datos en el que se desglosaban las variantes tamaño e impreso u original. Pero más adelante, se identificó el problema de seguir el stock de productos secundarios como el embalaje, de forma que se vuelve necesario encontrar una forma de expresar el producto dibujo 1 tamaño a2 para que cuando se compre se descuente no sólo el lienzo, sino los otros elementos que lo componen, del stock. Como el tubo, el sello identificativo o la etiqueta de envío. Entonces se plantea usar el plugin wpc clever bundle expresando los productos así.
+
+Vale, por otro lado una vez se ha añadido al carrito se puede proceder a la compra. 
+Primero se comprueba el stock por ejemplo del dibujo 1 con la herramienta smart manager, se observa que sale en backorder, y con stock de tubo 1
+
+Para el caso de dibujos impresos se ponen los elementos como sin límite, pq imprimir un dibujo apenas toma tiempo en comparación con pintarlo. Se finaliza compra, se observa que en woocommerce pagos se ha configurado tres, tarjeta PayPal y stripe, habiendo previamente creado una cuenta bancaria aislada en un banco. Para no pagar cuotas adicionales se opta por el pago en mano para el ejemplo. Se compra, se comprueba que la orden aparece y que llega un correo. Luego se comprueba como el stock de tubo ha disminuido en 1
+
+Por otro lado, para lienzos originales agotados como el 3 se compra y se observa como no se deja comprar 
+
+Segundo caso de uso seguimiento, 
+Se ha configurado la cuenta de email de cliente y la del gestor
+ha llegado el mensaje  se procesa la orden llega otro mensaje tanto a cliente como a gestor. Se procesa el pedido y llega otro
+
+Constructor. Cómo se ha visto se ha creado un usuario gestor de tienda
 
 Por último, se desa señalar que se cntempla como improtantes los requisitos no funcionales de disponibilidad y seguridad, 
 
