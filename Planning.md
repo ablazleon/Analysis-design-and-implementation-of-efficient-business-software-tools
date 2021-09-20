@@ -235,6 +235,10 @@ No se ha relaizado un anañsis de riesgos en proufniddad plugin siem, accesoy 2f
 
 disponible y segruo
 
+problema con adpatacion a lso plugin
+
+VIdoe de disitntos problemas: si le subo el stock
+
 
 --------------
 
