@@ -209,6 +209,8 @@ Pues esto es lo que se quería descirbir en el video cómo se han impelemtmado l
 --------------------
 Por último, se desa señalar que se cntempla como improtantes los requisitos no funcionales de disponibilidad y seguridad, 
 
+En cuanto a disponibilidad de plantean un estudio de test de carga de una solución anterior con saleor y otra con namecheap
+
 los plguisn de disponbiidlaid y seguridad
 
 --------------
@@ -249,7 +251,7 @@ disponible y segruo
 problema con adpatacion a lso plugin
 
 VIdoe de disitntos problemas: si le subo el stock
-
+H
 
 --------------
 
