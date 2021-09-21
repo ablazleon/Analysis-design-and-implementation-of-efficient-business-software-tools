@@ -198,9 +198,20 @@ Por otro lado, para lienzos originales agotados como el 3 se compra y se observa
 
 Segundo caso de uso seguimiento, 
 Se ha configurado la cuenta de email de cliente y la del gestor
-ha llegado el mensaje  se procesa la orden llega otro mensaje tanto a cliente como a gestor. Se procesa el pedido y llega otro
+ha llegado el mensaje  se procesa la orden llega otro mensaje tanto a cliente como a gestor. Se procesa el pedido y llega otro mensaje.
 
-Constructor. Cómo se ha visto se ha creado un usuario gestor de tienda
+Constructor. Cómo se ha visto se ha creado un usuario gestor de tienda, este puede acceder y mediante un configurador de la tienda, no hace falta ni impelemtnar código html, como por ejemplo elemtnos puede cmabiar la aperiecnai, los mensjaes.
+
+Por último, el sigueitne caso de uso de gestor de itenda. Se ha comprobado que se peude visualizar el stock por jeemplo mediante el pklugin de gestor de existneicas, y se peudne calcular lso costes tanto lso de envío d eamnera autoamica en el preoceso de checkout.
+
+Pues esto es lo que se quería descirbir en el video cómo se han impelemtmado los casos de uso, mostrando los caminos de usuario sobre el ´ñutlimo prortipo tienda online en woocomerce + namecheap+ plugins.
+
+--------------------
+Por último, se desa señalar que se cntempla como improtantes los requisitos no funcionales de disponibilidad y seguridad, 
+
+los plguisn de disponbiidlaid y seguridad
+
+--------------
 
 Por último, se desa señalar que se cntempla como improtantes los requisitos no funcionales de disponibilidad y seguridad, 
 
