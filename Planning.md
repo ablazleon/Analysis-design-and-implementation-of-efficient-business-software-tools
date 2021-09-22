@@ -194,7 +194,7 @@ Primero se comprueba el stock por ejemplo del dibujo 1 con la herramienta smart 
 
 Para el caso de dibujos impresos se ponen los elementos como sin límite, pq imprimir un dibujo apenas toma tiempo en comparación con pintarlo. Se finaliza compra, se observa que en woocommerce pagos se ha configurado tres, tarjeta PayPal y stripe, habiendo previamente creado una cuenta bancaria aislada en un banco. Para no pagar cuotas adicionales se opta por el pago en mano para el ejemplo. Se compra, se comprueba que la orden aparece y que llega un correo. Luego se comprueba como el stock de tubo ha disminuido en 1
 
-Por otro lado, para lienzos originales agotados como el 3 se compra y se observa como no se deja comprar 
+Por otro lado, para lienzos originales agotados como el 3 se compra y se observa como no se deja comprar más, ni se dejan comprar varios a la vez.
 
 Segundo caso de uso seguimiento, 
 Se ha configurado la cuenta de email de cliente y la del gestor
