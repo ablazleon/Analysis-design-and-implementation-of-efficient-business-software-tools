@@ -307,6 +307,21 @@ Finalmente, se comparan distintos stacks de soluciones. Básicamente las solucio
 | Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
 | AWS:AppRunner+AuroraSvl | Y               | ?             | [1](https://www.theregister.com/2021/05/19/aws_introduces_app_runner_google/#:~:text=js%2012.&text=Pricing%20is%20dependent%20on%20resources,if%20it%20is%20always%20running.),[2](https://www.youtube.com/c/ContainersfromtheCouch/videos)  [3 problems with cloud mapping](https://dev.to/aws-builders/aws-app-runner-initial-thoughts-1pl8)        | 56€, as it cannot be sale down to zero. So, firstly it was explored beacuse it mught be cheaper that having to provision an lb, but it seems it's not |
 
+
+|CaaSstack/prop     |Compatibility       | Cost          | References | Comment   |
+| :---:             |    :----:          |         :---: |    :---:   |   :---:   |
+| Azure:ACI+AzPGSQL | No psql svless     | ?             |            |           |
+| AWS:Fargate+AuroraSvl| Y               | min 7€        |            |           |
+| GCP:CloudRun+CloudSql| Y               | min 10€       |            |           |
+| Alicloud:ECI+AsparaDB| Y               | ?             |            |           |
+| IBM                  | No psql svless  | ?             |            |           |
+| CRun+AuroraSvl       | Y               | ?             |            |           |
+| Clouding             | N               |               |    |
+| Digital Ocean      | Y               | ?             | [1](https://www.digitalocean.com/pricing/#app-platform)           | 50#/month 4GB 2CPU + db, it also has kubernetes, but this needs and overhead of operation |
+| Linode      | Y               | ?             | [1](https://www.linode.com/pricing/#row--compare)           | only k8s |
+| AWS:AppRunner+AuroraSvl | Y               | ?             | [1](https://www.theregister.com/2021/05/19/aws_introduces_app_runner_google/#:~:text=js%2012.&text=Pricing%20is%20dependent%20on%20resources,if%20it%20is%20always%20running.),[2](https://www.youtube.com/c/ContainersfromtheCouch/videos)  [3 problems with cloud mapping](https://dev.to/aws-builders/aws-app-runner-initial-thoughts-1pl8)        | 56€, as it cannot be sale down to zero. So, firstly it was explored beacuse it mught be cheaper that having to provision an lb, but it seems it's not |
+
+
 Alicloud no es tan barato
 https://www.alibabacloud.com/pricing-calculator#/
 
