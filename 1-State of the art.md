@@ -74,6 +74,17 @@ Se presentan 4 tablas:
 |      |1 [Shopify](https://www.shopify.com/pricing)    | [Wix](https://www.wix.com/upgrade/website)   | [Wordpress.com](https://wordpress.com/pricing/) | [Magento](https://magento.com/products/magento-commerce) |[Gumroad](https://gumroad.com/features/pricing)| [Salesforce](https://www.g2.com/products/salesforce-crm/pricing)| [Sap](https://www.aimprosoft.com/blog/much-cost-develop-e-commerce-b2b-website-sap-hybris-platform/)   | [Odoo](https://www.odoo.com/es_ES/pricing#pl=77&version_id=32&num_users=2&app_account=on&app_sale_management=on&app_website=on&app_website_sale=on&app_account_accountant=on&app_stock=on&app_purchase=on&app_mass_mailing=on&app_hr_appraisal=on&num_iot_boxes=1&hosting=online&odoosh_workers=1&odoosh_storage=1&odoosh_staging=1&implementation_service=self&pack=100&force_country=ES&integrating_partner_id=0&price_by=yearly)  |[Etsy](https://www.etsy.com/es/legal/fees/) 1|
 |      |1 [No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=do01YIxEVKk)    | [No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=CXUsaMnpN-w)   | Necesita Woocommerce | Demasiado caro |[No hay peticiones de compra conjunta](https://www.youtube.com/watch?v=FWxu08-TsS0)| Demasiado caro| Demasiado caro |
 
+|      |1 Shopify    | Wix   | Wordpress.com | Magento|Gumroad| Salesforce| Sap   |Odoo Saas |Etsy 1|
+|:---: | :---:       | :---: | :---:         | :---:  | :---: |  :---:    | :---: | :---:    | :---: |
+|1.1.  | x           | x     |               |     x  |     x |   x       |     x | x        |   x   |    
+|1.2.  | x(aftership)| x     |               |     x  |     x |   x       | x     |x         |       |  
+|1.3.  | x           | x     |  x            |     x  |     x |    x      | x     | x        |x      |  
+|2.1.  |             |      x|               |     x  |       |  x        |      x|x         |       | 
+|2.2.  |             |       |               |      x |       |        x  |      x|          |       |        
+| €/mes| 30          |17.5   |  8            | 2000   | 10    | 25        | 16.000€| 100     | 0.2€/producto/mes.1 | 
+
+
+
 - 1. Herramientas de tienda online Open Source desplegadas
 
 
@@ -88,6 +99,17 @@ Se presentan 4 tablas:
 |2.2. |                 |x                   |    x                    |        
 |2.3. |                  | x                  |     x                   |      
 |€/mes| 15€/mes           | [40$/mes => 480$](https://cloud.google.com/products/calculator/#id=a2a1ffa9-7c7b-4e41-bd53-2c1e86aa9f79) [mail after ship](https://www.odoo.com/documentation/13.0/applications/inventory_and_mrp/inventory/management/misc/email_delivery.html) [integrado con dhl](https://www.youtube.com/watch?v=W4wmGfHwkEc)   | 60$ anuales, [WC](https://woocommerce.com/hosting-solutions/), NC turbo, 60$ |  
+
+|     |1 Saleor(crun+csql)| OddoCE(VM+csql)    | WP+WC+NC+plugins  1|
+|:---:| :---:             | :---:              | :---:                   | 
+|1.1. | x                 | x                  |  x                      |      
+|1.2. | x                 | x                  |  x                      |    
+|1.3. | x                 | x                  |  x                      |    
+|2.1. |                  |                   x|   x                     |       
+|2.2. |                 |x                   |    x                    |        
+|2.3. |                  | x                  |     x                   |      
+|€/mes| 15€/mes           | 40$/mes => 480$   | 60$ anuales      |  
+
 
 En esta tabla resumen se plantean tres intentos, de implmenetar la idea:
 
