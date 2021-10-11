@@ -77,9 +77,9 @@ Se presentan 4 tablas:
 |      |1 Shopify    | Wix   | Wordpress.com | Magento|Gumroad| Salesforce| Sap   |Odoo Saas |Etsy 1|
 |:---: | :---:       | :---: | :---:         | :---:  | :---: |  :---:    | :---: | :---:    | :---: |
 |1.1.  | x           | x     |               |     x  |     x |   x       |     x | x        |   x   |    
-|1.2.  | x(aftership)| x     |               |     x  |     x |   x       | x     |x         |       |  
+|1.2.  | x           | x     |               |     x  |     x |   x       | x     |x         |       |  
 |1.3.  | x           | x     |  x            |     x  |     x |    x      | x     | x        |x      |  
-|2.1.  |             |      x|               |     x  |       |  x        |      x|x         |       | 
+|2.1.  | x           |      x|               |     x  |       |  x        |      x|x         |       | 
 |2.2.  |             |       |               |      x |       |        x  |      x|          |       |        
 | €/mes| 30          |17.5   |  8            | 2000   | 10    | 25        | 16.000€| 100     | 0.2€/producto/mes.1 | 
 
